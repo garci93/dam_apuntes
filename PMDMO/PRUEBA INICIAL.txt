@@ -1,0 +1,77 @@
+Parte 1: Orientación a Objetos (20 minutos)
+
+1. Pregunta 1: Define brevemente los siguientes conceptos en el contexto de la programación orientada a objetos:
+   a. Clase
+	Es una colección de atributos y métodos que juntos representan algún tipo de objeto, y que puede ser instanciada para crear dichos objetos.
+   b. Objeto
+	Es una instancia particular de una clase. Si bien la clase representa el tipo de objeto que creamos, cada objeto en sí tiene las características de dicha clase.
+   c. Herencia
+	Es lo que permite que una clase pueda acceder a métodos o atributos de otra, además de los suyos.
+   d. Polimorfismo
+	Es aquello que se da cuando pueden existir varios métodos con el mismo nombre pero distinto tipo o distintos argumentos.
+   e. Encapsulamiento
+	
+
+2. Pregunta 2: Escribe un ejemplo de una clase en Java que represente un "Coche" con al menos tres atributos y dos métodos.
+
+	package Clases;
+
+public class Coche {
+	private String matricula;
+	private String modelo;
+	private String color;
+	
+	public String getMatricula() {
+		return this.matricula;
+	}
+	
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+	
+	public String getModelo() {
+		return this.modelo;
+	}
+	
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+	
+	public String getColor() {
+		return this.color;
+	}
+	
+	public void setColor(String color) {
+		this.color = color;
+	}
+}
+
+
+Parte 2: Patrón Modelo-Vista-Controlador (MVC) (20 minutos)
+
+3. Pregunta 3: Explica en tus propias palabras qué es el patrón MVC y por qué es importante en el desarrollo de aplicaciones.
+	Para facilitar el desarrollo separando las partes de la aplicación según la funcionalidad que lleven a cabo.
+
+4. Pregunta 4: Enumera y describe brevemente las responsabilidades de cada una de las partes del patrón MVC: Modelo, Vista y Controlador.
+	El modelo
+
+5. Pregunta 5: Proporciona un ejemplo de una situación en la que sería beneficioso utilizar el patrón MVC en el desarrollo de una aplicación.
+
+Parte 3: Programación Asíncrona (20 minutos)
+
+6. Pregunta 6: Explica qué significa programación asíncrona y por qué es útil en el desarrollo de aplicaciones web.
+
+7. Pregunta 7: En JavaScript, ¿qué es una promesa (Promise)? ¿Cuál es su propósito principal y cómo se utiliza?
+
+8. Pregunta 8: Escribe un código JavaScript que demuestre cómo realizar una solicitud AJAX utilizando el método `fetch()` para obtener datos de una API externa y mostrarlos en una página web.
+
+
+
+Pregunta 9: Imagina que estás desarrollando una aplicación de lista de tareas pendientes. Debes escribir un algoritmo en Java o JavaScript que permita al usuario agregar nuevas tareas a la lista y marcar las tareas como completadas. El algoritmo debe incluir lo siguiente:
+
+a. Una estructura de datos para almacenar la lista de tareas. 
+b. Funciones para agregar una nueva tarea a la lista. 
+c. Funciones para marcar una tarea como completada. 
+d. Un ejemplo de cómo se utilizaría este algoritmo en un programa principal.
+
+Puedes elegir implementar este algoritmo en Java o JavaScript, pero asegúrate de que esté claro y bien comentado.
