@@ -10,7 +10,7 @@ Parte 1: Orientación a Objetos (20 minutos)
    d. Polimorfismo
 	Es aquello que se da cuando pueden existir varios métodos con el mismo nombre pero distinto tipo o distintos argumentos.
    e. Encapsulamiento
-	
+	Trata de agrupar los elementos y funcionalidades similares del código y separarlas, por ejemplo, en clases.
 
 2. Pregunta 2: Escribe un ejemplo de una clase en Java que represente un "Coche" con al menos tres atributos y dos métodos.
 
@@ -20,6 +20,7 @@ public class Coche {
 	private String matricula;
 	private String modelo;
 	private String color;
+	private boolean automatico;
 	
 	public String getMatricula() {
 		return this.matricula;
@@ -44,6 +45,10 @@ public class Coche {
 	public void setColor(String color) {
 		this.color = color;
 	}
+
+	public boolean esAutomatico() {
+		return this.automatico;
+	}
 }
 
 
@@ -53,19 +58,23 @@ Parte 2: Patrón Modelo-Vista-Controlador (MVC) (20 minutos)
 	Para facilitar el desarrollo separando las partes de la aplicación según la funcionalidad que lleven a cabo.
 
 4. Pregunta 4: Enumera y describe brevemente las responsabilidades de cada una de las partes del patrón MVC: Modelo, Vista y Controlador.
-	El modelo
+	El modelo detalla las propiedades de una clase, la vista especifica cómo mostrarlo al usuario, y el controlador media entre el modelo y la vista, realizando las operaciones solicitadas desde la vista.
 
 5. Pregunta 5: Proporciona un ejemplo de una situación en la que sería beneficioso utilizar el patrón MVC en el desarrollo de una aplicación.
+	En el caso en el que una aplicación sea desarrollada por varias personas a la vez, el patrón MVC facilita que cada uno trabaje en las funciones que le corresponden sin interferir en el trabajo de otro.
+	También es útil a la hora de trabajar con las ramas de un repositorio.
 
 Parte 3: Programación Asíncrona (20 minutos)
 
 6. Pregunta 6: Explica qué significa programación asíncrona y por qué es útil en el desarrollo de aplicaciones web.
+	Significa que la peticiones no se envían todas al mismo tiempo, sino que se dan en momentos distintos a lo largo de la ejecución.
+	A menudo es útil cuando necesitamos, por ejemplo, verificar o modificar datos de la forma más inmediata posible, solicitando sólo lo necesario en cada momento.
 
 7. Pregunta 7: En JavaScript, ¿qué es una promesa (Promise)? ¿Cuál es su propósito principal y cómo se utiliza?
+	No lo he visto
 
 8. Pregunta 8: Escribe un código JavaScript que demuestre cómo realizar una solicitud AJAX utilizando el método `fetch()` para obtener datos de una API externa y mostrarlos en una página web.
-
-
+	
 
 Pregunta 9: Imagina que estás desarrollando una aplicación de lista de tareas pendientes. Debes escribir un algoritmo en Java o JavaScript que permita al usuario agregar nuevas tareas a la lista y marcar las tareas como completadas. El algoritmo debe incluir lo siguiente:
 
@@ -75,3 +84,4 @@ c. Funciones para marcar una tarea como completada.
 d. Un ejemplo de cómo se utilizaría este algoritmo en un programa principal.
 
 Puedes elegir implementar este algoritmo en Java o JavaScript, pero asegúrate de que esté claro y bien comentado.
+		
