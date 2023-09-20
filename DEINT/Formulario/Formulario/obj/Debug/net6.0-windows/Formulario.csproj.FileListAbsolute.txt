@@ -1,0 +1,16 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\Formulario.Form1.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\Formulario.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\Formulario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\Formulario.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\Formulario.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\Formulario.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\bin\Debug\net6.0-windows\Formulario.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\bin\Debug\net6.0-windows\Formulario.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\bin\Debug\net6.0-windows\Formulario.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\bin\Debug\net6.0-windows\Formulario.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\bin\Debug\net6.0-windows\Formulario.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\Formulario.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\refint\Formulario.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\Formulario.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\Formulario.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Formulario\Formulario\obj\Debug\net6.0-windows\ref\Formulario.dll
