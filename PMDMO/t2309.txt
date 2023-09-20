@@ -1,0 +1,12 @@
+Unidad 1 Angular
+
+Sandbox, RFC's
+
+Navegador: HTML, CSS, JS(ES) -> Front
+Servidor: PHP, Java, JS + BD -> Back
+
+"Internet es un conjunto de redes interconectadas, cada una de su padre y de su madre" (?)
+
+Frameworks: su filosofía ha evolucionado. Angular, React, Vue... son algo más profesional, menos orientado a la rapidez
+
+"Angular es el que tiene más chicha conceptual"
