@@ -1,0 +1,3 @@
+(repaso js)
+Se define con "let":
+	let cadena1='Hola';

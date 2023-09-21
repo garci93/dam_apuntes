@@ -10,3 +10,12 @@ Servidor: PHP, Java, JS + BD -> Back
 Frameworks: su filosofía ha evolucionado. Angular, React, Vue... son algo más profesional, menos orientado a la rapidez
 
 "Angular es el que tiene más chicha conceptual"
+
+Angular está en TypeScript (JavaScript pero tipado)
+
+	-> PARA EMPEZAR CON ANGULAR: https://angular.io/cli
+
+
+ng new my-first-project -> nuevo proyecto de Angular (ng viene de Angular)
+
+En PowerShell admin: Set-ExecutionPolicy Unrestricted
