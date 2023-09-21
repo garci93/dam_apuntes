@@ -40,7 +40,9 @@ public class Pasajero extends Persona{
 		return numHabitacion == other.numHabitacion;
 	}
 
-	
-	
-	
+	@Override
+	public String toString() {
+		return "Pasajero [numHabitacion=" + numHabitacion + "]";
+	}
+
 }

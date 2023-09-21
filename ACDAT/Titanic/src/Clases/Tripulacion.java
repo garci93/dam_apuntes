@@ -39,6 +39,11 @@ public class Tripulacion extends Persona{
 		Tripulacion other = (Tripulacion) obj;
 		return responsabilidad == other.responsabilidad;
 	}
+
+	@Override
+	public String toString() {
+		return "Tripulacion [responsabilidad=" + responsabilidad + "]";
+	}
 	
 	
 }
