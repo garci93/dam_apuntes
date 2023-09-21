@@ -1,0 +1,8 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Burbuja\Burbuja\obj\Debug\net6.0-windows\Burbuja.Form1.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Burbuja\Burbuja\obj\Debug\net6.0-windows\Burbuja.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Burbuja\Burbuja\obj\Debug\net6.0-windows\Burbuja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Burbuja\Burbuja\obj\Debug\net6.0-windows\Burbuja.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Burbuja\Burbuja\obj\Debug\net6.0-windows\Burbuja.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Burbuja\Burbuja\obj\Debug\net6.0-windows\Burbuja.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Burbuja\Burbuja\obj\Debug\net6.0-windows\Burbuja.Program.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Burbuja\Burbuja\obj\Debug\net6.0-windows\Burbuja.Burbuja.resources

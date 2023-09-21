@@ -1,0 +1,7 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
