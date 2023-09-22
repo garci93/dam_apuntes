@@ -20,4 +20,18 @@ ng new my-first-project -> nuevo proyecto de Angular (ng viene de Angular)
 
 En PowerShell admin: Set-ExecutionPolicy Unrestricted
 
-SPA (basado en componentes) -> single-page application
+SPA (basado en componentes) -> single-page application -> se verá como una página web
+
+Componentes en Angular:
+class JokeComponent {
+}
+
+@Component({										->anotación
+	selector: 'joke'								->indica que se llamará joke		->atributo
+	template: '<h1>Patatín</h1><p>Patatán</p>'		-><joke> se convertirá en esto		->atributo
+})
+con esto estás creando una nueva etiqueta <joke>
+
+ng generate							-> para generar algún tipo de código
+
+ng generate component Hijo			-> generar componente Hijo

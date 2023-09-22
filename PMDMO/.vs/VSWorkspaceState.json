@@ -3,7 +3,12 @@
     "",
     "\\ListaTareas",
     "\\ListaTareas\\src",
-    "\\ListaTareas\\src\\ListaTareas"
+    "\\ListaTareas\\src\\ListaTareas",
+    "\\my-first-project",
+    "\\my-first-project\\src",
+    "\\my-first-project\\src\\app",
+    "\\my-first-project\\src\\assets"
   ],
+  "SelectedNode": "\\my-first-project\\src\\app\\app.component.ts",
   "PreviewInSolutionExplorer": false
 }
