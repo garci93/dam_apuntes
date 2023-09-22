@@ -98,6 +98,10 @@ public class Persona {
 				&& Objects.equals(nombre, other.nombre) && pais == other.pais && tipoPersona == other.tipoPersona
 				&& zona == other.zona;
 	}
+
+	public int compareTo(String anotherString) {
+		return dni.compareTo(anotherString);
+	}
 	
 	
 }

@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\bin\Debug\net6.0\Act2Par.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\bin\Debug\net6.0\Act2Par.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\bin\Debug\net6.0\Act2Par.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\bin\Debug\net6.0\Act2Par.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\bin\Debug\net6.0\Act2Par.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2Par.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2Par.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2Par.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2Par.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2Par.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\refint\Act2Par.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2Par.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2Par.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\ref\Act2Par.dll

@@ -1,0 +1,4 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp3\obj\Debug\net6.0\Act2.csproj.CoreCompileInputs.cache

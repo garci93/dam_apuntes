@@ -7,11 +7,11 @@ Servidor: PHP, Java, JS + BD -> Back
 
 "Internet es un conjunto de redes interconectadas, cada una de su padre y de su madre" (?)
 
-Frameworks: su filosofía ha evolucionado. Angular, React, Vue... son algo más profesional, menos orientado a la rapidez
+Frameworks: su filosofÃ­a ha evolucionado. Angular, React, Vue... son algo mÃ¡s profesional, menos orientado a la rapidez
 
-"Angular es el que tiene más chicha conceptual"
+"Angular es el que tiene mÃ¡s chicha conceptual"
 
-Angular está en TypeScript (JavaScript pero tipado)
+Angular estÃ¡ en TypeScript (JavaScript pero tipado)
 
 	-> PARA EMPEZAR CON ANGULAR: https://angular.io/cli
 
@@ -19,3 +19,5 @@ Angular está en TypeScript (JavaScript pero tipado)
 ng new my-first-project -> nuevo proyecto de Angular (ng viene de Angular)
 
 En PowerShell admin: Set-ExecutionPolicy Unrestricted
+
+SPA (basado en componentes) -> single-page application

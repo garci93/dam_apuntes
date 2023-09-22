@@ -5,6 +5,7 @@ public enum Zona {
 	
 	private int esc1,esc2,esc3;
 
+	//ArrayList
 	private Zona(int esc1, int esc2, int esc3) {
 		this.esc1 = esc1;
 		this.esc2 = esc2;
