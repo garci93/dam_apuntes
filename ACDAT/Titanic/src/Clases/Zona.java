@@ -1,7 +1,7 @@
 package Clases;
 
 public enum Zona {
-	PROA(4,9,24),POPA(3,10,23),BABOR(2,6,8),ESTRIBOR(1,5,7);
+	PROA(4,9,24),ESTRIBOR(1,5,7),POPA(3,10,23),BABOR(2,6,8);
 	
 	private int esc1,esc2,esc3;
 

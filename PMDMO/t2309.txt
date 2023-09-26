@@ -23,15 +23,30 @@ En PowerShell admin: Set-ExecutionPolicy Unrestricted
 SPA (basado en componentes) -> single-page application -> se verá como una página web
 
 Componentes en Angular:
-class JokeComponent {
-}
+	class JokeComponent {
+	}
 
-@Component({										->anotación
-	selector: 'joke'								->indica que se llamará joke		->atributo
-	template: '<h1>Patatín</h1><p>Patatán</p>'		-><joke> se convertirá en esto		->atributo
-})
+	@Component({										->anotación
+		selector: 'joke'								->indica que se llamará joke		->atributo
+		template: '<h1>Patatín</h1><p>Patatán</p>'		-><joke> se convertirá en esto		->atributo
+	})
 con esto estás creando una nueva etiqueta <joke>
 
-ng generate							-> para generar algún tipo de código
+ng generate												-> para generar algún tipo de código
 
-ng generate component Hijo			-> generar componente Hijo
+ng generate component Hijo								-> generar componente Hijo
+
+La vista va con HTML y CSS, y el código con TypeScript
+Un módulo de Angular es como un conjunto de componentes
+
+Para declarar un módulo, en vez de @Component se usa @NgModule:
+	@NgModule({
+	declarations: [
+		AppComponent									->declaraciones, aquí van los componentes. si los generas con ng aparecen aquí
+	],
+	imports: [
+		BrowserModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
+	})
