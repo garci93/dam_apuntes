@@ -1,0 +1,48 @@
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.exe
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.deps.json
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.runtimeconfig.json
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.runtimeconfig.dev.json
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.dll
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\bin\Debug\net5.0\ref\Actividad4.dll
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.pdb
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.csproj.AssemblyReference.cache
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.AssemblyInfoInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.AssemblyInfo.cs
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.csproj.CoreCompileInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.dll
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\obj\Debug\net5.0\ref\Actividad4.dll
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.pdb
+C:\Users\usuario\OneDrive\Escritorio\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.genruntimeconfig.cache
+C:\Users\usuario\source\repos\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.exe
+C:\Users\usuario\source\repos\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.deps.json
+C:\Users\usuario\source\repos\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.runtimeconfig.json
+C:\Users\usuario\source\repos\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.runtimeconfig.dev.json
+C:\Users\usuario\source\repos\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.dll
+C:\Users\usuario\source\repos\Actividad4\Actividad4\bin\Debug\net5.0\ref\Actividad4.dll
+C:\Users\usuario\source\repos\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.pdb
+C:\Users\usuario\source\repos\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.AssemblyInfo.cs
+C:\Users\usuario\source\repos\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.dll
+C:\Users\usuario\source\repos\Actividad4\Actividad4\obj\Debug\net5.0\ref\Actividad4.dll
+C:\Users\usuario\source\repos\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.pdb
+C:\Users\usuario\source\repos\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.genruntimeconfig.cache
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.exe
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.deps.json
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.runtimeconfig.json
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.runtimeconfig.dev.json
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.dll
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\bin\Debug\net5.0\Actividad4.pdb
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.csproj.AssemblyReference.cache
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.AssemblyInfoInputs.cache
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.AssemblyInfo.cs
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.csproj.CoreCompileInputs.cache
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.dll
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\refint\Actividad4.dll
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.pdb
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\Actividad4.genruntimeconfig.cache
+C:\Users\Silvia\Downloads\Actividad4 - Sergio Palma\Actividad4\Actividad4\obj\Debug\net5.0\ref\Actividad4.dll

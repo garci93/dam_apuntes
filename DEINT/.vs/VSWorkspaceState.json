@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Ejemplo_PruebaTest_Calculadora",
+    "\\Ejemplo_PruebaTest_Calculadora\\PruebaTest",
+    "\\Ejemplo_PruebaTest_Calculadora\\TestCalculadora",
+    "\\Ejemplo_PruebaTest_Calculadora\\TestCalculadora\\obj",
     "\\WinFormsApp1",
     "\\WinFormsApp1\\WinFormsApp1"
   ],
+  "SelectedNode": "\\Ejemplo_PruebaTest_Calculadora\\PruebaTest.sln",
   "PreviewInSolutionExplorer": false
 }
