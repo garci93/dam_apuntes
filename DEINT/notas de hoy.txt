@@ -1,0 +1,42 @@
+int cont = 0;
+int aux = 0;
+int numMayorRepe = 0;
+
+for(int i = 0; i < entrada.Length; i++)
+{
+    cont = 0;
+
+    for(int j = 0; j < entrada.Length; j++)
+    {
+        if (entrada[i] == entrada[j])
+        {
+            cont++; 
+        }
+    }
+    if (cont >= aux)
+    {
+        if(cont == aux)
+        {
+            int numDos = entrada[i];
+            //Si dos numeros son moda, se devuelve el mayor
+            if (numMayorRepe < numDos)
+            {
+                numMayorRepe = numDos;
+            }
+        }
+        else
+        {
+            aux = cont;
+            numMayorRepe = entrada[i];
+        }
+    }
+}
+
+if(aux == 1)
+{
+    return entrada[0];
+}
+else
+{
+    return numMayorRepe;
+}

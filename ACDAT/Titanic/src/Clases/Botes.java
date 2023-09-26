@@ -1,32 +1,37 @@
 package Clases;
 
+import java.util.Comparator;
 import java.util.Objects;
 
-public class Botes {
-	private static int id = 0;
-	private int numPlazas;
+public class Botes implements Comparable<Botes>{
+
+	private static Integer num = 1;
+	private Integer id;
+	private Integer numPlazas;
 	private Zona zona;
 	
-	public Botes(int numPlazas, Zona zona) {
+	
+	public Botes(Integer numPlazas, Zona zona) {
 		super();
-		this.id++;
+		this.id = num++;
 		this.numPlazas = numPlazas;
 		this.zona = zona;
 	}
+	
 
-	public static int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public static void setId(int id) {
-		Botes.id = id;
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
-	public int getNumPlazas() {
+	public Integer getNumPlazas() {
 		return numPlazas;
 	}
 
-	public void setNumPlazas(int numPlazas) {
+	public void setNumPlazas(Integer numPlazas) {
 		this.numPlazas = numPlazas;
 	}
 
@@ -38,10 +43,13 @@ public class Botes {
 		this.zona = zona;
 	}
 
+	
+
 	@Override
 	public int hashCode() {
-		return Objects.hash(numPlazas, zona);
+		return Objects.hash(id, numPlazas, zona);
 	}
+
 
 	@Override
 	public boolean equals(Object obj) {
@@ -52,13 +60,24 @@ public class Botes {
 		if (getClass() != obj.getClass())
 			return false;
 		Botes other = (Botes) obj;
-		return numPlazas == other.numPlazas && zona == other.zona;
+		return Objects.equals(id, other.id) && Objects.equals(numPlazas, other.numPlazas) && zona == other.zona;
 	}
+
 
 	@Override
 	public String toString() {
-		return "Botes [numPlazas=" + numPlazas + ", zona=" + zona + "]";
+		return "Bote [id=" + id + ", numPlazas=" + numPlazas + ", zona=" + zona + "]";
 	}
+
+
+	@Override
+	public int compareTo(Botes b) {
+		return this.getId().compareTo(b.getId());
+	}
+	
+	
+	
+	
 	
 	
 }

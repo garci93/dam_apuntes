@@ -1,27 +1,27 @@
 package Clases;
 
 import java.util.Date;
+import java.util.LinkedHashMap;
 import java.util.Random;
 import java.util.TreeMap;
 
 public class DAOPersonas {
 	private static DAOPersonas dao = null;
-	private TreeMap<Pasajero, Pasajero> pasajeros = new TreeMap<Pasajero, Pasajero>();
-	private TreeMap<Tripulacion, Tripulacion> tripulantes = new TreeMap<Tripulacion, Tripulacion>();
+	private LinkedHashMap<Persona, Persona> personas = new LinkedHashMap<Persona, Persona>();
 	
 	private DAOPersonas(){
 
 		Pasajero pasajero;
 		Tripulacion tripulante;
 		
-		for(int i=0; i<10; i++) {
+		for(int i=0; i<15; i++) {
 			pasajero = new Pasajero(generarDNI(), obtenerPaisAleatorio(), obtenerZonaAleatorio(), generarNombreAleatorio(), minusvaliaAleatorio(), fechaAleatoria(), obtenerTipoPersonaAleatorio(), i);
-			pasajeros.put(pasajero, pasajero);
+			personas.put(pasajero, pasajero);
 		}
 		
 		for(int i=0; i<10; i++) {
 			tripulante = new Tripulacion(generarDNI(), obtenerPaisAleatorio(), obtenerZonaAleatorio(), generarNombreAleatorio(), minusvaliaAleatorio(), fechaAleatoria(), obtenerTipoPersonaAleatorio(), responsabilidadAleatorio());
-			tripulantes.put(tripulante, tripulante);
+			personas.put(tripulante, tripulante);
 		}
 		
 	}
@@ -100,11 +100,14 @@ public class DAOPersonas {
         return responsabilidades[indiceAleatorio];
     }
     
-    
 	public static DAOPersonas getInstance() {
 		if(dao == null) {
 			return new DAOPersonas();
 		}
 		return dao;
 	}
+	
+	public LinkedHashMap<Persona, Persona> getPersonas(){
+        return personas;
+    }
 }

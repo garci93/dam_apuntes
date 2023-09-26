@@ -3,7 +3,7 @@ package Clases;
 import java.util.Date;
 import java.util.Objects;
 
-public class Persona {
+public class Persona implements Comparable<Persona> {
 	private String dni;
 	private Pais pais;
 	private Zona zona;
@@ -99,9 +99,13 @@ public class Persona {
 				&& zona == other.zona;
 	}
 
-	public int compareTo(String anotherString) {
-		return dni.compareTo(anotherString);
-	}
-	
+	@Override
+    public int compareTo(Persona p1) {
+        int i = this.getPais().compareTo(p1.getPais());
+        if(i==0) {
+            i = this.getNombre().compareTo(p1.getNombre());
+        }
+        return i;
+    }
 	
 }
