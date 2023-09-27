@@ -50,3 +50,9 @@ Para declarar un módulo, en vez de @Component se usa @NgModule:
 	providers: [],
 	bootstrap: [AppComponent]
 	})
+
+	para poner código de angular se coloca entre {{ }}
+
+	con ( ) colocamos los eventos
+
+	<a class="btn btn-warning" (click)="joke.toggle()">Tell Me</a>	-> botón con aspecto "warning" que dice "Tell Me" y que al clicarlo pone o quita el componente joke

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-first-project';
+  title:string = 'Proyecto2';
+  // title = 'my-first-project';
+
+  pulsarBoton() {
+    this.title='Me has pulsado.'
+  }
 }

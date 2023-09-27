@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\bin\Debug\net6.0\PuntoSilla.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\bin\Debug\net6.0\PuntoSilla.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\bin\Debug\net6.0\PuntoSilla.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\bin\Debug\net6.0\PuntoSilla.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\bin\Debug\net6.0\PuntoSilla.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\obj\Debug\net6.0\PuntoSilla.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\obj\Debug\net6.0\PuntoSilla.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\obj\Debug\net6.0\PuntoSilla.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\obj\Debug\net6.0\PuntoSilla.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\obj\Debug\net6.0\PuntoSilla.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\obj\Debug\net6.0\refint\PuntoSilla.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\obj\Debug\net6.0\PuntoSilla.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\obj\Debug\net6.0\PuntoSilla.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PuntoSilla\PuntoSilla\obj\Debug\net6.0\ref\PuntoSilla.dll

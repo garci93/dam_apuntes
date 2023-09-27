@@ -55,7 +55,47 @@ namespace Actividad4
 
         public static int calcularModa(int[] entrada)
         {
-            //TODO
+            int cont = 0;
+            int aux = 0;
+            int masRepe = 0;
+
+            for (int i = 0; i < entrada.Length; i++)
+            {
+                cont = 0;
+
+                for (int j = 0; j < entrada.Length; j++)
+                {
+                    if (entrada[i] == entrada[j])
+                    {
+                        cont++;
+                    }
+                }
+                if (cont >= aux)
+                {
+                    if (cont == aux)
+                    {
+                        int hayDos = entrada[i];
+                        if (masRepe < hayDos)
+                        {
+                            masRepe = hayDos;
+                        }
+                    }
+                    else
+                    {
+                        aux = cont;
+                        masRepe = entrada[i];
+                    }
+                }
+            }
+
+            if (aux == 1)
+            {
+                return entrada[0];
+            }
+            else
+            {
+                return masRepe;
+            }
             throw new NotImplementedException();
         }
     }

@@ -6181,23 +6181,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jojogape\\.nuget\\packages\\": {},
-    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dam\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Test1\\Test1.csproj",
+      "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Test1\\Test1.csproj",
       "projectName": "Test1",
-      "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Test1\\Test1.csproj",
-      "packagesPath": "C:\\Users\\Jojogape\\.nuget\\packages\\",
-      "outputPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Test1\\obj\\",
+      "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Test1\\Test1.csproj",
+      "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Test1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jojogape\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6213,8 +6213,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Actividad4\\Actividad4.csproj": {
-              "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Actividad4\\Actividad4.csproj"
+            "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Actividad4\\Actividad4.csproj": {
+              "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E4_Arrays\\Actividad4\\Actividad4\\Actividad4.csproj"
             }
           }
         }
