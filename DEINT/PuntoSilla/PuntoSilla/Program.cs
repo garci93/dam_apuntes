@@ -46,6 +46,7 @@
             int valor = 0;
             continuar = false;
 
+            //También se puede usar mat.getLength(0) o (1) para acceder al número de filas o columnas
             for (int i = 0; i < filas; i++)
             {
                 for (int j = 0; j < columnas; j++)
@@ -89,7 +90,7 @@
                 for (int j = 0; j < columnas; j++)
                 {
                     if (esPuntoDeSilla(mat,i,j,filas,columnas)) {
-                        Console.WriteLine("La posición [" + j + "," + i + "] es un punto de silla");
+                        Console.WriteLine("El valor "+mat[i,j]+" en la posición [" + j + "," + i + "] es un punto de silla");
                         hayPuntoDeSilla = true;
                     }
                 }
@@ -109,6 +110,7 @@
                 if (mat[x,y] > mat[i,y])
                 {
                     esMenorDeFila = false;
+                    break;
                 }
             }
             for (int j = 0; j < columnas; j++)
@@ -116,6 +118,7 @@
                 if (mat[x,y] < mat[x,j])
                 {
                     esMayorDeColumna = false;
+                    break;
                 }
             }
             return esMenorDeFila && esMayorDeColumna;
