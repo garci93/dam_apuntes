@@ -56,3 +56,10 @@ Para declarar un módulo, en vez de @Component se usa @NgModule:
 	con ( ) colocamos los eventos
 
 	<a class="btn btn-warning" (click)="joke.toggle()">Tell Me</a>	-> botón con aspecto "warning" que dice "Tell Me" y que al clicarlo pone o quita el componente joke
+
+	<componente (evento)="metodo()"></componente>
+	<h1 [class]="variable">{{title}}</h1>
+
+	[] padres se comunican con hijos
+	() hijos con padres
+	{{}} ???
