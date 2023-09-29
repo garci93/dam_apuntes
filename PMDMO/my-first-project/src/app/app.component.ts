@@ -7,7 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title:string = 'Proyecto2';
-  // title = 'my-first-project';
+
+  array:any[];
+
+  constructor(){
+    this.array=[{firstName:'Pepe'},{firstName:'Paco'},{firstName:'Manolo'}];
+  }
 
   pulsarBoton() {
     this.title='Me has pulsado.'
