@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net6.0\Actividad5.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net6.0\Actividad5.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net6.0\Actividad5.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net6.0\Actividad5.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net6.0\Actividad5.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net6.0\Actividad5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net6.0\Actividad5.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net6.0\Actividad5.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net6.0\Actividad5.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net6.0\Actividad5.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net6.0\refint\Actividad5.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net6.0\Actividad5.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net6.0\Actividad5.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net6.0\ref\Actividad5.dll

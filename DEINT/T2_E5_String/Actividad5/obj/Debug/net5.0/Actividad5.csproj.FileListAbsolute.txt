@@ -1,0 +1,79 @@
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\bin\Debug\net5.0\Actividad5.exe
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\bin\Debug\net5.0\Actividad5.deps.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.dev.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\bin\Debug\net5.0\Actividad5.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\bin\Debug\net5.0\ref\Actividad5.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\bin\Debug\net5.0\Actividad5.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\obj\Debug\net5.0\Actividad5.csproj.AssemblyReference.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\obj\Debug\net5.0\Actividad5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfoInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfo.cs
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\obj\Debug\net5.0\Actividad5.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\obj\Debug\net5.0\Actividad5.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\obj\Debug\net5.0\ref\Actividad5.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\obj\Debug\net5.0\Actividad5.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad5\Actividad5\obj\Debug\net5.0\Actividad5.genruntimeconfig.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.exe
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.deps.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.dev.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\bin\Debug\net5.0\ref\Actividad5.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.csproj.AssemblyReference.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfoInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfo.cs
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\obj\Debug\net5.0\ref\Actividad5.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.genruntimeconfig.cache
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.csproj.AssemblyReference.cache
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.GeneratedMSBuildEditorConfig.editorconfig
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfoInputs.cache
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfo.cs
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.csproj.CoreCompileInputs.cache
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.dll
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.pdb
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.exe
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.deps.json
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.json
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.dev.json
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.dll
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.pdb
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\refint\Actividad5.dll
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.genruntimeconfig.cache
+Z:\DI\DI\T3\ACTIVIDAD 5\Actividad05\Actividad05\Actividad5\obj\Debug\net5.0\ref\Actividad5.dll
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.exe
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.deps.json
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.json
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.dev.json
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.dll
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\bin\Debug\net5.0\Actividad5.pdb
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.csproj.AssemblyReference.cache
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfoInputs.cache
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfo.cs
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.csproj.CoreCompileInputs.cache
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.dll
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\refint\Actividad5.dll
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.pdb
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\Actividad5.genruntimeconfig.cache
+C:\Users\Silvia\Downloads\Actividad05-20220926T080843Z-001\Actividad05\Actividad5\obj\Debug\net5.0\ref\Actividad5.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net5.0\Actividad5.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net5.0\Actividad5.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net5.0\Actividad5.runtimeconfig.dev.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net5.0\Actividad5.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\bin\Debug\net5.0\Actividad5.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net5.0\Actividad5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net5.0\Actividad5.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net5.0\Actividad5.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net5.0\Actividad5.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net5.0\refint\Actividad5.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net5.0\Actividad5.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net5.0\Actividad5.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E5_String\Actividad5\obj\Debug\net5.0\ref\Actividad5.dll
