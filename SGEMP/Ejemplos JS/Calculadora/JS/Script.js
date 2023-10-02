@@ -24,13 +24,14 @@ function raiz(numero){
 
 //Empiezo pidiendo la entrada de datos
 let simbolo = prompt("Introduzca '+' si desea sumar.\nIntroduzca '-' si desea restar.\nIntroduzca '/' si desea dividir.\nIntroduzca '*' si desea multiplicar.\nIntroduzca 'sqrt' si desea hacer la raiz cuadrada.")
-let operando1= float( prompt('Introduzca el primer operando'));
+let operando1 = float( prompt('Introduzca el primer operando'));
+let operando2;
 if(simbolo!='sqrt'){
-    let operando2= float( prompt('Introduzca el segundo operando'));
+    operando2 = float( prompt('Introduzca el segundo operando'));
 }
 
 //Algoritmo y Salida de datos
-if(simbolo == '+'){
+if(simbolo == simbolos[0]){
     console.log(`El resultado de la suma es: ${suma(operando1,operando2)}`);
 }else if(simbolo == simbolos[1]){
     console.log(`El resultado de la resta es: ${resta(operando1,operando2)}`);
