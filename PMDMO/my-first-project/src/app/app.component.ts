@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title:string = 'Proyecto2';
+  // title:string = 'Proyecto2';
 
   array:any[];
 
@@ -14,7 +14,7 @@ export class AppComponent {
     this.array=[{firstName:'Pepe'},{firstName:'Paco'},{firstName:'Manolo'}];
   }
 
-  pulsarBoton() {
-    this.title='Me has pulsado.'
-  }
+  // pulsarBoton() {
+  //   this.title='Me has pulsado.'
+  // }
 }
