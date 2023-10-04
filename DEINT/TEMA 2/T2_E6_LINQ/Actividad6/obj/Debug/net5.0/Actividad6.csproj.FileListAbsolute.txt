@@ -1,0 +1,32 @@
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\bin\Debug\net5.0\Actividad6.exe
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\bin\Debug\net5.0\Actividad6.deps.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\bin\Debug\net5.0\Actividad6.runtimeconfig.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\bin\Debug\net5.0\Actividad6.runtimeconfig.dev.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\bin\Debug\net5.0\Actividad6.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\bin\Debug\net5.0\ref\Actividad6.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\bin\Debug\net5.0\Actividad6.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\obj\Debug\net5.0\Actividad6.csproj.AssemblyReference.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\obj\Debug\net5.0\Actividad6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\obj\Debug\net5.0\Actividad6.AssemblyInfoInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\obj\Debug\net5.0\Actividad6.AssemblyInfo.cs
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\obj\Debug\net5.0\Actividad6.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\obj\Debug\net5.0\Actividad6.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\obj\Debug\net5.0\ref\Actividad6.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\obj\Debug\net5.0\Actividad6.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad6\Actividad6\Actividad6\obj\Debug\net5.0\Actividad6.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\bin\Debug\net5.0\Actividad6.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\bin\Debug\net5.0\Actividad6.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\bin\Debug\net5.0\Actividad6.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\bin\Debug\net5.0\Actividad6.runtimeconfig.dev.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\bin\Debug\net5.0\Actividad6.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\bin\Debug\net5.0\Actividad6.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\Actividad6.csproj.AssemblyReference.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\Actividad6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\Actividad6.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\Actividad6.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\Actividad6.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\Actividad6.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\refint\Actividad6.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\Actividad6.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\Actividad6.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\TEMA 2\T2_E6_LINQ\Actividad6\obj\Debug\net5.0\ref\Actividad6.dll

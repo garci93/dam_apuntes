@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\bin\Debug\net6.0\PrueUniPilasColas1.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\bin\Debug\net6.0\PrueUniPilasColas1.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\bin\Debug\net6.0\PrueUniPilasColas1.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\bin\Debug\net6.0\PrueUniPilasColas1.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\bin\Debug\net6.0\PrueUniPilasColas1.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\obj\Debug\net6.0\PrueUniPilasColas1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\obj\Debug\net6.0\PrueUniPilasColas1.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\obj\Debug\net6.0\PrueUniPilasColas1.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\obj\Debug\net6.0\PrueUniPilasColas1.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\obj\Debug\net6.0\PrueUniPilasColas1.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\obj\Debug\net6.0\refint\PrueUniPilasColas1.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\obj\Debug\net6.0\PrueUniPilasColas1.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\obj\Debug\net6.0\PrueUniPilasColas1.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\PrueUniPilasColas1\PrueUniPilasColas1\obj\Debug\net6.0\ref\PrueUniPilasColas1.dll

@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\obj\Debug\net6.0\Genericos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\obj\Debug\net6.0\Genericos.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\obj\Debug\net6.0\Genericos.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\obj\Debug\net6.0\Genericos.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\bin\Debug\net6.0\Genericos.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\bin\Debug\net6.0\Genericos.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\bin\Debug\net6.0\Genericos.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\bin\Debug\net6.0\Genericos.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\bin\Debug\net6.0\Genericos.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\obj\Debug\net6.0\Genericos.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\obj\Debug\net6.0\refint\Genericos.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\obj\Debug\net6.0\Genericos.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\obj\Debug\net6.0\Genericos.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Genericos\Genericos\obj\Debug\net6.0\ref\Genericos.dll
