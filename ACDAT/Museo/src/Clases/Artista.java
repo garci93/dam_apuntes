@@ -6,10 +6,10 @@ import java.util.Objects;
 public class Artista {
 	private String nombre;
 	private String lugarNac;
-	private Date fechaNac;
-	private Date fechaFall;
+	private String fechaNac;
+	private String fechaFall;
 	
-	public Artista(String nombre, String lugarNac, Date fechaNac, Date fechaFall) {
+	public Artista(String nombre, String lugarNac, String fechaNac, String fechaFall) {
 		super();
 		this.nombre = nombre;
 		this.lugarNac = lugarNac;
@@ -33,19 +33,19 @@ public class Artista {
 		this.lugarNac = lugarNac;
 	}
 
-	public Date getFechaNac() {
+	public String getFechaNac() {
 		return fechaNac;
 	}
 
-	public void setFechaNac(Date fechaNac) {
+	public void setFechaNac(String fechaNac) {
 		this.fechaNac = fechaNac;
 	}
 
-	public Date getFechaFall() {
+	public String getFechaFall() {
 		return fechaFall;
 	}
 
-	public void setFechaFall(Date fechaFall) {
+	public void setFechaFall(String fechaFall) {
 		this.fechaFall = fechaFall;
 	}
 

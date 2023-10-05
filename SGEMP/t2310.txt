@@ -1,0 +1,9 @@
+MODELO VISTA CONTROLADOR
+
+El controlador actúa entre el modelo y la vista: V-C-M
+
+	V (html)
+refresca ↑↓ activa eventos	 
+    C Controlador.js			-> debería tener un código sencillo, sobre todo llama a los métodos del modelo
+	 ↑↓
+ M (singleton) Servicio

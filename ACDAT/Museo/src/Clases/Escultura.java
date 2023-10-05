@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Escultura extends Obra {
 	private String material;
-	private double altura;
+	private int altura;
 	
-	public Escultura(String titulo, int numeroInv, Artista autor, int anio, String material, double altura) {
+	public Escultura(String titulo, int numeroInv, Artista autor, int anio, String material, int altura) {
 		super(titulo, numeroInv, autor, anio);
 		this.material = material;
 		this.altura = altura;
@@ -20,11 +20,11 @@ public class Escultura extends Obra {
 		this.material = material;
 	}
 
-	public double getAltura() {
+	public int getAltura() {
 		return altura;
 	}
 
-	public void setAltura(double altura) {
+	public void setAltura(int altura) {
 		this.altura = altura;
 	}
 

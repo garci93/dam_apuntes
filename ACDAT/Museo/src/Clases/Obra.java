@@ -70,7 +70,7 @@ public class Obra {
 		return "Título: " + titulo + "\nNúmero de inventario: " + numeroInv + "\nAutor: " + autor.getNombre() + "\nAño: " + anio;
 	}
 	
-	public void muestra(Obra ob) {
-		ob.toString();
+	public void muestra() {
+		System.out.println(this.toString());
 	}
 }
