@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\bin\Debug\net6.0\T2_E6_b.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\bin\Debug\net6.0\T2_E6_b.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\bin\Debug\net6.0\T2_E6_b.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\bin\Debug\net6.0\T2_E6_b.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\bin\Debug\net6.0\T2_E6_b.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\obj\Debug\net6.0\T2_E6_b.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\obj\Debug\net6.0\T2_E6_b.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\obj\Debug\net6.0\T2_E6_b.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\obj\Debug\net6.0\T2_E6_b.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\obj\Debug\net6.0\T2_E6_b.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\obj\Debug\net6.0\refint\T2_E6_b.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\obj\Debug\net6.0\T2_E6_b.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\obj\Debug\net6.0\T2_E6_b.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E6_b\T2_E6_b\obj\Debug\net6.0\ref\T2_E6_b.dll

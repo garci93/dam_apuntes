@@ -1,0 +1,14 @@
+Artistas: Nombre, LugarNac, FechaNac, FechaFall
+Obras: Titulo, NumeroInv, Autor*, Anio
+Esculturas: Artistas+ Material, Altura
+Pinturas: Artistas+ Alto, Ancho, Soporte
+
+Catálogo: [Obras]
+
+- Const getter setter muestra equals tostring, para todos
+- Catalogo:
+	1. aniadeObra(Obra ob), informar exito
+	2. eliminaObra(int numeroInv), destructor de Obra, informar exito
+	3. buscaObra(int numeroInv), read, mostrar
+	4. superficie(), sumar dimensiones todas obras
+	5. int masAlta(), devolver numeroInv de escultura mas alta

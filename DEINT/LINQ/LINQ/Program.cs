@@ -46,17 +46,37 @@ namespace LINQ
             int[] numeros3 = { 1, 6, 4, 8, 10 };
 
             var numerosOrdenados = numeros.OrderBy(x => x).ToList();       //devuelve los numeros ordenados, x => x es para ordenarlos con una funcion lambda
+            /*
+                var persona1 = new { Nombre = "Pepa", Edad = 12};
 
-            //var persona1 = new { Nombre = "Pepa", Edad = 12};
+                var nombres = personas.Select(personas=>personas.Nombre).ToList(); ->  devuelve solo los nombres de las personas
 
-            //var nombres = personas.Select(personas=>personas.Nombre).ToList(); ->  devuelve solo los nombres de las personas
+                 .Count()     -> xd
+                 .LongCount() -> si son muchos y no cabe en un entero
 
-            // .Count()     -> xd
-            // .LongCount() -> si son muchos y no cabe en un entero
+                 .Sum(alias => alias.atributoNumerico);
+                 .Min(), .Max(), .Average()
+                 .MinBy() y .MaxBy() ordenan por una secuencia especificada por el programador
 
-            // .Sum(alias => alias.atributoNumerico);
-            // .Min(), .Max(), .Average()
-            // .MinBy() y .MaxBy() ordenan por una secuencia especificada por el programador
+                .All(condicion) => devuelve si la cond se cumple en todos o no
+
+                .Contains(valor) => devuelve si alguno de los registros contiene valor
+
+                .Take(num)        => toma los num primeros registros
+                .TakeLast(num)    => toma los num ultimos registros
+                .Skip(num)        => quita los num primeros registros y devuelve los demas
+                .SkipLast(num)    => quita los num ultimos registros y devuelve los demas
+                .TakeWhile(cond)  => va tomando hasta que la cond deje de cumplirse, ahi termina (aunque vuelva a cumplirse otra vez mas adelante)
+                .SkipWhile(cond)  => va saltando hasta que la cond deje de cumplirse, el resto lo toma (aunque vuelva a cumplirse otra vez mas adelante)
+
+                .GroupBy(prop(s)) => agrupar segun un atributo
+                    .GroupBy(ob => new {c.prop1, c.prop2, ...}) => agrupar segun varios atributos
+
+                .Distinct()       => eliminar repetidos
+                .DistinctBy(atr)  => eliminar repetidos segun un atributo
+
+                .Chunk(num)       => dividir en num trozos
+            */
         }
     }
 }
