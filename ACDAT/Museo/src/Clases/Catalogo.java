@@ -3,9 +3,13 @@ package Clases;
 import java.util.ArrayList;
 
 public class Catalogo {
-	ArrayList<Obra> obras = new ArrayList<Obra>();
+	private ArrayList<Obra> obras = new ArrayList<Obra>();
 	
-	public void añadeObra(Obra ob) {
+	public ArrayList<Obra> getObras() {
+		return obras;
+	}
+
+	public void aniadeObra(Obra ob) {
 		if (existeObra(ob))
 			System.out.println("La obra ya está en el museo");
 		else {

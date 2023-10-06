@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\bin\Debug\net6.0\Ejercicio1.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\bin\Debug\net6.0\Ejercicio1.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\bin\Debug\net6.0\Ejercicio1.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\bin\Debug\net6.0\Ejercicio1.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\bin\Debug\net6.0\Ejercicio1.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\obj\Debug\net6.0\Ejercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\obj\Debug\net6.0\Ejercicio1.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\obj\Debug\net6.0\Ejercicio1.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\obj\Debug\net6.0\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\obj\Debug\net6.0\Ejercicio1.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\obj\Debug\net6.0\refint\Ejercicio1.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\obj\Debug\net6.0\Ejercicio1.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\obj\Debug\net6.0\Ejercicio1.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Actividad7Clases\Actividad7Clases\obj\Debug\net6.0\ref\Ejercicio1.dll

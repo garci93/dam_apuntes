@@ -1,3 +1,4 @@
 ACDAT MIRAR COMPARATOR JAVA
+PSPRO añadir controlador y vista (iuconsola) a Museo, antes del lunes
 
-PMDMO mirar pag49, diagrama  etc
+PMDMO mirar pag49, diagrama etc

@@ -11,11 +11,11 @@ public class Main {
 		Escultura e1 = new Escultura("Cabeza azul", 3, a2, 2008, "Hormigón", 415);
 		Escultura e2 = new Escultura("Poseidón y Ceto", 4, a3, 1621, "Mármol", 3);
 		
-		c.añadeObra(p1);
-		c.añadeObra(p2);
-		c.añadeObra(e1);
+		c.aniadeObra(p1);
+		c.aniadeObra(p2);
+		c.aniadeObra(e1);
 		
-		for (Obra o :c.obras) {
+		for (Obra o :c.getObras()) {
 			o.muestra();
 		}
 		
@@ -26,7 +26,7 @@ public class Main {
 		
 		c.eliminaObra(p1.getNumeroInv());
 		
-		for (Obra o :c.obras) {
+		for (Obra o :c.getObras()) {
 			o.muestra();
 		}
 	}

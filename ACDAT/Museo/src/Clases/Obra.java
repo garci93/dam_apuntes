@@ -2,7 +2,7 @@ package Clases;
 
 import java.util.Objects;
 
-public class Obra {
+public abstract class Obra {
 	private String titulo;
 	private int numeroInv;
 	private Artista autor;

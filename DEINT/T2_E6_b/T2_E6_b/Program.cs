@@ -23,6 +23,7 @@ namespace T2_E6_b
             {
                 Console.WriteLine(divisibles[i]);
             }
+            Console.WriteLine();
 
             /* Una vez obtenido este resultado, se divide en dos grupos: los números pares y los números
                 impares. Cada uno de los grupos debe ser mostrado por su nombre (par o impar) y los
@@ -38,6 +39,7 @@ namespace T2_E6_b
                 {
                     Console.WriteLine(j);
                 }
+                Console.WriteLine();
             }
 
 
