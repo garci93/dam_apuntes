@@ -7,3 +7,14 @@ refresca ↑↓ activa eventos
     C Controlador.js			-> debería tener un código sencillo, sobre todo llama a los métodos del modelo
 	 ↑↓
  M (singleton) Servicio
+
+
+---
+
+
+//añadir la caase rojo a todos los elementos en arrayParrafos, con forEach, al estilo JS6
+arrayParrafos.forEach((element) => {
+	element.classList.add('rojo');
+});
+
+si creas elementos con createElement, recuerda añadirlos al DOM en su lugar con appendChild
