@@ -1,0 +1,18 @@
+package Clases;
+
+public class DAOClase {
+
+	private static DAOClase DAO=null;
+	
+	private DAOClase()
+	{
+		
+	}
+	
+	public static DAOClase getInstance() {
+		if (DAO == null) DAO = new DAOClase();
+		
+		return DAO;
+	}
+
+}

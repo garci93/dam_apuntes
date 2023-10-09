@@ -1,4 +1,5 @@
 ACDAT MIRAR COMPARATOR JAVA
-PSPRO añadir controlador y vista (iuconsola) a Museo, antes del lunes
 
 PMDMO mirar pag49, diagrama etc
+SGEMP mirar TablaCoches
+PSPRO hablar con santi android studio
