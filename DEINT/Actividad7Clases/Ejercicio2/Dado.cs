@@ -24,7 +24,3 @@ namespace Ejercicio2
         }
     }
 }
-
-
-//a.Dado: con atributo valor y métodos Tirar, que generará un aleatorio entre 1 y 6, y
-//          un método Imprimir que mostrará el valor del dado.

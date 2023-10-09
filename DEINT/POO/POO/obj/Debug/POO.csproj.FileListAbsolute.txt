@@ -1,0 +1,7 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\POO\POO\bin\Debug\POO.exe.config
+C:\Users\dam\Desktop\dam_apuntes\DEINT\POO\POO\bin\Debug\POO.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\POO\POO\bin\Debug\POO.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\POO\POO\obj\Debug\POO.csproj.AssemblyReference.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\POO\POO\obj\Debug\POO.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\POO\POO\obj\Debug\POO.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\POO\POO\obj\Debug\POO.pdb
