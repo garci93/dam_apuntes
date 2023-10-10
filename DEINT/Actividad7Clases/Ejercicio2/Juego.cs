@@ -11,7 +11,7 @@ namespace Ejercicio2
 
         public void Jugar()
         {
-            Dado[] dados = InicializarDados<Dado>(3);
+            Dado[] dados = InicializarDados(3);
             bool res = true;
             for (int i = 0; i < dados.Length; i++)
             {
@@ -26,12 +26,12 @@ namespace Ejercicio2
         }
         public Juego() { }
 
-        T[] InicializarDados<T>(int cantidad) where T : new()
+        Dado[] InicializarDados(int cantidad)
         {
-            T[] dados = new T[cantidad];
+            Dado[] dados = new Dado[cantidad];
             for (int i = 0; i < cantidad; ++i)
             {
-                dados[i] = new T();
+                dados[i] = new Dado();
             }
 
             return dados;
