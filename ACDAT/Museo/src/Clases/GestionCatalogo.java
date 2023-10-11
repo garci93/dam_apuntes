@@ -13,6 +13,4 @@ public class GestionCatalogo {
 	public String toString() {
 		return catalogo.toString();
 	}
-	
-	
 }

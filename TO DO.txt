@@ -1,7 +1,6 @@
 ACDAT MIRAR COMPARATOR JAVA
 
-PMDMO hacer TUTORIAL joke list			entregar
-SGEMP mirar TablaCoches
-PSPRO terminar tresbotones
+SGEMP mirar TablaCoches?
+PSPRO terminar tresbotones???
 
-DEINT ejercicio 3
+PMDMO borrar broma, entregar ¿viernes?

@@ -1,5 +1,6 @@
 package Clases;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class DAOObras {
@@ -10,7 +11,7 @@ public class DAOObras {
 	private DAOObras()
 	{
 		obras = new ArrayList<Obra>();
-		Artista artista = new Artista("Manolo","Sanlúcar","22 de septiembre de 1977","N/A");
+		Artista artista = new Artista("Manolo","Sanlúcar",LocalDate.of(1977, 9, 22),null);
 		obras.add(new Pintura("El salto del atún", 1, artista, 1998, 25.9, 14.5, "Lienzo"));
 		obras.add(new Escultura("Cabeza azul", 3, artista, 2008, "Hormigón", 415));
 		

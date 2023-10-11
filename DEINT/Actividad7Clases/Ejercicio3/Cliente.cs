@@ -13,8 +13,10 @@ namespace Ejercicio3
         public string Nombre { get; set; }
         public double CantidadAhorrada { get; set; }
 
-        public Cliente()
+        public Cliente(string dni,string nombre)
         {
+            DNI = dni;
+            Nombre = nombre;
             CantidadAhorrada = 0;
         }
 
@@ -25,12 +27,17 @@ namespace Ejercicio3
 
         public void Extraer (double extraccion)
         {
-            CantidadAhorrada += extraccion;
+            CantidadAhorrada -= extraccion;
         }
 
         public double ConsultarSaldo ()
         {
             return CantidadAhorrada;
+        }
+
+        public string ToString()
+        {
+            return "DNI: " + DNI + ", Nombre: " + Nombre + ", Saldo: " + CantidadAhorrada;
         }
     }
 }

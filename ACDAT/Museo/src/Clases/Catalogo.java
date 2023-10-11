@@ -3,11 +3,7 @@ package Clases;
 import java.util.ArrayList;
 
 public class Catalogo {
-	private ArrayList<Obra> obras = new ArrayList<Obra>();
-	
-	public ArrayList<Obra> getObras() {
-		return obras;
-	}
+	private ArrayList<Obra> obras;
 
 	public void aniadeObra(Obra ob) {
 		if (existeObra(ob))

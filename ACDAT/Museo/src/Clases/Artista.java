@@ -1,20 +1,20 @@
 package Clases;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.Objects;
 
 public class Artista {
 	private String nombre;
 	private String lugarNac;
-	private String fechaNac;
-	private String fechaFall;
+	private LocalDate fechaNac;
+	private LocalDate fechaFall;
 	
-	public Artista(String nombre, String lugarNac, String fechaNac, String fechaFall) {
+	public Artista(String nombre, String lugarNac, LocalDate fechaNac, LocalDate fechaFall) {
 		super();
 		this.nombre = nombre;
 		this.lugarNac = lugarNac;
 		this.fechaNac = fechaNac;
-		this.fechaFall = fechaFall;
 	}
 
 	public String getNombre() {
@@ -33,19 +33,19 @@ public class Artista {
 		this.lugarNac = lugarNac;
 	}
 
-	public String getFechaNac() {
+	public LocalDate getFechaNac() {
 		return fechaNac;
 	}
 
-	public void setFechaNac(String fechaNac) {
+	public void setFechaNac(LocalDate fechaNac) {
 		this.fechaNac = fechaNac;
 	}
 
-	public String getFechaFall() {
+	public LocalDate getFechaFall() {
 		return fechaFall;
 	}
 
-	public void setFechaFall(String fechaFall) {
+	public void setFechaFall(LocalDate fechaFall) {
 		this.fechaFall = fechaFall;
 	}
 

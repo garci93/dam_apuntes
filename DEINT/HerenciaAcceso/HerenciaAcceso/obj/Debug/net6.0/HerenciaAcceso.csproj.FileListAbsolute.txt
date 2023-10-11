@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\bin\Debug\net6.0\HerenciaAcceso.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\bin\Debug\net6.0\HerenciaAcceso.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\bin\Debug\net6.0\HerenciaAcceso.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\bin\Debug\net6.0\HerenciaAcceso.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\bin\Debug\net6.0\HerenciaAcceso.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\obj\Debug\net6.0\HerenciaAcceso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\obj\Debug\net6.0\HerenciaAcceso.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\obj\Debug\net6.0\HerenciaAcceso.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\obj\Debug\net6.0\HerenciaAcceso.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\obj\Debug\net6.0\HerenciaAcceso.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\obj\Debug\net6.0\refint\HerenciaAcceso.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\obj\Debug\net6.0\HerenciaAcceso.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\obj\Debug\net6.0\HerenciaAcceso.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\HerenciaAcceso\HerenciaAcceso\obj\Debug\net6.0\ref\HerenciaAcceso.dll

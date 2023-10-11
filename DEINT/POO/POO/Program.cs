@@ -32,5 +32,14 @@ namespace POO
         //Esto se llama una propiedad inmutable
         //Si pones ? después del tipo o nombre, es que puede tomar nulo.    int[]? numeros     numeros?.length
         //OPERADOR PARA PERDONAR EL NULO ! Es para poder usar nulo donde podría dar fallo, usar con responsabilidad
+
+        //HERENCIA
+
+        //en vez de extends se usa :, por ejemplo      internal class Camion : Vehiculo
+
+        //aparte de abstract (obligatorio sobreescribir) tenemos también virtual (opcional sobreescribir). se sobreescriben luego con override
+        //hay que poner alguno de estos para poder sobreescribir, al contrario que en java que con poner override ya te lo hacia
+
+        //clase sellada (sealed), no se puede derivar
     }
 }
