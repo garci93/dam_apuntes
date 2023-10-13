@@ -41,5 +41,7 @@ namespace POO
         //hay que poner alguno de estos para poder sobreescribir, al contrario que en java que con poner override ya te lo hacia
 
         //clase sellada (sealed), no se puede derivar
+
+        //interface: las clases derivadas tendrán que implementar todos los métodos
     }
 }

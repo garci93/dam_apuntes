@@ -7,15 +7,14 @@ public class Controlador {
 	 Catalogo catalogo = new Catalogo();
      Vista vista=new Vista();		  
 	 do {
-		     opcion = vista.elegirOpcion("A�ade Obra", "Elimina Obra","Busca Obra"
-		     		, "Supercie pinturas", "Escultura m�s alta","Mostrar obras");
+		     opcion = vista.elegirOpcion("Añade Obra", "Busca Obra", "Elimina Obra", "Superficie pinturas", "Escultura mas alta", "Mostrar obras");
 		 
 			   switch (opcion) 
 			    {
 			   
 			   
 				case 1: Obra obra = vista.leerObra(); 
-					   catalogo.aniadeObra(obra); 
+					   catalogo.aniadeObra(obra); 	
 						break;
 						
 				case 2:catalogo.buscaObra(vista.pedirNumInventario());
@@ -36,7 +35,7 @@ public class Controlador {
 				} 	   
 			  	  			  
 			  
-		  }while (opcion!=6);
+		  }while (opcion!=7);
 		
 		
 		

@@ -1,0 +1,1 @@
+[... array] -> el operador spread ... te esparce un iterable un valores separados. luego lo podemos pasar a una lista

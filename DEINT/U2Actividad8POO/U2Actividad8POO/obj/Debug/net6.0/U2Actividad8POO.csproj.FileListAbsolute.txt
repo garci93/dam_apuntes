@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\bin\Debug\net6.0\U2Actividad8POO.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\bin\Debug\net6.0\U2Actividad8POO.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\bin\Debug\net6.0\U2Actividad8POO.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\bin\Debug\net6.0\U2Actividad8POO.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\bin\Debug\net6.0\U2Actividad8POO.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\obj\Debug\net6.0\U2Actividad8POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\obj\Debug\net6.0\U2Actividad8POO.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\obj\Debug\net6.0\U2Actividad8POO.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\obj\Debug\net6.0\U2Actividad8POO.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\obj\Debug\net6.0\U2Actividad8POO.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\obj\Debug\net6.0\refint\U2Actividad8POO.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\obj\Debug\net6.0\U2Actividad8POO.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\obj\Debug\net6.0\U2Actividad8POO.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U2Actividad8POO\U2Actividad8POO\obj\Debug\net6.0\ref\U2Actividad8POO.dll

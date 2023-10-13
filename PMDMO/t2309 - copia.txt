@@ -62,7 +62,7 @@ Para declarar un módulo, en vez de @Component se usa @NgModule:
 
 	[] padres se comunican con hijos
 	() hijos con padres
-	{{}} 							->String interpolation, devuelve lo que has puesto entre llaves y lo reemplaza (rollo como los blade en php)
+	{{}} 				->String interpolation, devuelve lo que has puesto entre llaves y lo reemplaza (rollo como los blade en php)
 
 	DIRECTIVAS
 	<div *ngFor=" ">			-> introducen un poco de algoritmo en el html:

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class Catalogo {
 	private ArrayList<Obra> obras;
+	public Catalogo() {
+		obras = DAOObras.getInstance().getObras();
+	}
 
 	public void aniadeObra(Obra ob) {
 		if (existeObra(ob))
@@ -16,11 +19,12 @@ public class Catalogo {
 	
 	public void eliminaObra (int numeroInv) {
 		boolean encontrada = false;
+		//convertir en while y añadir condicion de que no se haya borrado
 		for (Obra o :this.obras) {
 			if (o.getNumeroInv() == numeroInv) {
 				encontrada = true;
 				obras.remove(o);
-				System.out.println("Obra eliminada con éxito");
+				System.err.println("\nObra eliminada con éxito\n");
 				break;
 			}
 		}
@@ -38,20 +42,20 @@ public class Catalogo {
 		if (encontrada = false) System.out.println("No se ha encontrado la obra con el número especificado");
 	}
 	
-	public double superficie () {
+	public void superficie () {
 		double res=0;
 		for (Obra o :this.obras) {
 			if (o instanceof Pintura) res+=((Pintura) o).getAlto()*((Pintura) o).getAncho();
 		}
-		return res;
+		System.out.println("La superficie total es de "+res+" m2");
 	}
 	
-	public int masAlta() {
+	public void masAlta() {
 		int maxAltura=0;
 		for (Obra o :this.obras) {
 			if (o instanceof Escultura && (((Escultura) o).getAltura()) > maxAltura) maxAltura = ((Escultura) o).getAltura();
 		}
-		return maxAltura;
+		System.out.println("La escultura más alta mide "+maxAltura+" metros");
 	}
 	
 	public Boolean existeObra(Obra ob) {
@@ -66,5 +70,8 @@ public class Catalogo {
 		return res;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return obras.toString();
+	}
 }

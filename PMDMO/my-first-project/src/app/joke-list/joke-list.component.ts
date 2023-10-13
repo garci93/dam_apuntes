@@ -9,13 +9,16 @@ import { Joke } from '../joke';
 export class JokeListComponent {
   jokes: Joke[];
   constructor() {
-    this.jokes = [
-      new Joke("What did the cheese say when it looked in the mirror?", "Hello-me (Halloumi)"),
-      new Joke("What kind of cheese do you use to disguise a small horse?", "Mask-apony (Mascarpone)"),
-      new Joke("A kid threw a lump of cheddar at me", "I thought ‘That’s not very mature’"),
-    ];
+    this.jokes = [];
   }
   addJoke(joke :Joke) {
     this.jokes.unshift(joke);
+  }
+  deleteJoke(joke :Joke) {
+    // var encontrado = false,i;
+    for (var i=0; i < this.jokes.length; i++) {
+      if (this.jokes[i] == joke)
+        this.jokes = this.jokes.filter(j => j != joke);
+    }
   }
 }

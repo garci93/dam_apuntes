@@ -1,20 +1,16 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Joke } from '../joke';
 
 @Component({
   selector: 'joke',
-  template: `
-<div class="card card-block">
-  <h4 class="card-title">{{data.setup}}</h4>
-  <p class="card-text"
-  [hidden]="data.hide">{{data.punchline}}</p>
-  <a (click)="data.toggle()"
-  class="btn btn-warning">Tell Me
-  </a>
-</div>
-  `
+  templateUrl: `./joke.component.html`
 })
 
 export class JokeComponent {
-  @Input('joke') data: Joke;
+  @Input('joke') joke!: Joke;
+  @Output() removeJoke = new EventEmitter<any>()
+
+  deleteJoke(){
+    this.removeJoke.emit(this.joke);
+  }
 }
