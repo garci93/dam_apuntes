@@ -1,0 +1,14 @@
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\bin\Debug\net6.0\PruebaExpresionRegular.exe
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\bin\Debug\net6.0\PruebaExpresionRegular.deps.json
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\bin\Debug\net6.0\PruebaExpresionRegular.runtimeconfig.json
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\bin\Debug\net6.0\PruebaExpresionRegular.dll
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\bin\Debug\net6.0\PruebaExpresionRegular.pdb
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\obj\Debug\net6.0\PruebaExpresionRegular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\obj\Debug\net6.0\PruebaExpresionRegular.AssemblyInfoInputs.cache
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\obj\Debug\net6.0\PruebaExpresionRegular.AssemblyInfo.cs
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\obj\Debug\net6.0\PruebaExpresionRegular.csproj.CoreCompileInputs.cache
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\obj\Debug\net6.0\PruebaExpresionRegular.dll
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\obj\Debug\net6.0\refint\PruebaExpresionRegular.dll
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\obj\Debug\net6.0\PruebaExpresionRegular.pdb
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\obj\Debug\net6.0\PruebaExpresionRegular.genruntimeconfig.cache
+C:\Users\admon\Source\Repos\PruebaExpresionRegular\PruebaExpresionRegular\obj\Debug\net6.0\ref\PruebaExpresionRegular.dll
