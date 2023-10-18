@@ -1,0 +1,16 @@
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\obj\Debug\net5.0\Actividad09.csproj.AssemblyReference.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\obj\Debug\net5.0\Actividad09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\obj\Debug\net5.0\Actividad09.AssemblyInfoInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\obj\Debug\net5.0\Actividad09.AssemblyInfo.cs
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\obj\Debug\net5.0\Actividad09.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\bin\Debug\net5.0\Actividad09.exe
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\bin\Debug\net5.0\Actividad09.deps.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\bin\Debug\net5.0\Actividad09.runtimeconfig.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\bin\Debug\net5.0\Actividad09.runtimeconfig.dev.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\bin\Debug\net5.0\Actividad09.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\bin\Debug\net5.0\ref\Actividad09.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\bin\Debug\net5.0\Actividad09.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\obj\Debug\net5.0\Actividad09.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\obj\Debug\net5.0\ref\Actividad09.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\obj\Debug\net5.0\Actividad09.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad09\Actividad09\Actividad09\obj\Debug\net5.0\Actividad09.genruntimeconfig.cache

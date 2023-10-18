@@ -3,6 +3,7 @@
 
 //https://docs.microsoft.com/es-es/dotnet/standard/base-types/regular-expression-language-quick-reference
 //Ejemplo 1 matches 
+using PruebaExpresionRegular;
 using System.Text.RegularExpressions;
 
 string frase = "A developer lives like olive oil – Always adding good taste to what they do?";
@@ -69,24 +70,30 @@ Match resultado2 = Regex.Match(frase8, @"(\d\d\d)-(\d\d\d)");
 Console.WriteLine();
 
 
+//Ejercicio expresiones regulares
+
 string regexp1 = @"\d{2}/\d{2}/\d{4}";
 string regexp2 = @"^\w+@\w+\.\w{2,3}$";
 string regexp3 = @"^\d{3}\-\d{3}\-\d{4}$";
 string regexp4 = @"^([1-2]?\d{0,2}\.){3}[1-2]?\d{0,2}$";
 string regexp5 = @"^([0-9-afA-F]{2}\-){5}[0-9-afA-F]{2}$";
 char letra = 'a';
-string regexp6 = @"^|\s"+letra+@"\w*";
+string regexp6 = @"(^|\b)"+letra+@"\w*";
 
-bool ej1 = Regex.IsMatch("31/12/2001",regexp1);
-bool ej2 = Regex.IsMatch("ejemplo@mail.es",regexp2);
-bool ej3 = Regex.IsMatch("285-636-8535",regexp3);
-bool ej4 = Regex.IsMatch("109.46.5.0",regexp4);
-bool ej5 = Regex.IsMatch("00-A3-73-BC-D4-1F", regexp5);
-bool ej6 = Regex.IsMatch("bardo avanzar regalo sesión ahora",regexp6);
+Pruebas prueba = new Pruebas();
+bool ej1 = prueba.comprobar1(regexp1);
+bool ej2 = prueba.comprobar2(regexp2);
+bool ej3 = prueba.comprobar3(regexp3);
+bool ej4 = prueba.comprobar4(regexp4);
+bool ej5 = prueba.comprobar5(regexp5);
+MatchCollection ej6 = prueba.comprobar6(regexp6);
 
 Console.WriteLine(ej1);
 Console.WriteLine(ej2);
 Console.WriteLine(ej3);
 Console.WriteLine(ej4);
 Console.WriteLine(ej5);
-Console.WriteLine(ej6);
+foreach (var match in ej6)
+{
+    Console.WriteLine(match.ToString());
+}

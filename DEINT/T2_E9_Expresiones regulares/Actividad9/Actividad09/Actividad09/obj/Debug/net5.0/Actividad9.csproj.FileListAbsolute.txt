@@ -1,0 +1,31 @@
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.exe
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.deps.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.runtimeconfig.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.runtimeconfig.dev.json
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\ref\Actividad9.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.csproj.AssemblyReference.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.AssemblyInfoInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.AssemblyInfo.cs
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\ref\Actividad9.dll
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.pdb
+C:\Users\AntoniaRubio\Desktop\Almunia\DAM DI\Primer trimestre\Actividades\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.runtimeconfig.dev.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\bin\Debug\net5.0\Actividad9.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\refint\Actividad9.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\Actividad9.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\T2_E9_Expresiones regulares\Actividad9\Actividad09\Actividad09\obj\Debug\net5.0\ref\Actividad9.dll
