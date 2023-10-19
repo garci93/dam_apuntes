@@ -1,1 +1,16 @@
 [... array] -> el operador spread ... te esparce un iterable un valores separados. luego lo podemos pasar a una lista
+
+
+
+Componentes:
+1) Hooks
+2) Acceso a los componentes de la vista {Dom, Hijos     desde el ts (la clase)
+
+	Element 	<- @ViewChild(selector) variable: tipo
+	QueryList	<- @ViewChildren(selector) variable: tipo
+3) Proyecto el contenido
+		<hijo> Contenido </hijo>
+	Hijo html
+	  |
+	  v
+	<ng-content selected = "#any>
