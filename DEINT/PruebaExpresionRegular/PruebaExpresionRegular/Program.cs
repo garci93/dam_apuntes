@@ -72,13 +72,13 @@ Console.WriteLine();
 
 //Ejercicio expresiones regulares
 
-string regexp1 = @"\d{2}/\d{2}/\d{4}";
+string regexp1 = @"^\d{2}/\d{2}/\d{4}$";
 string regexp2 = @"^\w+@\w+\.\w{2,3}$";
-string regexp3 = @"^\d{3}\-\d{3}\-\d{4}$";
-string regexp4 = @"^([1-2]?\d{0,2}\.){3}[1-2]?\d{0,2}$";
+string regexp3 = @"\d{3}\-\d{3}\-\d{4}";
+string regexp4 = @"^((1?\d{0,2}\.)|(2[0-4]\d)|(25[0-5])\.){3}[12]?\d{0,2}$";
 string regexp5 = @"^([0-9-afA-F]{2}\-){5}[0-9-afA-F]{2}$";
 char letra = 'a';
-string regexp6 = @"(^|\b)"+letra+@"\w*";
+string regexp6 = $@"(^|\b){letra}\w*";
 
 Pruebas prueba = new Pruebas();
 bool ej1 = prueba.comprobar1(regexp1);
@@ -89,10 +89,21 @@ bool ej5 = prueba.comprobar5(regexp5);
 MatchCollection ej6 = prueba.comprobar6(regexp6);
 
 Console.WriteLine(ej1);
+Console.WriteLine(prueba.comprobar1a(regexp1));
+Console.WriteLine(prueba.comprobar1b(regexp1));
 Console.WriteLine(ej2);
+Console.WriteLine(prueba.comprobar2a(regexp2));
 Console.WriteLine(ej3);
+Console.WriteLine(prueba.comprobar3a(regexp3));
+Console.WriteLine(prueba.comprobar3b(regexp3));
 Console.WriteLine(ej4);
+Console.WriteLine(prueba.comprobar4a(regexp4));
+Console.WriteLine(prueba.comprobar4b(regexp4));
+Console.WriteLine(prueba.comprobar4c(regexp4));
 Console.WriteLine(ej5);
+Console.WriteLine(prueba.comprobar5a(regexp5));
+Console.WriteLine(prueba.comprobar5b(regexp5));
+Console.WriteLine(prueba.comprobar5c(regexp5));
 foreach (var match in ej6)
 {
     Console.WriteLine(match.ToString());

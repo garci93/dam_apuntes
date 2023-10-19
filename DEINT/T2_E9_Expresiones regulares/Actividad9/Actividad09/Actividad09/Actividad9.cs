@@ -23,7 +23,7 @@ namespace Actividad09
 
         public static bool isSpanish(string telefono)
         {
-            return Regex.IsMatch(telefono,@"^(\+0{0,2}34)?");
+            return Regex.IsMatch(telefono,@"^(\+0{0,2}34)?\-?\d{3}\-?(\d{2}\-?){2}\d{2}$");
         }
 
         public static bool isCorrectEmail(string email)
