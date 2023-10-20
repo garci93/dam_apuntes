@@ -1,0 +1,4 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\SimulExamen\SimulExamen\obj\Debug\net6.0\Ej1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\SimulExamen\SimulExamen\obj\Debug\net6.0\Ej1.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\SimulExamen\SimulExamen\obj\Debug\net6.0\Ej1.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\SimulExamen\SimulExamen\obj\Debug\net6.0\Ej1.csproj.CoreCompileInputs.cache
