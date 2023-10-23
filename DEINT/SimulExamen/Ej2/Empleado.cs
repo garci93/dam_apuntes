@@ -25,14 +25,7 @@ namespace Ej2
         public Empleado() { }
 
         public Empleado(string dni) {
-            try
-            {
-                if (Regex.IsMatch(dni, @"^\d{8}[A-Z]$")) DNI = dni;
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("El DNI debe tener ocho cifras y una letra mayúscula");
-            }
+            DNI = dni;
             Nombre = "";
             SueldoBase = 0;
             PagoPorHoraExtra = 0;
@@ -44,14 +37,6 @@ namespace Ej2
 
         public Empleado(string dni, string nombre, double sueldoBase, double pagoPorHorasExtra, int horasPorMes, int tipoIRPF, bool casado, int hijos) : this(dni)
         {
-            try
-            {
-                if (Regex.IsMatch(dni, @"^\d{8}[A-Z]$")) DNI = dni;
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("El DNI debe tener ocho cifras y una letra mayúscula");
-            }
             DNI = dni;
             Nombre = nombre;
             SueldoBase = sueldoBase;
