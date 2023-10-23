@@ -8,6 +8,7 @@ Componentes:
 
 	Element 	<- @ViewChild(selector) variable: tipo
 	QueryList	<- @ViewChildren(selector) variable: tipo
+
 3) Proyecto el contenido
 		<hijo> Contenido </hijo>
 	Hijo html
