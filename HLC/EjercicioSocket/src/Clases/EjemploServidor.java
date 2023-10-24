@@ -6,8 +6,12 @@ public class EjemploServidor {
 		int numeroPuerto = 6000;
 		ServerSocket servidor = new ServerSocket(numeroPuerto);
 		Socket clienteConectado = null;
-		System.out.println("Servidor iniciado. Esperando al cliente...");
-		clienteConectado = servidor.accept();
+		while (true) {
+			Socket cliente = new Socket();
+			cliente=servidor.accept()///esperando cliente
+			HiloServidor hilo = new HiloServidor(cliente);
+			hilo.start(); //se atiende al cliente
+			}			
 		
 		InputStream entrada = null;
 		entrada = clienteConectado.getInputStream();

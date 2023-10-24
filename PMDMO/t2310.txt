@@ -15,3 +15,10 @@ Componentes:
 	  |
 	  v
 	<ng-content selected = "#any>
+
+
+*ngFor		xd
+*ngIf		xd
+[ngSwitch]	es un input, luego ya si se usan directivas para los *ngSwitchCase, y luego *ngSwitchDefault
+[ngStyle]	NO USAR!! y [] aqui no es que sea una propiedad, simplemente es un atributo como en css
+[ngClass]	-> por explicar
