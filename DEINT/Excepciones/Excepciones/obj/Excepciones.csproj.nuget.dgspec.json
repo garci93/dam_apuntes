@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Excepciones\\Excepciones\\Excepciones.csproj": {}
+    "C:\\Users\\dam\\Desktop\\Excepciones\\Excepciones\\Excepciones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Excepciones\\Excepciones\\Excepciones.csproj": {
+    "C:\\Users\\dam\\Desktop\\Excepciones\\Excepciones\\Excepciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Excepciones\\Excepciones\\Excepciones.csproj",
+        "projectUniqueName": "C:\\Users\\dam\\Desktop\\Excepciones\\Excepciones\\Excepciones.csproj",
         "projectName": "Excepciones",
-        "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Excepciones\\Excepciones\\Excepciones.csproj",
+        "projectPath": "C:\\Users\\dam\\Desktop\\Excepciones\\Excepciones\\Excepciones.csproj",
         "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Excepciones\\Excepciones\\obj\\",
+        "outputPath": "C:\\Users\\dam\\Desktop\\Excepciones\\Excepciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

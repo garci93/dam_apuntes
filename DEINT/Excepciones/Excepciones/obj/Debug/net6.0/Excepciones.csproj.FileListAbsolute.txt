@@ -1,4 +1,4 @@
-C:\Users\dam\Desktop\dam_apuntes\DEINT\Excepciones\Excepciones\obj\Debug\net6.0\Excepciones.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dam\Desktop\dam_apuntes\DEINT\Excepciones\Excepciones\obj\Debug\net6.0\Excepciones.AssemblyInfoInputs.cache
-C:\Users\dam\Desktop\dam_apuntes\DEINT\Excepciones\Excepciones\obj\Debug\net6.0\Excepciones.AssemblyInfo.cs
-C:\Users\dam\Desktop\dam_apuntes\DEINT\Excepciones\Excepciones\obj\Debug\net6.0\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Excepciones\Excepciones\obj\Debug\net6.0\Excepciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Excepciones\Excepciones\obj\Debug\net6.0\Excepciones.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Excepciones\Excepciones\obj\Debug\net6.0\Excepciones.AssemblyInfo.cs
+C:\Users\dam\Desktop\Excepciones\Excepciones\obj\Debug\net6.0\Excepciones.csproj.CoreCompileInputs.cache

@@ -9,7 +9,7 @@ namespace Excepciones
     internal class ExceptionPersonalizada:Exception
     {
 
-        public ExceptionPersonalizada(): base("Esta es una excepcion personalizada")
+        public ExceptionPersonalizada(): base("Esta es una expcion personalizada")
         {
                
         }
