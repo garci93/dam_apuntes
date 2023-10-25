@@ -1,6 +1,7 @@
 package Clases;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
@@ -13,14 +14,19 @@ public class HiloServidor extends Thread {
     public HiloServidor(Socket s) {
         socket = s;
         //se crean flujos de entrada y salida
-        fsalida = new PrintWriter(socket.getOutputStream(), true);
-        fentrada = new BufferedReader(new InputStreamReader(
-        socket.getInputStream()));
+        try {
+            fsalida = new PrintWriter(socket.getOutputStream(), true);
+            fentrada = new BufferedReader(new InputStreamReader(
+            socket.getInputStream()));
+        } catch (IOException e){
+            e.printStackTrace();
+        }
     }
 
     public void run() {//tarea a realizar con el cliente
         String cadena="";
-        while (!cadena.trim().equals("*")) {
+        try{
+            while (!cadena.trim().equals("*")) {
             System.out.println("COMUNICO CON: "+ socket.toString());
             cadena = fentrada.readLine();//obtener cadena
             fsalida.println(cadena.trim().toUpperCase());//enviar mayúscula
@@ -29,5 +35,8 @@ public class HiloServidor extends Thread {
         fsalida.close();
         fentrada.close();
         socket.close();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
     }
 }
