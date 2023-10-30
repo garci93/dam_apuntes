@@ -5,12 +5,11 @@ public class EjemploServidor {
 	public static void main(String[] args) throws IOException {
 		int numeroPuerto = 90;
 		ServerSocket servidor = new ServerSocket(numeroPuerto);
-		// Socket clienteConectado = null;
-		while (true) {
-			Socket cliente = new Socket();
-			cliente=servidor.accept(); //esperando cliente
-			HiloServidor hilo = new HiloServidor(cliente);
-			hilo.start(); //se atiende al cliente
-			}
+		System.out.println("Iniciando conexión...");
+		while(true) {
+            Socket cliente = servidor.accept();
+            HiloServidor hilo = new HiloServidor(cliente);
+            hilo.start();
+        }
 	}
 }
