@@ -39,11 +39,6 @@ public class Vivienda extends Construccion implements IVenta{
 		this.piso = piso;
 	}
 	
-	public float getPrecioTotal() {
-		//TODO
-		return 0;
-	}
-	
 	@Override
 	public String toString() {
 		return "Vivienda [precio=" + precio + ", numHabitaciones=" + numHabitaciones + ", piso=" + piso + "]";

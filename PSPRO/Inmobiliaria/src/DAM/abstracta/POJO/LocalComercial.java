@@ -11,11 +11,6 @@ public class LocalComercial extends Construccion implements IAlquiler{
 		this.precioPorM2 = precioPorM2;
 	}
 	
-	public float getPrecioTotal() {
-		//TODO
-		return 0;
-	}
-	
 	public double getPrecioPorM2() {
 		return precioPorM2;
 	}

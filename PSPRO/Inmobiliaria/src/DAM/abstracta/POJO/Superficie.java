@@ -7,11 +7,6 @@ public class Superficie extends Inmueble {
 		super(ubicacion, area);
 		this.precioPorM2 = precioPorM2;
 	}
-	
-	public float getPrecioTotal() {
-		//TODO
-		return 0;
-	}
 
 	public float getPrecioPorM2() {
 		return precioPorM2;

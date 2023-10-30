@@ -1,6 +1,8 @@
 ACDAT pizzeria
-ACDAT ir trabajando inmobiliaria
-PMDMO ENTREGAR ejercicio inputs
+PSPRO ir trabajando inmobiliaria		ENTREGAR
+HLC hilos, 2 y el juego				ENTREGAR
+SGEMP hacer recorrido por ejercicios y entregarlos todos ¿voluntario?
+PSPRO ejercicio piscina				ENTREGAR SDKLÑVGFNSKLEGNDRKLGNDXLKHSDRGTNJDFOTIHJ
 PMDMO agendaclase
 
 SGEMP mirar examen resuelto contactos
@@ -9,5 +11,5 @@ SGEMP mirar examen resuelto contactos
 
 	random xd
 ACDAT MIRAR COMPARATOR JAVA
-sgemp curso JS?
+sgemp curso JS
 PSPRO terminar tresbotones???

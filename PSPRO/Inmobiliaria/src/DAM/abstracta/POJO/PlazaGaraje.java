@@ -3,7 +3,7 @@ package DAM.abstracta.POJO;
 import DAM.abstracta.enums.TipoPlaza;
 import DAM.abstracta.interfaces.IAlquiler;
 
-public class PlazaGaraje extends Superficie implements IAlquiler{
+public class PlazaGaraje extends Superficie implements IAlquiler {
 	private TipoPlaza tipo;
 
 	public PlazaGaraje(String ubicacion, float area, float precioPorM2, TipoPlaza tipo) {
@@ -27,6 +27,6 @@ public class PlazaGaraje extends Superficie implements IAlquiler{
 	@Override
 	public void alquilar() {
 		// TODO Auto-generated method stub
-		
+
 	}
 }

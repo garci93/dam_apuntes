@@ -10,11 +10,6 @@ public class Inmueble {
 		this.ubicacion = ubicacion;
 		this.area = area;
 	}
-	
-	public Inmueble() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 
 	public String getUbicacion() {
 		return ubicacion;

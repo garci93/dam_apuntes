@@ -1,0 +1,16 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\bin\Debug\net6.0-windows\U3_E2_Formularios.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\bin\Debug\net6.0-windows\U3_E2_Formularios.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\bin\Debug\net6.0-windows\U3_E2_Formularios.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\bin\Debug\net6.0-windows\U3_E2_Formularios.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\bin\Debug\net6.0-windows\U3_E2_Formularios.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.Form1.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\refint\U3_E2_Formularios.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\ref\U3_E2_Formularios.dll
