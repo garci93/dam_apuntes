@@ -1,9 +1,11 @@
 ACDAT pizzeria
 PSPRO ir trabajando inmobiliaria		ENTREGAR
-HLC hilos, 2 y el juego				ENTREGAR
-SGEMP hacer recorrido por ejercicios y entregarlos todos ¿voluntario?
 PSPRO ejercicio piscina				ENTREGAR SDKLÑVGFNSKLEGNDRKLGNDXLKHSDRGTNJDFOTIHJ
-PMDMO agendaclase
+HLC el juego					ENTREGAR
+SGEMP hacer recorrido por ejercicios y entregarlos todos ¿voluntario?
+PMDMO 4 directiva pers
+
+
 
 SGEMP mirar examen resuelto contactos
 

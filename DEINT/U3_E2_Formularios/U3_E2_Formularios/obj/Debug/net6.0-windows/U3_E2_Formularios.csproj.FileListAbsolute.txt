@@ -14,3 +14,4 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\D
 C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.pdb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.genruntimeconfig.cache
 C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\ref\U3_E2_Formularios.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_E2_Formularios\U3_E2_Formularios\obj\Debug\net6.0-windows\U3_E2_Formularios.Properties.Resources.resources
