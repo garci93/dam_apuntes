@@ -5,7 +5,7 @@ public class EjemploCliente {
 	public static void main(String[] args) throws Exception {
 		//Nuestro host será el local
 		String Host = "localhost";
-		//Nuestro puero es el 6000
+		//Nuestro puerto es el 6000
 		int Puerto = 6000;
 		System.out.println("Cliente iniciado.");
 		//Crear nuevo socket cliente con el host y puerto dados

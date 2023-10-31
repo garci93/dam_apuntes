@@ -15,4 +15,8 @@ public class Superficie extends Inmueble {
 	public void setPrecioPorM2(float precioPorM2) {
 		this.precioPorM2 = precioPorM2;
 	}
+	
+	public float getPrecioTotal() {
+		return precioPorM2 * this.getArea();
+	}
 }

@@ -39,7 +39,7 @@ public class Vista {
         int opcion;
         Scanner sc = new Scanner(System.in);
         System.out.println("1.Mostrar los inmuebles con un precio de venta inferior al paremtro."+"\n"+
-                            "2.Mostrar los locales comerciales de segunda mano con una superficie superior al par�metro."+"\n"+
+                            "2.Mostrar los locales comerciales de segunda mano con una superficie superior al par metro."+"\n"+
                             "3.Mostrar numero solares no urbanos a la venta."+"\n"+
                             "4.Salir.");
         opcion = sc.nextInt();
@@ -63,31 +63,3 @@ public class Vista {
     }
 
 }
-
-public class Servicio implements IAgencia{
-
-    private ArrayList<Inmueble> inmuebles;
-
-    public Servicio() {
-        this.inmuebles = DAO.getInstance().getInmueble();
-
-    }
-        @Override
-    public ArrayList<Inmueble> inmueblesVenta(Float precio) {
-        ArrayList<Inmueble> inmueblesVenta = new ArrayList<Inmueble>();
-        for(int i=0; i<inmuebles.size(); i++) {
-            if(inmuebles.get(i) instanceof Vivienda) {
-                Vivienda vivienda = (Vivienda) inmuebles.get(i);
-                if(vivienda.getPrecio() < precio) {
-                    inmueblesVenta.add(inmuebles.get(i));
-                }
-            }
-            if(inmuebles.get(i) instanceof Solar) {
-                Solar solar = (Solar) inmuebles.get(i);
-                if(solar.calcularPrecio() < precio) {
-                    inmueblesVenta.add(inmuebles.get(i));
-                }
-            }
-        }
-        return inmueblesVenta;
-    }
