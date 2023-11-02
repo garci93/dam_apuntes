@@ -1,5 +1,8 @@
 package DAM.abstracta.controlador;
 
+import java.util.ArrayList;
+
+import DAM.abstracta.POJO.Inmueble;
 import DAM.abstracta.interfaces.IControlador;
 import DAM.abstracta.modelo.Agencia;
 import DAM.abstracta.vista.IUConsola;
@@ -11,15 +14,25 @@ public class Controlador implements IControlador {
 	public Controlador() {
 		vista = new IUConsola();
         servicio = new Agencia();
-		// TODO Auto-generated constructor stub
-        
-        //CONSULTAR REFERENCIAS,
 	}
 
 	@Override
 	public void ejecutar() {
-		// TODO Auto-generated method stub
-		
-	}
-	
+        int opcion;
+        do {
+            opcion = vista.dibujarMenu();
+            float precioUsuario;
+
+            switch(opcion) {
+
+            case 1: precioUsuario = vista.precioUsuario();
+                    ArrayList<Inmueble> inmueblesVenta = servicio.inmueblesVenta(precioUsuario);
+                    vista.obtenerPrecioMinimo(inmueblesVenta);
+                break;
+
+            default: 
+                break;
+            }
+        }while(opcion != 4);
+    }
 }

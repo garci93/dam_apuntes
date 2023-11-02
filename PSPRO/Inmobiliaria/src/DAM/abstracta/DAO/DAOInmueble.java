@@ -29,10 +29,8 @@ public class DAOInmueble {
 		falsaBD.add(new PlazaGaraje("C Ancha 10",100, 6500,TipoPlaza.PRIVADA));
 		falsaBD.add(new Vivienda("C Larga 14",150F,TipoConstruccion.NUEVA,2000,4,"4F"));
 		falsaBD.add(new LocalComercial("C Larga 14",150F,TipoConstruccion.NUEVA,3000F));
-		
 	}
 	
-
 	public static DAOInmueble getInstance()
 	{ if (dao==null)  dao= new DAOInmueble();
 		
@@ -44,6 +42,4 @@ public class DAOInmueble {
 	{ return falsaBD;
 		
 	}
-	
-
 }
