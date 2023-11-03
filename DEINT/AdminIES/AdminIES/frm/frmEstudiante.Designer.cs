@@ -34,19 +34,19 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textClave = new System.Windows.Forms.TextBox();
+            this.textNombre = new System.Windows.Forms.TextBox();
+            this.textApellido1 = new System.Windows.Forms.TextBox();
+            this.textApellido2 = new System.Windows.Forms.TextBox();
+            this.textCorreo = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnExaminar = new System.Windows.Forms.Button();
+            this.btnApagar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxCiclo = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -105,40 +105,40 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Ciclo:";
             // 
-            // textBox1
+            // textClave
             // 
-            this.textBox1.Location = new System.Drawing.Point(238, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
+            this.textClave.Location = new System.Drawing.Point(238, 30);
+            this.textClave.Name = "textClave";
+            this.textClave.Size = new System.Drawing.Size(100, 20);
+            this.textClave.TabIndex = 6;
             // 
-            // textBox2
+            // textNombre
             // 
-            this.textBox2.Location = new System.Drawing.Point(373, 30);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(292, 20);
-            this.textBox2.TabIndex = 7;
+            this.textNombre.Location = new System.Drawing.Point(373, 30);
+            this.textNombre.Name = "textNombre";
+            this.textNombre.Size = new System.Drawing.Size(292, 20);
+            this.textNombre.TabIndex = 7;
             // 
-            // textBox3
+            // textApellido1
             // 
-            this.textBox3.Location = new System.Drawing.Point(238, 78);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(214, 20);
-            this.textBox3.TabIndex = 8;
+            this.textApellido1.Location = new System.Drawing.Point(238, 78);
+            this.textApellido1.Name = "textApellido1";
+            this.textApellido1.Size = new System.Drawing.Size(214, 20);
+            this.textApellido1.TabIndex = 8;
             // 
-            // textBox4
+            // textApellido2
             // 
-            this.textBox4.Location = new System.Drawing.Point(484, 78);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(181, 20);
-            this.textBox4.TabIndex = 9;
+            this.textApellido2.Location = new System.Drawing.Point(484, 78);
+            this.textApellido2.Name = "textApellido2";
+            this.textApellido2.Size = new System.Drawing.Size(181, 20);
+            this.textApellido2.TabIndex = 9;
             // 
-            // textBox5
+            // textCorreo
             // 
-            this.textBox5.Location = new System.Drawing.Point(238, 130);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(427, 20);
-            this.textBox5.TabIndex = 10;
+            this.textCorreo.Location = new System.Drawing.Point(238, 130);
+            this.textCorreo.Name = "textCorreo";
+            this.textCorreo.Size = new System.Drawing.Size(427, 20);
+            this.textCorreo.TabIndex = 10;
             // 
             // pictureBox1
             // 
@@ -148,50 +148,50 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btnExaminar
             // 
-            this.button1.Location = new System.Drawing.Point(12, 223);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 23);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Examinar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnExaminar.Location = new System.Drawing.Point(12, 223);
+            this.btnExaminar.Name = "btnExaminar";
+            this.btnExaminar.Size = new System.Drawing.Size(165, 23);
+            this.btnExaminar.TabIndex = 13;
+            this.btnExaminar.Text = "Examinar";
+            this.btnExaminar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnApagar
             // 
-            this.button2.Location = new System.Drawing.Point(239, 223);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "Apagar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnApagar.Location = new System.Drawing.Point(239, 223);
+            this.btnApagar.Name = "btnApagar";
+            this.btnApagar.Size = new System.Drawing.Size(75, 23);
+            this.btnApagar.TabIndex = 14;
+            this.btnApagar.Text = "Apagar";
+            this.btnApagar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnModificar
             // 
-            this.button3.Location = new System.Drawing.Point(320, 223);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "Modificar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnModificar.Location = new System.Drawing.Point(320, 223);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.TabIndex = 15;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnBorrar
             // 
-            this.button4.Location = new System.Drawing.Point(401, 223);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "Borrar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnBorrar.Location = new System.Drawing.Point(401, 223);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(75, 23);
+            this.btnBorrar.TabIndex = 16;
+            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnCancelar
             // 
-            this.button5.Location = new System.Drawing.Point(484, 223);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 17;
-            this.button5.Text = "Cancelar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(484, 223);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 17;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -201,32 +201,32 @@
             this.dataGridView1.Size = new System.Drawing.Size(675, 150);
             this.dataGridView1.TabIndex = 19;
             // 
-            // comboBox1
+            // comboBoxCiclo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(238, 184);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(427, 21);
-            this.comboBox1.TabIndex = 20;
+            this.comboBoxCiclo.FormattingEnabled = true;
+            this.comboBoxCiclo.Location = new System.Drawing.Point(238, 184);
+            this.comboBoxCiclo.Name = "comboBoxCiclo";
+            this.comboBoxCiclo.Size = new System.Drawing.Size(427, 21);
+            this.comboBoxCiclo.TabIndex = 20;
             // 
             // frmEstudiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 450);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBoxCiclo);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnBorrar);
+            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnApagar);
+            this.Controls.Add(this.btnExaminar);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textCorreo);
+            this.Controls.Add(this.textApellido2);
+            this.Controls.Add(this.textApellido1);
+            this.Controls.Add(this.textNombre);
+            this.Controls.Add(this.textClave);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -250,18 +250,18 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textClave;
+        private System.Windows.Forms.TextBox textNombre;
+        private System.Windows.Forms.TextBox textApellido1;
+        private System.Windows.Forms.TextBox textApellido2;
+        private System.Windows.Forms.TextBox textCorreo;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnExaminar;
+        private System.Windows.Forms.Button btnApagar;
+        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnBorrar;
+        private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxCiclo;
     }
 }

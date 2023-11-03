@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdminIES.DLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,18 @@ namespace AdminIES.frm
         public frmCiclo()
         {
             InitializeComponent();
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            CicloDLL cicloDLL = new CicloDLL();
+            cicloDLL.Agregar(textCiclo.Text);
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            CicloDLL cicloDLL = new CicloDLL();
+            cicloDLL.Modificar(textID.Text, textCiclo.Text);
         }
     }
 }

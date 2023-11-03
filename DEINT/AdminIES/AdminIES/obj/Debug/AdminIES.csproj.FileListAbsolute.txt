@@ -1,0 +1,12 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\obj\Debug\AdminIES.csproj.AssemblyReference.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\obj\Debug\AdminIES.Form1.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\obj\Debug\AdminIES.frm.frmCiclo.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\obj\Debug\AdminIES.frm.frmEstudiante.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\obj\Debug\AdminIES.Properties.Resources.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\obj\Debug\AdminIES.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\obj\Debug\AdminIES.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\bin\Debug\AdminIES.exe.config
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\bin\Debug\AdminIES.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\bin\Debug\AdminIES.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\obj\Debug\AdminIES.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\AdminIES\AdminIES\obj\Debug\AdminIES.pdb

@@ -34,7 +34,7 @@
             // 
             // ciclos
             // 
-            this.ciclos.Location = new System.Drawing.Point(96, 128);
+            this.ciclos.Location = new System.Drawing.Point(52, 77);
             this.ciclos.Name = "ciclos";
             this.ciclos.Size = new System.Drawing.Size(189, 149);
             this.ciclos.TabIndex = 0;
@@ -43,7 +43,7 @@
             // 
             // estudiantes
             // 
-            this.estudiantes.Location = new System.Drawing.Point(361, 128);
+            this.estudiantes.Location = new System.Drawing.Point(316, 77);
             this.estudiantes.Name = "estudiantes";
             this.estudiantes.Size = new System.Drawing.Size(189, 149);
             this.estudiantes.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(562, 283);
             this.Controls.Add(this.estudiantes);
             this.Controls.Add(this.ciclos);
             this.Name = "Form1";
