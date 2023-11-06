@@ -29,5 +29,11 @@ namespace AdminIES.frm
             CicloDLL cicloDLL = new CicloDLL();
             cicloDLL.Modificar(textID.Text, textCiclo.Text);
         }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            CicloDLL cicloDLL = new CicloDLL();
+            cicloDLL.Borrar(textID.Text);
+        }
     }
 }

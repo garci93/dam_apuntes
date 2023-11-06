@@ -16,5 +16,10 @@ namespace AdminIES
         {
             InitializeComponent();
         }
+
+        private void ciclos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

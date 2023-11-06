@@ -40,6 +40,7 @@
             this.ciclos.TabIndex = 0;
             this.ciclos.Text = "Ciclos";
             this.ciclos.UseVisualStyleBackColor = true;
+            this.ciclos.Click += new System.EventHandler(this.ciclos_Click);
             // 
             // estudiantes
             // 
