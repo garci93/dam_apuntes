@@ -13,15 +13,19 @@ namespace AdminIES.frm
 {
     public partial class frmCiclo : Form
     {
+        CicloDLL ciclodll;
         public frmCiclo()
         {
+            ciclodll = new CicloDLL();
             InitializeComponent();
+            ciclodll.MostrarCiclos();
+            dgCiclo.DataSource = ciclodll.MostrarCiclos().Tables[0];
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             CicloDLL cicloDLL = new CicloDLL();
-            cicloDLL.Agregar(textCiclo.Text);
+            if (!textCiclo.Text.Equals("")) cicloDLL.Agregar(textCiclo.Text);
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -34,6 +38,11 @@ namespace AdminIES.frm
         {
             CicloDLL cicloDLL = new CicloDLL();
             cicloDLL.Borrar(textID.Text);
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +28,12 @@ namespace AdminIES.DLL
         internal bool Borrar(string id)
         {
             return conexion.EjecutarComandoSinRetornarDatos("Delete From Ciclo Where id = " + id);
+        }
+
+        public DataSet MostrarCiclos()
+        {
+            SqlCommand sentencia = new SqlCommand("Select * from ciclo");
+            return conexion.EjecutarSentencia(sentencia);
         }
     }
 }

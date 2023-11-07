@@ -45,10 +45,10 @@
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgEstudiante = new System.Windows.Forms.DataGridView();
             this.comboBoxCiclo = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgEstudiante)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -193,13 +193,13 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgEstudiante
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 288);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(675, 150);
-            this.dataGridView1.TabIndex = 19;
+            this.dgEstudiante.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgEstudiante.Location = new System.Drawing.Point(12, 288);
+            this.dgEstudiante.Name = "dgEstudiante";
+            this.dgEstudiante.Size = new System.Drawing.Size(675, 150);
+            this.dgEstudiante.TabIndex = 19;
             // 
             // comboBoxCiclo
             // 
@@ -215,7 +215,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 450);
             this.Controls.Add(this.comboBoxCiclo);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgEstudiante);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnModificar);
@@ -236,7 +236,7 @@
             this.Name = "frmEstudiante";
             this.Text = "frmEstudiante";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgEstudiante)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,7 +261,7 @@
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgEstudiante;
         private System.Windows.Forms.ComboBox comboBoxCiclo;
     }
 }
