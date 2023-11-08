@@ -41,7 +41,7 @@
             this.textCorreo = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnExaminar = new System.Windows.Forms.Button();
-            this.btnApagar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
@@ -157,14 +157,15 @@
             this.btnExaminar.Text = "Examinar";
             this.btnExaminar.UseVisualStyleBackColor = true;
             // 
-            // btnApagar
+            // btnAgregar
             // 
-            this.btnApagar.Location = new System.Drawing.Point(239, 223);
-            this.btnApagar.Name = "btnApagar";
-            this.btnApagar.Size = new System.Drawing.Size(75, 23);
-            this.btnApagar.TabIndex = 14;
-            this.btnApagar.Text = "Apagar";
-            this.btnApagar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Location = new System.Drawing.Point(239, 223);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 14;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnModificar
             // 
@@ -174,6 +175,7 @@
             this.btnModificar.TabIndex = 15;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnBorrar
             // 
@@ -183,6 +185,7 @@
             this.btnBorrar.TabIndex = 16;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // btnCancelar
             // 
@@ -192,6 +195,7 @@
             this.btnCancelar.TabIndex = 17;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // dgEstudiante
             // 
@@ -219,7 +223,7 @@
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnModificar);
-            this.Controls.Add(this.btnApagar);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnExaminar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textCorreo);
@@ -257,7 +261,7 @@
         private System.Windows.Forms.TextBox textCorreo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnExaminar;
-        private System.Windows.Forms.Button btnApagar;
+        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnCancelar;

@@ -50,6 +50,7 @@
             this.estudiantes.TabIndex = 1;
             this.estudiantes.Text = "Estudiantes";
             this.estudiantes.UseVisualStyleBackColor = true;
+            this.estudiantes.Click += new System.EventHandler(this.estudiantes_Click);
             // 
             // Form1
             // 

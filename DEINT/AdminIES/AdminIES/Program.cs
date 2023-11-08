@@ -17,7 +17,7 @@ namespace AdminIES
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCiclo());
+            Application.Run(new Form1());
         }
     }
 }

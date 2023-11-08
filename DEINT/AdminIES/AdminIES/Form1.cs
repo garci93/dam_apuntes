@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdminIES.frm;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,14 @@ namespace AdminIES
 
         private void ciclos_Click(object sender, EventArgs e)
         {
+            frmCiclo frmCiclo = new frmCiclo();
+            frmCiclo.ShowDialog();
+        }
 
+        private void estudiantes_Click(object sender, EventArgs e)
+        {
+            frmEstudiante frmEstudiante = new frmEstudiante();
+            frmEstudiante.ShowDialog();
         }
     }
 }

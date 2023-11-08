@@ -136,6 +136,7 @@
             this.Controls.Add(this.labelID);
             this.Name = "frmCiclo";
             this.Text = "frmCiclo";
+            this.Load += new System.EventHandler(this.frmCiclo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgCiclo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

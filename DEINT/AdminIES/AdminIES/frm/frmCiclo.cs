@@ -26,6 +26,8 @@ namespace AdminIES.frm
         {
             CicloDLL cicloDLL = new CicloDLL();
             if (!textCiclo.Text.Equals("")) cicloDLL.Agregar(textCiclo.Text);
+            ciclodll.MostrarCiclos();
+            dgCiclo.DataSource = ciclodll.MostrarCiclos().Tables[0];
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -43,6 +45,11 @@ namespace AdminIES.frm
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void frmCiclo_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

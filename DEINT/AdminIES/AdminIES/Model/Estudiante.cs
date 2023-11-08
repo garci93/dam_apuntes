@@ -8,7 +8,7 @@ namespace AdminIES.Model
 {
     class Estudiante
     {
-        public int ID { get; set; }
+        public int Clave { get; set; }
         public string NombreEstudiante { get; set; }
         public string PrimerApellido { get; set; }
         public string SegundoApellido { get; set; }
