@@ -6,7 +6,8 @@ PSPRO ejercicio piscina				ENTREGAR
 HLC el juego					ENTREGAR
 SGEMP hacer recorrido por ejercicios y entregarlos todos ¿voluntario?
 PMDMO 5 directivas tuberias
-
+ACDAT Protecto Preguntas con BD			ENTREGAR VIERNES 17 (emoji de calavera)
+SGEMP Proyecto 3 (plantear, baja prioridad)
 
 
 SGEMP mirar examen resuelto contactos

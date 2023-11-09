@@ -39,7 +39,7 @@
             this.textApellido1 = new System.Windows.Forms.TextBox();
             this.textApellido2 = new System.Windows.Forms.TextBox();
             this.textCorreo = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbEstudiante = new System.Windows.Forms.PictureBox();
             this.btnExaminar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
@@ -47,7 +47,7 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.dgEstudiante = new System.Windows.Forms.DataGridView();
             this.comboBoxCiclo = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEstudiante)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgEstudiante)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,13 +140,14 @@
             this.textCorreo.Size = new System.Drawing.Size(427, 20);
             this.textCorreo.TabIndex = 10;
             // 
-            // pictureBox1
+            // pbEstudiante
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(188, 205);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
+            this.pbEstudiante.Location = new System.Drawing.Point(12, 12);
+            this.pbEstudiante.Name = "pbEstudiante";
+            this.pbEstudiante.Size = new System.Drawing.Size(188, 205);
+            this.pbEstudiante.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEstudiante.TabIndex = 12;
+            this.pbEstudiante.TabStop = false;
             // 
             // btnExaminar
             // 
@@ -156,6 +157,7 @@
             this.btnExaminar.TabIndex = 13;
             this.btnExaminar.Text = "Examinar";
             this.btnExaminar.UseVisualStyleBackColor = true;
+            this.btnExaminar.Click += new System.EventHandler(this.btnExaminar_Click);
             // 
             // btnAgregar
             // 
@@ -225,7 +227,7 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnExaminar);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbEstudiante);
             this.Controls.Add(this.textCorreo);
             this.Controls.Add(this.textApellido2);
             this.Controls.Add(this.textApellido1);
@@ -239,7 +241,8 @@
             this.Controls.Add(this.label1);
             this.Name = "frmEstudiante";
             this.Text = "frmEstudiante";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.frmEstudiante_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.pbEstudiante)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgEstudiante)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -259,7 +262,7 @@
         private System.Windows.Forms.TextBox textApellido1;
         private System.Windows.Forms.TextBox textApellido2;
         private System.Windows.Forms.TextBox textCorreo;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbEstudiante;
         private System.Windows.Forms.Button btnExaminar;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnModificar;

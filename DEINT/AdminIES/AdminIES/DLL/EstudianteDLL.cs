@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace AdminIES.DLL
 {
@@ -15,29 +17,27 @@ namespace AdminIES.DLL
         {
             conexion = new Conexion();
         }
-        public bool Agregar(string nombre,string primerApellido, string segundoApellido, string correo, string ciclo)
+        public bool Agregar(string nombre,string primerApellido, string segundoApellido, string email, string ciclo,Image foto)
         {
-            return conexion.EjecutarComandoSinRetornarDatos("Insert into Estudiante(nombre,primerApellido,segundoApellido,correo) values ('" + nombre
+            return conexion.EjecutarComandoSinRetornarDatos("Insert into Estudiante(nombre,primerapellido,segundoapellido,email,ciclo,foto) values ('" + nombre
                 + "','" + primerApellido
                 + "','" + segundoApellido
-                + "','" + correo
-                + "')") &&
-                conexion.EjecutarComandoSinRetornarDatos("Insert into Estudiante(nombre,primerApellido,segundoApellido,correo) values ('" + nombre
-                + "','" + primerApellido
-                + "','" + segundoApellido
-                + "','" + correo
+                + "','" + email
+                + "','" + ciclo
+                + "','" + foto
                 + "')");
-            //to do: crear registro que relacione ambas tablas
         }
 
-        internal bool Modificar(string clave, string nombre, string primerApellido, string segundoApellido, string correo)
+        internal bool Modificar(string clave, string nombre, string primerApellido, string segundoApellido, string email, string ciclo,Image foto
+           )
         {
             return conexion.EjecutarComandoSinRetornarDatos("Update Estudiante Set nombre = '" + nombre
                 + "',primerApellido = '" + primerApellido
                 + "',segundoApellido = '" + segundoApellido
-                + "',correo = '" + correo
+                + "',email = '" + email
+                + "',ciclo = '" + ciclo
+                + "',foto = '" + foto
                 + "' Where id = " + clave);
-            //to do: modificar registro que relacione ambas tablas
         }
 
         internal bool Borrar(string id)
