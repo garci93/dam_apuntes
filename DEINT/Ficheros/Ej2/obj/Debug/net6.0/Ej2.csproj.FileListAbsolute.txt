@@ -12,3 +12,17 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\refint\Ej2.
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.pdb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.genruntimeconfig.cache
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\ref\Ej2.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.exe
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.deps.json
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.runtimeconfig.json
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.GeneratedMSBuildEditorConfig.editorconfig
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.AssemblyInfoInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.AssemblyInfo.cs
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.csproj.CoreCompileInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\refint\Ej2.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.genruntimeconfig.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\ref\Ej2.dll

@@ -18,16 +18,17 @@ namespace Ficheros
             try
             {
                 StreamReader streamR = new StreamReader(ruta);
-                int lineaActual = 0;
+                int numLinea = 0;
+                string lineaActual;
                 while (!streamR.EndOfStream)
                 {
-                    lineaActual++;
-                    if (streamR.ReadLine().Contains(frase))
-                        Console.WriteLine(lineaActual + ": " + frase);
+                    numLinea++;
+                lineaActual = streamR.ReadLine();
+                    if (lineaActual.Contains(frase))
+                        Console.WriteLine(numLinea + ": " + lineaActual);
                 }
                 streamR.Close();
                 streamR.Dispose();
-
             }
             catch (Exception ex) { };
         }

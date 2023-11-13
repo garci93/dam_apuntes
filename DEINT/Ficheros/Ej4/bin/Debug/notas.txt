@@ -1,0 +1,3 @@
+Manuel 5 1
+Ana 3 4
+Rocío 6 9

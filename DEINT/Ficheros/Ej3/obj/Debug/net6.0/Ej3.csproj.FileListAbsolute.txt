@@ -1,0 +1,14 @@
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\bin\Debug\net6.0\Ej3.exe
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\bin\Debug\net6.0\Ej3.deps.json
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\bin\Debug\net6.0\Ej3.runtimeconfig.json
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\bin\Debug\net6.0\Ej3.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\bin\Debug\net6.0\Ej3.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\obj\Debug\net6.0\Ej3.GeneratedMSBuildEditorConfig.editorconfig
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\obj\Debug\net6.0\Ej3.AssemblyInfoInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\obj\Debug\net6.0\Ej3.AssemblyInfo.cs
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\obj\Debug\net6.0\Ej3.csproj.CoreCompileInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\obj\Debug\net6.0\Ej3.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\obj\Debug\net6.0\refint\Ej3.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\obj\Debug\net6.0\Ej3.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\obj\Debug\net6.0\Ej3.genruntimeconfig.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros\Ej3\obj\Debug\net6.0\ref\Ej3.dll
