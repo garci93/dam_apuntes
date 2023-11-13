@@ -1,8 +1,7 @@
 probar a importar la BD
 
 PMDMO EJ5
-ACDAT pizzeria
-PSPRO ejercicio piscina				ENTREGAR
+ACDAT pizzeria					ENTREGAR 20-24
 HLC el juego					ENTREGAR
 SGEMP hacer recorrido por ejercicios y entregarlos todos ¿voluntario?
 PMDMO 5 directivas tuberias

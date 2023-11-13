@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\bin\Debug\net6.0\Ej2.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\refint\Ej2.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\Ej2.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ej2\obj\Debug\net6.0\ref\Ej2.dll

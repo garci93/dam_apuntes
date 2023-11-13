@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\bin\Debug\net6.0\Ficheros.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\bin\Debug\net6.0\Ficheros.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\bin\Debug\net6.0\Ficheros.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\bin\Debug\net6.0\Ficheros.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\bin\Debug\net6.0\Ficheros.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\obj\Debug\net6.0\Ficheros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\obj\Debug\net6.0\Ficheros.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\obj\Debug\net6.0\Ficheros.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\obj\Debug\net6.0\Ficheros.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\obj\Debug\net6.0\Ficheros.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\obj\Debug\net6.0\refint\Ficheros.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\obj\Debug\net6.0\Ficheros.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\obj\Debug\net6.0\Ficheros.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros\Ficheros\obj\Debug\net6.0\ref\Ficheros.dll
