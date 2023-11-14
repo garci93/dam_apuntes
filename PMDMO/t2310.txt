@@ -1,24 +1,70 @@
-[... array] -> el operador spread ... te esparce un iterable un valores separados. luego lo podemos pasar a una lista
+Unidad 1 Angular
+
+Sandbox, RFC's
+
+Navegador: HTML, CSS, JS(ES) -> Front
+Servidor: PHP, Java, JS + BD -> Back
+
+"Internet es un conjunto de redes interconectadas, cada una de su padre y de su madre" (?)
+
+Frameworks: su filosofía ha evolucionado. Angular, React, Vue... son algo más profesional, menos orientado a la rapidez
+
+"Angular es el que tiene más chicha conceptual"
+
+Angular está en TypeScript (JavaScript pero tipado)
+
+	-> PARA EMPEZAR CON ANGULAR: https://angular.io/cli
 
 
+ng new my-first-project -> nuevo proyecto de Angular (ng viene de Angular)
 
-Componentes:
-1) Hooks
-2) Acceso a los componentes de la vista {Dom, Hijos     desde el ts (la clase)
+En PowerShell admin: Set-ExecutionPolicy Unrestricted
 
-	Element 	<- @ViewChild(selector) variable: tipo
-	QueryList	<- @ViewChildren(selector) variable: tipo
+SPA (basado en componentes) -> single-page application -> se verá como una página web
 
-3) Proyecto el contenido
-		<hijo> Contenido </hijo>
-	Hijo html
-	  |
-	  v
-	<ng-content selected = "#any>
+Componentes en Angular:
+	class JokeComponent {
+	}
 
+	@Component({										->anotación
+		selector: 'joke'								->indica que se llamará joke		->atributo
+		template: '<h1>Patatín</h1><p>Patatán</p>'		-><joke> se convertirá en esto		->atributo
+	})
+con esto estás creando una nueva etiqueta <joke>
 
-*ngFor		xd
-*ngIf		xd
-[ngSwitch]	es un input, luego ya si se usan directivas para los *ngSwitchCase, y luego *ngSwitchDefault
-[ngStyle]	NO USAR!! y [] aqui no es que sea una propiedad, simplemente es un atributo como en css
-[ngClass]	-> por explicar
+ng generate												-> para generar algún tipo de código
+
+ng generate component Hijo								-> generar componente Hijo
+
+La vista va con HTML y CSS, y el código con TypeScript
+Un módulo de Angular es como un conjunto de componentes
+
+Para declarar un módulo, en vez de @Component se usa @NgModule:
+	@NgModule({
+	declarations: [
+		AppComponent									->declaraciones, aquí van los componentes. si los generas con ng aparecen aquí
+	],
+	imports: [
+		BrowserModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
+	})
+
+	para poner código de angular se coloca entre {{ }}
+
+	con ( ) colocamos los eventos
+
+	<a class="btn btn-warning" (click)="joke.toggle()">Tell Me</a>	-> botón con aspecto "warning" que dice "Tell Me" y que al clicarlo pone o quita el componente joke
+
+	<componente (evento)="metodo()"></componente>
+	<h1 [class]="variable">{{title}}</h1>
+
+	[] padres se comunican con hijos
+	() hijos con padres
+	{{}} 				->String interpolation, devuelve lo que has puesto entre llaves y lo reemplaza (rollo como los blade en php)
+
+	DIRECTIVAS
+	<div *ngFor=" ">			-> introducen un poco de algoritmo en el html:
+												si usas un ngIf, el elemento sólo se mostrará si se cumple el ngIf
+												si usas un ngFor, se mostrará tantas veces como bucles haga el ngFor

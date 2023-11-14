@@ -1,0 +1,10 @@
+OBSERVABLES
+
+Subject -> Observable -> Observer (Suscriptor)
+  (flujo de datos)		Receptor
+
+El observer se suscribe a un observable para recibir sus datos. Es como un evento
+Cuando se produzca el evento, el receptor tendrá una función anónima que se ejecute
+El subject es el que emite. En su código hay un next() que es como el emitter
+
+A los observables se les pone $ al final

@@ -1,0 +1,24 @@
+[... array] -> el operador spread ... te esparce un iterable un valores separados. luego lo podemos pasar a una lista
+
+
+
+Componentes:
+1) Hooks
+2) Acceso a los componentes de la vista {Dom, Hijos     desde el ts (la clase)
+
+	Element 	<- @ViewChild(selector) variable: tipo
+	QueryList	<- @ViewChildren(selector) variable: tipo
+
+3) Proyecto el contenido
+		<hijo> Contenido </hijo>
+	Hijo html
+	  |
+	  v
+	<ng-content selected = "#any>
+
+
+*ngFor		xd
+*ngIf		xd
+[ngSwitch]	es un input, luego ya si se usan directivas para los *ngSwitchCase, y luego *ngSwitchDefault
+[ngStyle]	NO USAR!! y [] aqui no es que sea una propiedad, simplemente es un atributo como en css
+[ngClass]	-> por explicar
