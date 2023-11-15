@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej1", "Ficheros2\Ej1.csproj", "{0B73A4EB-C817-4EB7-BEFF-9A7FFBB4A9F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej1", "Ficheros2\Ej1.csproj", "{0B73A4EB-C817-4EB7-BEFF-9A7FFBB4A9F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej2", "Ej2\Ej2.csproj", "{589491E1-EEBC-4B21-941B-471925FAE939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej2", "Ej2\Ej2.csproj", "{589491E1-EEBC-4B21-941B-471925FAE939}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej3", "Ej3\Ej3.csproj", "{205E9E43-F7F4-4103-AA4F-C1CD72165180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej4", "Ej4\Ej4.csproj", "{87C31F92-CF8C-4873-89EE-2DDBF8961C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej5", "Ej5\Ej5.csproj", "{F83C665D-EF32-4A4A-97E9-AE7E700F6BE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{589491E1-EEBC-4B21-941B-471925FAE939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{589491E1-EEBC-4B21-941B-471925FAE939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{589491E1-EEBC-4B21-941B-471925FAE939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205E9E43-F7F4-4103-AA4F-C1CD72165180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205E9E43-F7F4-4103-AA4F-C1CD72165180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205E9E43-F7F4-4103-AA4F-C1CD72165180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205E9E43-F7F4-4103-AA4F-C1CD72165180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C31F92-CF8C-4873-89EE-2DDBF8961C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C31F92-CF8C-4873-89EE-2DDBF8961C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C31F92-CF8C-4873-89EE-2DDBF8961C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C31F92-CF8C-4873-89EE-2DDBF8961C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83C665D-EF32-4A4A-97E9-AE7E700F6BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83C665D-EF32-4A4A-97E9-AE7E700F6BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83C665D-EF32-4A4A-97E9-AE7E700F6BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83C665D-EF32-4A4A-97E9-AE7E700F6BE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,4 @@
-probar a importar la BD
-
-PMDMO EJ5
+SGEMP trabajo Capsule CRM			PRESENTAR 20
 ACDAT pizzeria					ENTREGAR 20-24
 HLC el juego					ENTREGAR
 SGEMP hacer recorrido por ejercicios y entregarlos todos ¿voluntario?

@@ -19,7 +19,7 @@ namespace Ficheros
 
                 while (!streamR.EndOfStream)
                 {
-                    string[] numerosSeparados = streamR.ReadLine().Split(@",|\s\s?");
+                    string[] numerosSeparados = streamR.ReadLine().Split(@",|\s\s?");       //probar con un array de char separadores
                     foreach (string numero in numerosSeparados)
                     {
                         suma += int.Parse(numero);

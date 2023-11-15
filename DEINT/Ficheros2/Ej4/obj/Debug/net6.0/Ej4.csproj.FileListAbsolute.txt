@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\refint\Ej4.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\ref\Ej4.dll

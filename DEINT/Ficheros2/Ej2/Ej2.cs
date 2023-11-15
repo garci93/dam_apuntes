@@ -22,11 +22,11 @@ namespace Ej2
                     // Comprueba si hay archivos en el directorio
                     if (archivos != null && archivos.Length > 0)
                     {
-                        Console.WriteLine("Introduzca la extensión");
+                        Console.WriteLine("Introduzca la extensión (sin el punto)");
                         string extensionArchivo = Console.ReadLine();
                         foreach (FileInfo archivo in archivos)
                         {
-                            if(Regex.IsMatch(archivo.Name,extensionArchivo+"$"))
+                            if(Regex.IsMatch(archivo.Name,"\\."+extensionArchivo+"$"))
                                 Console.WriteLine(archivo.Name);
                         }
                     }
@@ -50,7 +50,3 @@ namespace Ej2
         }
     }
 }
-
-//error. En caso de que exista, comprobaremos si tiene ficheros dentro, si no fuese
-//así, también se informará al usuario de este hecho. Si tuviese ficheros, debemos
-//mostrar el fichero al que se ha accedido más recientemente.
