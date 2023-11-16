@@ -1,0 +1,17 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\bin\Debug\net6.0-windows\U3_BlocNotas.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\bin\Debug\net6.0-windows\U3_BlocNotas.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\bin\Debug\net6.0-windows\U3_BlocNotas.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\bin\Debug\net6.0-windows\U3_BlocNotas.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\bin\Debug\net6.0-windows\U3_BlocNotas.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.Form1.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.Properties.Resources.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\refint\U3_BlocNotas.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\U3_BlocNotas.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\U3_BlocNotas\U3_BlocNotas\obj\Debug\net6.0-windows\ref\U3_BlocNotas.dll

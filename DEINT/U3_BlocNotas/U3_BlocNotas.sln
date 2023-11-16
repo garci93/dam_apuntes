@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_BlocNotas", "U3_BlocNotas\U3_BlocNotas.csproj", "{CA6F7294-140F-4A37-B5A2-C67E74666101}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA6F7294-140F-4A37-B5A2-C67E74666101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6F7294-140F-4A37-B5A2-C67E74666101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6F7294-140F-4A37-B5A2-C67E74666101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6F7294-140F-4A37-B5A2-C67E74666101}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4129890E-936E-4E8A-A842-A53F614B9ACE}
+	EndGlobalSection
+EndGlobal
