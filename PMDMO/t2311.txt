@@ -7,4 +7,4 @@ El observer se suscribe a un observable para recibir sus datos. Es como un event
 Cuando se produzca el evento, el receptor tendrá una función anónima que se ejecute
 El subject es el que emite. En su código hay un next() que es como el emitter
 
-A los observables se les pone $ al final
+A los observables se les pone $ al final, no porque sea obligatorio, sino como convención (como el _ en los atributos privados)
