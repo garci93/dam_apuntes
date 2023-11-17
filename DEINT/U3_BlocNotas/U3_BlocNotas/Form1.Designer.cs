@@ -40,6 +40,7 @@
             copiarToolStripMenuItem = new ToolStripMenuItem();
             pegarToolStripMenuItem = new ToolStripMenuItem();
             buscarToolStripMenuItem = new ToolStripMenuItem();
+            txtBuscar = new ToolStripTextBox();
             fuenteToolStripMenuItem = new ToolStripMenuItem();
             colorToolStripMenuItem = new ToolStripMenuItem();
             toolStrip1 = new ToolStrip();
@@ -54,7 +55,7 @@
             toolStripBtnColor = new ToolStripButton();
             richTextBox1 = new RichTextBox();
             statusStrip1 = new StatusStrip();
-            toolStripStatusLabel1 = new ToolStripStatusLabel();
+            labelLineaActual = new ToolStripStatusLabel();
             menuStrip1.SuspendLayout();
             toolStrip1.SuspendLayout();
             statusStrip1.SuspendLayout();
@@ -79,27 +80,30 @@
             // nuevoToolStripMenuItem
             // 
             nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            nuevoToolStripMenuItem.Size = new Size(180, 22);
+            nuevoToolStripMenuItem.Size = new Size(116, 22);
             nuevoToolStripMenuItem.Text = "Nuevo";
             nuevoToolStripMenuItem.Click += nuevoToolStripMenuItem_Click;
             // 
             // abrirToolStripMenuItem
             // 
             abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            abrirToolStripMenuItem.Size = new Size(180, 22);
+            abrirToolStripMenuItem.Size = new Size(116, 22);
             abrirToolStripMenuItem.Text = "Abrir";
+            abrirToolStripMenuItem.Click += abrirToolStripMenuItem_Click;
             // 
             // guardarToolStripMenuItem
             // 
             guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
-            guardarToolStripMenuItem.Size = new Size(180, 22);
+            guardarToolStripMenuItem.Size = new Size(116, 22);
             guardarToolStripMenuItem.Text = "Guardar";
+            guardarToolStripMenuItem.Click += guardarToolStripMenuItem_Click;
             // 
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(180, 22);
+            salirToolStripMenuItem.Size = new Size(116, 22);
             salirToolStripMenuItem.Text = "Salir";
+            salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 
             // ediciónToolStripMenuItem
             // 
@@ -113,24 +117,34 @@
             cortarToolStripMenuItem.Name = "cortarToolStripMenuItem";
             cortarToolStripMenuItem.Size = new Size(180, 22);
             cortarToolStripMenuItem.Text = "Cortar";
+            cortarToolStripMenuItem.Click += cortarToolStripMenuItem_Click;
             // 
             // copiarToolStripMenuItem
             // 
             copiarToolStripMenuItem.Name = "copiarToolStripMenuItem";
             copiarToolStripMenuItem.Size = new Size(180, 22);
             copiarToolStripMenuItem.Text = "Copiar";
+            copiarToolStripMenuItem.Click += copiarToolStripMenuItem_Click;
             // 
             // pegarToolStripMenuItem
             // 
             pegarToolStripMenuItem.Name = "pegarToolStripMenuItem";
             pegarToolStripMenuItem.Size = new Size(180, 22);
             pegarToolStripMenuItem.Text = "Pegar";
+            pegarToolStripMenuItem.Click += pegarToolStripMenuItem_Click;
             // 
             // buscarToolStripMenuItem
             // 
+            buscarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { txtBuscar });
             buscarToolStripMenuItem.Name = "buscarToolStripMenuItem";
             buscarToolStripMenuItem.Size = new Size(180, 22);
-            buscarToolStripMenuItem.Text = "Buscar";
+            buscarToolStripMenuItem.Text = "Buscar...";
+            // 
+            // txtBuscar
+            // 
+            txtBuscar.Name = "txtBuscar";
+            txtBuscar.Size = new Size(100, 23);
+            txtBuscar.Click += txtBuscar_Click;
             // 
             // fuenteToolStripMenuItem
             // 
@@ -161,6 +175,7 @@
             toolStripBtnNuevo.Name = "toolStripBtnNuevo";
             toolStripBtnNuevo.Size = new Size(23, 22);
             toolStripBtnNuevo.Text = "toolStripButton1";
+            toolStripBtnNuevo.Click += toolStripBtnNuevo_Click;
             // 
             // toolStripBtnAbrir
             // 
@@ -170,6 +185,7 @@
             toolStripBtnAbrir.Name = "toolStripBtnAbrir";
             toolStripBtnAbrir.Size = new Size(23, 22);
             toolStripBtnAbrir.Text = "toolStripButton2";
+            toolStripBtnAbrir.Click += toolStripBtnAbrir_Click;
             // 
             // toolStripBtnGuardar
             // 
@@ -179,6 +195,7 @@
             toolStripBtnGuardar.Name = "toolStripBtnGuardar";
             toolStripBtnGuardar.Size = new Size(23, 22);
             toolStripBtnGuardar.Text = "toolStripButton3";
+            toolStripBtnGuardar.Click += toolStripBtnGuardar_Click;
             // 
             // toolStripBtnCortar
             // 
@@ -188,6 +205,7 @@
             toolStripBtnCortar.Name = "toolStripBtnCortar";
             toolStripBtnCortar.Size = new Size(23, 22);
             toolStripBtnCortar.Text = "toolStripButton4";
+            toolStripBtnCortar.Click += toolStripBtnCortar_Click;
             // 
             // toolStripBtnCopiar
             // 
@@ -197,6 +215,7 @@
             toolStripBtnCopiar.Name = "toolStripBtnCopiar";
             toolStripBtnCopiar.Size = new Size(23, 22);
             toolStripBtnCopiar.Text = "toolStripButton5";
+            toolStripBtnCopiar.Click += toolStripBtnCopiar_Click;
             // 
             // toolStripBtnPegar
             // 
@@ -206,6 +225,7 @@
             toolStripBtnPegar.Name = "toolStripBtnPegar";
             toolStripBtnPegar.Size = new Size(23, 22);
             toolStripBtnPegar.Text = "toolStripButton6";
+            toolStripBtnPegar.Click += toolStripBtnPegar_Click;
             // 
             // toolStripBtnBuscar
             // 
@@ -244,18 +264,18 @@
             // 
             // statusStrip1
             // 
-            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1 });
+            statusStrip1.Items.AddRange(new ToolStripItem[] { labelLineaActual });
             statusStrip1.Location = new Point(0, 428);
             statusStrip1.Name = "statusStrip1";
             statusStrip1.Size = new Size(800, 22);
             statusStrip1.TabIndex = 3;
             statusStrip1.Text = "statusStrip1";
             // 
-            // toolStripStatusLabel1
+            // labelLineaActual
             // 
-            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(118, 17);
-            toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            labelLineaActual.Name = "labelLineaActual";
+            labelLineaActual.Size = new Size(47, 17);
+            labelLineaActual.Text = "Línea: 1";
             // 
             // Form1
             // 
@@ -306,6 +326,7 @@
         private ToolStripButton toolStripBtnBuscar;
         private ToolStripButton toolStripBtnFuente;
         private ToolStripButton toolStripBtnColor;
-        private ToolStripStatusLabel toolStripStatusLabel1;
+        private ToolStripStatusLabel labelLineaActual;
+        private ToolStripTextBox txtBuscar;
     }
 }
