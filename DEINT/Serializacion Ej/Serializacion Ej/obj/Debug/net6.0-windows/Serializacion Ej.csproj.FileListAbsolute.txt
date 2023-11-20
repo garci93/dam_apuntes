@@ -1,0 +1,17 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion_Ej.Anadir.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion_Ej.Form1.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\refint\Serializacion Ej.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\ref\Serializacion Ej.dll
