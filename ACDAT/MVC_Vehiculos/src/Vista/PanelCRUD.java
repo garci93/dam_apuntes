@@ -88,7 +88,6 @@ public void setTxtModelo(javax.swing.JTextField txtModelo) {
 
 				
  
-private javax.swing.JButton btLeer;
  
 private javax.swing.JButton btRegistrar;
  
@@ -161,8 +160,6 @@ private void inicializarPanel() {
 	 txtMatricula = new javax.swing.JTextField();
  
 	 btRegistrar = new javax.swing.JButton();
- 
-	 btLeer = new javax.swing.JButton();
  
  
  
@@ -249,12 +246,7 @@ private void inicializarPanel() {
 	 });
  
  
- 
-	 btLeer.setText("Leer");
- 
-	 btLeer.setToolTipText("");
- 
-	 btLeer.setName("btLeer"); // NOI18N
+
  
  
  
@@ -278,8 +270,7 @@ private void inicializarPanel() {
 	 							.addComponent(txtMatricula, GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE)))
 	 					.addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
 	 					.addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
-	 						.addComponent(btRegistrar, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-	 						.addComponent(btLeer, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+	 						.addComponent(btRegistrar, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
 	 			.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 	 );
 	 layout.setVerticalGroup(
@@ -300,10 +291,7 @@ private void inicializarPanel() {
 	 					.addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
 	 					.addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
 	 						.addComponent(jLabelMatricula)
-	 						.addComponent(txtMatricula, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
-	 				.addGroup(layout.createSequentialGroup()
-	 					.addGap(15)
-	 					.addComponent(btLeer)))
+	 						.addComponent(txtMatricula, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
 	 			.addGap(26)
 	 			.addComponent(jScrollPane1, GroupLayout.PREFERRED_SIZE, 181, GroupLayout.PREFERRED_SIZE)
 	 			.addContainerGap(32, Short.MAX_VALUE))

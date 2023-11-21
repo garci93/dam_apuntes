@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "E0iPNg16xE/1a9rlrjtIsokac4sEJkhM7DdD805jHKv8h39SCX+1JGeZNjl2EfACPeR9BLetihcXdjTdv9z6kw==",
+  "dgSpecHash": "VEztXnMRHCtDGm6U7CO4VvRuVd7rr66zIuuaR74BLD9HcrOU9FfKHGzEaf+q0DkkR/x505LH2MU09ddlNAYaeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\SerializacionDemo\\SerializacionDemo\\SerializacionDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dam\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
-    "C:\\Users\\dam\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\dam\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

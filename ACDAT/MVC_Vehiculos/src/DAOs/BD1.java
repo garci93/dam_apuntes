@@ -32,7 +32,7 @@ public class BD1 {
             Class.forName("com.mysql.jdbc.Driver");
             conn=DriverManager.getConnection(url,login,password);
         } catch (SQLException ex) {
-          System.out.println("Excepicon en la conexión");
+          System.out.println("Excepcion en la conexión");
         } catch (ClassNotFoundException ex) {
            System.out.println("No se encuentra la clase");
         }
