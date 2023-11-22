@@ -29,7 +29,6 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\SerializacionDemo\SerializacionDemo\bin\D
 C:\Users\dam\Desktop\dam_apuntes\DEINT\SerializacionDemo\SerializacionDemo\bin\Debug\SerializacionDemo.pdb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\SerializacionDemo\SerializacionDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\dam\Desktop\dam_apuntes\DEINT\SerializacionDemo\SerializacionDemo\bin\Debug\Newtonsoft.Json.dll
-C:\Users\dam\Desktop\dam_apuntes\DEINT\SerializacionDemo\SerializacionDemo\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\SerializacionDemo\SerializacionDemo\bin\Debug\Newtonsoft.Json.Bson.dll
 C:\Users\dam\Desktop\dam_apuntes\DEINT\SerializacionDemo\SerializacionDemo\bin\Debug\Newtonsoft.Json.Bson.pdb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\SerializacionDemo\SerializacionDemo\bin\Debug\System.Buffers.dll

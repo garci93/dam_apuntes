@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace Serializacion_Ej
 {
+    [Serializable]
     internal class Banco
     {
-        List<Cliente> clientes;
+        public List<Cliente> Clientes { get; set; }
+
+        // Constructor
+        public Banco()
+        {
+            Clientes = new List<Cliente>();
+        }
+        public void AgregarCliente(Cliente nuevoCliente)
+        {
+            Clientes.Add(nuevoCliente);
+        }
+
     }
 }

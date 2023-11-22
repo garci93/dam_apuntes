@@ -1,17 +1,33 @@
+using System.Text.RegularExpressions;
+
 namespace Serializacion_Ej
 {
     public partial class Form1 : Form
     {
+        Banco banco = new Banco();
         public Form1()
         {
             InitializeComponent();
         }
 
+        
         private void btnAnadir_Click(object sender, EventArgs e)
         {
-            //VALIDAR DATOS
+            try
+            {
+                bool res = Regex.IsMatch(txtDNI.Text, @"^\d{8}[A-Z]$") &&
+                    Regex.IsMatch(txtNombre.Text, @"^\w*$") &&
+                    Regex.IsMatch(txtDNI.Text, @"^\w*$") &&
+                    Regex.IsMatch(txtDNI.Text, @"^\d+$") &&
+                    Regex.IsMatch(txtDNI.Text, @"^((\+34)|(\+0034))?\d{9}$") &&;
+                if ( )
+                Cliente cliente = new Cliente(txtDNI.Text, txtNombre.Text, txtDireccion.Text, int.Parse(txtEdad.Text), int.Parse(txtTelefono.Text), int.Parse(txtCC.Text));
+                banco.AgregarCliente(cliente);
+                cliente.GuardarEnArchivo("datos_cliente.bin");
+            } catch (Exception ex)
+            {
 
-            Cliente cliente = new Cliente(txtDNI.Text, txtNombre.Text, txtDireccion.Text, int.Parse(txtEdad.Text), int.Parse(txtTelefono.Text), int.Parse(txtCC.Text));
+            }
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
