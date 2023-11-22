@@ -1,0 +1,3 @@
+lista.stream().forEach((n) -> System.out.print(n));
+es lo mismo que
+lista.stream().forEach(System.out::print);
