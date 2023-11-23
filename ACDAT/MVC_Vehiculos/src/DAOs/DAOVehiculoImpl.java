@@ -5,6 +5,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import Recursos.Cliente;
 import Recursos.Vehiculo;
 
 
@@ -18,15 +19,20 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 	private DAOVehiculoImpl() {
 		super();
 		this.falsaBD = new ArrayList<Vehiculo>();
-		falsaBD.add(new Vehiculo("Renault","Zoe","2345FDF"));
-		falsaBD.add(new Vehiculo("Renault","Fluence","0000FTL"));
-		falsaBD.add(new Vehiculo("Tesla","3","2422FHT"));
-		falsaBD.add(new Vehiculo("Tesla","X","1221FDF"));
+		falsaBD.add(new Vehiculo("12345678A","Renault","Zoe","2345FDF"));
+		falsaBD.add(new Vehiculo("12345678A","Renault","Fluence","0000FTL"));
+		falsaBD.add(new Vehiculo("98765432Z","Tesla","3","2422FHT"));
+		falsaBD.add(new Vehiculo("01928375D","Tesla","X","1221FDF"));
 		
 	}
 
 	@Override
 	public int insertarVehiculo(Vehiculo vehiculo) {
+//		for(Vehiculo v : falsaBD) {
+//			for(Cliente c : DAOClienteImpl.getClientes())
+//			if (v.getDni())
+//		}
+		//TODO: comprobar que el propietario está registrado
 		falsaBD.add(vehiculo);
 		
 		return 1;

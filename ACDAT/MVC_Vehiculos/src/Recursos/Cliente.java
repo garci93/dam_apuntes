@@ -38,7 +38,7 @@ public void setNombre(String nombre) {
 
 @Override
 public String toString() {
-	return "Cliente [dni=" + dni + ", nombre=" + nombre + "]";
+	return "Cliente [DNI: " + dni + "\nNombre: " + nombre + "]";
 }
 
 

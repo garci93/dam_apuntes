@@ -8,3 +8,11 @@ Cuando se produzca el evento, el receptor tendrá una función anónima que se e
 El subject es el que emite. En su código hay un next() que es como el emitter
 
 A los observables se les pone $ al final, no porque sea obligatorio, sino como convención (como el _ en los atributos privados)
+
+GUARDS
+
+(1) Ponelro en la URL <!>(Guards)
+
+(2) router.navigate (['ruta']);		<- en el TS
+
+(3) [routerLink]="['ruta']";		<- en el HTML

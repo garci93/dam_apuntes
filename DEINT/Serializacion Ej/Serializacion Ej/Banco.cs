@@ -11,6 +11,9 @@ namespace Serializacion_Ej
     {
         public List<Cliente> Clientes { get; set; }
 
+        //Serializer
+
+
         // Constructor
         public Banco()
         {
@@ -20,6 +23,9 @@ namespace Serializacion_Ej
         {
             Clientes.Add(nuevoCliente);
         }
+        //getInstance
+        //seguir CRUD
+        //guardarClient
 
     }
 }

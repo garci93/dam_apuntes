@@ -7,6 +7,8 @@ public class Vehiculo {
 
 private String marca;
 
+private String dni;
+
 private String modelo;
 
 private String matricula;
@@ -17,13 +19,23 @@ public Vehiculo() {
 }
 
 
-//TODO: AÑADIR CAMPO CLIENTE
-public Vehiculo(String marca, String modelo, String matricula) {
-	
+//TODO: AÑADIR CAMPO PROPIETARIO
+public Vehiculo(String dni, String marca, String modelo, String matricula) {
+	this.dni = dni;
 	this.marca = marca;
 	this.modelo = modelo;
 	this.matricula = matricula;
 }
+
+public String getDni() {
+	return dni;
+}
+
+
+public void setDni(String dni) {
+	this.dni = dni;
+}
+
 
 public String getMarca() {
 	return marca;
@@ -51,7 +63,7 @@ public void setMatricula(String matricula) {
 
 @Override
 public String toString() {
-	return "Cliente [marca=" + marca + ", modelo=" + modelo + ", matricula=" + matricula + "]";
+	return "Vehiculo [Marca: " + marca + "\nModelo: " + modelo + "\nMatrícula: " + matricula + "]";
 }
 
 
