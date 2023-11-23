@@ -1,6 +1,5 @@
-SGEMP trabajo Capsule CRM			PRESENTAR 21
-ACDAT pizzeria					ENTREGAR 20-24
-ACDAT vehiculos
+ACDAT vehiculos					ENTREGAR MAÑANA (puedes hacerlo no problem, ponte ya xd)
+
 HLC el juego					ENTREGAR
 SGEMP hacer recorrido por ejercicios y entregarlos todos ¿voluntario?
 PMDMO 5 directivas tuberias

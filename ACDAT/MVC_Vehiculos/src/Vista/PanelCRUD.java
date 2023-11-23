@@ -23,7 +23,7 @@ public class PanelCRUD extends javax.swing.JPanel {
        public PanelCRUD() {
         initComponents();
         this.inicializarPanel();
-        ControllerCRUD.cargarTabla(tablaVehiculos);
+        ControllerCRUD.cargarTabla(tablaClientes);
         
     }
 
@@ -40,9 +40,9 @@ private void btRegistrarActionPerformed(java.awt.event.ActionEvent evt) {
  
 	
 
-  //  DAOVehiculoImpl.getInstance().insertarVehiculo(new Vehiculo(txtMatricula.getText(), ))
+  //  DAOClienteImpl.getInstance().insertarCliente(new Cliente(txtMatricula.getText(), ))
 
-    ControllerCRUD.insertarVehiculo(this, tablaVehiculos);
+    ControllerCRUD.insertarCliente(this, tablaClientes);
 
  
  
@@ -99,7 +99,7 @@ private javax.swing.JLabel jLabelMatricula;
  
 private javax.swing.JScrollPane jScrollPane1;
  
-private javax.swing.JTable tablaVehiculos;
+private javax.swing.JTable tablaClientes;
  
 private javax.swing.JTextField txtMatricula;
  
@@ -147,7 +147,7 @@ private void inicializarPanel() {
  
 	 jScrollPane1 = new javax.swing.JScrollPane();
  
-	 tablaVehiculos = new javax.swing.JTable();
+	 tablaClientes = new javax.swing.JTable();
  
 	 txtMarca = new javax.swing.JTextField();
  
@@ -171,7 +171,7 @@ private void inicializarPanel() {
  
  
  
-	 tablaVehiculos.setModel(new javax.swing.table.DefaultTableModel(
+	 tablaClientes.setModel(new javax.swing.table.DefaultTableModel(
  
 		 new Object [][] {
  
@@ -193,7 +193,7 @@ private void inicializarPanel() {
  
 	 ));
  
-	 jScrollPane1.setViewportView(tablaVehiculos);
+	 jScrollPane1.setViewportView(tablaClientes);
  
  
  

@@ -16,6 +16,8 @@ public Vehiculo() {
 
 }
 
+
+//TODO: AÑADIR CAMPO CLIENTE
 public Vehiculo(String marca, String modelo, String matricula) {
 	
 	this.marca = marca;
@@ -49,7 +51,7 @@ public void setMatricula(String matricula) {
 
 @Override
 public String toString() {
-	return "Vehiculo [marca=" + marca + ", modelo=" + modelo + ", matricula=" + matricula + "]";
+	return "Cliente [marca=" + marca + ", modelo=" + modelo + ", matricula=" + matricula + "]";
 }
 
 
