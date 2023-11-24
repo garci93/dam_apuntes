@@ -5,6 +5,9 @@ import javax.swing.GroupLayout;
 import javax.swing.LayoutStyle;
 
 import Controller.ControllerCRUD;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -23,7 +26,15 @@ public class PanelCRUD extends javax.swing.JPanel {
        public PanelCRUD() {
         initComponents();
         this.inicializarPanel();
-        ControllerCRUD.cargarTabla(tablaClientes);
+        ControllerCRUD.cargarTabla(tablaVehiculos);
+        add(jScrollPane1);
+        add(jLabel1);
+        add(jLabel2);
+        add(jLabelMatricula);
+        add(txtModelo);
+        add(txtMarca);
+        add(txtMatricula);
+        add(btRegistrar);
         
     }
 
@@ -38,16 +49,19 @@ private void txtModeloActionPerformed(java.awt.event.ActionEvent evt) {
  
 private void btRegistrarActionPerformed(java.awt.event.ActionEvent evt) {										
  
-	
+  //  DAOVehiculoImpl.getInstance().insertarVehiculo(new Vehiculo(txtMatricula.getText(), ))
 
-  //  DAOClienteImpl.getInstance().insertarCliente(new Cliente(txtMatricula.getText(), ))
+    ControllerCRUD.insertarVehiculo(this, tablaVehiculos);
 
-    ControllerCRUD.insertarCliente(this, tablaClientes);
+}		
 
- 
- 
- 
-}										
+private void btEliminarVehiculoActionPerformed(java.awt.event.ActionEvent evt) {										
+	 
+	  //  DAOVehiculoImpl.getInstance().insertarVehiculo(new Vehiculo(txtMatricula.getText(), ))
+
+	    ControllerCRUD.eliminarVehiculo(txtMatricula.toString());
+
+	}	
  
  
  
@@ -99,7 +113,7 @@ private javax.swing.JLabel jLabelMatricula;
  
 private javax.swing.JScrollPane jScrollPane1;
  
-private javax.swing.JTable tablaClientes;
+private javax.swing.JTable tablaVehiculos;
  
 private javax.swing.JTextField txtMatricula;
  
@@ -121,17 +135,6 @@ private javax.swing.JTextField txtModelo;
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 547, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 386, Short.MAX_VALUE)
-        );
     }// </editor-fold>//GEN-END:initComponents
 
 
@@ -144,22 +147,30 @@ private void inicializarPanel() {
  
  
 	 jLabel1 = new javax.swing.JLabel();
+	 jLabel1.setBounds(10, 14, 29, 14);
  
 	 jScrollPane1 = new javax.swing.JScrollPane();
+	 jScrollPane1.setBounds(10, 122, 375, 181);
  
-	 tablaClientes = new javax.swing.JTable();
+	 tablaVehiculos = new javax.swing.JTable();
  
 	 txtMarca = new javax.swing.JTextField();
+	 txtMarca.setBounds(63, 11, 196, 20);
  
 	 txtModelo = new javax.swing.JTextField();
+	 txtModelo.setBounds(63, 40, 210, 25);
  
 	 jLabel2 = new javax.swing.JLabel();
+	 jLabel2.setBounds(10, 45, 34, 14);
  
 	 jLabelMatricula = new javax.swing.JLabel();
+	 jLabelMatricula.setBounds(10, 79, 43, 14);
  
 	 txtMatricula = new javax.swing.JTextField();
+	 txtMatricula.setBounds(63, 76, 196, 20);
  
 	 btRegistrar = new javax.swing.JButton();
+	 btRegistrar.setBounds(336, 11, 77, 23);
  
  
  
@@ -171,7 +182,7 @@ private void inicializarPanel() {
  
  
  
-	 tablaClientes.setModel(new javax.swing.table.DefaultTableModel(
+	 tablaVehiculos.setModel(new javax.swing.table.DefaultTableModel(
  
 		 new Object [][] {
  
@@ -193,7 +204,7 @@ private void inicializarPanel() {
  
 	 ));
  
-	 jScrollPane1.setViewportView(tablaClientes);
+	 jScrollPane1.setViewportView(tablaVehiculos);
  
  
  
@@ -244,6 +255,20 @@ private void inicializarPanel() {
 		 }
  
 	 });
+	 setLayout(null);
+	 
+	 JButton btnEliminarVehiculo = new JButton("Eliminar");
+	 btnEliminarVehiculo.addActionListener(new ActionListener() {
+	 	public void actionPerformed(ActionEvent e) {
+	 		btEliminarVehiculoActionPerformed(e);
+	 	}
+	 });
+	 btnEliminarVehiculo.setBounds(336, 41, 77, 23);
+	 add(btnEliminarVehiculo);
+	 
+	 JButton btnModificarVehiculo = new JButton("Modificar");
+	 btnModificarVehiculo.setBounds(336, 75, 77, 23);
+	 add(btnModificarVehiculo);
  
  
 
@@ -304,7 +329,4 @@ private void inicializarPanel() {
 	 
  
 }// </editor-fold>	
-
-
-
 }

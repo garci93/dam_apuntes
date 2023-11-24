@@ -8,8 +8,8 @@ import java.util.List;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-import DAOs.DAOClienteImpl;
-import Recursos.Cliente;
+import DAOs.DAOVehiculoImpl;
+import Recursos.Vehiculo;
 import Vista.PanelCRUD;
 
 
@@ -20,9 +20,9 @@ public class ControllerCRUD
 {
 	
 	
-	public static void cargarTabla( JTable tablaClientes)
-	{ //DefaultTableModel modeloDeDatosTabla = (DefaultTableModel) tablaClientes.getModel();
-		List<Cliente> lstClientes = DAOClienteImpl.getInstance().getClientes();
+	public static void cargarTabla( JTable tablaVehiculos)
+	{ //DefaultTableModel modeloDeDatosTabla = (DefaultTableModel) tablaVehiculos.getModel();
+		List<Vehiculo> lstVehiculos = DAOVehiculoImpl.getInstance().getVehiculos();
 		
 		DefaultTableModel modelo=new DefaultTableModel();
 	 
@@ -38,15 +38,15 @@ public class ControllerCRUD
    
 	 Object[] registroLeido = new Object [3];
 	 
-	 for(Cliente Cliente:lstClientes)
+	 for(Vehiculo vehiculo:lstVehiculos)
 
 	 {	 
 
-			registroLeido[0]= Cliente.getMarca();
+			registroLeido[0]= vehiculo.getMarca();
 
-			registroLeido[1]= Cliente.getModelo();
+			registroLeido[1]= vehiculo.getModelo();
 
-			registroLeido[2]=  Cliente.getMatricula();
+			registroLeido[2]=  vehiculo.getMatricula();
 	 
 
 
@@ -55,25 +55,25 @@ public class ControllerCRUD
 
 	 }
 	 
-	 tablaClientes.setModel(modelo);
+	 tablaVehiculos.setModel(modelo);
 	}
 	
 	
-	public static boolean insertarCliente( PanelCRUD frmCliente, JTable tablaClientes)
+	public static boolean insertarVehiculo( PanelCRUD frmVehiculo, JTable tablaVehiculos)
 	{ boolean insertado=false;
-	Cliente Cliente=new Cliente();
+	Vehiculo vehiculo=new Vehiculo();
 	 
 	 
 	 
-	 Cliente.setMarca(frmCliente.getTxtMarca().getText());
+	 vehiculo.setMarca(frmVehiculo.getTxtMarca().getText());
 
-	 Cliente.setModelo(frmCliente.getTxtModelo().getText());
+	 vehiculo.setModelo(frmVehiculo.getTxtModelo().getText());
 
-	 Cliente.setMatricula(frmCliente.getTxtMatricula().getText());
+	 vehiculo.setMatricula(frmVehiculo.getTxtMatricula().getText());
 	 
-		if (DAOClienteImpl.getInstance().insertarCliente(Cliente)!=0)
+		if (DAOVehiculoImpl.getInstance().insertarVehiculo(vehiculo)!=0)
 		{insertado=true;
-		cargarTabla( tablaClientes);
+		cargarTabla( tablaVehiculos);
 		}
      return insertado;		
 	}

@@ -3,25 +3,25 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-import DAOs.DAOClienteImpl;
+import DAOs.DAOVehiculoImpl;
 
-public class GestionClientes {
+public class GestionVehiculos {
 	
-	private ArrayList<Cliente> listaClientes;
+	private ArrayList<Vehiculo> listaVehiculos;
 	private String cadena="";
 	private Random random;
 	
-	public GestionClientes()
-	{listaClientes = (ArrayList<Cliente>) DAOClienteImpl.getInstance().getClientes();
+	public GestionVehiculos()
+	{listaVehiculos = (ArrayList<Vehiculo>) DAOVehiculoImpl.getInstance().getVehiculos();
     random = new Random();
 	
 		
 	}
 	
-	public String getCliente()
+	public String getVehiculo()
 	{  String cadenaEspacios="";
-		Collections.shuffle(listaClientes);
-	   cadena = listaClientes.get(0).getMarca() + " " + listaClientes.get(0).getModelo();
+		Collections.shuffle(listaVehiculos);
+	   cadena = listaVehiculos.get(0).getMarca() + " " + listaVehiculos.get(0).getModelo();
 		for (int cont=0; cont<cadena.length(); cont++)
 		{ if (random.nextBoolean())  cadenaEspacios = cadenaEspacios + cadena.charAt(cont);
 		else  cadenaEspacios = cadenaEspacios +  "_";

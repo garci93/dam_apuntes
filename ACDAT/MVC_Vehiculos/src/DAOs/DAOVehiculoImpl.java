@@ -75,7 +75,7 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 
 	@Override
 	public int eliminarVehiculo(Vehiculo vehiculo) {
-		falsaBD.remove(vehiculo);
+		// TODO Auto-generated method stub
 		return 0;
 	}
 
