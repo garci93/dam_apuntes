@@ -42,6 +42,7 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 
 	@Override
 	public int eliminarVehiculo(String matricula) {
+		falsaBD.
 		falsaBD.remove(matricula);
 		return 0;
 	}

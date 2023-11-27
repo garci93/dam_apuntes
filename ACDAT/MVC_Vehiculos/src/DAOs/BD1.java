@@ -20,7 +20,7 @@ public class BD1 {
      static Connection conn=null;
     static Statement st=null;
     static ResultSet rs=null;
-    static String bd="clase";
+    static String bd="vehiculosbd";
     static String login="root";
     static String password="";  
     static String url="jdbc:mysql://localhost/"+bd;
