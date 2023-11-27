@@ -77,6 +77,15 @@ public class ControllerCRUD
 		}
      return insertado;		
 	}
+
+
+	public static void eliminarVehiculo(String matricula, JTable tablaVehiculos) {
+			if (DAOVehiculoImpl.getInstance().eliminarVehiculo(matricula)!=0) {
+			cargarTabla(tablaVehiculos);
+			System.out.println("XD");
+			}
+		
+	}
 	
 	
 	
