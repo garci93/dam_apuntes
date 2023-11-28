@@ -1,21 +1,22 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { LoginComponent } from './login.component';
-
-describe('LoginComponent', () => {
+import {LoginComponent} from './login.component';
+import {AuthService} from "./auth.service";
+describe('Component: Login', () => {
   let component: LoginComponent;
-  let fixture: ComponentFixture<LoginComponent>;
-
+  let service: AuthService;
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [LoginComponent]
-    });
-    fixture = TestBed.createComponent(LoginComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+  service = new AuthService();
+  component = new LoginComponent(service);
   });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  afterEach(() => {
+  localStorage.removeItem('token');
+  service = null;
+  component = null;
+  });
+  it('canLogin returns false when the user is not authenticated', () => {
+  expect(component.needsLogin()).toBeTruthy();
+  });
+  it('canLogin returns false when the user is not authenticated', () => {
+  localStorage.setItem('token', '12345');
+  expect(component.needsLogin()).toBeFalsy();
   });
 });

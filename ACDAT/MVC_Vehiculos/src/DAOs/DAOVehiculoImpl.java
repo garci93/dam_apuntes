@@ -14,15 +14,19 @@ import Recursos.Vehiculo;
 public class DAOVehiculoImpl implements IDAOVehiculo {
 	
 	private List<Vehiculo> falsaBD;
-	private static IDAOVehiculo dao=null; 
+	private static IDAOVehiculo dao=null;
+	private BD1 dbConnection;
+	private Connection connection;
 
 	private DAOVehiculoImpl() {
 		super();
-		this.falsaBD = new ArrayList<Vehiculo>();
-		falsaBD.add(new Vehiculo("12345678A","Renault","Zoe","2345FDF"));
-		falsaBD.add(new Vehiculo("12345678A","Renault","Fluence","0000FTL"));
-		falsaBD.add(new Vehiculo("98765432Z","Tesla","3","2422FHT"));
-		falsaBD.add(new Vehiculo("01928375D","Tesla","X","1221FDF"));
+		dbConnection = new BD1();
+		connection = dbConnection.enlace(connection);
+//		this.falsaBD = new ArrayList<Vehiculo>();
+//		falsaBD.add(new Vehiculo("12345678A","Renault","Zoe","2345FDF"));
+//		falsaBD.add(new Vehiculo("12345678A","Renault","Fluence","0000FTL"));
+//		falsaBD.add(new Vehiculo("98765432Z","Tesla","3","2422FHT"));
+//		falsaBD.add(new Vehiculo("01928375D","Tesla","X","1221FDF"));
 		
 	}
 
@@ -33,7 +37,18 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 //			if (v.getDni())
 //		}
 		//TODO: comprobar que el propietario está registrado
-		falsaBD.add(vehiculo);
+		int idCliente=0;
+		try {
+			idCliente=dbConnection.ejecutarConsulta("SELECT id FROM clientes WHERE nombre='" + vehiculo.getClienteId() + "'").getInt("id");
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		dbConnection.ejecutarConsulta("INSERT INTO vehiculos (marca, modelo, matricula, id_cliente) VALUES ("
+				+ vehiculo.getMarca() + ", "
+				+ vehiculo.getModelo() + ", "
+				+ vehiculo.getMatricula() + ", "
+				+ idCliente);
 		
 		return 1;
 	}
@@ -42,7 +57,6 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 
 	@Override
 	public int eliminarVehiculo(String matricula) {
-		falsaBD.
 		falsaBD.remove(matricula);
 		return 0;
 	}

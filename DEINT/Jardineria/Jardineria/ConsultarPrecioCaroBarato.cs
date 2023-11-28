@@ -16,5 +16,10 @@ namespace Jardineria
         {
             InitializeComponent();
         }
+
+        private void ConsultarPrecioCaroBarato_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

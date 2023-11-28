@@ -78,7 +78,7 @@
             Controls.Add(label1);
             Controls.Add(textBox1);
             Name = "ConsultarEmpleados";
-            Text = "ConsultarEmpleados";
+            Text = "Consultar empleados por jefe";
             Load += ConsultarEmpleados_Load;
             ResumeLayout(false);
             PerformLayout();

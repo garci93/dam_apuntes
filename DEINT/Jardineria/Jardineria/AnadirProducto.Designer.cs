@@ -70,6 +70,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(270, 23);
             comboBox1.TabIndex = 2;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // textBox3
             // 
@@ -229,7 +230,8 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "AnadirProducto";
-            Text = "Form1";
+            Text = "Añadir producto";
+            Load += AnadirProducto_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -48,7 +48,8 @@
             ClientSize = new Size(535, 124);
             Controls.Add(dataGridView1);
             Name = "ConsultarPrecioCaroBarato";
-            Text = "ConsultarPrecioCaroBarato";
+            Text = "Consultar precio mínimo y máximo";
+            Load += ConsultarPrecioCaroBarato_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }

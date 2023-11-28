@@ -133,7 +133,7 @@
             Controls.Add(label1);
             Controls.Add(comboBox1);
             Name = "EliminarGama";
-            Text = "EliminarGama";
+            Text = "Eliminar gama";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

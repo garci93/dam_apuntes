@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jardineria.Conexion
+namespace Jardineria
 {
     class Conexion
     {
@@ -36,14 +36,14 @@ namespace Jardineria.Conexion
             }
         }
 
-        public DataSet EjecutarSentencia(SqlCommand sqlComando)
+        public DataSet EjecutarSentencia(string sqlComando)
         {
             DataSet ds = new DataSet();
             SqlDataAdapter adapter = new SqlDataAdapter();
             try
             {
                 SqlCommand sqlCommand = new SqlCommand();
-                sqlCommand = sqlComando;
+                sqlCommand.CommandText = sqlComando;
                 sqlCommand.Connection = EstablecerConexion();
                 adapter.SelectCommand = sqlCommand;
                 sqlConnection.Open();

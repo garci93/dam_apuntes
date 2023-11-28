@@ -33,7 +33,7 @@
             btnConsultarPedidosEntregados = new Button();
             btnConsultarEmpleadosJefe = new Button();
             btnConsultarClientesNoPagan = new Button();
-            btnConsulltarPrecioCaroBarato = new Button();
+            btnConsultarPrecioCaroBarato = new Button();
             SuspendLayout();
             // 
             // btnAnadirProducto
@@ -54,6 +54,7 @@
             btnEliminarGama.TabIndex = 1;
             btnEliminarGama.Text = "Eliminar gama de productos";
             btnEliminarGama.UseVisualStyleBackColor = true;
+            btnEliminarGama.Click += btnEliminarGama_Click;
             // 
             // btnConsultarPedidosEntregados
             // 
@@ -83,29 +84,32 @@
             btnConsultarClientesNoPagan.TabIndex = 4;
             btnConsultarClientesNoPagan.Text = "Consultar clientes que no pagan";
             btnConsultarClientesNoPagan.UseVisualStyleBackColor = true;
+            btnConsultarClientesNoPagan.Click += btnConsultarClientesNoPagan_Click;
             // 
-            // btnConsulltarPrecioCaroBarato
+            // btnConsultarPrecioCaroBarato
             // 
-            btnConsulltarPrecioCaroBarato.Location = new Point(82, 295);
-            btnConsulltarPrecioCaroBarato.Name = "btnConsulltarPrecioCaroBarato";
-            btnConsulltarPrecioCaroBarato.Size = new Size(133, 47);
-            btnConsulltarPrecioCaroBarato.TabIndex = 5;
-            btnConsulltarPrecioCaroBarato.Text = "Consultar precios mínimo y máximo";
-            btnConsulltarPrecioCaroBarato.UseVisualStyleBackColor = true;
+            btnConsultarPrecioCaroBarato.Location = new Point(81, 295);
+            btnConsultarPrecioCaroBarato.Name = "btnConsultarPrecioCaroBarato";
+            btnConsultarPrecioCaroBarato.Size = new Size(133, 47);
+            btnConsultarPrecioCaroBarato.TabIndex = 5;
+            btnConsultarPrecioCaroBarato.Text = "Consultar precios mínimo y máximo";
+            btnConsultarPrecioCaroBarato.UseVisualStyleBackColor = true;
+            btnConsultarPrecioCaroBarato.Click += btnConsultarPrecioCaroBarato_Click;
             // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(300, 368);
-            Controls.Add(btnConsulltarPrecioCaroBarato);
+            Controls.Add(btnConsultarPrecioCaroBarato);
             Controls.Add(btnConsultarClientesNoPagan);
             Controls.Add(btnConsultarEmpleadosJefe);
             Controls.Add(btnConsultarPedidosEntregados);
             Controls.Add(btnEliminarGama);
             Controls.Add(btnAnadirProducto);
             Name = "Principal";
-            Text = "Principal";
+            Text = "Menú principal";
+            Load += Principal_Load;
             ResumeLayout(false);
         }
 
@@ -116,6 +120,6 @@
         private Button btnConsultarPedidosEntregados;
         private Button btnConsultarEmpleadosJefe;
         private Button btnConsultarClientesNoPagan;
-        private Button btnConsulltarPrecioCaroBarato;
+        private Button btnConsultarPrecioCaroBarato;
     }
 }

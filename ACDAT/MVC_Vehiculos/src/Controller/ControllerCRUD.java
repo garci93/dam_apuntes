@@ -38,23 +38,15 @@ public class ControllerCRUD
    
 	 Object[] registroLeido = new Object [3];
 	 
-	 for(Vehiculo vehiculo:lstVehiculos)
-
-	 {	 
-
-			registroLeido[0]= vehiculo.getMarca();
-
-			registroLeido[1]= vehiculo.getModelo();
-
-			registroLeido[2]=  vehiculo.getMatricula();
-	 
-
-
-
-		 modelo.addRow(registroLeido);
-
+	 if (lstVehiculos != null) {
+		 for(Vehiculo vehiculo:lstVehiculos)
+		 {	 
+			 registroLeido[0]= vehiculo.getMarca();
+			 registroLeido[1]= vehiculo.getModelo();
+			 registroLeido[2]=  vehiculo.getMatricula();
+			 modelo.addRow(registroLeido);
+		 }		 
 	 }
-	 
 	 tablaVehiculos.setModel(modelo);
 	}
 	

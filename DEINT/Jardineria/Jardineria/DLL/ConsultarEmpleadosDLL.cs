@@ -9,7 +9,7 @@ namespace Jardineria.DLL
 {
     internal class ConsultarEmpleadosDLL
     {
-        Conexion conexion;
+        //Conexion conexion;
         
 
     }

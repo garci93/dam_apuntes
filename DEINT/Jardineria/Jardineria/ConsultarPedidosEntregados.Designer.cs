@@ -67,7 +67,7 @@
             Controls.Add(btnBuscar);
             Controls.Add(monthCalendar1);
             Name = "ConsultarPedidosEntregados";
-            Text = "ConsultarPedidosEntregados";
+            Text = "Consultar pedidos entregados";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }

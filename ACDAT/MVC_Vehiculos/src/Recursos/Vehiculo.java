@@ -7,7 +7,7 @@ public class Vehiculo {
 
 private String marca;
 
-private String dni;
+private String cliente_id;
 
 private String modelo;
 
@@ -20,20 +20,20 @@ public Vehiculo() {
 
 
 //TODO: AÑADIR CAMPO PROPIETARIO
-public Vehiculo(String dni, String marca, String modelo, String matricula) {
-	this.dni = dni;
+public Vehiculo(String cliente_id, String marca, String modelo, String matricula) {
+	this.cliente_id = cliente_id;
 	this.marca = marca;
 	this.modelo = modelo;
 	this.matricula = matricula;
 }
 
-public String getDni() {
-	return dni;
+public String getClienteId() {
+	return cliente_id;
 }
 
 
-public void setDni(String dni) {
-	this.dni = dni;
+public void setClienteId(String cliente_id) {
+	this.cliente_id = cliente_id;
 }
 
 

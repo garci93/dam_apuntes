@@ -13,7 +13,7 @@ namespace Jardineria
 {
     public partial class ConsultarEmpleados : Form
     {
-        Conexion conexion;
+        //Conexion conexion;
         public ConsultarEmpleados()
         {
             InitializeComponent();
@@ -26,7 +26,7 @@ namespace Jardineria
 
         private void btnMostrarEmpleados_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
