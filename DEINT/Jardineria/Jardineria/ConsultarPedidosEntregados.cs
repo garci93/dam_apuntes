@@ -16,5 +16,10 @@ namespace Jardineria
         {
             InitializeComponent();
         }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            monthCalendar1.SelectionStart.Month.ToString("00");
+        }
     }
 }

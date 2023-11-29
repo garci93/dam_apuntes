@@ -39,6 +39,7 @@
             monthCalendar1.Location = new Point(231, 41);
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 0;
+            monthCalendar1.DateChanged += monthCalendar1_DateChanged;
             // 
             // btnBuscar
             // 

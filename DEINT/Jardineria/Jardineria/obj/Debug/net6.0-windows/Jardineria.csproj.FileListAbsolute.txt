@@ -30,3 +30,35 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-wi
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\ref\Jardineria.dll
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.sourcelink.json
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.Properties.Resources.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.csproj.AssemblyReference.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.AnadirProducto.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.ConsultarClientesNoPagan.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.ConsultarEmpleados.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.ConsultarPedidosEntregados.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.ConsultarPrecioCaroBarato.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.EliminarGama.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.Principal.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.Properties.Resources.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.csproj.GenerateResource.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.GeneratedMSBuildEditorConfig.editorconfig
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.AssemblyInfoInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.AssemblyInfo.cs
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.csproj.CoreCompileInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.sourcelink.json
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\refint\Jardineria.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\Jardineria.exe
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\Jardineria.deps.json
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\Jardineria.runtimeconfig.json
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\Jardineria.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\Jardineria.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.csproj.CopyComplete
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.genruntimeconfig.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\ref\Jardineria.dll

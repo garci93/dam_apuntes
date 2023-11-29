@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Jardineria.DLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,7 +22,21 @@ namespace Jardineria
 
         private void btnEliminarGama_Click(object sender, EventArgs e)
         {
+            DialogResult resultado = MessageBox.Show("¿Desea Eliminar el contenido?", "Eliminar", MessageBoxButtons.YesNo);
+            if (resultado == DialogResult.Yes)
+            {
 
+                JardineriaDLL jardineriaDLL = new JardineriaDLL();
+                comboBoxGama.SelectedText.ToString();
+                jardineriaDLL.eliminarGama(comboBoxGama.SelectedItem.ToString());
+                MessageBox.Show("Se ha eliminado correctamente");
+                EliminarGama_Load(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("Se ha producido un error al eliminar");
+            }
+            Close();
         }
 
         private void EliminarGama_Load(object sender, EventArgs e)
@@ -43,8 +58,8 @@ namespace Jardineria
         private void comboBoxGama_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataSet ds = conexion.EjecutarSentencia("select * from gama_producto");
-            DataTable datos = ds.Tables[0].Rows[comboBoxGama.SelectedIndex()];
-            dataGridView1.DataSource = datos;
+            DataTable datos = ds.Tables[0];
+            dataGridView1.DataSource = datos.Rows[comboBoxGama.SelectedIndex];
         }
     }
 }

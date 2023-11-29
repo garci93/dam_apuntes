@@ -11,9 +11,9 @@ namespace Jardineria
     class Conexion
     {
         //EN EL INSTITUTO
-        private string cadenaConexion = "Data Source=DAM2-13; Initial Catalog=jardineria; Integrated Security = True";
+        //private string cadenaConexion = "Data Source=DAM2-13; Initial Catalog=jardineria; Integrated Security = True";
         //EN CASA
-        //private string cadenaConexion = "Data Source=Jojogape; Initial Catalog=jardineria; Integrated Security = True";
+        private string cadenaConexion = "Data Source=DESKTOP-N0FOBBJ; Initial Catalog=jardineria; Integrated Security = True";
         SqlConnection sqlConnection;
 
         public SqlConnection EstablecerConexion()
