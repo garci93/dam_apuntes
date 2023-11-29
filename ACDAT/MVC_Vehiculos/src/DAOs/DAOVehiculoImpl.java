@@ -29,7 +29,7 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 //		falsaBD.add(new Vehiculo("01928375D","Tesla","X","1221FDF"));
 		
 	}
-
+3
 	@Override
 	public int insertarVehiculo(Vehiculo vehiculo) {
 //		for(Vehiculo v : falsaBD) {

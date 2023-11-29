@@ -16,3 +16,8 @@ GUARDS
 (2) router.navigate (['ruta']);		<- en el TS
 
 (3) [routerLink]="['ruta']";		<- en el HTML
+
+
+TRIVIAL
+para el trivial usamos httpclient
+el backend nos manda un json

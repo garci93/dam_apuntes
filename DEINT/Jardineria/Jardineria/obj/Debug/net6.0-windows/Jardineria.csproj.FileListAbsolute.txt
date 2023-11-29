@@ -28,3 +28,5 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-wi
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.pdb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.genruntimeconfig.cache
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\ref\Jardineria.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.sourcelink.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Jardineria\Jardineria\obj\Debug\net6.0-windows\Jardineria.Properties.Resources.resources

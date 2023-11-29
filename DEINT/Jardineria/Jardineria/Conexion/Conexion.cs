@@ -10,7 +10,10 @@ namespace Jardineria
 {
     class Conexion
     {
-        private string cadenaConexion = "Data Source=DAM2-13; Initial Catalog=db.Sistema; Integrated Security = True";
+        //EN EL INSTITUTO
+        private string cadenaConexion = "Data Source=DAM2-13; Initial Catalog=jardineria; Integrated Security = True";
+        //EN CASA
+        //private string cadenaConexion = "Data Source=Jojogape; Initial Catalog=jardineria; Integrated Security = True";
         SqlConnection sqlConnection;
 
         public SqlConnection EstablecerConexion()

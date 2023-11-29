@@ -8,12 +8,14 @@ namespace Jardineria.Clases
 {
     internal class Producto
     {
-        public int CodigoPedido { get; set; }
-        public DateTime FechaPedido { get; set; }
-        public DateTime FechaEsperada { get; set; }
-        public DateTime? FechaEntrega { get; set; }
-        public string Estado { get; set; }
-        public string Comentarios { get; set; }
-        public int CodigoCliente { get; set; }
+        public int CodigoProducto { get; set; }
+        public string Nombre { get; set; }
+        public string Gama { get; set; }
+        public string Dimensiones { get; set; }
+        public string Proveedor { get; set; }
+        public string DescripcionText { get; set; }
+        public int CantidadStock { get; set; }
+        public int PrecioVenta { get; set; }
+        public int PrecioProveedor { get; set; }
     }
 }

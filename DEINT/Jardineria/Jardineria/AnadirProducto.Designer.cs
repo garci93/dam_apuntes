@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            comboBox1 = new ComboBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
+            textCodigo = new TextBox();
+            textNombre = new TextBox();
+            comboBoxGama = new ComboBox();
+            textDimensiones = new TextBox();
+            textProveedor = new TextBox();
+            textDescripcion = new TextBox();
+            textStock = new TextBox();
+            textPrecioVenta = new TextBox();
+            textPrecioProveedor = new TextBox();
             label1 = new Label();
             btnAnadir = new Button();
             label2 = new Label();
@@ -49,70 +49,74 @@
             label9 = new Label();
             SuspendLayout();
             // 
-            // textBox1
+            // textCodigo
             // 
-            textBox1.Location = new Point(152, 47);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 0;
+            textCodigo.Location = new Point(152, 47);
+            textCodigo.Name = "textCodigo";
+            textCodigo.Size = new Size(100, 23);
+            textCodigo.TabIndex = 0;
+            textCodigo.Validating += textCodigo_Validating;
             // 
-            // textBox2
+            // textNombre
             // 
-            textBox2.Location = new Point(492, 47);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(243, 23);
-            textBox2.TabIndex = 1;
+            textNombre.Location = new Point(492, 47);
+            textNombre.Name = "textNombre";
+            textNombre.Size = new Size(243, 23);
+            textNombre.TabIndex = 1;
             // 
-            // comboBox1
+            // comboBoxGama
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(144, 97);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(270, 23);
-            comboBox1.TabIndex = 2;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            comboBoxGama.FormattingEnabled = true;
+            comboBoxGama.Location = new Point(144, 97);
+            comboBoxGama.Name = "comboBoxGama";
+            comboBoxGama.Size = new Size(270, 23);
+            comboBoxGama.TabIndex = 2;
+            comboBoxGama.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
-            // textBox3
+            // textDimensiones
             // 
-            textBox3.Location = new Point(516, 100);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(219, 23);
-            textBox3.TabIndex = 3;
+            textDimensiones.Location = new Point(516, 100);
+            textDimensiones.Name = "textDimensiones";
+            textDimensiones.Size = new Size(219, 23);
+            textDimensiones.TabIndex = 3;
             // 
-            // textBox4
+            // textProveedor
             // 
-            textBox4.Location = new Point(174, 153);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(240, 23);
-            textBox4.TabIndex = 4;
+            textProveedor.Location = new Point(174, 153);
+            textProveedor.Name = "textProveedor";
+            textProveedor.Size = new Size(240, 23);
+            textProveedor.TabIndex = 4;
             // 
-            // textBox5
+            // textDescripcion
             // 
-            textBox5.Location = new Point(510, 153);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(225, 23);
-            textBox5.TabIndex = 5;
+            textDescripcion.Location = new Point(510, 153);
+            textDescripcion.Name = "textDescripcion";
+            textDescripcion.Size = new Size(225, 23);
+            textDescripcion.TabIndex = 5;
             // 
-            // textBox6
+            // textStock
             // 
-            textBox6.Location = new Point(160, 205);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(37, 23);
-            textBox6.TabIndex = 6;
+            textStock.Location = new Point(160, 205);
+            textStock.Name = "textStock";
+            textStock.Size = new Size(37, 23);
+            textStock.TabIndex = 6;
+            textStock.TextChanged += textStock_Validating;
             // 
-            // textBox7
+            // textPrecioVenta
             // 
-            textBox7.Location = new Point(308, 205);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(145, 23);
-            textBox7.TabIndex = 7;
+            textPrecioVenta.Location = new Point(308, 205);
+            textPrecioVenta.Name = "textPrecioVenta";
+            textPrecioVenta.Size = new Size(145, 23);
+            textPrecioVenta.TabIndex = 7;
+            textPrecioVenta.TextChanged += textPrecioVenta_Validating;
             // 
-            // textBox8
+            // textPrecioProveedor
             // 
-            textBox8.Location = new Point(590, 205);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(145, 23);
-            textBox8.TabIndex = 8;
+            textPrecioProveedor.Location = new Point(590, 205);
+            textPrecioProveedor.Name = "textPrecioProveedor";
+            textPrecioProveedor.Size = new Size(145, 23);
+            textPrecioProveedor.TabIndex = 8;
+            textPrecioProveedor.TextChanged += textPrecioProveedor_Validating;
             // 
             // label1
             // 
@@ -132,6 +136,7 @@
             btnAnadir.TabIndex = 10;
             btnAnadir.Text = "Añadir";
             btnAnadir.UseVisualStyleBackColor = true;
+            btnAnadir.Click += btnAnadir_Click;
             // 
             // label2
             // 
@@ -220,15 +225,15 @@
             Controls.Add(label2);
             Controls.Add(btnAnadir);
             Controls.Add(label1);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(comboBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(textPrecioProveedor);
+            Controls.Add(textPrecioVenta);
+            Controls.Add(textStock);
+            Controls.Add(textDescripcion);
+            Controls.Add(textProveedor);
+            Controls.Add(textDimensiones);
+            Controls.Add(comboBoxGama);
+            Controls.Add(textNombre);
+            Controls.Add(textCodigo);
             Name = "AnadirProducto";
             Text = "Añadir producto";
             Load += AnadirProducto_Load;
@@ -238,15 +243,15 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private ComboBox comboBox1;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
+        private TextBox textCodigo;
+        private TextBox textNombre;
+        private ComboBox comboBoxGama;
+        private TextBox textDimensiones;
+        private TextBox textProveedor;
+        private TextBox textDescripcion;
+        private TextBox textStock;
+        private TextBox textPrecioVenta;
+        private TextBox textPrecioProveedor;
         private Label label1;
         private Button btnAnadir;
         private Label label2;

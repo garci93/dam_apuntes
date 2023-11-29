@@ -12,9 +12,39 @@ namespace Jardineria
 {
     public partial class EliminarGama : Form
     {
+        Conexion conexion;
         public EliminarGama()
         {
             InitializeComponent();
+            conexion = new Conexion();
+        }
+
+        private void btnEliminarGama_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EliminarGama_Load(object sender, EventArgs e)
+        {
+            DataSet ds = conexion.EjecutarSentencia("select * from gama_producto");
+            DataTable datos = ds.Tables[0];
+            foreach (DataRow fila in datos.Rows)
+            {
+                Console.WriteLine("Valor de la columna Nombre: " + fila[0]);
+                comboBoxGama.Items.Add(fila[0]);
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void comboBoxGama_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataSet ds = conexion.EjecutarSentencia("select * from gama_producto");
+            DataTable datos = ds.Tables[0].Rows[comboBoxGama.SelectedIndex()];
+            dataGridView1.DataSource = datos;
         }
     }
 }
