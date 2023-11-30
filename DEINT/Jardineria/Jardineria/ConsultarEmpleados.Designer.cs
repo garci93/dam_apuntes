@@ -28,19 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
             label1 = new Label();
-            textBox2 = new TextBox();
+            textCodigoJefe = new TextBox();
             btnMostrarEmpleados = new Button();
+            listBox1 = new ListBox();
             SuspendLayout();
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(12, 72);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(487, 366);
-            textBox1.TabIndex = 0;
             // 
             // label1
             // 
@@ -51,12 +43,12 @@
             label1.TabIndex = 1;
             label1.Text = "Código de jefe";
             // 
-            // textBox2
+            // textCodigoJefe
             // 
-            textBox2.Location = new Point(159, 25);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 2;
+            textCodigoJefe.Location = new Point(159, 25);
+            textCodigoJefe.Name = "textCodigoJefe";
+            textCodigoJefe.Size = new Size(100, 23);
+            textCodigoJefe.TabIndex = 2;
             // 
             // btnMostrarEmpleados
             // 
@@ -68,15 +60,24 @@
             btnMostrarEmpleados.UseVisualStyleBackColor = true;
             btnMostrarEmpleados.Click += btnMostrarEmpleados_Click;
             // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 15;
+            listBox1.Location = new Point(12, 73);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(487, 349);
+            listBox1.TabIndex = 4;
+            // 
             // ConsultarEmpleados
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(511, 450);
+            Controls.Add(listBox1);
             Controls.Add(btnMostrarEmpleados);
-            Controls.Add(textBox2);
+            Controls.Add(textCodigoJefe);
             Controls.Add(label1);
-            Controls.Add(textBox1);
             Name = "ConsultarEmpleados";
             Text = "Consultar empleados por jefe";
             Load += ConsultarEmpleados_Load;
@@ -85,10 +86,9 @@
         }
 
         #endregion
-
-        private TextBox textBox1;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox textCodigoJefe;
         private Button btnMostrarEmpleados;
+        private ListBox listBox1;
     }
 }

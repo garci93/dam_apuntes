@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -41,14 +42,19 @@ namespace Jardineria
 
         private void EliminarGama_Load(object sender, EventArgs e)
         {
-            DataSet ds = conexion.EjecutarSentencia("select * from gama_producto");
-            DataTable datos = ds.Tables[0];
-            foreach (DataRow fila in datos.Rows)
-            {
-                Console.WriteLine("Valor de la columna Nombre: " + fila[0]);
-                comboBoxGama.Items.Add(fila[0]);
-            }
-        }
+            try { 
+                DataSet ds = conexion.EjecutarSentencia("select * from gama_producto");
+                DataTable datos = ds.Tables[0];
+                foreach (DataRow fila in datos.Rows)
+                {
+                    Console.WriteLine("Valor de la columna Nombre: " + fila[0]);
+                    comboBoxGama.Items.Add(fila[0]);
+                }
+            }catch (SqlException)
+                {
+                    MessageBox.Show("Acceso erróneo a la base de datos");
+                }
+}
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

@@ -70,6 +70,7 @@
             Controls.Add(monthCalendar1);
             Name = "ConsultarPedidosEntregados";
             Text = "Consultar pedidos entregados";
+            Load += ConsultarPedidosEntregados_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }

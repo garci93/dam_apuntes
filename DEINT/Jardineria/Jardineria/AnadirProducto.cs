@@ -24,14 +24,19 @@ namespace Jardineria
 
         private void AnadirProducto_Load(object sender, EventArgs e)
         {
-            DataSet ds = conexion.EjecutarSentencia("select gama from gama_producto");
-            DataTable datos = ds.Tables[0];
-            foreach (DataRow fila in datos.Rows)
-            {
-                Console.WriteLine("Valor de la columna Nombre: " + fila[0]);
-                comboBoxGama.Items.Add(fila[0]);
-            }
-        }
+            try {
+                DataSet ds = conexion.EjecutarSentencia("select gama from gama_producto");
+                DataTable datos = ds.Tables[0];
+                foreach (DataRow fila in datos.Rows)
+                {
+                    Console.WriteLine("Valor de la columna Nombre: " + fila[0]);
+                    comboBoxGama.Items.Add(fila[0]);
+                }
+            }catch (SqlException)
+                {
+                    MessageBox.Show("Acceso erróneo a la base de datos");
+                }
+}
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {

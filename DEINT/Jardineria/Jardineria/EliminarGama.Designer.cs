@@ -102,9 +102,8 @@
         private Button btnEliminarGama;
         private Label label4;
         private ComboBox comboBoxGama;
-        private TextBox textDescripcipn;
-        private TextBox textAlt;
         private TextBox textDescripcion;
+        private TextBox textAlt;
         private DataGridView dataGridView1;
     }
 }

@@ -16,3 +16,4 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Deb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\ref\Serializacion Ej.dll
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion_Ej.Eliminar.resources
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion_Ej.Modificar.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.sourcelink.json

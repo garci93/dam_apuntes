@@ -40,6 +40,7 @@
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(776, 426);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // ConsultarClientesNoPagan
             // 
@@ -49,6 +50,7 @@
             Controls.Add(dataGridView1);
             Name = "ConsultarClientesNoPagan";
             Text = "Consultar clientes que no pagan";
+            Load += ConsultarClientesNoPagan_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
