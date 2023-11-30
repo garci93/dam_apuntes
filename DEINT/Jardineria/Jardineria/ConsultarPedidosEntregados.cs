@@ -12,14 +12,22 @@ namespace Jardineria
 {
     public partial class ConsultarPedidosEntregados : Form
     {
+        Conexion conexion;
         public ConsultarPedidosEntregados()
         {
             InitializeComponent();
+            conexion = new Conexion();
         }
 
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
         {
-            monthCalendar1.SelectionStart.Month.ToString("00");
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            string mes = monthCalendar1.SelectionStart.Month.ToString("00");
+            string anio = monthCalendar1.SelectionStart.Year.ToString();
+            conexion.EjecutarSentencia($"select * from pedidos where fecha_entrega = '{anio}-{mes}-");
         }
     }
 }

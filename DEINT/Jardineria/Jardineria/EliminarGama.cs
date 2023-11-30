@@ -57,9 +57,10 @@ namespace Jardineria
 
         private void comboBoxGama_SelectedIndexChanged(object sender, EventArgs e)
         {
-            DataSet ds = conexion.EjecutarSentencia("select * from gama_producto");
+            DataSet ds = conexion.EjecutarSentencia($"select * from gama_producto where gama = '{comboBoxGama.SelectedItem}'");
             DataTable datos = ds.Tables[0];
-            dataGridView1.DataSource = datos.Rows[comboBoxGama.SelectedIndex];
+            dataGridView1.DataSource = datos;
+            EliminarGama_Load(sender, e);
         }
     }
 }
