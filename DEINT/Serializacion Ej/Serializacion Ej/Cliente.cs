@@ -5,15 +5,20 @@ using System.Xml.Serialization;
 namespace Serializacion_Ej
 {
     [Serializable]
-    internal class Cliente
+    public class Cliente
     {
-        public Cliente(string dni, string nombre, string direccion, int edad, int telefono, int cuenta_corriente) {
+        public Cliente(string dni, string nombre, string direccion, int edad, int telefono, long cuenta_corriente) {
             DNI = dni;
             Nombre = nombre;
             Direccion = direccion;
             Edad = edad;
             Telefono = telefono;
             CuentaCorriente = cuenta_corriente;
+        }
+
+        public Cliente()
+        {
+
         }
 
         [XmlElement("Codigo")]
@@ -23,7 +28,7 @@ namespace Serializacion_Ej
         string Direccion { get; set; }
         int Edad {  get; set; }
         int Telefono { get; set; }
-        int CuentaCorriente { get; set; }
+        long CuentaCorriente { get; set; }
 
         public void GuardarEnArchivo(string nombreArchivo)
         {

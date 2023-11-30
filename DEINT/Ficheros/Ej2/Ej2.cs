@@ -12,6 +12,7 @@ namespace Ficheros
         {
             Console.WriteLine("Nombre del archivo");
             string ruta = Path.Combine(Path.GetDirectoryName(Environment.CurrentDirectory), Console.ReadLine());
+            // combinar(obtener_directorio(dir_actual), nombre_archivo);
             Console.WriteLine("Frase a buscar");
             string frase = Console.ReadLine();
 
@@ -20,6 +21,7 @@ namespace Ficheros
                 StreamReader streamR = new StreamReader(ruta);
                 int numLinea = 0;
                 string lineaActual;
+                //mientras no hayamos llegado al final del archivo
                 while (!streamR.EndOfStream)
                 {
                     numLinea++;

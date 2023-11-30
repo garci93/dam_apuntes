@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Banco xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClienteList>
+    <Cliente>
+      <DNI>32912867</DNI>
+      <Nombre>Airam</Nombre>
+      <Direccion>aa</Direccion>
+      <Edad>23</Edad>
+      <Telefono>123456789</Telefono>
+      <NCuentaCorriente>1234</NCuentaCorriente>
+    </Cliente>
+    <Cliente>
+      <DNI>11122233</DNI>
+      <Nombre>eee</Nombre>
+      <Direccion>eee</Direccion>
+      <Edad>34</Edad>
+      <Telefono>232323232</Telefono>
+      <NCuentaCorriente>12312312</NCuentaCorriente>
+    </Cliente>
+    <Cliente>
+      <DNI>11122233</DNI>
+      <Nombre>eee</Nombre>
+      <Direccion>eee</Direccion>
+      <Edad>34</Edad>
+      <Telefono>232323232</Telefono>
+      <NCuentaCorriente>12312312</NCuentaCorriente>
+    </Cliente>
+  </ClienteList>
+</Banco>

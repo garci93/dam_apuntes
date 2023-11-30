@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj": {}
+    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj": {
+    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj",
+        "projectUniqueName": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj",
         "projectName": "Ej2",
-        "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj",
-        "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\obj\\",
+        "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj",
+        "packagesPath": "C:\\Users\\Jojogape\\.nuget\\packages\\",
+        "outputPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jojogape\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

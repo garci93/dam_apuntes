@@ -12,3 +12,18 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\refint\Ej4
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.pdb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.genruntimeconfig.cache
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\ref\Ej4.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.exe
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.deps.json
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.runtimeconfig.json
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\bin\Debug\net6.0\Ej4.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.GeneratedMSBuildEditorConfig.editorconfig
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.AssemblyInfoInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.AssemblyInfo.cs
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.csproj.CoreCompileInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.sourcelink.json
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\refint\Ej4.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\Ej4.genruntimeconfig.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Ficheros2\Ej4\obj\Debug\net6.0\ref\Ej4.dll

@@ -17,3 +17,22 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Deb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion_Ej.Eliminar.resources
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion_Ej.Modificar.resources
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.sourcelink.json
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.exe
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.deps.json
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.runtimeconfig.json
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\bin\Debug\net6.0-windows\Serializacion Ej.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion_Ej.Eliminar.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion_Ej.Form1.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion_Ej.Modificar.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.csproj.GenerateResource.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.GeneratedMSBuildEditorConfig.editorconfig
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.AssemblyInfoInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.AssemblyInfo.cs
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.csproj.CoreCompileInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.sourcelink.json
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\refint\Serializacion Ej.dll
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\Serializacion Ej.genruntimeconfig.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Serializacion Ej\Serializacion Ej\obj\Debug\net6.0-windows\ref\Serializacion Ej.dll

@@ -24,9 +24,9 @@ namespace Ej2
                     {
                         Console.WriteLine("Introduzca la extensión (sin el punto)");
                         string extensionArchivo = Console.ReadLine();
-                        foreach (FileInfo archivo in archivos)
+                        foreach (var archivo in archivos)
                         {
-                            if(Regex.IsMatch(archivo.Name,"\\."+extensionArchivo+"$"))
+                            if (Regex.IsMatch(archivo.Name,"\\."+extensionArchivo+"$"))
                                 Console.WriteLine(archivo.Name);
                         }
                     }

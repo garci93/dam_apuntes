@@ -16,18 +16,26 @@ namespace Serializacion_Ej
             try
             {
                 bool res = Regex.IsMatch(txtDNI.Text, @"^\d{8}[A-Z]$") &&
-                    Regex.IsMatch(txtNombre.Text, @"^\w*$") &&
-                    Regex.IsMatch(txtDNI.Text, @"^\w*$") &&
-                    Regex.IsMatch(txtDNI.Text, @"^\d+$") &&
-                    Regex.IsMatch(txtDNI.Text, @"^((\+34)|(\+0034))?\d{9}$") &&;
-                if ( )
-                Cliente cliente = new Cliente(txtDNI.Text, txtNombre.Text, txtDireccion.Text, int.Parse(txtEdad.Text), int.Parse(txtTelefono.Text), int.Parse(txtCC.Text));
-                banco.AgregarCliente(cliente);
-                cliente.GuardarEnArchivo("datos_cliente.bin");
-            } catch (Exception ex)
+                Regex.IsMatch(txtNombre.Text, @"^\w*$") &&
+                Regex.IsMatch(txtDireccion.Text, @"^\w*$") &&
+                Regex.IsMatch(txtEdad.Text, @"^\d+$") &&
+                Regex.IsMatch(txtTelefono.Text, @"^((\+34)|(\+0034))?\d{9}$") &&
+                Regex.IsMatch(txtCC.Text, @"^\d{16}$");
+                if (res)
+                {
+                    Cliente cliente = new Cliente(txtDNI.Text, txtNombre.Text, txtDireccion.Text, int.Parse(txtEdad.Text), int.Parse(txtTelefono.Text), long.Parse(txtCC.Text));
+                    banco.AgregarCliente(cliente);
+                    cliente.GuardarEnArchivo("datos_cliente.bin");
+                }
+                else
+                {
+                    throw new Exception();
+                }
+            } catch (Exception)
             {
-
+                MessageBox.Show("Los datos introducidos no son correctos, por favor revíselos");
             }
+            
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
