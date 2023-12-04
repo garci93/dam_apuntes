@@ -1,0 +1,56 @@
+comunicacion entre componentes	-> im!
+
+{{ }} 		c. interna
+[ ] ( ) 	c. externa
+
+
+COMPONENTES
+
+@ViewChild ->	Acceso a la vista
+
+		Proyección de contenido
+		Hooks (Teórico)
+
+DIRECTIVAS
+
+Built-in (*ngIf, *ngFor...)
+Propias
+
+PIPES
+
+Built-in y propias
+
+FORMS
+
+Model-Driven
+
+SERVICIOS
+
+Inyección
+Observables
+
+ROUTING
+
+router-outlet
+Guard
+
+
+--- EJERCICIOS CLAVE ---
+
+TUTORIAL	!!!
+EL 1, COMPONENTE CABECERA, IR MIRANDO
+EL 2, DIRECTIVAS PERSONALIZADAS
+EJ 3, TUBERIAS PERSONALIZADAS
+EJ 4		!!!
+EJ 5, FORMULARIOS
+PRACTICA 3	!!!
+
+--- !NO CAE! ---
+API EXTERNA (mnnnnnglrrrr)
+INTEGRAR BACKEND
+
+
+EL EXAMEN:
+
+PAPEL ¿1:30h?
+PRACTICO
