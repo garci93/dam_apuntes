@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\T2_E6_b.csproj": {}
+    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\T2_E6_b.csproj": {}
   },
   "projects": {
-    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\T2_E6_b.csproj": {
+    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\T2_E6_b.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\T2_E6_b.csproj",
+        "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\T2_E6_b.csproj",
         "projectName": "T2_E6_b",
-        "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\T2_E6_b.csproj",
-        "packagesPath": "C:\\Users\\Jojogape\\.nuget\\packages\\",
-        "outputPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\obj\\",
+        "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\T2_E6_b.csproj",
+        "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\T2_E6_b\\T2_E6_b\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jojogape\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -1,0 +1,19 @@
+CREATE TABLE recurso_tecnologico (
+codigo INT IDENTITY PRIMARY KEY,
+codigo_recurso VARCHAR(100) NOT NULL,
+nombre VARCHAR(100) NOT NULL,
+descripcion VARCHAR(100) NOT NULL,
+fecha_adquisicion NUMERIC,
+estado VARCHAR(20),
+);
+
+CREATE TABLE mantenimiento
+(
+codigo INT IDENTITY PRIMARY KEY,
+cod_mantenimiento VARCHAR(100) NOT NULL,
+codigo_recurso_tecnologico INT NOT NULL,
+fecha_inicio DATE,
+fecha_fin DATE,
+descripcion VARCHAR(100),
+FOREIGN KEY (codigo_recurso_tecnologico) REFERENCES recurso_tecnologico(codigo),
+);

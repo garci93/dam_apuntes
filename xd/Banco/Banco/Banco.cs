@@ -15,22 +15,15 @@ namespace Banco
 
         public void addClienteXML(Cliente cliente) 
         {
+            //Nuevo serializador XML de tipo Banco
             XmlSerializer serializer = new XmlSerializer(typeof(Banco));
-            if (checkXMLExist())
+            //Comprobar si existe ya un XML, si es así, lo deserializa
+            checkXMLExist();
+            //Añadir el nuevo cliente a la lista
+            ClienteList.Add(cliente);
+            using (StreamWriter writer = new StreamWriter("banco.xml"))
             {
-                ClienteList.Add(cliente);
-                using (StreamWriter writer = new StreamWriter("banco.xml"))
-                {
-                    serializer.Serialize(writer, this);
-                }      
-            }
-            else
-            {
-                ClienteList.Add(cliente);
-                using (StreamWriter writer = new StreamWriter("banco.xml"))
-                {
-                    serializer.Serialize(writer, this);
-                }
+                serializer.Serialize(writer, this);
             }
             
         }

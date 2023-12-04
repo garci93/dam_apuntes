@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Jojogape\\.nuget\\packages\\": {},
-    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dam\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj",
+      "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj",
       "projectName": "Ej2",
-      "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj",
-      "packagesPath": "C:\\Users\\Jojogape\\.nuget\\packages\\",
-      "outputPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\obj\\",
+      "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\Ej2.csproj",
+      "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Ficheros\\Ej2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jojogape\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

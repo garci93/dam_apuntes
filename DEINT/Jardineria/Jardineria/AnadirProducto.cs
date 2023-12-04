@@ -24,14 +24,21 @@ namespace Jardineria
 
         private void AnadirProducto_Load(object sender, EventArgs e)
         {
+            //Probar esto, y atrapar SqlException si se lanza
             try {
+                //Decirle a conexion que ejecute la sentencia SQL, y la guarde en un conjunto de datos (DataSet)
                 DataSet ds = conexion.EjecutarSentencia("select gama from gama_producto");
+                //Guardar la primera tabla (la única en este caso) en una tabla de datos (DataTable)
                 DataTable datos = ds.Tables[0];
+                //Para cada fila de datos (DataRow) en la tabla, organizada por filas...
                 foreach (DataRow fila in datos.Rows)
                 {
+                    //Nombre es el primer elemento de la fila, el único en este caso, gama
                     Console.WriteLine("Valor de la columna Nombre: " + fila[0]);
+                    //Añadir este valor a los items del comboBoxGama
                     comboBoxGama.Items.Add(fila[0]);
                 }
+                //comboBoxGama tendrá todos los valores de la columna gama
             }catch (SqlException)
                 {
                     MessageBox.Show("Acceso erróneo a la base de datos");

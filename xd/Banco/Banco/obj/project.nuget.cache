@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q8Xra9E/gADpRV8u25wr4qb9WnFVF9lJFus5vTapzw/vCrgxj/QPy92Oz5iBrcPNNjVcuQk36HGrmJhwwZjg4g==",
+  "dgSpecHash": "4EyOP61V6FEtxmDScz0ldw9AdEX5/761Uukz9RH82PMIoRmBypecct0PGi1Y0dkxifz8HMcnMkfhJ0KH+Ntm5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jojogape\\Desktop\\Banco\\Banco\\Banco.csproj",
+  "projectFilePath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\xd\\Banco\\Banco\\Banco.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Jojogape\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\dam\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
