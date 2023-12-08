@@ -1,0 +1,20 @@
+<h1>Regístrate</h1>
+<form [formGroup]="registrarForm">
+    <label for="usuario">Usuario: </label>
+    <input #usuario type="text" name="usuario" formControlName="usuario" required>
+    <div *ngIf="registrarForm.get('usuario')?.invalid && registrarForm.get('usuario')?.touched">
+        <p *ngIf="registrarForm.get('usuario')?.hasError('required')">Debe introducir un nombre de usuario</p>
+        <p *ngIf="registrarForm.get('usuario')?.hasError('minlength')">El nombre debe tener al menos {{minlength}} caracteres</p>
+        <p *ngIf="registrarForm.get('usuario')?.hasError('maxlength')">El nombre no puede tener más de {{maxlength}} caracteres</p>
+    </div>
+    <br><br>
+    <label for="password">Contraseña: </label>
+    <input #password type="password" name="password" formControlName="password" required>
+    <div *ngIf="registrarForm.get('password')?.invalid && registrarForm.get('password')?.touched">
+        <p *ngIf="registrarForm.get('password')?.hasError('required')">Debe introducir una contraseña</p>
+        <p *ngIf="registrarForm.get('password')?.hasError('minlength')">La contraseña debe tener al menos {{minlength}} caracteres</p>
+        <p *ngIf="registrarForm.get('password')?.hasError('maxlength')">La contraseña no puede tener más de {{maxlength}} caracteres</p>
+    </div>
+    <br><br>
+    <button [disabled]="!registrarForm.valid" (click)="registrar(usuario.value, password.value)">Registrar</button>
+</form>

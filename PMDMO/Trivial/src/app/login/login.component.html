@@ -1,11 +1,21 @@
 <h1>Juego Trivial</h1>
-<form action="submit">
+<form [formGroup]="loginForm">
     <label for="usuario">Usuario: </label>
-    <input type="text" name="usuario" required>
+    <input #usuario type="text" name="usuario" formControlName="usuario" required>
+    <div *ngIf="loginForm.get('usuario')?.invalid && loginForm.get('usuario')?.touched">
+        <p *ngIf="loginForm.get('usuario')?.hasError('required')">Debe introducir un nombre de usuario</p>
+        <p *ngIf="loginForm.get('usuario')?.hasError('minlength')">El nombre debe tener al menos {{minlength}} caracteres</p>
+        <p *ngIf="loginForm.get('usuario')?.hasError('maxlength')">El nombre no puede tener más de {{maxlength}} caracteres</p>
+    </div>
     <br><br>
     <label for="password">Contraseña: </label>
-    <input type="password" name="password" required>
+    <input #password type="password" name="password" formControlName="password" required>
+    <div *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
+        <p *ngIf="loginForm.get('password')?.hasError('required')">Debe introducir una contraseña</p>
+        <p *ngIf="loginForm.get('password')?.hasError('minlength')">La contraseña debe tener al menos {{minlength}} caracteres</p>
+        <p *ngIf="loginForm.get('password')?.hasError('maxlength')">La contraseña no puede tener más de {{maxlength}} caracteres</p>
+    </div>
     <br><br>
-    <button class="submit">Iniciar sesión</button>
-    <button>Regístrate</button>
+    <button (click)="login(usuario.value, password.value)">Iniciar sesión</button>
+    <button (click)="registrar()">Regístrate</button>
 </form>
