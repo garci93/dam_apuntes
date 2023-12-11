@@ -16,5 +16,5 @@
         <p *ngIf="registrarForm.get('password')?.hasError('maxlength')">La contraseña no puede tener más de {{maxlength}} caracteres</p>
     </div>
     <br><br>
-    <button [disabled]="!registrarForm.valid" (click)="registrar(usuario.value, password.value)">Registrar</button>
+    <button class="btn btn-primary" [disabled]="!registrarForm.valid" (click)="registrar(usuario.value, password.value)">Registrar</button>
 </form>

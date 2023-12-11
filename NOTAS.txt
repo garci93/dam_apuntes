@@ -5,6 +5,7 @@ SGEMP: hlnastr
 PSPRO: eh25j6t
 
 lo de odoo (master): 4293-3etd-57b4
+lo de odoo (master casa): 8qbs-twnw-ks8u
 http://localhost:8069/
 
 

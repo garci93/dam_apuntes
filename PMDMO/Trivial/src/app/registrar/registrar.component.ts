@@ -13,7 +13,7 @@ export class RegistrarComponent {
   registrarForm !: FormGroup;
   minlength: number = 6;
   maxlength: number = 20;
-  constructor(private servicio: UsuarioService, private router: Router, private authGuard: AuthGuard) {
+  constructor(private servicio: UsuarioService, private router: Router) {
     this.registrarForm = new FormGroup({
       usuario: new FormControl('', [Validators.required, Validators.minLength(this.minlength), Validators.maxLength(this.maxlength)]),
       password: new FormControl('', [Validators.required, Validators.minLength(this.minlength), Validators.maxLength(this.maxlength)]),
