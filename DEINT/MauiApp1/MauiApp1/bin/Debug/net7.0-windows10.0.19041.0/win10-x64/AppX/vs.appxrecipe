@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\MauiApp1\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-11T09:32:11.439</Modified>
+      <Modified>2023-12-12T11:33:21.498</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\MauiApp1\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp1.dll">
       <PackagePath>MauiApp1.dll</PackagePath>
-      <Modified>2023-12-11T09:32:09.795</Modified>
+      <Modified>2023-12-12T11:33:20.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\MauiApp1\MauiApp1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp1.exe</PackagePath>
-      <Modified>2023-12-11T09:32:09.870</Modified>
+      <Modified>2023-12-12T11:33:20.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\MauiApp1\MauiApp1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp1.deps.json">
       <PackagePath>MauiApp1.deps.json</PackagePath>

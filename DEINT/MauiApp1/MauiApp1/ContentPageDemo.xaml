@@ -4,12 +4,26 @@
              x:Class="MauiApp1.ContentPageDemo"
              Title="ContentPageDemo">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        <Button
-            Text="BotonPrueba"
-            BackgroundColor="Aqua"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".7*" />
+                <ColumnDefinition Width=".3*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
+            <Label Text="TOTAL POR PERSONA" Grid.Row="0" Grid.Column="0" TextColor="Green" FontAttributes="Bold"
+                   Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+            <Label Text="0.00€" Grid.Row="1" Grid.Column="0" Grid.RowSpan="4"
+                   VerticalOptions="Center" FontSize="30"/>
+            <Label Text="SUBTOTAL" Grid.Row="1" Grid.Column="1" TextColor="LightGray"/>
+            <Label Text="0.00€" Grid.Row="2" Grid.Column="1"/>
+            <Label Text="Propina" Grid.Row="3" Grid.Column="1" TextColor="LightGray"/>
+            <Label Text="0.00€" Grid.Row="4" Grid.Column="1"/>
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>
