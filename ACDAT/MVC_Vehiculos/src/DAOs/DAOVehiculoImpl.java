@@ -1,63 +1,67 @@
 package DAOs;
 
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.table.DefaultTableModel;
+
 import Recursos.Cliente;
 import Recursos.Vehiculo;
 
-
-
-
 public class DAOVehiculoImpl implements IDAOVehiculo {
-	
+
 	private List<Vehiculo> falsaBD;
-	private static IDAOVehiculo dao=null;
+	private static IDAOVehiculo dao = null;
 	private BD1 dbConnection;
 	private Connection connection;
 
 	private DAOVehiculoImpl() {
 		super();
 		dbConnection = new BD1();
-		connection = dbConnection.enlace(connection);
+		connection = dbConnection.enlace();
 //		this.falsaBD = new ArrayList<Vehiculo>();
 //		falsaBD.add(new Vehiculo("12345678A","Renault","Zoe","2345FDF"));
 //		falsaBD.add(new Vehiculo("12345678A","Renault","Fluence","0000FTL"));
 //		falsaBD.add(new Vehiculo("98765432Z","Tesla","3","2422FHT"));
 //		falsaBD.add(new Vehiculo("01928375D","Tesla","X","1221FDF"));
-		
+
 	}
-3
+
 	@Override
 	public int insertarVehiculo(Vehiculo vehiculo) {
-//		for(Vehiculo v : falsaBD) {
-//			for(Cliente c : DAOClienteImpl.getClientes())
-//			if (v.getDni())
-//		}
-		//TODO: comprobar que el propietario está registrado
-		int idCliente=0;
-		try {
-			idCliente=dbConnection.ejecutarConsulta("SELECT id FROM clientes WHERE nombre='" + vehiculo.getClienteId() + "'").getInt("id");
-			
+
+		String sqlQuery = "INSERT INTO vehiculos (marca, modelo, matricula) VALUES (?, ?, ?)";
+
+		try (PreparedStatement statement = connection.prepareStatement(sqlQuery)) {
+			statement.setString(1, vehiculo.getMarca());
+			statement.setString(2, vehiculo.getModelo());
+			statement.setString(3, vehiculo.getMatricula());
+
+			if (statement.executeUpdate() > 0) {
+				return 1;
+			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		dbConnection.ejecutarConsulta("INSERT INTO vehiculos (marca, modelo, matricula, id_cliente) VALUES ("
-				+ vehiculo.getMarca() + ", "
-				+ vehiculo.getModelo() + ", "
-				+ vehiculo.getMatricula() + ", "
-				+ idCliente);
-		
-		return 1;
-	}
 
-	
+		return 0;
+	}
 
 	@Override
 	public int eliminarVehiculo(String matricula) {
-		falsaBD.remove(matricula);
+		String sqlQuery = "DELETE FROM vehiculos WHERE matricula = ?";
+
+		try (PreparedStatement statement = connection.prepareStatement(sqlQuery)) {
+			statement.setString(1, matricula);
+
+			if (statement.executeUpdate() > 0) {
+				System.out.println("Vehiculo eliminado exitosamente.");
+				return 1;
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		return 0;
 	}
 
@@ -69,10 +73,6 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 
 	@Override
 	public Vehiculo getVehiculo(String matricula) {
-		for(Vehiculo v : falsaBD){
-			if (v.getMatricula().equals(matricula))
-				return v;
-		};
 		return null;
 	}
 
@@ -81,10 +81,10 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 		return this.falsaBD;
 	}
 
-	
 	public static IDAOVehiculo getInstance() {
-	  if (dao== null) dao =new DAOVehiculoImpl();
-	  
+		if (dao == null)
+			dao = new DAOVehiculoImpl();
+
 		return dao;
 	}
 

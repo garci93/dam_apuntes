@@ -20,13 +20,14 @@ public class BD1 {
      static Connection conn=null;
     static Statement st=null;
     static ResultSet rs=null;
-    static String bd="vehiculosbd";
+    static String bd="vehiculosdb";
     static String login="root";
     static String password="";  
-    static String url="jdbc:mysql://localhost:3306/"+bd;
+    static String url="jdbc:mysql://localhost/"+bd;
+    
 
     
-    public static Connection enlace (Connection conn) 
+    public static Connection enlace () 
 {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -40,14 +41,14 @@ public class BD1 {
 }
     
      static ResultSet consulta() {
-         conn=enlace(conn);
+         conn=enlace();
         try {
             st=conn.createStatement();
         } catch (SQLException ex) {
             System.out.println("excepcion");
         }
         try {
-            rs=st.executeQuery("select * from alumno");
+            rs=st.executeQuery("consulta");
         } catch (SQLException ex) {
            System.out.println("error en la query");
         }
@@ -55,15 +56,15 @@ public class BD1 {
         return rs;
     }
      
-     static ResultSet ejecutarConsulta(String consulta) {
-         conn=enlace(conn);
+     public static ResultSet ejecutarConsulta(String consulta) {
+         conn=enlace();
         try {
             st=conn.createStatement();
         } catch (SQLException ex) {
             System.out.println("excepcion");
         }
         try {
-            rs=st.executeQuery("select * from alumno");
+            rs=st.executeQuery(consulta);
         } catch (SQLException ex) {
            System.out.println("error en la query");
         }
@@ -98,7 +99,7 @@ public class BD1 {
     public static void main(String[] args) {
         
         
-        conn=enlace(conn);
+        conn=enlace();
         rs=consulta();
         imprimirConsulta(rs);
         cerrarSesion();

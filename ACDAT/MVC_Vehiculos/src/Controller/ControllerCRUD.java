@@ -3,11 +3,14 @@ package Controller;
 
 
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
+import DAOs.BD1;
 import DAOs.DAOVehiculoImpl;
 import Recursos.Vehiculo;
 import Vista.PanelCRUD;
@@ -23,31 +26,28 @@ public class ControllerCRUD
 	public static void cargarTabla( JTable tablaVehiculos)
 	{ //DefaultTableModel modeloDeDatosTabla = (DefaultTableModel) tablaVehiculos.getModel();
 		List<Vehiculo> lstVehiculos = DAOVehiculoImpl.getInstance().getVehiculos();
+		String sqlQuery = "SELECT * FROM vehiculos";
+		BD1 dbConnection = new BD1();
 		
+		ResultSet rs = dbConnection.ejecutarConsulta(sqlQuery);
+
 		DefaultTableModel modelo=new DefaultTableModel();
-	 
-	 
-	 modelo.addColumn("Marca");
-
-	 modelo.addColumn("Modelo");
-
-	 modelo.addColumn("Matricula");
-
-	
-    
-   
-	 Object[] registroLeido = new Object [3];
-	 
-	 if (lstVehiculos != null) {
-		 for(Vehiculo vehiculo:lstVehiculos)
-		 {	 
-			 registroLeido[0]= vehiculo.getMarca();
-			 registroLeido[1]= vehiculo.getModelo();
-			 registroLeido[2]=  vehiculo.getMatricula();
-			 modelo.addRow(registroLeido);
-		 }		 
-	 }
-	 tablaVehiculos.setModel(modelo);
+		modelo.addColumn("ID");
+        modelo.addColumn("Marca");
+        modelo.addColumn("Modelo");
+        modelo.addColumn("Matricula");
+        try {
+        	Object[] registroLeido = new Object[4];
+        	while(rs.next()) {
+        		registroLeido[0] = rs.getString("id");
+        		registroLeido[1] = rs.getString("marca");
+        		registroLeido[2] = rs.getString("modelo");
+        		registroLeido[3] = rs.getString("matricula");
+        		
+        		modelo.addRow(registroLeido);
+        	}
+        } catch (SQLException e) {};
+        tablaVehiculos.setModel(modelo);
 	}
 	
 	

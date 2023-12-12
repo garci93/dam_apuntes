@@ -58,8 +58,9 @@ public class PanelCRUD extends javax.swing.JPanel {
 
 		// DAOVehiculoImpl.getInstance().insertarVehiculo(new
 		// Vehiculo(txtMatricula.getText(), ))
+		String txtMatricula = tablaVehiculos.getValueAt(tablaVehiculos.getSelectedRow(),tablaVehiculos.getSelectedColumn()).toString();
 
-		ControllerCRUD.eliminarVehiculo(txtMatricula.toString(), tablaVehiculos);
+		ControllerCRUD.eliminarVehiculo(txtMatricula, tablaVehiculos);
 
 	}
 
