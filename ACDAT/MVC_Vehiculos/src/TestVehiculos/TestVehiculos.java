@@ -3,7 +3,6 @@ package TestVehiculos;
 import java.awt.EventQueue;
 
 import Vista.VentanaPrincipal;
-import Vista.VentanaPrincipal;
 
 public class TestVehiculos {
 
