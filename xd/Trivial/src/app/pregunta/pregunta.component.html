@@ -1,0 +1,12 @@
+
+<div *ngIf="!juegoCompletado">
+    <p>{{pregunta.question}}</p>
+    <div *ngFor="let respuesta of respuestas">
+        <p (click)="comprobarRespuesta(respuesta)">{{ respuesta }}</p>
+    </div>
+    <br><br>
+</div>
+
+<div *ngIf="juegoCompletado">
+    <h3>Resultados:</h3>
+</div>

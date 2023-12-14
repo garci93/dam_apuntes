@@ -1,0 +1,19 @@
+<form [formGroup]="signupForm"> 
+    <h1>Registro</h1>
+    <br>
+    <label>Nombre: </label><input type="text"  formControlName="nombre" #nombre>
+    <div *ngIf="signupForm.get('nombre')?.invalid && signupForm.get('nombre')?.touched">
+        <p *ngIf="signupForm.get('nombre')?.hasError('required')">Este campo es obligatorio</p>
+        <p *ngIf="signupForm.get('nombre')?.hasError('minlength')">Debe tener al menos 4 caracteres</p>
+    </div>
+    <br><br>
+    <label>Contraseña: </label><input type="text" formControlName="contrasena" #contrasena>
+    <div *ngIf="signupForm.get('contrasena')?.invalid && signupForm.get('contrasena')?.touched">
+        <p *ngIf="signupForm.get('contrasena')?.hasError('required')">Este campo es obligatorio</p>
+        <p *ngIf="signupForm.get('contrasena')?.hasError('minlength')">Debe tener al menos 8 caracteres</p>
+    </div>
+    <br><br>
+    <button (click)="registro(nombre.value, contrasena.value)">Registrarse</button>
+    <br><br>
+    <button (click)="cancelar()">Cancelar</button>
+</form>

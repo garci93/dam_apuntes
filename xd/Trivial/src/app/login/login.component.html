@@ -1,0 +1,19 @@
+<h1>Iniciar sesion</h1>
+<br>
+<form [formGroup]="loginForm">
+    <label>Nombre: </label><input type="text" formControlName="nombre" #nombre>
+    <div *ngIf="loginForm.get('nombre')?.invalid && loginForm.get('nombre')?.touched">
+        <p *ngIf="loginForm.get('nombre')?.hasError('required')">Este campo es obligatorio</p>
+        <p *ngIf="loginForm.get('nombre')?.hasError('minlength')">Debe tener al menos 4 caracteres</p>
+    </div>
+    <br><br>
+    <label>Contraseña: </label><input type="text" formControlName="contrasena" #contrasena>
+    <div *ngIf="loginForm.get('contrasena')?.invalid && loginForm.get('contrasena')?.touched">
+        <p *ngIf="loginForm.get('contrasena')?.hasError('required')">Este campo es obligatorio</p>
+        <p *ngIf="loginForm.get('contrasena')?.hasError('minlength')">Debe tener al menos 8 caracteres</p>
+    </div>
+    <br><br>
+    <button (click)="acceder(nombre.value, contrasena.value)">Acceder</button>
+    <br><br>
+    <button (click)="registrarse()">Registrarse</button>
+</form>
