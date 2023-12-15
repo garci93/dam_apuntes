@@ -15,15 +15,15 @@ app.get('/api/preguntas-peliculas', async (req, res) => {
         const response = await ServicioApi.getApiPreguntasPeliculasData();
         res.send(response);
     } catch (error) {
-        res.send(error.message);
+        console.error("Error en la petición en el lado del servidor: \n", error);
     }
 });
 
 app.get('/api/preguntas-deportes', async (req, res) => {
     try {
         const response = await ServicioApi.getApiPreguntasDeportesData();
-        res.send(response);
+        res.json(response);
     } catch (error) {
-        res.send(error.message);
+        res.status(500).send(error.message);
     }
 });

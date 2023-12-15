@@ -6,7 +6,7 @@ class ServicioApi{
     async getApiPreguntasPeliculasData(){
         try{
             const response = await axios.get('https://opentdb.com/api.php?amount=10&category=11&type=multiple')
-            return response.data;
+            return response.results;
         }
         catch(error){
             throw new Error('Error al obtener datos de la API externa');
@@ -16,7 +16,7 @@ class ServicioApi{
     async getApiPreguntasDeportesData(){
         try{
             const response = await axios.get('https://opentdb.com/api.php?amount=10&category=21&type=multiple')
-            return response.data;
+            return response.results;
         }
         catch(error){
             throw new Error('Error al obtener datos de la API externa');
