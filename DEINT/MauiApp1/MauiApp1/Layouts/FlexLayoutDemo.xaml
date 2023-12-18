@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Layouts.FlexLayoutDemo"
+             Title="FlexLayout">
+    <FlexLayout Wrap="Wrap" Direction="Row" AlignItems="Center" JustifyContent="SpaceBetween">
+        <Button BackgroundColor="DeepPink" WidthRequest="50" HeightRequest="50"/>
+        <Button BackgroundColor="Lime" WidthRequest="50" HeightRequest="50"/>
+        <Button BackgroundColor="SkyBlue" WidthRequest="50" HeightRequest="50"/>
+        <Button BackgroundColor="Orange" WidthRequest="50" HeightRequest="50"/>
+        <Button BackgroundColor="ForestGreen" WidthRequest="50" HeightRequest="50"/>
+        <Button BackgroundColor="Indigo" WidthRequest="50" HeightRequest="50"/>
+        <Button BackgroundColor="Yellow" WidthRequest="50" HeightRequest="50"/>
+        <Button BackgroundColor="Turquoise" WidthRequest="50" HeightRequest="50"/>
+        <Button BackgroundColor="OrangeRed" WidthRequest="50" HeightRequest="50"/>
+        <Button BackgroundColor="Blue" WidthRequest="50" HeightRequest="50"/>
+    </FlexLayout>
+</ContentPage>

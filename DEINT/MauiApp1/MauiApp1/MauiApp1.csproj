@@ -53,9 +53,28 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="ContentPageDemo.xaml">
+	  <MauiXaml Update="Layouts\AbsoluteLayoutDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Layouts\ContentPageDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Controller\ControlesDePresentacionDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Layouts\FlexLayoutDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Paginas\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Layouts\FlexLayoutDemo.xaml.cs">
+	    <DependentUpon>FlexLayoutDemo.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 </Project>

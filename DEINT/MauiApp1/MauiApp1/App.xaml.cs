@@ -1,4 +1,6 @@
-﻿namespace MauiApp1
+﻿using MauiApp1.Layouts;
+
+namespace MauiApp1
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new ContentPageDemo();
+            MainPage = new ControlesDePresentacionDemo();
         }
     }
 }
