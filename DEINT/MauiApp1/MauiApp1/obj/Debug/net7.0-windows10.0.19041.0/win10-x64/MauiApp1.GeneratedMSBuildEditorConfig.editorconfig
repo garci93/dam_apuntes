@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/dam/Desktop/dam_apuntes/DEINT/MauiApp1/MauiApp1/Controller/ComandosDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Controller.ComandosDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Controller\ComandosDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Controller\ComandosDemo.xaml
+
 [C:/Users/dam/Desktop/dam_apuntes/DEINT/MauiApp1/MauiApp1/Controller/ControlesDePresentacionDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Controller.ControlesDePresentacionDemo.xaml

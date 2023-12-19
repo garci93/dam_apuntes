@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jardineria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68c7b3c9ca8e18acf6f5bf69679efc940d476f90")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jardineria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jardineria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

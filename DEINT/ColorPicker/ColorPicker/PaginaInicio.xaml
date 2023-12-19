@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColorPicker.PaginaInicio"
+             Title="PaginaInicio">
+    <VerticalStackLayout>
+        <Label 
+            Text="Color Picker"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Red Value"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+        <Slider x:Name="sliderRed" Minimum="0" Maximum="255" MinimumTrackColor="Red" MaximumTrackColor="DarkGray" ThumbColor="White" ValueChanged="slider_ValueChanged"></Slider>
+        <Label
+            Text="Green Value"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+        <Slider x:Name="sliderGreen" Minimum="0" Maximum="255" MinimumTrackColor="Lime" MaximumTrackColor="DarkGray" ThumbColor="White" ValueChanged="slider_ValueChanged"></Slider>
+        <Label 
+            Text="Blue Value"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+        <Slider x:Name="sliderBlue" Minimum="0" Maximum="255" MinimumTrackColor="Blue" MaximumTrackColor="DarkGray" ThumbColor="White" ValueChanged="slider_ValueChanged"></Slider>
+        <Label 
+            Text="Hex Value: #000000"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
