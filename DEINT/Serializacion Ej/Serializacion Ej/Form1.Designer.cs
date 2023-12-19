@@ -204,6 +204,7 @@
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(622, 204);
             dataGridView1.TabIndex = 25;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // Form1
             // 

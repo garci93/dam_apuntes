@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Proyecto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Nombre>Primer proyecto</Nombre>
+  <Descripcion>Descripción</Descripcion>
+  <fecha>2023-12-19T23:18:12.3105731+01:00</fecha>
+  <Lista>
+    <Tarea>
+      <Nombre>Tarea 1</Nombre>
+      <Descripcion>Descripción 1</Descripcion>
+      <fecha>2023-12-19T23:18:12.3075822+01:00</fecha>
+      <Estado>PENDIENTE</Estado>
+    </Tarea>
+    <Tarea>
+      <Nombre>Tarea 2</Nombre>
+      <Descripcion>Descripción 2</Descripcion>
+      <fecha>2023-12-19T23:18:12.3105731+01:00</fecha>
+      <Estado>COMPLETADA</Estado>
+    </Tarea>
+  </Lista>
+</Proyecto>

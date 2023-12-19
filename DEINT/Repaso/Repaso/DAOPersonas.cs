@@ -39,5 +39,10 @@ namespace Repaso
         {
             return conexion.EjecutarSentencia("SELECT * FROM personas");
         }
+
+        public void ModificarPersona(string nombre, int edad)
+        {
+            conexion.EjecutarComandoSinRetornarDatos("UPDATE personas SET nombre='" + nombre + "',edad=" + edad);
+        }
     }
 }

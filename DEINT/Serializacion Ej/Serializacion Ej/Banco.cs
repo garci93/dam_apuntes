@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 using System.Text.Json;
 using Serializacion_Ej;
 
-namespace Banco
+namespace Serializacion_Ej
 {
     public class Banco
     {
@@ -20,9 +20,10 @@ namespace Banco
             if (checkXMLExist())
             {
                 ClienteList.Add(cliente);
-                using (StreamWriter writer = new StreamWriter("banco.xml"))
+
+                using (FileStream stream = new FileStream("banco.xml", FileMode.Create))
                 {
-                    serializer.Serialize(writer, this);
+                    serializer.Serialize(stream, this);
                 }
             }
             else

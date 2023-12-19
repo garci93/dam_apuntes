@@ -1,0 +1,38 @@
+C:\Users\Jojogape\source\repos\RepasoSerializ\RepasoSerializ\bin\Debug\RepasoSerializ.exe.config
+C:\Users\Jojogape\source\repos\RepasoSerializ\RepasoSerializ\bin\Debug\RepasoSerializ.exe
+C:\Users\Jojogape\source\repos\RepasoSerializ\RepasoSerializ\bin\Debug\RepasoSerializ.pdb
+C:\Users\Jojogape\source\repos\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.csproj.AssemblyReference.cache
+C:\Users\Jojogape\source\repos\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.Properties.Resources.resources
+C:\Users\Jojogape\source\repos\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.csproj.GenerateResource.cache
+C:\Users\Jojogape\source\repos\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.csproj.CoreCompileInputs.cache
+C:\Users\Jojogape\source\repos\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.exe
+C:\Users\Jojogape\source\repos\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\RepasoSerializ.exe.config
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\RepasoSerializ.exe
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\RepasoSerializ.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.csproj.AssemblyReference.cache
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.Properties.Resources.resources
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.csproj.GenerateResource.cache
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.csproj.CoreCompileInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.exe
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Buffers.dll
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Memory.dll
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Numerics.Vectors.dll
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Text.Encodings.Web.dll
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Text.Json.dll
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.ValueTuple.dll
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Buffers.xml
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Memory.xml
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Numerics.Vectors.xml
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Text.Encodings.Web.xml
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Text.Json.xml
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\bin\Debug\System.ValueTuple.xml
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.csproj.CopyComplete
+F:\COSAS DAM\dam_apuntes\DEINT\RepasoSerializ\RepasoSerializ\obj\Debug\RepasoSerializ.Form1.resources

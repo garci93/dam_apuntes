@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Serializacion Ej")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48652b404fb34d954dde02f2e0344f0ecb70f7b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+539ce8c8c2513bc1da99ea631e1d0ef6516782f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Serializacion Ej")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Serializacion Ej")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

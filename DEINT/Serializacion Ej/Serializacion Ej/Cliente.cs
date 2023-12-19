@@ -23,12 +23,12 @@ namespace Serializacion_Ej
 
         [XmlElement("Codigo")]
 
-        string DNI {  get; set; }
-        string Nombre { get; set; }
-        string Direccion { get; set; }
-        int Edad {  get; set; }
-        int Telefono { get; set; }
-        long CuentaCorriente { get; set; }
+        public string DNI {  get; set; }
+        public string Nombre { get; set; }
+        public string Direccion { get; set; }
+        public int Edad {  get; set; }
+        public int Telefono { get; set; }
+        public long CuentaCorriente { get; set; }
 
         public void GuardarEnArchivo(string nombreArchivo)
         {

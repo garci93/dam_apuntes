@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Banco xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Clientes>
-    <Cliente />
-    <Cliente />
-    <Cliente />
-  </Clientes>
+  <ClienteList>
+    <Cliente>
+      <Edad>0</Edad>
+      <Telefono>0</Telefono>
+      <CuentaCorriente>0</CuentaCorriente>
+    </Cliente>
+    <Cliente>
+      <Edad>0</Edad>
+      <Telefono>0</Telefono>
+      <CuentaCorriente>0</CuentaCorriente>
+    </Cliente>
+    <Cliente>
+      <Edad>0</Edad>
+      <Telefono>0</Telefono>
+      <CuentaCorriente>0</CuentaCorriente>
+    </Cliente>
+    <Cliente>
+      <Edad>0</Edad>
+      <Telefono>0</Telefono>
+      <CuentaCorriente>0</CuentaCorriente>
+    </Cliente>
+    <Cliente>
+      <Codigo>12345678A</Codigo>
+      <Nombre>www</Nombre>
+      <Direccion>www</Direccion>
+      <Edad>23</Edad>
+      <Telefono>232323232</Telefono>
+      <CuentaCorriente>1111222233334444</CuentaCorriente>
+    </Cliente>
+  </ClienteList>
 </Banco>

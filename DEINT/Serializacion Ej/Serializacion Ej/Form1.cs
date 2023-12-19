@@ -10,7 +10,7 @@ namespace Serializacion_Ej
             InitializeComponent();
         }
 
-        
+
         private void btnAnadir_Click(object sender, EventArgs e)
         {
             try
@@ -24,18 +24,19 @@ namespace Serializacion_Ej
                 if (res)
                 {
                     Cliente cliente = new Cliente(txtDNI.Text, txtNombre.Text, txtDireccion.Text, int.Parse(txtEdad.Text), int.Parse(txtTelefono.Text), long.Parse(txtCC.Text));
-                    banco.AgregarCliente(cliente);
+                    banco.addClienteJSON(cliente);
                     cliente.GuardarEnArchivo("datos_cliente.bin");
                 }
                 else
                 {
                     throw new Exception();
                 }
-            } catch (Exception)
+            }
+            catch (Exception)
             {
                 MessageBox.Show("Los datos introducidos no son correctos, por favor revíselos");
             }
-            
+
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -109,6 +110,11 @@ namespace Serializacion_Ej
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
