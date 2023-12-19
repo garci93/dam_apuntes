@@ -1,0 +1,10 @@
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.csproj.AssemblyReference.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.Form1.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.Properties.Resources.resources
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.csproj.GenerateResource.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.csproj.CoreCompileInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\bin\Debug\Repaso.exe.config
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\bin\Debug\Repaso.exe
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\bin\Debug\Repaso.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.exe
+F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.pdb
