@@ -8,3 +8,13 @@ F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\bin\Debug\Repaso.exe
 F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\bin\Debug\Repaso.pdb
 F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.exe
 F:\COSAS DAM\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\bin\Debug\Repaso.exe.config
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\bin\Debug\Repaso.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\bin\Debug\Repaso.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.csproj.AssemblyReference.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.Form1.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.Properties.Resources.resources
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Repaso\Repaso\obj\Debug\Repaso.pdb

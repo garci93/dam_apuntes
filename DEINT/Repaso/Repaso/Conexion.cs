@@ -11,7 +11,7 @@ namespace RepasoExamRecuDEINT.Conexion
     class Conexion
     {
         //private string cadenaConexion = "Data Source=DAM2-19; Initial Catalog=jardineria; Integrated Security = True";
-        private string cadenaConexion2 = "Data Source=DESKTOP-N0FOBBJ; Initial Catalog=repaso; Integrated Security = True";
+        private string cadenaConexion2 = "Data Source=DAM2-13; Initial Catalog=repaso; Integrated Security = True";
         SqlConnection sqlConnection;
 
         public SqlConnection EstablecerConexion()

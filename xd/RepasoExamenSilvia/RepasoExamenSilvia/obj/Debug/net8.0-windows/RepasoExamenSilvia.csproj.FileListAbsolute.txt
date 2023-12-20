@@ -1,0 +1,16 @@
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\bin\Debug\net8.0-windows\RepasoExamenSilvia.exe
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\bin\Debug\net8.0-windows\RepasoExamenSilvia.deps.json
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\bin\Debug\net8.0-windows\RepasoExamenSilvia.runtimeconfig.json
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\bin\Debug\net8.0-windows\RepasoExamenSilvia.dll
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\bin\Debug\net8.0-windows\RepasoExamenSilvia.pdb
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\RepasoExamenSilvia.Form1.resources
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\RepasoExamenSilvia.csproj.GenerateResource.cache
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\RepasoExamenSilvia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\RepasoExamenSilvia.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\RepasoExamenSilvia.AssemblyInfo.cs
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\RepasoExamenSilvia.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\RepasoExamenSilvia.dll
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\refint\RepasoExamenSilvia.dll
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\RepasoExamenSilvia.pdb
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\RepasoExamenSilvia.genruntimeconfig.cache
+C:\Users\anton\Desktop\REPASORECUEXAM\RepasoExamenSilvia\RepasoExamenSilvia\obj\Debug\net8.0-windows\ref\RepasoExamenSilvia.dll
