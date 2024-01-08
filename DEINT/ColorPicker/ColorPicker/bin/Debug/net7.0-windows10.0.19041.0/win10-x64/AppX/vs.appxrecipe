@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\ColorPicker\ColorPicker\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-19T12:16:47.581</Modified>
+      <Modified>2024-01-08T10:09:33.074</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\ColorPicker\ColorPicker\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-19T12:01:08.782</Modified>
+      <Modified>2024-01-08T10:09:32.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\ColorPicker\ColorPicker\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ColorPicker.runtimeconfig.json">
       <PackagePath>ColorPicker.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\ColorPicker\ColorPicker\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ColorPicker.dll">
       <PackagePath>ColorPicker.dll</PackagePath>
-      <Modified>2023-12-19T12:16:46.534</Modified>
+      <Modified>2024-01-08T10:09:31.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\ColorPicker\ColorPicker\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ColorPicker.exe</PackagePath>
-      <Modified>2023-12-19T12:16:46.549</Modified>
+      <Modified>2024-01-08T10:09:31.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\ColorPicker\ColorPicker\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ColorPicker.deps.json">
       <PackagePath>ColorPicker.deps.json</PackagePath>

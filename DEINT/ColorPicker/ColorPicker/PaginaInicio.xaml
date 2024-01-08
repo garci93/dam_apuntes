@@ -12,20 +12,26 @@
             Text="Red Value"
             VerticalOptions="Center" 
             HorizontalOptions="Start" />
-        <Slider x:Name="sliderRed" Minimum="0" Maximum="255" MinimumTrackColor="Red" MaximumTrackColor="DarkGray" ThumbColor="White" ValueChanged="slider_ValueChanged"></Slider>
+        <Slider x:Name="sliderRed" Minimum="0" Maximum="255" ThumbColor="White" ValueChanged="slider_ValueChanged"></Slider>
         <Label
             Text="Green Value"
             VerticalOptions="Center" 
             HorizontalOptions="Start" />
-        <Slider x:Name="sliderGreen" Minimum="0" Maximum="255" MinimumTrackColor="Lime" MaximumTrackColor="DarkGray" ThumbColor="White" ValueChanged="slider_ValueChanged"></Slider>
+        <Slider x:Name="sliderGreen" Minimum="0" Maximum="255" ThumbColor="White" ValueChanged="slider_ValueChanged"></Slider>
         <Label 
             Text="Blue Value"
             VerticalOptions="Center" 
             HorizontalOptions="Start" />
-        <Slider x:Name="sliderBlue" Minimum="0" Maximum="255" MinimumTrackColor="Blue" MaximumTrackColor="DarkGray" ThumbColor="White" ValueChanged="slider_ValueChanged"></Slider>
+        <Slider x:Name="sliderBlue" Minimum="0" Maximum="255" ThumbColor="White" ValueChanged="slider_ValueChanged"></Slider>
         <Label 
+            x:Name="hexValue"
             Text="Hex Value: #000000"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Button
+            x:Name="randomColor"
+            Clicked="randomColor_Clicked"
+            Text="Generate random color"/>
+
     </VerticalStackLayout>
 </ContentPage>

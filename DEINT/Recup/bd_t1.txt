@@ -1,0 +1,22 @@
+
+CREATE TABLE Editorial
+(
+codigo INT PRIMARY KEY,
+nombre TEXT NOT NULL,
+direccion TEXT NOT NULL,
+);
+
+
+CREATE TABLE Libro (
+isbn INT PRIMARY KEY,
+titulo TEXT NOT NULL,
+autor TEXT NOT NULL,
+genero TEXT NOT NULL,
+año_publicacion INT,
+cod_editorial INT,
+FOREIGN KEY(cod_editorial) REFERENCES Editorial(codigo)
+
+);
+
+
+

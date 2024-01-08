@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.MainPage">
+
+    <VerticalStackLayout>
+        <Grid BackgroundColor="Gray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".7*"></ColumnDefinition>
+                <ColumnDefinition Width=".3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="total de personas" TextTransform="Uppercase" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalOptions="Start" HorizontalOptions="Center" TextColor="Blue"></Label>
+            <Label Text="0.00€" Grid.Column="0" Grid.Row="1"  Grid.RowSpan="4" VerticalOptions="Center" Padding="20" FontSize="24"></Label>
+            <Label Text="SUBTOTAL" Grid.Column="1" Grid.Row="1" ></Label>
+            <Label Text="0.00€" Grid.Column="1" Grid.Row="2"></Label>
+            <Label Text="PROPINA" Grid.Column="1" Grid.Row="3"></Label>
+            <Label Text="0.00€" Grid.Column="1" Grid.Row="4" VerticalOptions="Start"></Label>
+
+        </Grid>
+    </VerticalStackLayout>
+
+</ContentPage>
