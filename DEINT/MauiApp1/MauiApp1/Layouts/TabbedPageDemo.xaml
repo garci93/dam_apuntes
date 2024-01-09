@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Layouts.TabbedPageDemo"
+             Title="TabbedPageDemo">
+    <ContentPage Title="Pagina1"></ContentPage>
+    <ContentPage Title="Pagina2"></ContentPage>
+    <ContentPage Title="Pagina3"></ContentPage>
+    <ContentPage Title="Pagina4"></ContentPage>
+</TabbedPage>

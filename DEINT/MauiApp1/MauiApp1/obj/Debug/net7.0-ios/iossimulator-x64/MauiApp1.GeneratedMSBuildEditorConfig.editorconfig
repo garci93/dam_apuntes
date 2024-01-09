@@ -58,6 +58,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Layouts.FlexLayou
 build_metadata.AdditionalFiles.TargetPath = Layouts\FlexLayoutDemo.xaml
 build_metadata.AdditionalFiles.RelativePath = Layouts\FlexLayoutDemo.xaml
 
+[C:/Users/dam/Desktop/dam_apuntes/DEINT/MauiApp1/MauiApp1/Layouts/FlyoutPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Layouts.FlyoutPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\FlyoutPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\FlyoutPageDemo.xaml
+
+[C:/Users/dam/Desktop/dam_apuntes/DEINT/MauiApp1/MauiApp1/Layouts/TabbedPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Layouts.TabbedPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts\TabbedPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts\TabbedPageDemo.xaml
+
 [C:/Users/dam/Desktop/dam_apuntes/DEINT/MauiApp1/MauiApp1/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.MainPage.xaml

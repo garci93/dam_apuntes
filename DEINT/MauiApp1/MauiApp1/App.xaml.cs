@@ -1,4 +1,5 @@
 ﻿using MauiApp1.Controller;
+using MauiApp1.Layouts;
 
 namespace MauiApp1
 {
@@ -8,7 +9,7 @@ namespace MauiApp1
         {
             InitializeComponent();
 
-            MainPage = new ComandosDemo();
+            MainPage = new TabbedPageDemo();
         }
     }
 }
