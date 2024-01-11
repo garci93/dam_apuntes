@@ -1,0 +1,17 @@
+java jdbc y mysql
+usar dao controlador pojo etc
+
+crear interfaz consulta
+
+1. poder escribir una select en el cuadro consulta y que al pulsar en buscar se muestre el resultado abajo (jtable).
+errores a mostrar y capturar con ventana modal:
+- no hay consulta escrita
+- la consulta tiene errores
+- la consulta da resultado vacio
+hacer esto en un metodo diferente al que las lanza
+
+2. agregar lista desplegable que recoja el historial de consultas, al seleccionar aparece en el cuadro Consulta para poder buscar
+
+3. si la consulta es puntos espacio numero, se mostrara el NUMERO de jugadores que han anotado mas de esos puntos. para ello usamos un metodo obtenerJugadores y es del DAO, devuelve un arraylist con todos los jugadores (un select *), y luego en la clase servicio hay un metodo contarAnotadores que llama al obtenerJugadores del DAO y hace la cuenta con un Stream
+
+4. ejecutar el metodo contarAnotadores simulando con un MockDAO el metodo obtenerJugadores
