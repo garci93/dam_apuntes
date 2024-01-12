@@ -10,16 +10,24 @@ namespace EnlaceDeDatos
         public MainPage()
         {
             InitializeComponent();
-        }
 
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            Persona persona = new Persona(){
+            Persona persona = new Persona
+            {
                 Nombre = "AAA",
                 Telefono = "638572794",
                 Direccion = "EEE",
             };
             BindingContext = persona;
+        }
+
+        private void OnCounterClicked(object sender, EventArgs e)
+        {
+            Persona persona = new Persona()
+            {
+                Nombre = "AAA",
+                Telefono = "638572794",
+                Direccion = "EEE",
+            };
         }
 
     }
