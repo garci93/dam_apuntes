@@ -1,20 +1,12 @@
+SPRINGBOOT PARA 16 FEB
+
+lo del ERP de sgemp, con python
+
+
+
+
+
 ACABAR TRIVIAL!!!!!! IMPORTANTE PARA ENERO
 
-
-
+(repaso)
 HACER LAMBDAS JAVA
-
-HLC el juego					ENTREGAR
-SGEMP hacer recorrido por ejercicios y entregarlos todos ¿voluntario?
-PMDMO 5 directivas tuberias
-SGEMP Proyecto 3 (plantear, baja prioridad)
-
-
-SGEMP mirar examen resuelto contactos
-
-
-
-	random xd
-ACDAT MIRAR COMPARATOR JAVA
-sgemp curso JS
-PSPRO terminar tresbotones???
