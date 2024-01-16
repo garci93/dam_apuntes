@@ -6,6 +6,9 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="MVVM\Views\PeopleView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="MVVM\Views\PersonView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

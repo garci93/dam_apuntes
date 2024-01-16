@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-12T09:38:47.781</Modified>
+      <Modified>2024-01-16T11:45:50.799</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-12T09:36:37.742</Modified>
+      <Modified>2024-01-16T11:45:50.674</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Ahorcado.runtimeconfig.json">
       <PackagePath>Ahorcado.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-12T09:36:37.492</Modified>
+      <Modified>2024-01-16T11:45:50.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Ahorcado.dll">
       <PackagePath>Ahorcado.dll</PackagePath>
-      <Modified>2024-01-12T09:38:47.500</Modified>
+      <Modified>2024-01-16T11:45:50.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ahorcado.exe</PackagePath>
-      <Modified>2024-01-12T09:38:47.500</Modified>
+      <Modified>2024-01-16T11:45:50.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -296,7 +296,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Ahorcado.deps.json">
       <PackagePath>Ahorcado.deps.json</PackagePath>
-      <Modified>2024-01-12T09:36:37.351</Modified>
+      <Modified>2024-01-16T11:45:50.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -1,0 +1,3 @@
+CUANDO UN PATH TIENE : AL PRINCIPIO ES QUE SE USA COMO PARÁMETRO
+
+:recipeId -> el id de la receta

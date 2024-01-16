@@ -16,7 +16,7 @@ namespace MVVMDemo.MVVM.ViewModels
             {
                 Name = "Jose",
                 Age = 1,
-                Married = false,
+                Married = "yes",
                 BirthDate = new DateTime(2001, 09, 01),
                 Weight = 100,
                 Lunchtime = new TimeSpan(17, 10, 3)

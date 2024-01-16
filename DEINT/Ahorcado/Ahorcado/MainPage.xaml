@@ -35,7 +35,7 @@
                 HorizontalOptions="Center" />
 
             <FlexLayout>
-                <Grid BindableLayout.ItemsSource="{Binding Items}" />
+                <Grid BindableLayout.ItemsSource="{Binding Alfabeto}" />
             </FlexLayout>
         </VerticalStackLayout>
     </ScrollView>
