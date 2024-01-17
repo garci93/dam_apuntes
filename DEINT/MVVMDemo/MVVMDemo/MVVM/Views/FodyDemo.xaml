@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMDemo.MVVM.Views.FodyDemo"
+             Title="FodyDemo">
+    <VerticalStackLayout>
+        <Entry x:Name="Numero1" Text="{Binding Numero1}"></Entry>
+        <Entry x:Name="Numero2"  Text="{Binding Numero2}"></Entry>
+        <Button x:Name="Button1" Text="Calcular" Command="{Binding AddCommand}"></Button>
+        <Label x:Name="Resultado" Text="{Binding Resultado}"></Label>
+    </VerticalStackLayout>
+</ContentPage>

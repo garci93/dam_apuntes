@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMDemo.MVVM.Views.CommandView"
+             Title="CommandView">
+    <VerticalStackLayout>
+        <Button Text="HOLA" Command="{Binding ClickCommand}"></Button>
+        <Entry x:Name="ent"></Entry>
+        <Button x:Name="Boton" Text="Click Me" Command="{Binding ClickCommand1}" CommandParameter="{Binding Source={x:Reference Boton}, Path=Text}"/>
+        <Button x:Name="Boton2" Text="Click Me" Command="{Binding ClickCommand1}" CommandParameter="4"/>
+        <Button x:Name="Boton3" Text="Click Me" Command="{Binding ClickCommand1}" CommandParameter="{Binding Source={x:Reference ent}, Path=Text}"/>
+    </VerticalStackLayout>
+</ContentPage>

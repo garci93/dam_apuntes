@@ -1,4 +1,5 @@
 is_global = true
+build_property.PropertyChangedAnalyzerConfiguration = 
 build_property.EnableAotAnalyzer = 
 build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
@@ -33,6 +34,18 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MVVMDemo.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/dam/Desktop/dam_apuntes/DEINT/MVVMDemo/MVVMDemo/MVVM/Views/CommandView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MVVMDemo.MVVM.Views.CommandView.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\CommandView.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\CommandView.xaml
+
+[C:/Users/dam/Desktop/dam_apuntes/DEINT/MVVMDemo/MVVMDemo/MVVM/Views/FodyDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MVVMDemo.MVVM.Views.FodyDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\FodyDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\FodyDemo.xaml
 
 [C:/Users/dam/Desktop/dam_apuntes/DEINT/MVVMDemo/MVVMDemo/MVVM/Views/PeopleView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
