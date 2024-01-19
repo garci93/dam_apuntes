@@ -1,0 +1,7 @@
+<!-- __manifest__.py -->
+{
+    'data': [
+        'views/tareas_views.xml',
+        'views/tareas_menus.xml',
+    ],
+}

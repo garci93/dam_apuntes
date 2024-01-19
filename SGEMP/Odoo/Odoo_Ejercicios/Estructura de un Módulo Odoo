@@ -1,0 +1,12 @@
+odoo/
+|-- addons/
+|   |-- mi_modulo/
+|       |-- __init__.py
+|       |-- __manifest__.py
+|       |-- models/
+|       |   |-- alimentos.py
+|       |-- views/
+|           |-- alimentos_views.xml
+|-- ...
+|-- otros_modulos/
+|-- ...

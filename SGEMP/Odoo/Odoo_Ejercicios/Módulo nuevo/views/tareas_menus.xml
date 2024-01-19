@@ -1,0 +1,15 @@
+<!-- views/tareas_menus.xml -->
+<odoo>
+    <record id="menu_tareas" model="ir.ui.menu">
+        <field name="name">Tareas Pendientes</field>
+        <field name="action" ref="mi_modulo_tareas.menu_tareas_action"/>
+        <field name="sequence" type="int">10</field>
+    </record>
+
+    <record id="menu_tareas_action" model="ir.actions.act_window">
+        <field name="name">Tareas Pendientes</field>
+        <field name="res_model">mi_modulo_tareas.tarea</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="mi_modulo_tareas.view_tarea_tree"/>
+    </record>
+</odoo>

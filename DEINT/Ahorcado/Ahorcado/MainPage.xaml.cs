@@ -10,7 +10,6 @@ namespace Ahorcado
         {
             InitializeComponent();
             BindingContext = new AlfabetoViewModel();
-            BindingContext.
         }
         private void OnCounterClicked(object sender, EventArgs e)
         {
