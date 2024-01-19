@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\IMCDemo\IMCDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-17T10:10:44.422</Modified>
+      <Modified>2024-01-19T10:11:39.264</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\IMCDemo\IMCDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-17T09:55:49.729</Modified>
+      <Modified>2024-01-19T09:57:42.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\IMCDemo\IMCDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IMCDemo.runtimeconfig.json">
       <PackagePath>IMCDemo.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\IMCDemo\IMCDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\IMCDemo.dll">
       <PackagePath>IMCDemo.dll</PackagePath>
-      <Modified>2024-01-17T10:10:44.015</Modified>
+      <Modified>2024-01-19T10:11:38.889</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\IMCDemo\IMCDemo\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>IMCDemo.exe</PackagePath>
-      <Modified>2024-01-17T10:10:44.031</Modified>
+      <Modified>2024-01-19T10:11:38.889</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\IMCDemo\IMCDemo\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

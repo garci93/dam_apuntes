@@ -34,8 +34,12 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
-            <FlexLayout>
-                <Grid BindableLayout.ItemsSource="{Binding Alfabeto}" />
+            <FlexLayout x:Name="flexLayout" Wrap="Wrap" Direction="Row" AlignItems="Center" JustifyContent="SpaceBetween" BindableLayout.ItemsSource="{Binding Alfabeto}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <Button Text="{Binding}"/>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
             </FlexLayout>
         </VerticalStackLayout>
     </ScrollView>

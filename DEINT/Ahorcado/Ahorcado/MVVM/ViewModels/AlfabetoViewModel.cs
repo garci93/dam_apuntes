@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PropertyChanged;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ahorcado.MVVM.ViewModels
 {
+    [AddINotifyPropertyChangedInterface]
     public class AlfabetoViewModel
     {
         public List<String> Alfabeto { get; set; } = new List<String>();

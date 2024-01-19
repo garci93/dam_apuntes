@@ -1,4 +1,5 @@
 is_global = true
+build_property.PropertyChangedAnalyzerConfiguration = 
 build_property.EnableAotAnalyzer = 
 build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false

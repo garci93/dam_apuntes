@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-16T11:45:50.799</Modified>
+      <Modified>2024-01-19T09:34:34.193</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Ahorcado.dll">
       <PackagePath>Ahorcado.dll</PackagePath>
-      <Modified>2024-01-16T11:45:50.206</Modified>
+      <Modified>2024-01-19T09:34:33.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ahorcado.exe</PackagePath>
-      <Modified>2024-01-16T11:45:50.221</Modified>
+      <Modified>2024-01-19T09:34:33.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Ahorcado\Ahorcado\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
