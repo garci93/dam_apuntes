@@ -1,0 +1,10 @@
+Instalación start.spring.io
+
+- Maven
+- Java
+- Resto: dejar igual
+
+Dependencias:
+- Spring Data JPA
+
+https://es.wikihow.com/instalar-Spring-Boot-en-Eclipse

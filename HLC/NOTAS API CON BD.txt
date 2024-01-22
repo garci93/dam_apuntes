@@ -1,0 +1,15 @@
+mongodb version 6
+crud sobre contactos
+en app.js vas haciendo el get, put, post, etc
+
+por lo general vas a tener un app.js y un servicio.js
+app tiene los get, put y post y sus promesas y tal, y llama al servicio, donde vas a tener la implementacion de los metodos
+
+->servicio.js
+async metodo(param){
+try{
+	return await realizalaoperacion
+}catch(error){
+	return (error: mensajedeerror)
+}
+}

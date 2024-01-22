@@ -4,109 +4,149 @@
              x:Class="IMCDemo.MVVM.Views.IMCView"
              xmlns:gauge="clr-namespace:Syncfusion.Maui.Gauges;assembly=Syncfusion.Maui.Gauges"
              Title="IMCView">
-    <VerticalStackLayout>
-        <gauge:SfLinearGauge
+    <Grid RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <VerticalStackLayout Grid.Row="0" >
+            <Label FontSize="Header" HorizontalOptions="Center" Text="Altura (cm)"></Label>
+            <gauge:SfLinearGauge
+                    Margin= "0,15,0,0"
+                    Interval= "50"
+                    Maximum= "250"
+                    Minimum= "25">
+                <gauge:SfLinearGauge.MarkerPointers>
+                    <gauge:LinearContentPointer
+                            x:Name="HeightPointer"
+                            IsInteractive="True"
+                            Position="Cross"
+                            Value="{Binding IMC.Altura}">
+                        <gauge:LinearContentPointer.Content>
+                            <Grid HeightRequest="25" WidthRequest="50">
+                                <RoundRectangle CornerRadius="5" Fill="#ff0074E3" />
+                                <Label
+                                        HorizontalOptions="Center"
+                                        Text="{Binding Source={x:Reference HeightPointer}, Path=Value,
+                                        StringFormat='{0:0}'}"
+                                        TextColor="White"
+                                        VerticalOptions="Center" />
+                            </Grid>
+                        </gauge:LinearContentPointer.Content>
+                    </gauge:LinearContentPointer>
+                </gauge:SfLinearGauge.MarkerPointers>
+            </gauge:SfLinearGauge>
+        </VerticalStackLayout>
+        <VerticalStackLayout Grid.Row="1" >
+            <Label FontSize="Header" HorizontalOptions="Center" Text="Peso (kg)"></Label>
+            <gauge:SfLinearGauge
             Margin= "0,15,0,0"
-            Interval= "50"
-            Maximum= "250"
-            Minimum= "25">
-            <gauge:SfLinearGauge.MarkerPointers>
-                <gauge:LinearContentPointer
-                    x:Name="HeightPointer"
+            Interval= "5"
+            Maximum= "150"
+            Minimum= "50">
+                <gauge:SfLinearGauge.MarkerPointers>
+                    <gauge:LinearContentPointer
+                    x:Name="WeightPointer"
                     IsInteractive="True"
                     Position="Cross"
-                    Value="{Binding IMC.Altura}">
-                    <gauge:LinearContentPointer.Content>
-                        <Grid HeightRequest="25" WidthRequest="50">
-                            <RoundRectangle CornerRadius="5" Fill="#ff0074E3" />
-                            <Label
+                    Value="{Binding IMC.Peso}">
+                        <gauge:LinearContentPointer.Content>
+                            <Grid HeightRequest="25" WidthRequest="50">
+                                <RoundRectangle CornerRadius="5" Fill="#ff0074E3" />
+                                <Label
                                 HorizontalOptions="Center"
-                                Text="{Binding Source={x:Reference HeightPointer}, Path=Value,
+                                Text="{Binding Source={x:Reference WeightPointer}, Path=Value,
                                 StringFormat='{0:0}'}"
                                 TextColor="White"
                                 VerticalOptions="Center" />
-                        </Grid>
-                    </gauge:LinearContentPointer.Content>
-                </gauge:LinearContentPointer>
-            </gauge:SfLinearGauge.MarkerPointers>
-        </gauge:SfLinearGauge>        <gauge:SfRadialGauge Margin="0,-55,0,-55">
-            <gauge:SfRadialGauge.Axes>
-                <gauge:RadialAxis
-                    Maximum="50"
-                    Minimum="0"
-                    ShowAxisLine="False"
-                    ShowLabels="False"
-                    ShowTicks="False">
-                    <gauge:RadialAxis.Ranges>
-                        <gauge:RadialRange
-                            EndValue="16"
-                            EndWidth="0.65"
-                            Fill="#282E5A"
-                            StartValue="0"
-                            StartWidth="0.65"
-                            WidthUnit="Factor" />
-                        <gauge:RadialRange
-                            EndValue="17"
-                            EndWidth="0.65"
-                            Fill="#616FD9"
-                            StartValue="16"
-                            StartWidth="0.65"
-                            WidthUnit="Factor"/>
-                        <gauge:RadialRange
-                            EndValue="18.5"
-                            EndWidth="0.65"
-                            Fill="DarkGreen"
-                            StartValue="17"
-                            StartWidth="0.65"
-                            WidthUnit="Factor"/>
-                        <gauge:RadialRange
-                            EndValue="25"
-                            EndWidth="0.65"
-                            Fill="Lime"
-                            StartValue="18.5"
-                            StartWidth="0.65"
-                            WidthUnit="Factor"/>
-                        <gauge:RadialRange
-                            EndValue="30"
-                            EndWidth="0.65"
-                            Fill="Orange"
-                            StartValue="25"
-                            StartWidth="0.65"
-                            WidthUnit="Factor"/>
-                        <gauge:RadialRange
-                            EndValue="35"
-                            EndWidth="0.65"
-                            Fill="Pink"
-                            StartValue="30"
-                            StartWidth="0.65"
-                            WidthUnit="Factor"/>
-                        <gauge:RadialRange
-                            EndValue="40"
-                            EndWidth="0.65"
-                            Fill="Red"
-                            StartValue="35"
-                            StartWidth="0.65"
-                            WidthUnit="Factor"/>
-                        <gauge:RadialRange
-                            EndValue="50"
-                            EndWidth="0.65"
-                            Fill="DarkRed"
-                            StartValue="40"
-                            StartWidth="0.65"
-                            WidthUnit="Factor"/>
-                    </gauge:RadialAxis.Ranges>
-                    <gauge:RadialAxis.Pointers>
-                        <gauge:NeedlePointer
-                            x:Name="pointer"
-                            KnobRadius="15"
-                            KnobSizeUnit="Pixel"
-                            NeedleEndWidth="15"
-                            NeedleLength="0.6"
-                            NeedleStartWidth="2"
-                            Value="{Binding IMC.Resultado}" />
-                    </gauge:RadialAxis.Pointers>
-                </gauge:RadialAxis>
-            </gauge:SfRadialGauge.Axes>
-        </gauge:SfRadialGauge>
-    </VerticalStackLayout>
+                            </Grid>
+                        </gauge:LinearContentPointer.Content>
+                    </gauge:LinearContentPointer>
+                </gauge:SfLinearGauge.MarkerPointers>
+            </gauge:SfLinearGauge>
+        </VerticalStackLayout>
+        <VerticalStackLayout Grid.Row="2">
+            <Label FontSize="Subtitle" HorizontalOptions="Center" Text="{Binding IMC.Resultado}"></Label>
+            <gauge:SfRadialGauge Margin="0,55,0,55">
+                <gauge:SfRadialGauge.Axes>
+                    <gauge:RadialAxis
+                            Maximum="50"
+                            Minimum="0"
+                            ShowAxisLine="False"
+                            ShowLabels="False"
+                            ShowTicks="False">
+                        <gauge:RadialAxis.Ranges>
+                            <gauge:RadialRange
+                                    EndValue="16"
+                                    EndWidth="0.65"
+                                    Fill="#282E5A"
+                                    StartValue="0"
+                                    StartWidth="0.65"
+                                    WidthUnit="Factor" />
+                            <gauge:RadialRange
+                                    EndValue="17"
+                                    EndWidth="0.65"
+                                    Fill="#616FD9"
+                                    StartValue="16"
+                                    StartWidth="0.65"
+                                    WidthUnit="Factor"/>
+                            <gauge:RadialRange
+                                    EndValue="18.5"
+                                    EndWidth="0.65"
+                                    Fill="DarkGreen"
+                                    StartValue="17"
+                                    StartWidth="0.65"
+                                    WidthUnit="Factor"/>
+                            <gauge:RadialRange
+                                    EndValue="25"
+                                    EndWidth="0.65"
+                                    Fill="Lime"
+                                    StartValue="18.5"
+                                    StartWidth="0.65"
+                                    WidthUnit="Factor"/>
+                            <gauge:RadialRange
+                                    EndValue="30"
+                                    EndWidth="0.65"
+                                    Fill="Orange"
+                                    StartValue="25"
+                                    StartWidth="0.65"
+                                    WidthUnit="Factor"/>
+                            <gauge:RadialRange
+                                    EndValue="35"
+                                    EndWidth="0.65"
+                                    Fill="Pink"
+                                    StartValue="30"
+                                    StartWidth="0.65"
+                                    WidthUnit="Factor"/>
+                            <gauge:RadialRange
+                                    EndValue="40"
+                                    EndWidth="0.65"
+                                    Fill="Red"
+                                    StartValue="35"
+                                    StartWidth="0.65"
+                                    WidthUnit="Factor"/>
+                            <gauge:RadialRange
+                                    EndValue="50"
+                                    EndWidth="0.65"
+                                    Fill="DarkRed"
+                                    StartValue="40"
+                                    StartWidth="0.65"
+                                    WidthUnit="Factor"/>
+                        </gauge:RadialAxis.Ranges>
+                        <gauge:RadialAxis.Pointers>
+                            <gauge:NeedlePointer
+                                    x:Name="pointer"
+                                    KnobRadius="15"
+                                    KnobSizeUnit="Pixel"
+                                    NeedleEndWidth="15"
+                                    NeedleLength="0.6"
+                                    NeedleStartWidth="2"
+                                    Value="{Binding IMC.Resultado}" />
+                        </gauge:RadialAxis.Pointers>
+                    </gauge:RadialAxis>
+                </gauge:SfRadialGauge.Axes>
+            </gauge:SfRadialGauge>
+        </VerticalStackLayout>
+    </Grid>
 </ContentPage>

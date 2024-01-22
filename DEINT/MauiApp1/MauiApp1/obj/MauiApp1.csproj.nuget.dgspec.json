@@ -227,7 +227,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -331,7 +331,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -436,7 +436,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -490,7 +490,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.14, 7.0.14]"
+              "version": "[7.0.15, 7.0.15]"
             },
             {
               "name": "Microsoft.Maui.Controls.Ref.win",
@@ -518,7 +518,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.14, 7.0.14]"
+              "version": "[7.0.15, 7.0.15]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -526,7 +526,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.14, 7.0.14]"
+              "version": "[7.0.15, 7.0.15]"
             }
           ],
           "frameworkReferences": {
@@ -546,7 +546,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
