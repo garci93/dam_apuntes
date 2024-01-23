@@ -67,7 +67,7 @@
             </gauge:SfLinearGauge>
         </VerticalStackLayout>
         <VerticalStackLayout Grid.Row="2">
-            <Label FontSize="Subtitle" HorizontalOptions="Center" Text="{Binding IMC.Resultado}"></Label>
+            <Label FontSize="Subtitle" HorizontalOptions="Center" Text="{Binding IMC.Nivel}"></Label>
             <gauge:SfRadialGauge Margin="0,55,0,55">
                 <gauge:SfRadialGauge.Axes>
                     <gauge:RadialAxis

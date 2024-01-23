@@ -1,4 +1,5 @@
 ﻿using IMCDemo.MVVM.Models;
+using PropertyChanged;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace IMCDemo.MVVM.ViewModels
 {
+    [AddINotifyPropertyChangedInterface]
     public class IMCViewModel
     {
         public IMC IMC { get; set; }
@@ -17,8 +19,7 @@ namespace IMCDemo.MVVM.ViewModels
             IMC = new IMC()
             {
                 Peso = 0,
-                Altura = 0,
-                Resultado = 0
+                Altura = 0
             };
         }
     }
