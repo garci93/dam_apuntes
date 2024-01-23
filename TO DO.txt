@@ -1,4 +1,7 @@
 HOY:
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!! C Users Jojogape> nvm install 16
+a ver si funciona
+
 HLC -> HACER API BD (CONSULTAR SANTI?)
 PSPRO -> HABLAR CON SERGIO DECIDIR PROYECTO
 (DEPENDE) ALGO DE DEINT
