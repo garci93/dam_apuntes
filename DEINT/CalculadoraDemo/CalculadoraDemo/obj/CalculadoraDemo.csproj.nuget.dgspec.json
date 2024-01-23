@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj": {}
+    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj": {
+    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj",
+        "projectUniqueName": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj",
         "projectName": "CalculadoraDemo",
-        "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj",
-        "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\obj\\",
+        "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj",
+        "packagesPath": "C:\\Users\\Jojogape\\.nuget\\packages\\",
+        "outputPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jojogape\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,11 +38,11 @@
             "targetAlias": "net8.0-android",
             "projectReferences": {}
           },
-          "net8.0-ios17.0": {
+          "net8.0-ios17.2": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {}
           },
-          "net8.0-maccatalyst17.0": {
+          "net8.0-maccatalyst17.2": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {}
           },
@@ -105,7 +105,7 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-ios17.0": {
+        "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
@@ -152,7 +152,7 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-maccatalyst17.0": {
+        "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
