@@ -10,14 +10,4 @@ public partial class CarritoView : ContentPage
 		InitializeComponent();
         BindingContext = new CarritoViewModel();
     }
-
-    private void botonMenos_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void botonMas_Clicked(object sender, EventArgs e)
-    {
-
-    }
 }

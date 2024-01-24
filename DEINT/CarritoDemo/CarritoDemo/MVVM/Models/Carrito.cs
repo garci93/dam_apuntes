@@ -10,7 +10,11 @@ namespace CarritoDemo.MVVM.Models
     [AddINotifyPropertyChangedInterface]
     public class Carrito
     {
-        public int PrecioFinal { get; set; }
+        public double PrecioSubtotal { get; set; }
+        public double PrecioFinal { get; set; }
         public int Descuento { get; set; }
+        public double PrecioDescuento { get; set; }
+
+        public DateTime FechaHoraActual {  get; set; }
     }
 }
