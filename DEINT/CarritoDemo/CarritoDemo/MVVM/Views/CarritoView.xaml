@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarritoDemo.MVVM.Views.CarritoView"
+             Title="CarritoView">
+    <VerticalStackLayout>
+        <Frame CornerRadius="10" BackgroundColor="White">
+            <VerticalStackLayout>
+                <Image Source="logo_nike.png" MaximumHeightRequest="100" HorizontalOptions="Center" />
+                <Label x:Name="precioFinal" TextColor="Black" Text="167,31 €" HorizontalOptions="Center" FontSize="Large"/>
+                <Label x:Name="horaActual" Text="24/01/2024 10:23:03" HorizontalOptions="Center" TextColor="DarkGray"/>
+            </VerticalStackLayout>
+        </Frame>
+        <Frame CornerRadius="10" BackgroundColor="White">
+            <Grid>
+                <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+                <Image Source="zapatillas_hombre.png" MaximumHeightRequest="40" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"/>
+                <Label Text="Nike Dbreak SP" TextColor="Gray" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" HorizontalOptions="StartAndExpand"/>
+                <Label TextColor="Black" Text="Zapatillas hombre" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" HorizontalOptions="StartAndExpand"/>
+                <Label TextColor="Black" Text="89,95 €" Grid.Column="4" Grid.Row="0" Grid.RowSpan="2" VerticalOptions="Center" FontSize="Medium" HorizontalOptions="End"/>
+
+                <Image Source="zapatillas_mujer.png" MaximumHeightRequest="40" VerticalOptions="Center" Grid.Column="0" Grid.Row="2" Grid.RowSpan="2"/>
+                <Label Text="Nike Blazer" TextColor="Gray" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" HorizontalOptions="StartAndExpand"/>
+                <Label TextColor="Black" Text="Zapatillas mujer" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" HorizontalOptions="StartAndExpand"/>
+                <Label TextColor="Black" Text="95,95 €" Grid.Column="4" Grid.Row="2" Grid.RowSpan="2" VerticalOptions="Center" FontSize="Medium" HorizontalOptions="End"/>
+
+                <Label TextColor="Black" Text="Subtotal" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="4" VerticalOptions="Center"/>
+                <Label TextColor="Black" Text="185,90 €" Grid.Column="4" Grid.Row="4" VerticalOptions="Center" FontSize="Medium" HorizontalOptions="End"/>
+
+                <Label Text="Descuento" Grid.Column="0" Grid.Row="5" VerticalOptions="Center"/>
+                <Button x:Name="botonMenos" Grid.Column="1" Grid.Row="5" Text="-" BackgroundColor="White" HorizontalOptions="Center" Clicked="botonMenos_Clicked" TextColor="Black"></Button>
+                <Button x:Name="botonMas" Grid.Column="2" Grid.Row="5" Text="+" BackgroundColor="White" HorizontalOptions="Center" Clicked="botonMas_Clicked" TextColor="Black"></Button>
+                <Label TextColor="Black" x:Name="descuento" Grid.Column="3" Grid.Row="5" Text="{Binding Carrito.Descuento}"  BackgroundColor="Gray" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+                <Label Text="18,59 €" Grid.Column="4" Grid.Row="5" VerticalOptions="Center" TextColor="Gray" FontSize="Medium" HorizontalOptions="End"/>
+
+                <Label Text="Nike Store" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="6" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Black"/>
+                <Label Text="www.nike.com" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="7"  VerticalOptions="Start" HorizontalOptions="Center" TextColor="Gray"/>  
+            </Grid>
+        </Frame>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button x:Name="btnPagarLuego" Command="{Binding PagarLuegoCommand}" Text="Pagar Luego" WidthRequest="450" HorizontalOptions="CenterAndExpand" BackgroundColor="White" FontAttributes="Bold" TextColor="Black"/>
+            <Button x:Name="btnPagarAhora" Command="{Binding PagarAhoraCommand}" Text="Pagar Ahora" WidthRequest="450" HorizontalOptions="CenterAndExpand" BackgroundColor="Black" TextColor="White"  FontAttributes="Bold"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

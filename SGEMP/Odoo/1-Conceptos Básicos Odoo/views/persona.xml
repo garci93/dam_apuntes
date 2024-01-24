@@ -1,0 +1,19 @@
+<!-- File: views/persona.xml -->
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_persona_form">
+            <field name="name">persona.form</field>
+            <field name="model">mi_modulo.persona</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="name"/>
+                        <field name="age"/>
+                        <field name="tasks_ids"/>
+                        <!-- Agregar botones para editar y eliminar -->
+                    </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

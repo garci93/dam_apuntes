@@ -1,0 +1,18 @@
+<!-- File: views/actions.xml -->
+<odoo>
+    <data>
+        <!-- Acción para Lista de Personas -->
+        <record id="action_persona_list" model="ir.actions.act_window">
+            <field name="name">Lista de Personas</field>
+            <field name="res_model">mi_modulo.persona</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Acción para Lista de Tareas -->
+        <record id="action_tarea_list" model="ir.actions.act_window">
+            <field name="name">Lista de Tareas</field>
+            <field name="res_model">mi_modulo.tarea</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

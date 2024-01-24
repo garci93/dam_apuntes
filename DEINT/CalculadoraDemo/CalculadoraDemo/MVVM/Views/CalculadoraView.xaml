@@ -3,10 +3,142 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CalculadoraDemo.MVVM.Views.CalculadoraView"
              Title="CalculadoraView">
-    <VerticalStackLayout>
+    <VerticalStackLayout WidthRequest="300">
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"
+                Text="0"
+                FontSize="Large"
+                HeightRequest="70"
+                VerticalOptions="Center" 
+                HorizontalOptions="End" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Button
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="AC"
+                Command="{Binding LimpiarCommand}" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="1"
+                Text="⌫"
+                Command="{Binding BorrarCommand}" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="2"
+                Text="%"
+                Command="{Binding LimpiarCommand}" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="3"
+                Text="/"
+                Command="{Binding DividirCommand}" />
+            
+            <Button
+                Grid.Row="2"
+                Grid.Column="0"
+                Text="7"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="7" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="1"
+                Text="8"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="8" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="2"
+                Text="9"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="9" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="3"
+                Text="x"
+                Command="{Binding MultiplicarCommand}" />
+            
+            <Button
+                Grid.Row="3"
+                Grid.Column="0"
+                Text="4"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="4" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="1"
+                Text="5"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="5" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="2"
+                Text="6"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="6" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="3"
+                Text="-"
+                Command="{Binding RestarCommand}" />
+            
+            <Button
+                Grid.Row="4"
+                Grid.Column="0"
+                Text="1"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="1" />
+            <Button
+                Grid.Row="4"
+                Grid.Column="1"
+                Text="2"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="2" />
+            <Button
+                Grid.Row="4"
+                Grid.Column="2"
+                Text="3"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="3" />
+            <Button
+                Grid.Row="4"
+                Grid.Column="3"
+                Text="+"
+                Command="{Binding SumarCommand}" />
+            
+            <Button
+                Grid.Row="5"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Text="0"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="0" />
+            <Button
+                Grid.Row="5"
+                Grid.Column="2"
+                Text=","
+                Command="{Binding NumeroCommand}"
+                CommandParameter="." />
+            <Button
+                Grid.Row="5"
+                Grid.Column="3"
+                Text="="
+                Command="{Binding ResultadoCommand}" />
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>

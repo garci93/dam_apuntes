@@ -1,0 +1,42 @@
+<!-- File: views/tarea.xml -->
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_tarea_form">
+            <field name="name">tarea.form</field>
+            <field name="model">mi_modulo.tarea</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                        <field name="assigned_to"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_tarea_tree">
+            <field name="name">tarea.tree</field>
+            <field name="model">mi_modulo.tarea</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="assigned_to"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_tarea_search">
+            <field name="name">tarea.search</field>
+            <field name="model">mi_modulo.tarea</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="assigned_to"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>

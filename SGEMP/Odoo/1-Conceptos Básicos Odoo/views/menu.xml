@@ -1,0 +1,12 @@
+<!-- File: views/menu.xml -->
+<odoo>
+    <data>
+        <!-- Menú de Persona -->
+        <menuitem id="menu_persona" name="Personas" sequence="10"/>
+        <menuitem id="menu_persona_list" parent="menu_persona" name="Lista de Personas" action="action_persona_list"/>
+
+        <!-- Menú de Tarea -->
+        <menuitem id="menu_tarea" name="Tareas" sequence="20"/>
+        <menuitem id="menu_tarea_list" parent="menu_tarea" name="Lista de Tareas" action="action_tarea_list"/>
+    </data>
+</odoo>
