@@ -7,4 +7,15 @@ Instalación start.spring.io
 Dependencias:
 - Spring Data JPA
 
-https://es.wikihow.com/instalar-Spring-Boot-en-Eclipse
+
+REQUISITOS
+spring.io
+ Spring boot microservices
+al menos tres tablas
+o Usará el ORM (Object Relational Mapping) Hibernate y anotaciones JPA
+
+Para sacar buena nota:
+pruebas unitarias, validaciones, seguridad...
+o Añadir relaciones a vuestra base de datos de todo tipo (1-N, N-M...).
+
+https://www.youtube.com/watch?v=O_YFYYCQyZ8

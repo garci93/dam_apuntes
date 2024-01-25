@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v8.0/win10-x64": {
       "CalculadoraDemo/1.0": {
         "dependencies": {
+          "Dangl.Calculator": "2.2.0",
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.3",
           "Microsoft.Maui.Controls.Compatibility": "8.0.3",
@@ -28,6 +29,25 @@
           "WinRT.Runtime.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.4.44211"
+          }
+        }
+      },
+      "Antlr4.Runtime.Standard/4.13.1": {
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "assemblyVersion": "4.13.1.0",
+            "fileVersion": "4.13.1.0"
+          }
+        }
+      },
+      "Dangl.Calculator/2.2.0": {
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.13.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dangl.Calculator.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
           }
         }
       },
@@ -456,6 +476,20 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "Antlr4.Runtime.Standard/4.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Da5+i4kFHUseJRZGcBG5fmZGpA/Ns180ibrQMxgZzjpQOnENVvSL5gi5HZ8Ncz8/AR2WsKbOg2lMBzjz0HUQcA==",
+      "path": "antlr4.runtime.standard/4.13.1",
+      "hashPath": "antlr4.runtime.standard.4.13.1.nupkg.sha512"
+    },
+    "Dangl.Calculator/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LhgLVbyY+8zLzSGmxX4uxZ0lkDhOJau8oamOiW8VgTa6SdiRdP1xHKpbaMlV3w6FoE43WRbAjJHAv88C5UluJg==",
+      "path": "dangl.calculator/2.2.0",
+      "hashPath": "dangl.calculator.2.2.0.nupkg.sha512"
     },
     "Fody/6.6.4": {
       "type": "package",

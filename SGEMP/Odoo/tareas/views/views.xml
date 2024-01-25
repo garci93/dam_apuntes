@@ -1,0 +1,43 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="tareas.tree">
+      <field name="name">tareas.tree</field>
+      <field name="model">tareas.task</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="description"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="tareas.form">
+      <field name="name">tareas.form</field>
+      <field name="model">tareas.task</field>
+      <field name="arch" type="xml">
+        <form>
+          <field name="name"/>
+          <field name="description"/>
+        </form>
+      </field>
+    </record>
+
+    <record id="action_task_tree" model="ir.actions.act_window">
+        <field name="name">Task Tree</field>
+        <field name="res_model">tareas.task</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_task_form" model="ir.actions.act_window">
+        <field name="name">Task Form</field>
+        <field name="res_model">tareas.task</field>
+        <field name="view_mode">form,tree</field>
+    </record>
+
+    <menuitem id="menu_task" name="Tasks" sequence="20"/>
+
+    <menuitem id="menu_task_tree" parent="menu_task" name="Task tree" action="action_task_tree"/>
+    <menuitem id="menu_task_form" parent="menu_task" name="Task form" action="action_task_form"/>
+
+  </data>
+</odoo>

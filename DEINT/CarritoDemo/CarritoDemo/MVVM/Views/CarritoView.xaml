@@ -7,7 +7,7 @@
         <Image Source="logo_nike.png" TranslationY="25" ZIndex="1" Aspect="AspectFit" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center" />
         <Frame CornerRadius="10" BackgroundColor="White">
             <VerticalStackLayout Padding="10">
-                <Label x:Name="precioFinal" TextColor="Black" Text="{Binding Carrito.PrecioFinal, StringFormat='{}{0:C}'}" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label x:Name="precioFinal" TextColor="Black" Text="{Binding Carrito.PrecioFinal, StringFormat='{0:C}'}" HorizontalOptions="Center" FontSize="Medium"/>
                 <Label x:Name="horaActual" Text="{Binding Carrito.FechaHoraActual}" HorizontalOptions="Center" TextColor="DarkGray"/>
             </VerticalStackLayout>
         </Frame>
@@ -59,9 +59,15 @@
                 <Label Text="www.nike.com" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="9"  VerticalOptions="Start" HorizontalOptions="Center" TextColor="Gray"/>  
             </Grid>
         </Frame>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".4*"/>
+                <ColumnDefinition Width=".4*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Name="btnPagarLuego" Command="{Binding PagarLuegoCommand}" Text="Pagar Luego" Margin="20,10,10,10" HorizontalOptions="FillAndExpand" BackgroundColor="#e0e0e0" FontAttributes="Bold" TextColor="Black"/>
+            <Button Grid.Column="1" x:Name="btnPagarAhora" Command="{Binding PagarAhoraCommand}" Text="Pagar Ahora" Margin="10,10,20,10" HorizontalOptions="FillAndExpand" BackgroundColor="Black" TextColor="White"  FontAttributes="Bold"/>
+        </Grid>
         <HorizontalStackLayout HorizontalOptions="Center">
-            <Button x:Name="btnPagarLuego" Command="{Binding PagarLuegoCommand}" Text="Pagar Luego" WidthRequest="450" Margin="10" HorizontalOptions="CenterAndExpand" BackgroundColor="#e0e0e0" FontAttributes="Bold" TextColor="Black"/>
-            <Button x:Name="btnPagarAhora" Command="{Binding PagarAhoraCommand}" Text="Pagar Ahora" WidthRequest="450" Margin="10" HorizontalOptions="CenterAndExpand" BackgroundColor="Black" TextColor="White"  FontAttributes="Bold"/>
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

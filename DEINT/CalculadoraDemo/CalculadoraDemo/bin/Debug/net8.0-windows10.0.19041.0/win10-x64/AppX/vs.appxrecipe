@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-24T07:38:58.422</Modified>
+      <Modified>2024-01-25T08:21:35.924</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-24T07:31:39.695</Modified>
+      <Modified>2024-01-25T08:21:35.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculadoraDemo.runtimeconfig.json">
       <PackagePath>CalculadoraDemo.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-24T07:31:39.412</Modified>
+      <Modified>2024-01-25T08:21:35.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculadoraDemo.dll">
       <PackagePath>CalculadoraDemo.dll</PackagePath>
-      <Modified>2024-01-24T07:38:57.984</Modified>
+      <Modified>2024-01-25T08:21:34.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CalculadoraDemo.exe</PackagePath>
-      <Modified>2024-01-24T07:38:58.000</Modified>
+      <Modified>2024-01-25T08:21:34.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculadoraDemo.deps.json">
       <PackagePath>CalculadoraDemo.deps.json</PackagePath>
-      <Modified>2024-01-24T07:31:39.247</Modified>
+      <Modified>2024-01-25T08:21:35.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -297,6 +297,14 @@
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\antlr4.runtime.standard\4.13.1\lib\netstandard2.0\Antlr4.Runtime.Standard.dll">
+      <PackagePath>Antlr4.Runtime.Standard.dll</PackagePath>
+      <Modified>2023-09-11T10:07:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\dangl.calculator\2.2.0\lib\netstandard2.0\Dangl.Calculator.dll">
+      <PackagePath>Dangl.Calculator.dll</PackagePath>
+      <Modified>2023-11-15T22:19:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
