@@ -10,5 +10,6 @@ namespace CalculadoraDemo.MVVM.Models
     [AddINotifyPropertyChangedInterface]
     public class Calculadora
     {
+        public string Texto { get; set; }
     }
 }

@@ -12,59 +12,59 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EstilosDemo
-build_property.ProjectDir = C:\Users\dam\Desktop\dam_apuntes\DEINT\EstilosDemo\EstilosDemo\
+build_property.ProjectDir = F:\COSAS DAM\dam_apuntes\DEINT\EstilosDemo\EstilosDemo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/dam/Desktop/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/App.xaml]
+[F:/COSAS DAM/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EstilosDemo.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/dam/Desktop/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/AppShell.xaml]
+[F:/COSAS DAM/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EstilosDemo.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/dam/Desktop/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/EstilosDemo.xaml]
+[F:/COSAS DAM/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/EstilosDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EstilosDemo.EstilosDemo.xaml
 build_metadata.AdditionalFiles.TargetPath = EstilosDemo.xaml
 build_metadata.AdditionalFiles.RelativePath = EstilosDemo.xaml
 
-[C:/Users/dam/Desktop/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/HerenciaEstilos.xaml]
+[F:/COSAS DAM/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/HerenciaEstilos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EstilosDemo.HerenciaEstilos.xaml
 build_metadata.AdditionalFiles.TargetPath = HerenciaEstilos.xaml
 build_metadata.AdditionalFiles.RelativePath = HerenciaEstilos.xaml
 
-[C:/Users/dam/Desktop/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/MainPage.xaml]
+[F:/COSAS DAM/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EstilosDemo.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/dam/Desktop/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/Resources/Styles/ButtonStyles.xaml]
+[F:/COSAS DAM/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/Resources/Styles/ButtonStyles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EstilosDemo.Resources.Styles.ButtonStyles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\ButtonStyles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\ButtonStyles.xaml
 
-[C:/Users/dam/Desktop/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/Resources/Styles/Colors.xaml]
+[F:/COSAS DAM/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EstilosDemo.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/dam/Desktop/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/Resources/Styles/Styles.xaml]
+[F:/COSAS DAM/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EstilosDemo.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/dam/Desktop/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/StyleClassDemo.xaml]
+[F:/COSAS DAM/dam_apuntes/DEINT/EstilosDemo/EstilosDemo/StyleClassDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EstilosDemo.StyleClassDemo.xaml
 build_metadata.AdditionalFiles.TargetPath = StyleClassDemo.xaml

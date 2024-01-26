@@ -7,6 +7,8 @@
         public MainPage()
         {
             InitializeComponent();
+            Application.Current.Resources.MergedDictionaries.Add(new LightModeResourceDictionary());
+
         }
 
         private void OnCounterClicked(object sender, EventArgs e)
