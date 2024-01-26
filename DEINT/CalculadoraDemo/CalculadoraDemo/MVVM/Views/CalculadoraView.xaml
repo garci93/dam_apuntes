@@ -11,7 +11,7 @@
                 Grid.Row="0"
                 Grid.Column="0"
                 Grid.ColumnSpan="4"
-                Text="0"
+                Text="{Binding Calculadora.Texto}"
                 FontSize="Large"
                 HeightRequest="70"
                 VerticalOptions="Center" 
@@ -37,6 +37,7 @@
                 Grid.Row="1"
                 Grid.Column="0"
                 Text="AC"
+                Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
                 Command="{Binding LimpiarCommand}" />
             <Button
                 Margin="5"
@@ -48,12 +49,16 @@
                 Margin="5"
                 Grid.Row="1"
                 Grid.Column="2"
-                Text="%"/>
+                Text="%"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="%" />
             <Button
                 Margin="5"
                 Grid.Row="1"
                 Grid.Column="3"
-                Text="/"/>
+                Text="/"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="/" />
             
             <Button
                 Margin="5"
@@ -70,6 +75,7 @@
                 Command="{Binding NumeroCommand}"
                 CommandParameter="8" />
             <Button
+                x:Name="btn9"
                 Margin="5"
                 Grid.Row="2"
                 Grid.Column="2"
@@ -80,8 +86,9 @@
                 Margin="5"
                 Grid.Row="2"
                 Grid.Column="3"
-                Text="x"
-                Command="{Binding MultiplicarCommand}" />
+                Text="*"
+                Command="{Binding NumeroCommand}"
+                CommandParameter="*" />
             
             <Button
                 Margin="5"
@@ -109,7 +116,8 @@
                 Grid.Row="3"
                 Grid.Column="3"
                 Text="-"
-                Command="{Binding RestarCommand}" />
+                Command="{Binding NumeroCommand}"
+                CommandParameter="-" />
             
             <Button
                 Margin="5"
@@ -137,7 +145,8 @@
                 Grid.Row="4"
                 Grid.Column="3"
                 Text="+"
-                Command="{Binding SumarCommand}" />
+                Command="{Binding NumeroCommand}"
+                CommandParameter="+" />
             
             <Button
                 Margin="5"
@@ -153,7 +162,7 @@
                 Grid.Column="2"
                 Text=","
                 Command="{Binding NumeroCommand}"
-                CommandParameter="." />
+                CommandParameter="," />
             <Button
                 Margin="5"
                 Grid.Row="5"

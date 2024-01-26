@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenMAUIJoseJoaquin.MVVM.Views.PedidoView"
+             Title="PedidoView">
+    <VerticalStackLayout>
+        <HorizontalStackLayout BackgroundColor="Orange">
+            <Button Text="📞" HeightRequest="40" WidthRequest="40" CornerRadius="20" HorizontalOptions="Start" VerticalOptions="Start"  Command="{Binding Llamar}"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"></Button>
+            <Image Source="banner_icon.png" HorizontalOptions="Center" VerticalOptions="Center"></Image>
+            <Button CornerRadius="20" Text="Ayuda" HorizontalOptions="End" VerticalOptions="Start"  Command="{Binding Ayuda}"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"></Button>
+        </HorizontalStackLayout>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".4*"></ColumnDefinition>
+                <ColumnDefinition Width=".1*"></ColumnDefinition>
+                <ColumnDefinition Width=".1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Text="Entregado" FontSize="Medium" HorizontalOptions="End" VerticalOptions="Center"></Label>
+            <Switch Grid.Row="0" Grid.Column="1" VerticalOptions="Center"></Switch>
+            <Label Grid.Row="1" Grid.Column="1" VerticalOptions="Center" Text="26/01/2024 11:16"></Label>
+        </Grid>
+
+        <Label Text="Queda poco" FontSize="Small"></Label>
+        <Label Text="DeliciousFood te ha preparado un delicioso menú para que lo disfrutes. No olvides valorarnos." HeightRequest="50" VerticalOptions="Start" FontSize="12"></Label>
+        
+        <Grid RowDefinitions="*,*,*" ColumnDefinitions="60,*,*">
+            <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Source="entregado_icon.png" HorizontalOptions="Start" VerticalOptions="Center"></Image>
+            <Label Grid.Row="0" Grid.Column="1" Text="Entregado por: Juan" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+            <Label Grid.Row="1" Grid.Column="1" Text="Llama si no puedes encontrar tu pedido." TextColor="Gray" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+            <Button Text="📞" HeightRequest="40" WidthRequest="40" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" CornerRadius="20" HorizontalOptions="End" Command="{Binding Llamar}"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"></Button>
+            <BoxView HeightRequest="1" BackgroundColor="Gray" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"></BoxView>
+        </Grid>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".7*"></ColumnDefinition>
+                <ColumnDefinition Width=".3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <VerticalStackLayout Grid.Column="0">
+                <Label HorizontalOptions="Center" Text="{Binding Pedido.Valoracion}"></Label>
+                <Slider MinimumTrackColor="Orange" x:Name="sliderValor" HorizontalOptions="FillAndExpand" Minimum="0" Maximum="10" ></Slider>
+            </VerticalStackLayout>
+            <Button x:Name="calificarPedido" Grid.Column="1" Command="{Binding CalificarPedido}" Text="Calificar pedido" Style="{AppThemeBinding Dark={StaticResource BotonInvOscuro},Light={StaticResource BotonInvClaro}}"></Button>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
