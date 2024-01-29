@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollectionViewDem.MVVM.View.ProductViewEjec"
+             xmlns:DataTemplates="clr-namespace:CollectionViewDem.Selectors"
+             Title="ProductViewEjec">
+
+    <ContentPage.Resources>
+        <DataTemplates:ProductDataTemplateSelector x:Key="ProductTemplates"/>
+    </ContentPage.Resources>
+    
+    <ScrollView>
+        <VerticalStackLayout>
+            <CollectionView ItemsSource = "{Binding Products}" 
+                      ItemTemplate="{StaticResource ProductTemplates}"></CollectionView>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
