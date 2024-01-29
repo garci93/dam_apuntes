@@ -30,25 +30,45 @@
     <AppXManifest Include="F:\COSAS DAM\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2024-01-28T20:53:40.021</Modified>
+=======
+      <Modified>2024-01-29T07:25:24.047</Modified>
+>>>>>>> 0b6225ac5dbac78d1538ad62fb05c3c202c75550
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\COSAS DAM\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-01-28T20:53:39.854</Modified>
+=======
+      <Modified>2024-01-29T07:25:23.821</Modified>
+>>>>>>> 0b6225ac5dbac78d1538ad62fb05c3c202c75550
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\COSAS DAM\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculadoraDemo.runtimeconfig.json">
       <PackagePath>CalculadoraDemo.runtimeconfig.json</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-01-28T19:00:42.093</Modified>
+=======
+      <Modified>2024-01-29T07:25:23.538</Modified>
+>>>>>>> 0b6225ac5dbac78d1538ad62fb05c3c202c75550
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\COSAS DAM\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculadoraDemo.dll">
       <PackagePath>CalculadoraDemo.dll</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-01-28T20:53:38.581</Modified>
+=======
+      <Modified>2024-01-29T07:25:22.276</Modified>
+>>>>>>> 0b6225ac5dbac78d1538ad62fb05c3c202c75550
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\COSAS DAM\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CalculadoraDemo.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-01-28T20:53:38.700</Modified>
+=======
+      <Modified>2024-01-29T07:25:22.302</Modified>
+>>>>>>> 0b6225ac5dbac78d1538ad62fb05c3c202c75550
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\COSAS DAM\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +308,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\COSAS DAM\dam_apuntes\DEINT\CalculadoraDemo\CalculadoraDemo\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CalculadoraDemo.deps.json">
       <PackagePath>CalculadoraDemo.deps.json</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-01-28T19:00:41.966</Modified>
+=======
+      <Modified>2024-01-29T07:25:23.393</Modified>
+>>>>>>> 0b6225ac5dbac78d1538ad62fb05c3c202c75550
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jojogape\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

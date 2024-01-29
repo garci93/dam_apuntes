@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollectionViewDem.MVVM.View.ProductView"
+             Title="ProductView">
+
+    <ScrollView>
+    <VerticalStackLayout>
+        <CollectionView ItemsSource = "{Binding Products}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                   
+                        <Grid
+         Margin="15,10,15,0"
+         ColumnDefinitions=".1*,.2*,.7*"
+         RowDefinitions="*,*">
+                            <Frame
+             Grid.RowSpan="2"
+             Grid.Column="1"
+             Grid.ColumnSpan="2"
+             BorderColor="White">
+                                <Frame.Background>
+                                    <LinearGradientBrush EndPoint="1,0">
+                                        <GradientStop Offset="0" Color="#F8F9FA" />
+                                        <GradientStop Offset="1" Color="#DEE2E6" />
+                                    </LinearGradientBrush>
+                                </Frame.Background>
+                            </Frame>
+                            <Image
+             Grid.RowSpan="2"
+             Grid.ColumnSpan="2"
+             HeightRequest="100"
+             Source="{Binding Image}" />
+                            <Label
+             Grid.Column="2"
+             FontSize="Large"
+             Text="{Binding Name}"
+             VerticalOptions="Center" />
+                            <Label
+             Grid.Row="1"
+             Grid.Column="2"
+             FontSize="Large"
+             Text="{Binding Price, StringFormat='{0:C}'}"
+             VerticalOptions="Center" />
+                        </Grid>
+                    </DataTemplate>
+               
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
