@@ -3,172 +3,200 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CalculadoraDemo.MVVM.Views.CalculadoraView"
              Title="CalculadoraView"
+             Style="{AppThemeBinding Dark={StaticResource FondoOscuro},Light={StaticResource FondoClaro}}"
              HeightRequest="500"
-             WidthRequest="350">
-    <VerticalStackLayout WidthRequest="300">
+             WidthRequest="400">
+    <VerticalStackLayout WidthRequest="400" >
         <Label 
                 Margin="0,100,0,0"
-                Grid.Row="0"
-                Grid.Column="0"
-                Grid.ColumnSpan="4"
+                Style="{AppThemeBinding Dark={StaticResource LabelOscuro},Light={StaticResource LabelClaro}}"
                 Text="{Binding Calculadora.Texto}"
                 FontSize="Large"
-                HeightRequest="70"
+                Padding="10"
+                FontFamily="Calibri"
+                FontAttributes="Bold"
+                HeightRequest="100"
                 VerticalOptions="Center" 
                 HorizontalOptions="End" />
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+        <Frame Padding="5" CornerRadius="20" ZIndex="0" Style="{AppThemeBinding Dark={StaticResource FrameOscuro},Light={StaticResource FrameClaro}}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button
+                    Margin="5"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Text="AC"
+                    TextColor="Orange"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding LimpiarCommand}" />
+                <Button
+                    Margin="5"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Text="⌫"
+                    TextColor="Orange"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding BorrarCommand}" />
+                <Button
+                    Margin="5"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    Text="%"
+                    TextColor="Orange"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="%" />
+                <Button
+                    Margin="5"
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    Text="/"
+                    TextColor="IndianRed"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="/" />
             
-            <Button
-                Margin="5"
-                Grid.Row="1"
-                Grid.Column="0"
-                Text="AC"
-                Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
-                Command="{Binding LimpiarCommand}" />
-            <Button
-                Margin="5"
-                Grid.Row="1"
-                Grid.Column="1"
-                Text="⌫"
-                Command="{Binding BorrarCommand}" />
-            <Button
-                Margin="5"
-                Grid.Row="1"
-                Grid.Column="2"
-                Text="%"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="%" />
-            <Button
-                Margin="5"
-                Grid.Row="1"
-                Grid.Column="3"
-                Text="/"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="/" />
+                <Button
+                    Margin="5"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Text="7"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="7" />
+                <Button
+                    Margin="5"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Text="8"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="8" />
+                <Button
+                    Margin="5"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Text="9"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="9" />
+                <Button
+                    Margin="5"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    Text="*"
+                    TextColor="IndianRed"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="*" />
             
-            <Button
-                Margin="5"
-                Grid.Row="2"
-                Grid.Column="0"
-                Text="7"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="7" />
-            <Button
-                Margin="5"
-                Grid.Row="2"
-                Grid.Column="1"
-                Text="8"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="8" />
-            <Button
-                x:Name="btn9"
-                Margin="5"
-                Grid.Row="2"
-                Grid.Column="2"
-                Text="9"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="9" />
-            <Button
-                Margin="5"
-                Grid.Row="2"
-                Grid.Column="3"
-                Text="*"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="*" />
+                <Button
+                    Margin="5"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Text="4"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="4" />
+                <Button
+                    Margin="5"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Text="5"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="5" />
+                <Button
+                    Margin="5"
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    Text="6"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="6" />
+                <Button
+                    Margin="5"
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    Text="-"
+                    TextColor="IndianRed"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="-" />
             
-            <Button
-                Margin="5"
-                Grid.Row="3"
-                Grid.Column="0"
-                Text="4"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="4" />
-            <Button
-                Margin="5"
-                Grid.Row="3"
-                Grid.Column="1"
-                Text="5"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="5" />
-            <Button
-                Margin="5"
-                Grid.Row="3"
-                Grid.Column="2"
-                Text="6"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="6" />
-            <Button
-                Margin="5"
-                Grid.Row="3"
-                Grid.Column="3"
-                Text="-"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="-" />
+                <Button
+                    Margin="5"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Text="1"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="1" />
+                <Button
+                    Margin="5"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Text="2"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="2" />
+                <Button
+                    Margin="5"
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    Text="3"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="3" />
+                <Button
+                    Margin="5"
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    Text="+"
+                    TextColor="IndianRed"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="+" />
             
-            <Button
-                Margin="5"
-                Grid.Row="4"
-                Grid.Column="0"
-                Text="1"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="1" />
-            <Button
-                Margin="5"
-                Grid.Row="4"
-                Grid.Column="1"
-                Text="2"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="2" />
-            <Button
-                Margin="5"
-                Grid.Row="4"
-                Grid.Column="2"
-                Text="3"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="3" />
-            <Button
-                Margin="5"
-                Grid.Row="4"
-                Grid.Column="3"
-                Text="+"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="+" />
-            
-            <Button
-                Margin="5"
-                Grid.Row="5"
-                Grid.Column="0"
-                Grid.ColumnSpan="2"
-                Text="0"
-                Command="{Binding NumeroCommand}"
-                CommandParameter="0" />
-            <Button
-                Margin="5"
-                Grid.Row="5"
-                Grid.Column="2"
-                Text=","
-                Command="{Binding NumeroCommand}"
-                CommandParameter="," />
-            <Button
-                Margin="5"
-                Grid.Row="5"
-                Grid.Column="3"
-                Text="="
-                Command="{Binding ResultadoCommand}" />
-        </Grid>
+                <Button
+                    Margin="5"
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Text="0"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="0" />
+                <Button
+                    Margin="5"
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    Text=","
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding NumeroCommand}"
+                    CommandParameter="," />
+                <Button
+                    Margin="5"
+                    Grid.Row="4"
+                    Grid.Column="3"
+                    Text="="
+                    TextColor="IndianRed"
+                    Style="{AppThemeBinding Dark={StaticResource BotonOscuro},Light={StaticResource BotonClaro}}"
+                    Command="{Binding ResultadoCommand}" />
+            </Grid>
+        </Frame>
     </VerticalStackLayout>
 </ContentPage>
