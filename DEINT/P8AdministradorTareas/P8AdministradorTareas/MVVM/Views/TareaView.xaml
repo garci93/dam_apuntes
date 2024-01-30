@@ -3,10 +3,52 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="P8AdministradorTareas.MVVM.Views.TareaView"
              Title="TareaView">
-    <VerticalStackLayout>
+    <VerticalStackLayout BackgroundColor="#f0f8ff">
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            Text="Mis tareas"
+            Padding="5"
+            BackgroundColor="Indigo"
+            FontSize="Title"
+            HeightRequest="40"
+            TextColor="LightGray"
+            FontAttributes="Bold"
+            VerticalOptions="Start" 
+            HorizontalOptions="FillAndExpand" />
+        <Label Text="Mis Tareas" Margin="10" TextColor="DarkSlateGray" FontSize="Subtitle" FontAttributes="Bold" />
+        <Label Text="Categorias" TextTransform="Uppercase" Margin="10,-5,0,0" TextColor="DarkGray" FontSize="Subtitle" />
+        <ScrollView>
+            <HorizontalStackLayout HorizontalOptions="Fill">
+                <CollectionView ItemsSource="{Binding Tareas}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="White" HorizontalOptions="Start" BackgroundColor="White" CornerRadius="5" Margin="5" Padding="10">
+                                <HorizontalStackLayout>
+                                    <BoxView Margin="5" HeightRequest="1" WidthRequest="20" Color="#e0e0e0"></BoxView>
+                                    <Label Text="{Binding Nombre}" TextColor="Black" FontSize="12" />
+                                </HorizontalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </HorizontalStackLayout>
+        </ScrollView>
+        <Label Text="Tareas pendientes" TextTransform="Uppercase" Margin="10,-5,0,0" TextColor="DarkGray" FontSize="Subtitle" />
+        <ScrollView HorizontalOptions="Start">
+            <VerticalStackLayout HorizontalOptions="Start">
+                <CollectionView ItemsSource="{Binding Tareas}"  HorizontalOptions="Start">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="White" BackgroundColor="White" CornerRadius="5" Margin="5" Padding="10" HorizontalOptions="Start">
+                                <HorizontalStackLayout >
+                                    <BoxView Margin="5" HeightRequest="1" WidthRequest="20" Color="#e0e0e0"></BoxView>
+                                    <Label Text="{Binding Nombre}" TextColor="Black" FontSize="12" />
+                                </HorizontalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+        <Frame></Frame>
     </VerticalStackLayout>
 </ContentPage>

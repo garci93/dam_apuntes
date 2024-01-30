@@ -7,6 +7,7 @@ public partial class TareaView : ContentPage
 	public TareaView()
 	{
 		InitializeComponent();
-		BindingContext = new TareaViewModel();
+        Title = "Mis tareas";
+        BindingContext = new TareaViewModel();
 	}
 }
