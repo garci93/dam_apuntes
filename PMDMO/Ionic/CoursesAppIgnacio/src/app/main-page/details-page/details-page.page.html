@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/courses"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalles del curso</ion-title>
+    <ion-buttons slot="primary">
+      <ion-button (click)="onDeleteRecipe()">
+        <ion-icon name="trash" slot="icon-only"> </ion-icon
+      ></ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">details-page</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div>
+    <br /><br />
+    <h1>Título: {{course['title']}}</h1>
+    <br />
+    <h1>Puntos: {{course['points']}}</h1>
+    <br />
+    <ion-card id="imageSelector">
+      <ion-card-content>
+        <ion-img *ngIf="course['imageUrl']" [src]="course['imageUrl']" alt="Imagen del curso"></ion-img>
+        <ion-text *ngIf="!course['imageUrl']" color="medium">Seleccionar una imagen</ion-text>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <ion-action-sheet trigger="imageSelector" header="Selección de imagen" [buttons]="actionSheetButtons"></ion-action-sheet>
+</ion-content>

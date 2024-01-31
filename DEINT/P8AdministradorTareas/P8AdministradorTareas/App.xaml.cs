@@ -7,7 +7,7 @@ namespace P8AdministradorTareas
         public App()
         {
             InitializeComponent();
-            MainPage = new TareaView();
+            MainPage = new NavigationPage(new TareaView());
         }
     }
 }

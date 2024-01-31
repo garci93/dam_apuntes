@@ -1,0 +1,13 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" >
+  <br>
+  <ion-item>
+    <ion-input label="Título: " type="text" name="title" id="title" formControlName="title" />
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-input label="Puntos: " type="text" name="points" id="points" formControlName="points" />
+  </ion-item>
+  <br>
+  <ion-button type="submit">Añadir curso</ion-button>
+  <ion-alert [isOpen]="isAlertOpen" (didDismiss)="setAlertOpen(false)" header="Campos inválidos" message="Ningún campo puede estar vacío" [buttons]="alertButtons"></ion-alert>
+</form>

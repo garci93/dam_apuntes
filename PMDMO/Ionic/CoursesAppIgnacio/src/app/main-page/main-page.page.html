@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>App de cursos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">main-page</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <add-form (addCourseEvent)="addCourse($event)"></add-form>
+
+  <br><br>
+
+  <ion-list>
+    <course-item *ngFor="let course of observable | async" [course] = "course"></course-item>
+  </ion-list>
+</ion-content>

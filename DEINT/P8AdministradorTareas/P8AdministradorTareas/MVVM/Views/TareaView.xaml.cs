@@ -10,4 +10,8 @@ public partial class TareaView : ContentPage
         Title = "Mis tareas";
         BindingContext = new TareaViewModel();
 	}
+
+    private void checkBox_CheckedChanged(object sender, CheckedChangedEventArgs e)
+    {
+    }
 }

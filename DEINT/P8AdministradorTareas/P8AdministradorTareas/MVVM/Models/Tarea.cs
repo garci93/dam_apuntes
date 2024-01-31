@@ -10,5 +10,6 @@ namespace P8AdministradorTareas.MVVM.Models
     {
         public string Nombre { get; set; }
         public bool Completada { get; set; }
+        public string Categoria { get; set; }
     }
 }

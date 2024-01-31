@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-30T12:22:31.877</Modified>
+      <Modified>2024-01-31T10:57:39.014</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-30T11:13:39.373</Modified>
+      <Modified>2024-01-31T09:41:19.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\P8AdministradorTareas.runtimeconfig.json">
       <PackagePath>P8AdministradorTareas.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-30T10:57:06.286</Modified>
+      <Modified>2024-01-31T09:04:54.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\P8AdministradorTareas.dll">
       <PackagePath>P8AdministradorTareas.dll</PackagePath>
-      <Modified>2024-01-30T12:22:31.534</Modified>
+      <Modified>2024-01-31T10:57:37.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>P8AdministradorTareas.exe</PackagePath>
-      <Modified>2024-01-30T12:22:31.534</Modified>
+      <Modified>2024-01-31T10:57:37.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\P8AdministradorTareas.deps.json">
       <PackagePath>P8AdministradorTareas.deps.json</PackagePath>
-      <Modified>2024-01-30T10:57:06.175</Modified>
+      <Modified>2024-01-31T09:37:51.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -425,6 +425,10 @@
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Release.Net.dll</PackagePath>
       <Modified>2023-07-24T19:10:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\propertychanged.fody\4.1.0\lib\netstandard2.1\PropertyChanged.dll">
+      <PackagePath>PropertyChanged.dll</PackagePath>
+      <Modified>2022-11-06T16:42:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>

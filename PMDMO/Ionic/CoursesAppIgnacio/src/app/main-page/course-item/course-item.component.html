@@ -1,0 +1,7 @@
+<ion-item [routerLink]="['/courses', course['id']]">
+  <ion-avatar slot="start">
+    <ion-img [src]="course['imageUrl']"></ion-img>
+  </ion-avatar>
+  <ion-label> {{ course['title'] }} </ion-label>
+  <ion-label> {{ course['points'] }} </ion-label>
+</ion-item>

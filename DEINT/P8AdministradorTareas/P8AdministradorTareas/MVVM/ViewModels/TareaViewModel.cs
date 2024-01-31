@@ -1,16 +1,21 @@
 ﻿using P8AdministradorTareas.MVVM.Models;
+using P8AdministradorTareas.MVVM.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace P8AdministradorTareas.MVVM.ViewModels
 {
-    public class TareaViewModel
+    public class TareaViewModel : INotifyPropertyChanged
     {
+        public Command AbrirTareaView2 { get; set; }
         public ObservableCollection <Tarea> Tareas { get; set; } = new ObservableCollection<Tarea>();
+        public ObservableCollection<Categoria> Categorias { get; set; } = new ObservableCollection<Categoria>();
         public TareaViewModel()
         {
             Tareas = new ObservableCollection<Tarea>()
@@ -41,6 +46,38 @@ namespace P8AdministradorTareas.MVVM.ViewModels
                     Completada = true
                 },
             };
+
+            Categorias = new ObservableCollection<Categoria>()
+            {
+                new Categoria
+                {
+                    Nombre = "Curso .NET MAUI",
+                },
+                new Categoria
+                {
+                    Nombre = "Tutoriales",
+                },
+                new Categoria
+                {
+                    Nombre = "Compras",
+                },
+            };
+            AbrirTareaView2 = new Command(IrATareaView2);
+        }
+
+        private async void IrATareaView2()
+        {
+            TareaView2 v2 = new TareaView2();
+            await Application.Current.MainPage.Navigation.PushAsync(v2);
+        }
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        public double Progreso (Categoria categoria)
+        {
+            double completadas = Tareas.Where(x => x.Completada && x.Categoria == categoria.Nombre).Count();
+            double total = Tareas.Where(x => x.Categoria == categoria.Nombre).Count();
+            return completadas / total;
         }
     }
 }
