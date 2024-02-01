@@ -73,6 +73,6 @@
                 BackgroundColor="Indigo"
                 FontAttributes="Bold"
                 CornerRadius="20"
-                Command="{Binding AbrirTareaView2}"></Button>
+                Pressed="Button_Pressed"></Button>
     </VerticalStackLayout>
 </ContentPage>

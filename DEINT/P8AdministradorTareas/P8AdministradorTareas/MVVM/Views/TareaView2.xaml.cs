@@ -4,9 +4,9 @@ namespace P8AdministradorTareas.MVVM.Views;
 
 public partial class TareaView2 : ContentPage
 {
-	public TareaView2()
+	public TareaView2(TareaViewModel vm)
 	{
 		InitializeComponent();
-		BindingContext = new TareaViewModel();
+		BindingContext = vm;
 	}
 }

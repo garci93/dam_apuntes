@@ -1,0 +1,124 @@
+<odoo>
+  <data>
+    <record id="task_manager.tree" model="ir.ui.view">
+      <field name="name">task_manager.tree</field>
+      <field name="model">task_manager.task</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name" />
+          <field name="description" />
+          <field name="creation_date" />
+          <field name="end_date" />
+          <field name="assigned_people_count" />
+          <field name="people_ids" widget="many2many_tags" />
+          <field name="state" />
+        </tree>
+      </field>
+    </record>
+
+    <record id="task_manager.form" model="ir.ui.view">
+      <field name="name">task_manager.form</field>
+      <field name="model">task_manager.task</field>
+      <field name="arch" type="xml">
+        <form>
+          <group>
+            <field name="name" />
+            <field name="description" />
+            <field name="creation_date" />
+            <field name="end_date" />
+            <field name="people_ids" widget="many2many_tags" />
+            <field name="state" />
+          </group>
+        </form>
+      </field>
+    </record>
+
+
+    <record id="person_form_view" model="ir.ui.view">
+      <field name="name">person.form</field>
+      <field name="model">tasks.person</field>
+      <field name="arch" type="xml">
+        <form>
+          <header>
+            <button name="delete_person" type="object" string="Eliminar" class="oe_highlight" />
+          </header>
+          <group>
+            <field name="name" />
+            <field name="age" />
+            <field name="role" />
+            <field name="assigned_tasks_count" />
+            <field name="tasks_ids" widget="many2many_tags" />
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <record id="person_tree_view" model="ir.ui.view">
+      <field name="name">task.tree</field>
+      <field name="model">tasks.person</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name" />
+          <field name="age" />
+          <field name="role" />
+          <field name="assigned_tasks_count" />
+          <field name="tasks_ids" widget="many2many_tags" />
+        </tree>
+      </field>
+    </record>
+
+    <record id="task_kanban_view" model="ir.ui.view">
+      <field name="name">task.kanban</field>
+      <field name="model">tasks.task</field>
+      <field name="arch" type="xml">
+        <kanban>
+          <templates>
+            <t t-name="kanban-box">
+              <div t-attf-class="oe_kanban_global_click">
+                <div>Nombre: <field name="name"/></div>
+                <div>Edad: <field name="age"/></div>
+                <div>Role: <field name="role"/></div>
+                <div>Fecha de creación: <field name="creation_date"/></div>
+                <div>Fecha de límite: <field name="end_date"/></div>
+                <div>Número de personas asignadas: <field name="assigned_people_count"/></div>
+                <div>Estado: <field name="state"/></div>
+              </div>
+            </t>
+          </templates>
+        </kanban>
+      </field>
+    </record>
+
+    <record id="action_task_tree" model="ir.actions.act_window">
+      <field name="name">Tareas (vista de árbol)</field>
+      <field name="res_model">task_manager.task</field>
+      <field name="view_mode">tree,form,kanban</field>
+    </record>
+
+    <record id="action_task_form" model="ir.actions.act_window">
+      <field name="name">Tareas (vista de formulario)</field>
+      <field name="res_model">task_manager.task</field>
+      <field name="view_mode">form</field>
+    </record>
+
+    <record id="action_person_tree" model="ir.actions.act_window">
+      <field name="name">Personas (vista de árbol)</field>
+      <field name="res_model">task_manager.person</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_person_form" model="ir.actions.act_window">
+      <field name="name">Personas (vista de formulario)</field>
+      <field name="res_model">task_manager.person</field>
+      <field name="view_mode">form</field>
+    </record>
+
+    <menuitem id="menu_task" name="Gestor de tareas" sequence="20"/>
+
+    <menuitem id="menu_task_tree" parent="menu_task" name="Vista de árbol" action="action_task_tree"/>
+    <menuitem id="menu_task_form" parent="menu_task" name="Vista de formulario" action="action_task_form"/>
+    
+    <menuitem id="menu_person_tree" parent="tasks_menu" name="People list tree view" action="action_person_tree" />
+    <menuitem id="menu_person_form" parent="tasks_menu" name="People list form view" action="action_person_form" />
+  </data>
+</odoo>

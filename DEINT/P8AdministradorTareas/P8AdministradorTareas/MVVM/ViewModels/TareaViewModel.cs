@@ -1,5 +1,6 @@
 ﻿using P8AdministradorTareas.MVVM.Models;
 using P8AdministradorTareas.MVVM.Views;
+using PropertyChanged;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -11,13 +12,15 @@ using System.Windows.Input;
 
 namespace P8AdministradorTareas.MVVM.ViewModels
 {
+    [AddINotifyPropertyChangedInterface]
     public class TareaViewModel : INotifyPropertyChanged
     {
-        public Command AbrirTareaView2 { get; set; }
+        //public Command AbrirTareaView2 { get; set; }
         public ObservableCollection <Tarea> Tareas { get; set; } = new ObservableCollection<Tarea>();
         public ObservableCollection<Categoria> Categorias { get; set; } = new ObservableCollection<Categoria>();
         public TareaViewModel()
         {
+            Tareas.CollectionChanged += (sender, e) => RaisePropertyChanged(nameof(Tareas));
             Tareas = new ObservableCollection<Tarea>()
             {
                 new Tarea
@@ -62,16 +65,24 @@ namespace P8AdministradorTareas.MVVM.ViewModels
                     Nombre = "Compras",
                 },
             };
-            AbrirTareaView2 = new Command(IrATareaView2);
         }
 
-        private async void IrATareaView2()
-        {
-            TareaView2 v2 = new TareaView2();
-            await Application.Current.MainPage.Navigation.PushAsync(v2);
-        }
+        //private async void IrATareaView2()
+        //{
+        //    TareaView2 v2 = new TareaView2();
+        //    await Application.Current.MainPage.Navigation.PushAsync(v2);
+        //}
 
         public event PropertyChangedEventHandler? PropertyChanged;
+        protected virtual void RaisePropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public void NotificarCambiosProgreso()
+        {
+            RaisePropertyChanged(nameof(Progreso));
+        }
 
         public double Progreso (Categoria categoria)
         {
