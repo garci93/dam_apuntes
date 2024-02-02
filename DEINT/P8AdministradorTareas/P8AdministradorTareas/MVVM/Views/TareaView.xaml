@@ -14,7 +14,9 @@
             FontAttributes="Bold"
             VerticalOptions="Start" 
             HorizontalOptions="FillAndExpand" />
+        
         <Label Text="Mis Tareas" Margin="10" TextColor="DarkSlateGray" FontSize="Subtitle" FontAttributes="Bold" />
+        
         <Label Text="Categorias" TextTransform="Uppercase" Margin="10,-5,0,0" TextColor="DarkGray" FontSize="Subtitle" />
         <ScrollView Orientation="Horizontal" HorizontalOptions="Start">
             <HorizontalStackLayout>
@@ -26,7 +28,7 @@
                         <DataTemplate>
                             <Frame BorderColor="White" HorizontalOptions="Start" BackgroundColor="White" CornerRadius="5" Margin="5" Padding="10">
                                 <VerticalStackLayout HorizontalOptions="Start">
-                                    <Label Text="2 tareas" HorizontalOptions="Start" TextColor="DarkGray" FontSize="12" />
+                                    <Label Text="{Binding ObtenerCantidadTareasPorCategoria, StringFormat='{0} Tareas'}"  HorizontalOptions="Start" TextColor="DarkGray" FontSize="12" />
                                     <Label Text="{Binding Nombre}" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black" FontSize="16" />
                                     <ProgressBar Progress="{Binding Progreso}" BackgroundColor="DarkGray" ProgressColor="Orange" HeightRequest="10" VerticalOptions="CenterAndExpand" />
                                 </VerticalStackLayout>
@@ -36,10 +38,11 @@
                 </CollectionView>
             </HorizontalStackLayout>
         </ScrollView>
+        
         <Label Text="Tareas pendientes" TextTransform="Uppercase" Margin="10,-5,0,0" TextColor="DarkGray" FontSize="Subtitle" />
         <ScrollView HorizontalOptions="Start">
             <VerticalStackLayout HorizontalOptions="Start">
-                <CollectionView ItemsSource="{Binding Tareas}"  HorizontalOptions="Start">
+                <CollectionView ItemsSource="{Binding Tareas}" HorizontalOptions="Start">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <Frame BorderColor="Transparent" BackgroundColor="White" CornerRadius="5" HorizontalOptions="Start">
@@ -67,6 +70,7 @@
                 </CollectionView>
             </VerticalStackLayout>
         </ScrollView>
+        
         <Button TranslationY="-70" Margin="20" HorizontalOptions="End"
                 Text="+"
                 TextColor="White"

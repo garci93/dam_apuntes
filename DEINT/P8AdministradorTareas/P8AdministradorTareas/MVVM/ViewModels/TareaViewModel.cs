@@ -13,11 +13,18 @@ using System.Windows.Input;
 namespace P8AdministradorTareas.MVVM.ViewModels
 {
     [AddINotifyPropertyChangedInterface]
+
     public class TareaViewModel : INotifyPropertyChanged
     {
+
+        public event EventHandler<string>? NuevoValorEntry;
         //public Command AbrirTareaView2 { get; set; }
         public ObservableCollection <Tarea> Tareas { get; set; } = new ObservableCollection<Tarea>();
         public ObservableCollection<Categoria> Categorias { get; set; } = new ObservableCollection<Categoria>();
+
+        public Command AnadirCategoria { get; set; }
+        public string? EntryNuevo { get; private set; }
+
         public TareaViewModel()
         {
             Tareas.CollectionChanged += (sender, e) => RaisePropertyChanged(nameof(Tareas));
@@ -52,18 +59,9 @@ namespace P8AdministradorTareas.MVVM.ViewModels
 
             Categorias = new ObservableCollection<Categoria>()
             {
-                new Categoria
-                {
-                    Nombre = "Curso .NET MAUI",
-                },
-                new Categoria
-                {
-                    Nombre = "Tutoriales",
-                },
-                new Categoria
-                {
-                    Nombre = "Compras",
-                },
+                new Categoria("Curso .NET MAUI"),
+                new Categoria("Tutoriales"),
+                new Categoria("Compras")
             };
         }
 
@@ -77,6 +75,29 @@ namespace P8AdministradorTareas.MVVM.ViewModels
         protected virtual void RaisePropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public int ObtenerCantidadTareasPorCategoria(string nombreCategoria)
+        {
+            // Filtra las tareas cuya categoría coincide con el nombre de la categoría actual
+            for (int i = 0; i < Tareas.Count; i++)
+            {
+                if (Tareas[i].Categoria == nombreCategoria)
+                {
+                    return Tareas.Count;
+                }
+            }
+
+            return 0;
+        }
+
+        private void AnadirCategoriaMetodo()
+        {
+            if (!string.IsNullOrEmpty(EntryNuevo))
+            {
+                Categoria categoria = new Categoria(EntryNuevo);
+                Categorias.Add(categoria);
+            }
         }
 
         public void NotificarCambiosProgreso()

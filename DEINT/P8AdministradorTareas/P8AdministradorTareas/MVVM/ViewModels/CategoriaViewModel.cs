@@ -14,19 +14,11 @@ namespace P8AdministradorTareas.MVVM.ViewModels
         {
             Categorias = new ObservableCollection<Categoria>()
             {
-                new Categoria
-                {
-                    Nombre = "Curso .NET MAUI",
-                },
-                new Categoria
-                {
-                    Nombre = "Tutoriales",
-                },
-                new Categoria
-                {
-                    Nombre = "Compras",
-                },
+                new Categoria("Curso .NET MAUI"),
+                new Categoria("Tutoriales"),
+                new Categoria("Compras")
             };
-        }   
+
+        } 
     }
 }

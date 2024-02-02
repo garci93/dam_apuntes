@@ -18097,7 +18097,7 @@
         }
       }
     },
-    "net8.0-ios17.2": {
+    "net8.0-ios17.0": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -18573,7 +18573,7 @@
         }
       }
     },
-    "net8.0-ios17.2/android-arm": {
+    "net8.0-ios17.0/android-arm": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -19049,7 +19049,7 @@
         }
       }
     },
-    "net8.0-ios17.2/android-arm64": {
+    "net8.0-ios17.0/android-arm64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -19525,7 +19525,7 @@
         }
       }
     },
-    "net8.0-ios17.2/android-x64": {
+    "net8.0-ios17.0/android-x64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -20001,7 +20001,7 @@
         }
       }
     },
-    "net8.0-ios17.2/android-x86": {
+    "net8.0-ios17.0/android-x86": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -20477,7 +20477,7 @@
         }
       }
     },
-    "net8.0-ios17.2/iossimulator-x64": {
+    "net8.0-ios17.0/iossimulator-x64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -20953,7 +20953,7 @@
         }
       }
     },
-    "net8.0-ios17.2/maccatalyst-x64": {
+    "net8.0-ios17.0/maccatalyst-x64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -21429,7 +21429,7 @@
         }
       }
     },
-    "net8.0-ios17.2/win10-x64": {
+    "net8.0-ios17.0/win10-x64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -21905,7 +21905,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.2": {
+    "net8.0-maccatalyst17.0": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -22381,7 +22381,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.2/android-arm": {
+    "net8.0-maccatalyst17.0/android-arm": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -22857,7 +22857,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.2/android-arm64": {
+    "net8.0-maccatalyst17.0/android-arm64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -23333,7 +23333,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.2/android-x64": {
+    "net8.0-maccatalyst17.0/android-x64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -23809,7 +23809,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.2/android-x86": {
+    "net8.0-maccatalyst17.0/android-x86": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -24285,7 +24285,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.2/iossimulator-x64": {
+    "net8.0-maccatalyst17.0/iossimulator-x64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -24761,7 +24761,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.2/maccatalyst-x64": {
+    "net8.0-maccatalyst17.0/maccatalyst-x64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -25237,7 +25237,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.2/win10-x64": {
+    "net8.0-maccatalyst17.0/win10-x64": {
       "Antlr4.Runtime.Standard/4.13.1": {
         "type": "package",
         "compile": {
@@ -34725,7 +34725,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.1",
       "PropertyChanged.Fody >= 4.1.0"
     ],
-    "net8.0-ios17.2": [
+    "net8.0-ios17.0": [
       "Dangl.Calculator >= 2.2.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
@@ -34733,7 +34733,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.1",
       "PropertyChanged.Fody >= 4.1.0"
     ],
-    "net8.0-maccatalyst17.2": [
+    "net8.0-maccatalyst17.0": [
       "Dangl.Calculator >= 2.2.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
@@ -34750,24 +34750,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jojogape\\.nuget\\packages\\": {},
-    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dam\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj",
+      "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj",
       "projectName": "CalculadoraDemo",
-      "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj",
-      "packagesPath": "C:\\Users\\Jojogape\\.nuget\\packages\\",
-      "outputPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\obj\\",
+      "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\CalculadoraDemo.csproj",
+      "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\CalculadoraDemo\\CalculadoraDemo\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jojogape\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -34787,11 +34787,11 @@
           "targetAlias": "net8.0-android",
           "projectReferences": {}
         },
-        "net8.0-ios17.2": {
+        "net8.0-ios17.0": {
           "targetAlias": "net8.0-ios",
           "projectReferences": {}
         },
-        "net8.0-maccatalyst17.2": {
+        "net8.0-maccatalyst17.0": {
           "targetAlias": "net8.0-maccatalyst",
           "projectReferences": {}
         },
@@ -34858,7 +34858,7 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       },
-      "net8.0-ios17.2": {
+      "net8.0-ios17.0": {
         "targetAlias": "net8.0-ios",
         "dependencies": {
           "Dangl.Calculator": {
@@ -34909,7 +34909,7 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       },
-      "net8.0-maccatalyst17.2": {
+      "net8.0-maccatalyst17.0": {
         "targetAlias": "net8.0-maccatalyst",
         "dependencies": {
           "Dangl.Calculator": {

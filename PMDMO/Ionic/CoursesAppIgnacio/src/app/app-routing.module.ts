@@ -20,10 +20,6 @@ const routes: Routes = [
       }
     ]
   },
-  {
-    path: 'algo',
-    loadChildren: () => import('./algo/algo.module').then( m => m.AlgoPageModule)
-  },
 ];
 
 @NgModule({

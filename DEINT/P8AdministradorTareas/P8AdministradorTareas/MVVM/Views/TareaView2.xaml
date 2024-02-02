@@ -17,11 +17,11 @@
 
         <Grid >
             <Grid.RowDefinitions>
-                <RowDefinition Height="100"/>
+                <RowDefinition Height="70"/>
                 <RowDefinition Height="400"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <Entry Grid.Row="0" Margin="0,20,0,0" TextColor="Black" HorizontalOptions="CenterAndExpand" FontSize="Medium" Placeholder="Introduce nueva tarea" Text=""></Entry>
+            <Entry Grid.Row="0" Margin="0,20,0,0" TextColor="Black" HorizontalOptions="CenterAndExpand" FontSize="Medium" Placeholder="Introduce nueva tarea" Text="{Binding EntryNuevo}"></Entry>
             <VerticalStackLayout Grid.Row="1" HorizontalOptions="Center">
                 <CollectionView ItemsSource="{Binding Categorias}">
                     <CollectionView.ItemsLayout>
@@ -41,7 +41,7 @@
             </VerticalStackLayout>
             <HorizontalStackLayout Grid.Row="2" Spacing="20" VerticalOptions="End" HorizontalOptions="Center">
                 <Button CornerRadius="20" Text="Añadir tarea" BackgroundColor="Indigo" TextColor="White"></Button>
-                <Button CornerRadius="20" Text="Añadir categoría" BackgroundColor="Indigo" TextColor="White"></Button>
+                <Button Command="{Binding AnadirCategoriaMetodo}" CornerRadius="20" Text="Añadir categoría" BackgroundColor="Indigo" TextColor="White"></Button>
             </HorizontalStackLayout>
         </Grid>
         
