@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BDDemo2.MVVM.View.CustomerView"
+             Title="CustomerView">
+    <Grid RowDefinitions=".3*, .7*">
+        <VerticalStackLayout>
+            <Entry Placeholder="Nombre"
+                 Text="{Binding CurrentCustomer.Name}"/>
+            <Entry Placeholder="Dirección"
+                 Text="{Binding CurrentCustomer.Address}"/>
+
+            <Button Text="Add or Update"
+                  Command="{Binding AddOrUpdateCommand}"/>
+
+            <Button Text="Delete" 
+                  Command="{Binding DeleteCommand}" />
+        </VerticalStackLayout>
+
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Customers}" SelectedItem="{Binding CurrentCustomer}" SelectionMode="Single" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="*,*">
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding Address}" Grid.Column="1"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+    </Grid>
+</ContentPage>
