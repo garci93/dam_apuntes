@@ -1,4 +1,6 @@
-﻿namespace Practica10
+﻿using Practica10.MVVM.ViewModels;
+
+namespace Practica10
 {
     public partial class MainPage : ContentPage
     {
@@ -7,6 +9,7 @@
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new GastosViewModel();
         }
 
         private void OnCounterClicked(object sender, EventArgs e)

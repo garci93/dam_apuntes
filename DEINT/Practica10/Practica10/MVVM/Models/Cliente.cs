@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica10.MVVM.Models
 {
-    internal class Cliente
+    public class Cliente
     {
     }
 }

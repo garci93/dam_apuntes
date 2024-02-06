@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica10
 {
-    internal class Constant
+    public class Constant
     {
     }
 }
