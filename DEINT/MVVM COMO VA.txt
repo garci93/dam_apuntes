@@ -29,19 +29,27 @@ VIEW1.XAML
 	Añadir un Clicked al button correspondiente
 
 VIEW1.XAML.CS
-public partial class GastosView : ContentPage
+public partial class View1 : ContentPage
 {
-	GastosViewModel gastosViewModel;
-	public GastosView()
+	ViewModel viewModel;							//declara el ViewModel
+	public View1()
 	{
-		InitializeComponent();
-		gastosViewModel = new GastosViewModel();
-		BindingContext = gastosViewModel;
+		InitializeComponent();						
+		viewModel = new ViewModel();					//instancia el ViewModel
+		BindingContext = viewModel;					//lo bindea a la vista 1
 	}
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
-		GastosView2 gastosView2 = new GastosView2(gastosViewModel);
-		await Application.Current.MainPage.Navigation.PushAsync(gastosView2);
+		View2 view2 = new View2(viewModel);				//instancia la vista 2 a partir del mismo viewmodel
+		await Application.Current.MainPage.Navigation.PushAsync(view2);	//abre el view2 en una nueva página
     }
+}
+
+VIEW2.XAML.CS
+	public View2(View2Model viewModel)
+	{
+		InitializeComponent();
+		BindingContext = viewModel;
+	}
 }
