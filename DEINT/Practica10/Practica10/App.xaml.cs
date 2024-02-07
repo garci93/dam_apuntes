@@ -7,7 +7,7 @@ namespace Practica10
         public App()
         {
             InitializeComponent();
-            MainPage = new GastosView();
+            MainPage = new NavigationPage(new GastosView());
         }
     }
 }

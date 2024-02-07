@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-06T11:41:40.214</Modified>
+      <Modified>2024-02-07T09:16:53.682</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-06T11:11:15.648</Modified>
+      <Modified>2024-02-07T09:16:53.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica10.runtimeconfig.json">
       <PackagePath>Practica10.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica10.dll">
       <PackagePath>Practica10.dll</PackagePath>
-      <Modified>2024-02-06T11:41:39.824</Modified>
+      <Modified>2024-02-07T09:16:53.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Practica10.exe</PackagePath>
-      <Modified>2024-02-06T11:41:39.829</Modified>
+      <Modified>2024-02-07T09:16:53.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica10.deps.json">
       <PackagePath>Practica10.deps.json</PackagePath>
-      <Modified>2024-02-06T11:11:15.078</Modified>
+      <Modified>2024-02-07T09:11:59.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

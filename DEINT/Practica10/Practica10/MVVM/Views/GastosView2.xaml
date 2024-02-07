@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica10.MVVM.Views.GastosView2"
+             Title="GastosView2">
+    <NavigationPage.HasNavigationBar>
+        <x:Boolean>False</x:Boolean>
+    </NavigationPage.HasNavigationBar>
+    <VerticalStackLayout BackgroundColor="White">
+        <Label Text="Transacciones" FontAttributes="Bold" FontFamily="Arial" Padding="5" FontSize="Medium" BackgroundColor="White" TextColor="LightGray"></Label>
+        <Frame Margin="0,20,0,0" BackgroundColor="#200040" CornerRadius="20" ZIndex="-1" TranslationY="-40">
+            <VerticalStackLayout>
+                <Label Text="" FontSize="Medium"></Label>
+                <Label Text="Añadir transacción" FontSize="Medium" HeightRequest="100"></Label>
+            </VerticalStackLayout>
+        </Frame>
+        <Frame HasShadow="True" TranslationY="-110" ZIndex="1" Margin="10" BackgroundColor="White" HorizontalOptions="FillAndExpand">
+            <Frame.Shadow>
+                <Shadow Brush="Violet"
+                    Offset="10,10"
+                    Radius="10"
+                    Opacity="0.8" />
+            </Frame.Shadow>
+            <VerticalStackLayout>
+                <Label Text="Transacciones" Margin="0,0,0,10" TextColor="Black" FontSize="10" HorizontalOptions="StartAndExpand"></Label>
+                <Frame Padding="-5" BorderColor="DarkViolet" Margin="0,0,0,10">
+                    <Entry BackgroundColor="White"></Entry>
+                </Frame>
+                <Label Text="Cantidad" Margin="0,0,0,10" TextColor="Black" FontSize="10" HorizontalOptions="StartAndExpand"></Label>
+                <Frame Padding="-5" BorderColor="DarkViolet" Margin="0,0,0,10">
+                    <Entry Placeholder="0" FontSize="10" TextColor="Black" BackgroundColor="White"></Entry>
+                </Frame>
+                <Label Text="Fecha de la transacción" Margin="0,0,0,10" TextColor="Black" FontSize="10" HorizontalOptions="StartAndExpand"></Label>
+                <Frame Padding="-5" BorderColor="DarkViolet" BackgroundColor="White" Margin="0,0,0,10">
+                    <DatePicker FontSize="10" TextColor="BLack" BackgroundColor="White"></DatePicker>
+                </Frame>
+                <HorizontalStackLayout>
+                    <CheckBox></CheckBox>
+                    <Label FontSize="10" VerticalOptions="Center" TextColor="Black" Text="¿Es un ingreso?"></Label>
+                </HorizontalStackLayout>
+                <Button Text="Guardar" BackgroundColor="Indigo" TextColor="White" Margin="0,10,0,0"></Button>
+                <Button Text="Cancelar" BackgroundColor="DarkRed" TextColor="White" Margin="0,10,0,0"></Button>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

@@ -3,15 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica10.MVVM.Views.GastosView"
              Title="Control de gastos">
+    <NavigationPage.HasNavigationBar>
+        <x:Boolean>False</x:Boolean>
+    </NavigationPage.HasNavigationBar>
     <VerticalStackLayout BackgroundColor="White">
         <Label Text="Control de gastos" FontAttributes="Bold" FontFamily="Arial" Padding="5" FontSize="Medium" BackgroundColor="White" TextColor="LightGray"></Label>
-        <Frame Margin="0,20,0,0" BackgroundColor="#200040" CornerRadius="20" ZIndex="-1" TranslationY="-30">
+        <Frame Margin="0,20,0,0" BackgroundColor="#200040" CornerRadius="20" ZIndex="-1" TranslationY="-40">
             <VerticalStackLayout TranslationX="-10">
-                <Label Text="Buenos días," FontSize="14"></Label>
-                <Label Text="Pepito Pérez" FontSize="Medium" HeightRequest="70"></Label>
+                <Label Margin="0,10,0,0" Text="Buenos días," FontSize="14"></Label>
+                <Label Text="Pepito Pérez" FontSize="Medium" HeightRequest="100"></Label>
             </VerticalStackLayout>
         </Frame>
-        <Frame TranslationY="-80" ZIndex="1" Margin="10" BackgroundColor="White" HorizontalOptions="FillAndExpand">
+        <Frame HasShadow="True" TranslationY="-110" ZIndex="1" Margin="10" BackgroundColor="White" HorizontalOptions="FillAndExpand">
             <Frame.Shadow>
                 <Shadow Brush="Violet"
                 Offset="10,10"
@@ -22,13 +25,13 @@
                 <Label Text="Total del balance" TextColor="Black" FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"></Label>
                 <Label Text="990,00 €" HeightRequest="50" TextColor="Black" FontSize="Medium" HorizontalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"></Label>
                 <Label Text="Ingreso" TextColor="Black" FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"></Label>
-                <Label Text="990,00 €" TextColor="Black" FontSize="Small" HorizontalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"></Label>
+                <Label Text="1000,00 €" TextColor="Black" FontSize="Small" HorizontalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"></Label>
                 <Label Text="Gastos" TextColor="Black" FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="2" Grid.Column="1"></Label>
                 <Label Text="10,00 €" TextColor="Black" FontSize="Small" HorizontalOptions="StartAndExpand" Grid.Row="3" Grid.Column="1"></Label>
             </Grid>
         </Frame>
-        <Button Text="+" BackgroundColor="#200040" TextColor="White" FontSize="Small" Margin="20" ZIndex="2" TranslationY="-130" FontAttributes="Bold" CornerRadius="50" HorizontalOptions="End"></Button>
-        <Label Text="Transacciones" TranslationY="-170" TextColor="Black" Margin="10" FontSize="10" HorizontalOptions="StartAndExpand"></Label>
+        <Button Clicked="Button_Clicked" Text="+" BackgroundColor="#200040" TextColor="White" FontSize="Small" Margin="20" ZIndex="2" TranslationY="-130" FontAttributes="Bold" CornerRadius="50" HorizontalOptions="End"></Button>
+        <Label Text="Transacciones" TranslationY="-200" TextColor="Black" Margin="10" FontSize="10" HorizontalOptions="StartAndExpand"></Label>
         <ListView x:Name="GastosListView" Margin="10" BackgroundColor="White" TranslationY="-100">
             <ListView.ItemTemplate>
                 <DataTemplate>

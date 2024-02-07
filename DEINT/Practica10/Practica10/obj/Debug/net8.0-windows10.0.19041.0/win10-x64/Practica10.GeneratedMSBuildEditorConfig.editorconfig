@@ -36,6 +36,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Practica10.MVVM.Views.Gast
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\GastosView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\GastosView.xaml
 
+[C:/Users/dam/Desktop/dam_apuntes/DEINT/Practica10/Practica10/MVVM/Views/GastosView2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Practica10.MVVM.Views.GastosView2.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\GastosView2.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\GastosView2.xaml
+
 [C:/Users/dam/Desktop/dam_apuntes/DEINT/Practica10/Practica10/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Practica10.Resources.Styles.Colors.xaml
