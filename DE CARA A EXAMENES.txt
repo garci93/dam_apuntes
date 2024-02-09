@@ -1,0 +1,37 @@
+	silvia
+DEINT
+	16 segunda parte tema 4
+	19 exp diseño, 10-15 min hablado enseñado una pagina
+
+
+	pablo
+PMDMO
+	dia 19, recreo, 4 y 5 hora
+	hay docu de ionic disponible
+	si se aprueba, se recupera 1eval tb
+HLC
+	dia 20, 3 hora y recreo
+	a papel
+	interpretar codigo (qué hace esto?)
+	complementar codigo (cómo se hace esto?)
+SGEMP
+	dia 21, recreo y 4 hora
+	test y preguntas cortas
+	hacerle algo en su ordenador				<- ???
+
+
+	luis
+PSPRO
+	semana 12-16:	exponer springboot
+	dia 22
+	examen preguntas cortas / test				<- PREGUNTAR LUIS
+
+ACDAT
+	juego sin sprites
+	juego con sprites
+
+
+
+sesion de eval: 8 marzo
+11-15: asig. proyectos, visitas empresas etc
+18: nuevo horario de apoyo, 50% de horas (esperemos que no xd)
