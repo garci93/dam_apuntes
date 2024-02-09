@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using Practica10.MVVM.Models;
+using Practica10.Repository;
 
 namespace Practica10
 {
@@ -18,6 +20,7 @@ namespace Practica10
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton<BaseRepository<Transaccion>>();
 
             return builder.Build();
         }
