@@ -24,8 +24,8 @@ namespace Practica10.MVVM.Models
 
 
         //Relacion 1 a N
-        [OneToMany(CascadeOperations = CascadeOperation.CascadeInsert | CascadeOperation.CascadeRead | CascadeOperation.CascadeDelete)]
-        public List<Passport> Passport { get; set; }
+        //[OneToMany(CascadeOperations = CascadeOperation.CascadeInsert | CascadeOperation.CascadeRead | CascadeOperation.CascadeDelete)]
+        //public List<Passport> Passport { get; set; }
 
 
         [Ignore]

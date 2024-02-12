@@ -16,8 +16,9 @@ HLC
 	complementar codigo (cómo se hace esto?)
 SGEMP
 	dia 21, recreo y 4 hora
-	test y preguntas cortas
-	hacerle algo en su ordenador				<- ???
+	apuntes en classroom. temas 3 y 4
+	test ~20p y preguntas cortas
+	en algún punto nos llama y nos pregunta algo en su mesa
 
 
 	luis
@@ -25,7 +26,6 @@ PSPRO
 	semana 12-16:	exponer springboot
 	dia 22
 	examen preguntas cortas / test				<- PREGUNTAR LUIS
-
 ACDAT
 	juego sin sprites
 	juego con sprites
