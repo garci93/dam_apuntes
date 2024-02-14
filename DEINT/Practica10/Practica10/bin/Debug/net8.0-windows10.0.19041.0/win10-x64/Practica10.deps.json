@@ -13,6 +13,7 @@
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.3",
           "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "PropertyChanged.Fody": "4.1.0",
           "SQLiteNetExtensions": "2.1.0",
           "sqlite-net-pcl": "1.8.116",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
@@ -33,6 +34,7 @@
           }
         }
       },
+      "Fody/6.6.4": {},
       "Humanizer/2.14.1": {
         "dependencies": {
           "Humanizer.Core.af": "2.14.1",
@@ -1034,6 +1036,11 @@
           }
         }
       },
+      "PropertyChanged.Fody/4.1.0": {
+        "dependencies": {
+          "Fody": "6.6.4"
+        }
+      },
       "runtime.any.System.Collections/4.0.11": {
         "dependencies": {
           "System.Runtime": "4.1.0"
@@ -1485,6 +1492,13 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "Fody/6.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLZS+oa+ndUHYPlx/8n9bBTT3dHkCF0riml4paKq4D663+cZd47x1uagQo32D/gKFZ/sfmV1oqKaLmH0elxq4A==",
+      "path": "fody/6.6.4",
+      "hashPath": "fody.6.6.4.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -2017,6 +2031,13 @@
       "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6v+f9cI8YjnZH2WBHuOqWEAo8DFFNGFIdU8xD3AsL6fhV6Y8oAmVWd7XKk49t8DpeUBwhR/X+97+6Epvek0Y3A==",
+      "path": "propertychanged.fody/4.1.0",
+      "hashPath": "propertychanged.fody.4.1.0.nupkg.sha512"
     },
     "runtime.any.System.Collections/4.0.11": {
       "type": "package",

@@ -325,6 +325,9 @@
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\newtonsoft.json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\propertychanged.fody\4.1.0\lib\netstandard2.1\PropertyChanged.dll">
+      <PackagePath>PropertyChanged.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
       <PackagePath>SQLite-net.dll</PackagePath>
     </AppxPackagedFile>

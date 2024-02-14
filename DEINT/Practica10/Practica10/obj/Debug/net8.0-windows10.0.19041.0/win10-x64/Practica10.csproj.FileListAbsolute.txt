@@ -233,3 +233,5 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\obj\Debug\net8.0-wi
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLiteNetExtensions.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica10.csproj.Fody.CopyLocal.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica10.csproj.Fody.RuntimeCopyLocal.cache

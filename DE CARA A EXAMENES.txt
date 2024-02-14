@@ -27,8 +27,8 @@ PSPRO
 	dia 22
 	examen preguntas cortas / test				<- PREGUNTAR LUIS
 ACDAT
-	juego sin sprites
-	juego con sprites
+x	juego sin sprites
+	juego con sprites, para 29-1
 
 
 

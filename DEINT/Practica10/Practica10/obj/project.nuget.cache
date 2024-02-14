@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KJLhMMdizL8lTEF0Dd5MXZJoPwXeDiV6nCYGKWcbQOLqrud9AdRoNVVJR1npsxDIAg1CXKhsHliiq5hzfLGEjw==",
+  "dgSpecHash": "qWZN28vQHC8HWNTdgxkBqVrl5MzcuYKWdnjCReNid7Gqw7wAReHLFIiBpC8Xtu64RanXkLcqtH/mAQDt6xTevQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dam\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -82,6 +83,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\microsoft.windowsappsdk\\1.3.230724000\\microsoft.windowsappsdk.1.3.230724000.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\dam\\.nuget\\packages\\propertychanged.fody\\4.1.0\\propertychanged.fody.4.1.0.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\runtime.any.system.collections\\4.0.11\\runtime.any.system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\runtime.any.system.diagnostics.tools\\4.0.1\\runtime.any.system.diagnostics.tools.4.0.1.nupkg.sha512",
     "C:\\Users\\dam\\.nuget\\packages\\runtime.any.system.globalization\\4.0.11\\runtime.any.system.globalization.4.0.11.nupkg.sha512",

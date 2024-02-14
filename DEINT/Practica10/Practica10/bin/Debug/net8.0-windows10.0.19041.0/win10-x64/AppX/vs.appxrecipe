@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-09T09:56:59.196</Modified>
+      <Modified>2024-02-14T09:14:26.406</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-09T09:56:58.931</Modified>
+      <Modified>2024-02-14T08:31:06.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica10.runtimeconfig.json">
       <PackagePath>Practica10.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-09T09:56:58.621</Modified>
+      <Modified>2024-02-14T08:31:06.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica10.dll">
       <PackagePath>Practica10.dll</PackagePath>
-      <Modified>2024-02-09T09:56:57.266</Modified>
+      <Modified>2024-02-14T09:14:25.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Practica10.exe</PackagePath>
-      <Modified>2024-02-09T09:56:57.331</Modified>
+      <Modified>2024-02-14T09:14:25.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\Practica10\Practica10\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica10.deps.json">
       <PackagePath>Practica10.deps.json</PackagePath>
-      <Modified>2024-02-09T09:56:58.495</Modified>
+      <Modified>2024-02-14T08:31:06.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -433,6 +433,10 @@
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\newtonsoft.json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2016-06-13T23:06:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\propertychanged.fody\4.1.0\lib\netstandard2.1\PropertyChanged.dll">
+      <PackagePath>PropertyChanged.dll</PackagePath>
+      <Modified>2022-11-06T16:42:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
       <PackagePath>SQLite-net.dll</PackagePath>

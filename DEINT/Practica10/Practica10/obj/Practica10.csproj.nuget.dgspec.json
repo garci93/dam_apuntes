@@ -83,6 +83,10 @@
               "version": "[8.0.1, )",
               "autoReferenced": true
             },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
@@ -137,6 +141,10 @@
               "target": "Package",
               "version": "[8.0.1, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "SQLiteNetExtensions": {
               "target": "Package",
@@ -193,6 +201,10 @@
               "version": "[8.0.1, )",
               "autoReferenced": true
             },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
@@ -242,6 +254,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "SQLiteNetExtensions": {
               "target": "Package",
