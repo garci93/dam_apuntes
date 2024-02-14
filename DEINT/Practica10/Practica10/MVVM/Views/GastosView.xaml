@@ -30,7 +30,7 @@
                 <Label Text="10,00 €" TextColor="Black" FontSize="Small" HorizontalOptions="StartAndExpand" Grid.Row="3" Grid.Column="1"></Label>
             </Grid>
         </Frame>
-        <Button Clicked="Button_Clicked" Text="+" BackgroundColor="#200040" TextColor="White" FontSize="Small" Margin="20" ZIndex="2" TranslationY="-110" FontAttributes="Bold" CornerRadius="50" HorizontalOptions="End"></Button>
+        <Button Clicked="Button_Clicked" Text="+" BackgroundColor="#200040" TextColor="White" FontSize="Small" Margin="20" ZIndex="2" TranslationY="-160" FontAttributes="Bold" CornerRadius="50" HorizontalOptions="End"></Button>
         <Label Text="Transacciones" TranslationY="-200" TextColor="Black" Margin="10" FontSize="10" HorizontalOptions="StartAndExpand"></Label>
         <ListView x:Name="GastosListView" Margin="10" BackgroundColor="White" TranslationY="-100">
             <ListView.ItemTemplate>
