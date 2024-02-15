@@ -23,15 +23,24 @@ SGEMP
 
 	luis
 PSPRO
-	semana 12-16:	exponer springboot
-	dia 22
-	examen preguntas cortas / test				<- PREGUNTAR LUIS
+	dia 22:	exponer springboot a 3 hora
+	
+	examen preguntas cortas / test
 ACDAT
 x	juego sin sprites
 	juego con sprites, para 29-1
 
+el 22 tenemos notas de pablo y organizamos recups
+
+29 y 1 solo recup y exponer juegos, no hay clase normal
+
+RECUPS
+	5 PMDMO 2 y 3 (recreo?)
+	6 DEINT 3 recreo y 4
+	  HLC 4 y 5 (tal vez 5 y 6)
+	7 SGEMP 4
 
 
-sesion de eval: 8 marzo
-11-15: asig. proyectos, visitas empresas etc
+sesion de eval: antes del 8 marzo
+11-15: asig. proyectos, visitas empresas etc, no hay clase
 18: nuevo horario de apoyo, 50% de horas (esperemos que no xd)

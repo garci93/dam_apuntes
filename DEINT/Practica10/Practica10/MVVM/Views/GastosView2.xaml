@@ -39,7 +39,7 @@
                     <Label FontSize="10" VerticalOptions="Center" TextColor="Black" Text="¿Es un ingreso?"></Label>
                 </HorizontalStackLayout>
                 <Button Text="Guardar" BackgroundColor="Indigo" TextColor="White" Margin="0,10,0,0"></Button>
-                <Button Text="Cancelar" BackgroundColor="DarkRed" TextColor="White" Margin="0,10,0,0"></Button>
+                <Button Text="Cancelar" x:Name="Cancelar" Clicked="Cancelar_Clicked" BackgroundColor="DarkRed" TextColor="White" Margin="0,10,0,0"></Button>
             </VerticalStackLayout>
         </Frame>
     </VerticalStackLayout>

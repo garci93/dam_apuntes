@@ -4,9 +4,18 @@ namespace Practica10.MVVM.Views;
 
 public partial class GastosView2 : ContentPage
 {
-	public GastosView2(GastosViewModel gastosViewModel)
+    private readonly GastosViewModel _gastosViewModel;
+    public GastosView2(GastosViewModel gastosViewModel)
 	{
 		InitializeComponent();
 		BindingContext = gastosViewModel;
 	}
+
+    private void Cancelar_Clicked(object sender, EventArgs e)
+    {
+        if (_gastosViewModel.Navigation.NavigationStack.Count > 1)
+        {
+            _gastosViewModel.Navigation.PopAsync();
+        }
+    }
 }
