@@ -23657,7 +23657,7 @@
         }
       }
     },
-    "net8.0-ios17.0": {
+    "net8.0-ios17.2": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -25457,7 +25457,7 @@
         }
       }
     },
-    "net8.0-ios17.0/android-arm": {
+    "net8.0-ios17.2/android-arm": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -27455,7 +27455,7 @@
         }
       }
     },
-    "net8.0-ios17.0/android-arm64": {
+    "net8.0-ios17.2/android-arm64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -29453,7 +29453,7 @@
         }
       }
     },
-    "net8.0-ios17.0/android-x64": {
+    "net8.0-ios17.2/android-x64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -31451,7 +31451,7 @@
         }
       }
     },
-    "net8.0-ios17.0/android-x86": {
+    "net8.0-ios17.2/android-x86": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -33449,7 +33449,7 @@
         }
       }
     },
-    "net8.0-ios17.0/iossimulator-x64": {
+    "net8.0-ios17.2/iossimulator-x64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -35444,7 +35444,7 @@
         }
       }
     },
-    "net8.0-ios17.0/maccatalyst-x64": {
+    "net8.0-ios17.2/maccatalyst-x64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -37439,7 +37439,7 @@
         }
       }
     },
-    "net8.0-ios17.0/win10-x64": {
+    "net8.0-ios17.2/win10-x64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -39419,7 +39419,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0": {
+    "net8.0-maccatalyst17.2": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -41219,7 +41219,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/android-arm": {
+    "net8.0-maccatalyst17.2/android-arm": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -43217,7 +43217,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/android-arm64": {
+    "net8.0-maccatalyst17.2/android-arm64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -45215,7 +45215,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/android-x64": {
+    "net8.0-maccatalyst17.2/android-x64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -47213,7 +47213,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/android-x86": {
+    "net8.0-maccatalyst17.2/android-x86": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -49211,7 +49211,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/iossimulator-x64": {
+    "net8.0-maccatalyst17.2/iossimulator-x64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -51206,7 +51206,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/maccatalyst-x64": {
+    "net8.0-maccatalyst17.2/maccatalyst-x64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -53201,7 +53201,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.0/win10-x64": {
+    "net8.0-maccatalyst17.2/win10-x64": {
       "Fody/6.6.4": {
         "type": "package",
         "build": {
@@ -79747,7 +79747,7 @@
       "SQLiteNetExtensions >= 2.1.0",
       "sqlite-net-pcl >= 1.8.116"
     ],
-    "net8.0-ios17.0": [
+    "net8.0-ios17.2": [
       "Humanizer >= 2.14.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
@@ -79757,7 +79757,7 @@
       "SQLiteNetExtensions >= 2.1.0",
       "sqlite-net-pcl >= 1.8.116"
     ],
-    "net8.0-maccatalyst17.0": [
+    "net8.0-maccatalyst17.2": [
       "Humanizer >= 2.14.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
@@ -79778,24 +79778,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dam\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Jojogape\\.nuget\\packages\\": {},
+    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj",
+      "projectUniqueName": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj",
       "projectName": "Practica10",
-      "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj",
-      "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Practica10\\Practica10\\obj\\",
+      "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj",
+      "packagesPath": "C:\\Users\\Jojogape\\.nuget\\packages\\",
+      "outputPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Practica10\\Practica10\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jojogape\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -79815,11 +79815,11 @@
           "targetAlias": "net8.0-android",
           "projectReferences": {}
         },
-        "net8.0-ios17.0": {
+        "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "projectReferences": {}
         },
-        "net8.0-maccatalyst17.0": {
+        "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "projectReferences": {}
         },
@@ -79894,7 +79894,7 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       },
-      "net8.0-ios17.0": {
+      "net8.0-ios17.2": {
         "targetAlias": "net8.0-ios",
         "dependencies": {
           "Humanizer": {
@@ -79953,7 +79953,7 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       },
-      "net8.0-maccatalyst17.0": {
+      "net8.0-maccatalyst17.2": {
         "targetAlias": "net8.0-maccatalyst",
         "dependencies": {
           "Humanizer": {

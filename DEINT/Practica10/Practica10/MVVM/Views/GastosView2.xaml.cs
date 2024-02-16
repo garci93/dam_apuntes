@@ -13,9 +13,9 @@ public partial class GastosView2 : ContentPage
 
     private void Cancelar_Clicked(object sender, EventArgs e)
     {
-        if (_gastosViewModel.Navigation.NavigationStack.Count > 1)
+        if (Navigation.NavigationStack.Count > 1)
         {
-            _gastosViewModel.Navigation.PopAsync();
+            Navigation.PopAsync();
         }
     }
 }

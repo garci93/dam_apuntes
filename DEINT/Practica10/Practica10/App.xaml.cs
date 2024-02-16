@@ -6,9 +6,9 @@ namespace Practica10
 {
     public partial class App : Application
     {
-        public static BaseRepository<Transacciones> TransaccionesRepo { get; private set; }
+        public static BaseRepository<Transaccion> TransaccionesRepo { get; private set; }
 
-        public App(BaseRepository<Transacciones> transaccionesRepo)
+        public App(BaseRepository<Transaccion> transaccionesRepo)
         {
             InitializeComponent();
             TransaccionesRepo = transaccionesRepo;

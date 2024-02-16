@@ -15,6 +15,6 @@ public partial class GastosView : ContentPage
     private async void Button_Clicked(object sender, EventArgs e)
     {
 		GastosView2 gastosView2 = new GastosView2(gastosViewModel);
-		await Application.Current.MainPage.Navigation.PushAsync(gastosView2);
+        await Navigation.PushAsync(gastosView2);
     }
 }

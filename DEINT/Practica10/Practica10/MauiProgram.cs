@@ -21,7 +21,7 @@ namespace Practica10
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-            builder.Services.AddSingleton<BaseRepository<Transacciones>>();
+            builder.Services.AddSingleton<BaseRepository<Transaccion>>();
 
             return builder.Build();
         }

@@ -4,16 +4,14 @@ using SQLiteNetExtensions.Attributes;
 
 namespace Practica10.MVVM.Models
 {
-    [Table("Transacciones")]
-    public class Transacciones : TableData
+    [Table("Transaccion")]
+    public class Transaccion : TableData
     {
-
-        [Column("id"), Indexed, NotNull]
-        public string Id { get; set; }
+        [Column ("fecha")]
         public DateTime Fecha { get; set; }
-        [MaxLength(100)]
-        public int Age { get; set; }
-        public string Address { get; set; }
+        [Column ("cantidad"), MaxLength(100)]
+        public int Cantidad { get; set; }
+        public bool EsIngreso { get; set; }
 
 
         //Relacion 1 a 1 
@@ -26,14 +24,6 @@ namespace Practica10.MVVM.Models
         //Relacion 1 a N
         //[OneToMany(CascadeOperations = CascadeOperation.CascadeInsert | CascadeOperation.CascadeRead | CascadeOperation.CascadeDelete)]
         //public List<Passport> Passport { get; set; }
-
-
-        [Ignore]
-        public bool IsYoung =>
-                Age > 50 ? true : false;
-
-
-
 
     }
 }
