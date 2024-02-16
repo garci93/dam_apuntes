@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-02T10:11:16.401</Modified>
+      <Modified>2024-02-16T08:16:46.955</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\P8AdministradorTareas.dll">
       <PackagePath>P8AdministradorTareas.dll</PackagePath>
-      <Modified>2024-02-02T10:11:16.011</Modified>
+      <Modified>2024-02-16T08:16:45.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>P8AdministradorTareas.exe</PackagePath>
-      <Modified>2024-02-02T10:11:16.026</Modified>
+      <Modified>2024-02-16T08:16:45.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\dam_apuntes\DEINT\P8AdministradorTareas\P8AdministradorTareas\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

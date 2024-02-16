@@ -14,7 +14,7 @@ VIEWMODEL
 app.xaml.cs
 	MainPage = new TuView();
 
-IMPORTANTE: NUGET, INSTALAR PROPERTYCHANGED.FODY
+IMPORTANTE: NUGET, INSTALAR PROPERTYCHANGED.FODY, SQLITENETEXTENSION, sqlite-net-pcl
 
 
 --- AÑADIR UNA NUEVA VISTA ---
@@ -33,11 +33,11 @@ public partial class View1 : ContentPage
 {
 	ViewModel viewModel;							//declara el ViewModel
 	public View1()
-	{
-		InitializeComponent();						
-		viewModel = new ViewModel();					//instancia el ViewModel
-		BindingContext = viewModel;					//lo bindea a la vista 1
-	}
+{
+	InitializeComponent();
+	viewModel = new ViewModel();
+	BindingContext = viewModel;
+}
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
@@ -53,3 +53,11 @@ VIEW2.XAML.CS
 		BindingContext = viewModel;
 	}
 }
+
+Abstraction
+	IBaseRepository.cs
+	TableData.cs
+Repository
+	BaseRepository.cs
+Constant.cs
+

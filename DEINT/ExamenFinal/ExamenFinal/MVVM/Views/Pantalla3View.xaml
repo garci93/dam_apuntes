@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenFinal.MVVM.Views.Pantalla3View"
+             Title="NuevoContacto">
+    <Grid HorizontalOptions="FillAndExpand" RowDefinitions="*,*,*,*,*,*,*">
+        <Entry Grid.Row="0" Placeholder="Nombre" Text="{Binding Nombre}"/>
+        <Entry Grid.Row="1" Placeholder="Foto" Text="{Binding Foto}"/>
+        <Entry Grid.Row="2" Placeholder="Correo" Text="{Binding Correo}"/>
+        <Entry Grid.Row="3" Placeholder="Categoria" Text="{Binding Categoria}"/>
+        <Entry Grid.Row="4" Placeholder="Telefono" Text="{Binding Telefono}"/>
+        <VerticalStackLayout Grid.Row="5">
+            <Label Text="¿Favorito?" FontSize="10"/>
+            <CheckBox IsChecked="{Binding Favorito}"/>
+        </VerticalStackLayout>
+        <Button Grid.Row="6" Text="Guardar" Command="{Binding GuardarCommand}" Clicked="Button_Clicked"/>
+    </Grid>
+</ContentPage>

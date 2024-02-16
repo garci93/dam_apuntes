@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio10ControlGastos.MVVM.View.TransaccionesView"
+             Title="TransaccionesView">
+
+    <AbsoluteLayout>
+
+        <Grid AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".4*"></RowDefinition>
+                <RowDefinition Height=".3*"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="Indigo">
+                <VerticalStackLayout>
+                    <Label Text="Añadir transaccion" FontSize="Large" TextColor="White"/>
+                </VerticalStackLayout>
+            </Frame>
+
+        </Grid>
+
+        <Frame Padding="20" AbsoluteLayout.LayoutBounds="0.5,0.6,0.95,0.8" AbsoluteLayout.LayoutFlags="All" >
+            <ScrollView>
+                <VerticalStackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition ></RowDefinition>
+                            <RowDefinition ></RowDefinition>
+                            <RowDefinition ></RowDefinition>
+                            <RowDefinition ></RowDefinition>
+                            <RowDefinition ></RowDefinition>
+                            <RowDefinition ></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <VerticalStackLayout Grid.Row="0" Grid.Column="0" Margin="0, 0, 0, 40">
+                            <Label Text="Nombre de la transaccion" />
+                            <Entry Text="{Binding Nombre}"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Row="1" Grid.Column="0" Margin="0, 0, 0, 40">
+                            <Label Text="Cantidad" />
+                            <Entry Text="{Binding CantitadTexto}" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Row="2" Grid.Column="0" Margin="0, 0, 0, 40">
+                            <Label Text="Fecha de transaccion" />
+                            <HorizontalStackLayout>
+                                <DatePicker Date="{Binding FechaTransaccion}"/>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+
+                        <HorizontalStackLayout Grid.Row="3" Grid.Column="0" Margin="0, 0, 0, 40">
+                            <CheckBox IsChecked="{Binding EsIngreso}"/>
+                            <Label Text="¿Es un ingreso?" Margin="0, 10, 0, 0"/>
+                        </HorizontalStackLayout>
+
+                        <Button Grid.Row="4" Grid.Column="0" Margin="0, 0, 0, 40" Text="Guardar" Command="{Binding Guardar}"  Clicked="Button_Clicked_1"/>
+
+                        <Button Grid.Row="5" Grid.Column="0" Margin="0, 0, 0, 40" Text="Cancelar" BackgroundColor="DarkRed" Clicked="Button_Clicked"/>
+
+                    </Grid>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Frame>
+
+
+    </AbsoluteLayout>
+</ContentPage>

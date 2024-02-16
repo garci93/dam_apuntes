@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenFinal.MVVM.Views.Pantalla4View"
+             Title="Detalle">
+    <VerticalStackLayout HorizontalOptions="FillAndExpand">
+        <Image ZIndex="0" Source="{Binding Foto}"></Image>
+        <Frame Padding="10" CornerRadius="20" TranslationY="-20" BackgroundColor="White" BorderColor="Black" Margin="10">
+            <VerticalStackLayout>
+                <Label Text="{Binding Nombre}" FontSize="Medium" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+                <Label Text="{Binding Categoria}" FontSize="Small" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+            </VerticalStackLayout>
+        </Frame>
+        <Label Text="{Binding Telefono}" FontSize="Small" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+        <Label Text="{Binding Correo}" FontSize="Small" TextColor="LightGray" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <HorizontalStackLayout Grid.Column="0">
+                <Label Text="Favorito"></Label>
+                <CheckBox IsChecked="{Binding Favorito}" Color="Green"></CheckBox>
+            </HorizontalStackLayout>
+            <Button Grid.Column="1" Text="Mensaje" x:Name="llamar" Clicked="llamar_Clicked" BackgroundColor="Green" TextColor="White"></Button>
+            <Button Grid.Column="2" Text="Llamar" Command="{Binding LlamarCommand}" BackgroundColor="Green" TextColor="White"></Button>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
