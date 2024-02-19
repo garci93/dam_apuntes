@@ -1,14 +1,13 @@
 	silvia
 DEINT
-	16 segunda parte tema 4
-	19 exp diseño, 10-15 min hablado enseñado una pagina
+x	16 segunda parte tema 4
+	20 exp diseño, 10-15 min hablado enseñado una pagina
 
 
 	pablo
 PMDMO
-	dia 19, recreo, 4 y 5 hora
-	hay docu de ionic disponible
-	si se aprueba, se recupera 1eval tb
+x	dia 19, recreo, 4 y 5 hora
+x	hay docu de ionic disponible
 HLC
 	dia 20, 3 hora y recreo
 	a papel
