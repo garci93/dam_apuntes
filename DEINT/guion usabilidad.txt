@@ -1,0 +1,11 @@
+Como han comentado mis compañeros, la usbl es vital a la hora de dsñ una pagina o apl web, pero claro, a lhora de sopesar si una web es mas o menos usable, o qué camino a tomar es mejor para el usuario, necesitamos cuantificarlo de laguna manera, metricas
+
+Es aqui dnd entran los test de usabilidad. son una sr de acciones que vamos a realizar para medir esa facilidad que tiene el us para manejar el sitio web
+
+se realizan en cualquier momento del desarrollo, pero ante todo, antes de tomar decisiones o cuando haya dudas sobre en qué camino llevar el diseño, cuál resultaría mejor para la experiencia de usuario o UX
+
+
+Se medirá con una serie de criterios, la facilidad de uso, (dificultad), eficiencia (tiempo q tarda), errores (fallos gramt, anolmalias etc)
+
+Satisfacción (no quejas us)
+

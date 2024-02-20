@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-item *ngFor="let item of carrito">
+      <ion-label>{{item.nombre}}</ion-label>
+      <ion-button (click)="modifCantidad(item,'sumar')" shape="round" >+</ion-button>
+      <ion-label>{{item.cantidad}}</ion-label>
+      <ion-button (click)="modifCantidad(item,'restar')" shape="round" >-</ion-button>
+    </ion-item>
+  </ion-list>
+  <ion-item>
+    <ion-label>{{productoDebug.nombre}}</ion-label>
+      <ion-button (click)="modifCantidad(productoDebug,'sumar')" shape="round" >+</ion-button>
+      <ion-label>{{productoDebug.cantidad}}</ion-label>
+      <ion-button (click)="modifCantidad(productoDebug,'restar')" shape="round" >-</ion-button>
+  </ion-item>
+
+</ion-content>
