@@ -1,7 +1,7 @@
 	silvia
 DEINT
 x	16 segunda parte tema 4
-	20 exp diseño, 10-15 min hablado enseñado una pagina
+x	20 exp diseño, 10-15 min hablado enseñado una pagina
 
 
 	pablo
@@ -9,10 +9,10 @@ PMDMO
 x	dia 19, recreo, 4 y 5 hora
 x	hay docu de ionic disponible
 HLC
-	dia 20, 3 hora y recreo
-	a papel
-	interpretar codigo (qué hace esto?)
-	complementar codigo (cómo se hace esto?)
+x	dia 20, 3 hora y recreo
+x	a papel
+x	interpretar codigo (qué hace esto?)
+x	complementar codigo (cómo se hace esto?)
 SGEMP
 	dia 21, recreo y 4 hora
 	apuntes en classroom. temas 3 y 4
