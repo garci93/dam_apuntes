@@ -34,10 +34,12 @@ el 22 tenemos notas de pablo y organizamos recups
 29 y 1 solo recup y exponer juegos, no hay clase normal
 
 RECUPS
-	5 PMDMO 2 y 3 (recreo?)
-	6 DEINT 3 recreo y 4
+	4 PSPRO 3 rec 4
+	5 PMDMO 3 rec 4
+	6 DEINT 2y3
 	  HLC 4 y 5 (tal vez 5 y 6)
-	7 SGEMP 4
+	7 ACDAT 123
+	  SGEMP 4
 
 
 sesion de eval: antes del 8 marzo
