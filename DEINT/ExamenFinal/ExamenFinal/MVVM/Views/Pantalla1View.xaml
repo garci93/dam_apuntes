@@ -9,7 +9,7 @@
         <Button Grid.Row="1" Text="Ver favoritos" x:Name="favoritos" Clicked="favoritos_Clicked"/>
         <Frame Grid.Row="2" CornerRadius="10" Padding="10" Margin="10" BackgroundColor="LightGray">
             <VerticalStackLayout>
-                <CollectionView x:Name="listaContactos" SelectionMode="Single" SelectionChanged="listaContactos_SelectionChanged">
+                <CollectionView x:Name="listaContactos" ItemsSource="{Binding Contactos}" SelectionMode="Single" SelectionChanged="listaContactos_SelectionChanged">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <HorizontalStackLayout>
