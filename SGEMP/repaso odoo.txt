@@ -1,0 +1,23 @@
+TEMA 1
+
+En Odoo, un módulo es la unidad básica de organización que encapsula una funcionalidad específica.
+
+consistencia y facilidad de mantenimiento.
+
+__manifest__.py es esencial y obligatorio para todos los módulos de Odoo. Contiene metadatos importantes como el
+nombre del módulo, su versión, autor, descripción y las dependencias.
+
+en models van los archivos python que definen los modelos de datos. son clases traducidas mediante una libreria orm que se traducen internamente a tablas sql
+
+en views estan los xml que definen las vistas de usuario para los modelos
+
+otros directorios: data, security...
+
+En Odoo, un modelo es una representación de un objeto del mundo
+real que será gestionado por el sistema.
+
+Los modelos en Odoo heredan de la clase models.Model.
+
+_name: Especifica el nombre técnico del modelo. Debe ser
+único y sigue el formato
+nombre_del_modulo.nombre_del_modelo.
