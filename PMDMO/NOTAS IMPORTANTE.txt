@@ -1,1 +1,5 @@
 Al pasar ejercicios comprimidos, meter solo la carpeta src y los archivos de abajo
+
+
+
+!!!!!!! IONIC es independiente del S.O. gracias a Capacitor

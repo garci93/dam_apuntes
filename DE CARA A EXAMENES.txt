@@ -1,25 +1,13 @@
-
-
-	luis
-PSPRO
-	dia 22:	exponer springboot a 3 hora
-	
-	examen preguntas cortas / test
-ACDAT
-x	juego sin sprites
-	juego con sprites, para 29-1
-
-el 22 tenemos notas de pablo y organizamos recups
-
-29 y 1 solo recup y exponer juegos, no hay clase normal
-
 RECUPS
-	4 PSPRO 3 rec 4
-	5 PMDMO 3 rec 4
-	6 DEINT 2y3
-	  HLC 4 y 5 (tal vez 5 y 6)
-	7 ACDAT 123
-	  SGEMP 4
+4
+	PSPRO 3 rec 4			1ª parte (2ª nota test?)
+5
+	PMDMO 3 rec 4			entera				<--FOCUS
+6
+	DEINT 2y3			2ª parte (tema 4 entero)
+	HLC 4 y 5 (tal vez 5 y 6)	entera				<--FOCUS
+7
+	ACDAT 123			1ª parte
 
 
 sesion de eval: antes del 8 marzo

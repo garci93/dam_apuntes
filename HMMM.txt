@@ -15,3 +15,7 @@ hacer esto en un metodo diferente al que las lanza
 3. si la consulta es puntos espacio numero, se mostrara el NUMERO de jugadores que han anotado mas de esos puntos. para ello usamos un metodo obtenerJugadores y es del DAO, devuelve un arraylist con todos los jugadores (un select *), y luego en la clase servicio hay un metodo contarAnotadores que llama al obtenerJugadores del DAO y hace la cuenta con un Stream
 
 4. ejecutar el metodo contarAnotadores simulando con un MockDAO el metodo obtenerJugadores
+
+
+
+
