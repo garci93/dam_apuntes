@@ -1,9 +1,5 @@
+POJOs\Jugador.class
 DAOs\DAOJugadorImpl.class
+com\mycompany\recuppspro1\RecupPSPRO1.class
 DAOs\IDAOJugador.class
 DAOs\BD1.class
-Vista\Consulta$1.class
-POJOs\Jugador.class
-Vista\Consulta.class
-com\mycompany\recuppspro1\RecupPSPRO1.class
-Controller\ControllerCRUD.class
-Vista\Consulta$2.class

@@ -7,34 +7,23 @@ import java.util.List;
 
 import javax.swing.table.DefaultTableModel;
 
-public class DAOComunidadImpl implements IDAOComunidad {
+public class DAOComunidadImpl {
+	BD1 bd1 = new BD1();
+        Connection conexion = BD1.enlace();
 
-	private List<Comunidad> falsaBD;
-	private static IDAOComunidad dao = null;
-	private BD1 dbConnection;
-	private Connection connection;
+	public DAOComunidadImpl() {}
 
-	private DAOComunidadImpl() {
-		super();
-		dbConnection = new BD1();
-                connection = dbConnection.enlace();
-
+	public ResultSet getComunidades() {
+		Statement statement;
+                ResultSet resultSet = null;
+                try {
+                    statement = conexion.createStatement();
+                    resultSet = statement.executeQuery("SELECT * FROM comunidad");
+                } catch (SQLException ex) {
+                    System.out.println("Error en la consulta SQL: " + ex.getMessage());
+                    ex.printStackTrace();
+                }
+                return resultSet;
 	}
-
-	@Override
-	public List<Comunidad> getComunidades() {
-		return this.falsaBD;
-	}
-
-	public static IDAOComunidad getInstance() {
-		if (dao == null)
-			dao = new DAOComunidadImpl();
-
-		return dao;
-	}
-        
-        public void eliminarComunidad (String codigo){
-            //To do
-        }
 
 }

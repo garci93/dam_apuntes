@@ -4,22 +4,47 @@
  */
 package Vista;
 
-import Controller.ControllerCRUD;
-import javax.swing.JOptionPane;
+import DAOs.DAOComunidadImpl;
+import java.sql.ResultSet;
+import javax.swing.table.DefaultTableModel;
 
 /**
  *
  * @author dam
  */
 public class PantallaInicial extends javax.swing.JFrame {
-
+    DAOComunidadImpl daocomunidad = new DAOComunidadImpl();
     /**
      * Creates new form PantallaInicial
      */
     public PantallaInicial() {
         initComponents();
+        cargarTablaComunidad();
         //ControllerCRUD.cargarTabla(tablaComunidades);
     }
+    
+    public void cargarTablaComunidad(){
+        try{
+            ResultSet resultset = daocomunidad.getComunidades();
+
+        DefaultTableModel modelo=new DefaultTableModel();
+        modelo.addColumn("Código");
+        modelo.addColumn("Ciudad");
+
+        Object[] registroLeido = new Object[2];
+        while(resultset.next()) {
+            registroLeido[0] = resultset.getInt("codigo");
+            registroLeido[1] = resultset.getString("ciudad");
+
+            modelo.addRow(registroLeido);
+        }
+        tablaComunidades.setModel(modelo);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+    }
+
 
     /**
      * This method is called from within the constructor to initialize the form.

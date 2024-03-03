@@ -1,8 +1,10 @@
+package DAOs;
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package DAOs;
+
 
 /**
  *
@@ -15,78 +17,68 @@ import java.util.logging.Logger;
 
 public class BD1 {
 
-   
-  
     static Connection conn=null;
     static Statement st=null;
     static ResultSet rs=null;
     static String bd="examen";
-    static String login="examen";
-    static String password="examen";  
-    static String url="jdbc:mysql://localhost/phpmyadmin/"+bd;
+    static String login="root";
+    static String password="";  
+    static String url="jdbc:mysql://localhost/"+bd;
     
+//    public BD1() {
+//        conn=enlace();
+//        rs=consulta();
+//        imprimirConsulta(rs);
+//        cerrarSesion();
+//    }
 
     
     public static Connection enlace () 
-{
+    {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn=DriverManager.getConnection(url,login,password);
+            System.out.println("Conectado");
         } catch (SQLException ex) {
-          System.out.println("Excepcion en la conexión");
+            System.out.println("Excepcion en la conexion");
         } catch (ClassNotFoundException ex) {
-           System.out.println("No se encuentra la clase");
+            System.out.println("No se encuentra la clase");
         }
-    return conn;
-}
+        return conn;
+    }
     
-     static ResultSet consulta() {
-         conn=enlace();
+    public static ResultSet consulta() {
+        conn = enlace();
         try {
             st=conn.createStatement();
         } catch (SQLException ex) {
             System.out.println("excepcion");
         }
         try {
-            rs=st.executeQuery("consulta");
+            rs=st.executeQuery("select * from comunidad");
         } catch (SQLException ex) {
            System.out.println("error en la query");
+           ex.printStackTrace();
         }
         
         return rs;
     }
-     
-     public static ResultSet ejecutarConsulta(String consulta) {
-        conn=enlace();
+    
+    public static void executeCommand(String command) {
+        conn = enlace();
         try {
             st=conn.createStatement();
         } catch (SQLException ex) {
-            System.out.println("excepcion");
+            System.out.println("excepcion al crear statement");
         }
         try {
-            rs=st.executeQuery(consulta);
+            st.executeUpdate(command);
         } catch (SQLException ex) {
-           System.out.println("error en la query");
+           System.out.println("error en el comando");
+           ex.printStackTrace();
         }
-        
-        return rs;
     }
-
-
-     public static void imprimirConsulta(ResultSet rs){
-        try {
-            while (rs.next()){
-                System.out.print(rs.getInt(1)+"    ");
-                System.out.print(rs.getString("Nombre")+"     ");
-                System.out.print(rs.getString("Apellido1")+"     ");
-                System.out.println(rs.getString("Apellido2"));
-            }
-        } catch (SQLException ex) {
-            System.out.println("Error en el resultset");
-            ex.printStackTrace();
-        }
-     }
-     
+    
      public static void cerrarSesion() {
         try {
             rs.close();
@@ -96,13 +88,4 @@ public class BD1 {
             Logger.getLogger(BD1.class.getName()).log(Level.SEVERE, null, ex);
         }
      }
-    public static void main(String[] args) {
-        
-        
-        conn=enlace();
-        rs=consulta();
-        imprimirConsulta(rs);
-        cerrarSesion();
-        
-    }
 }

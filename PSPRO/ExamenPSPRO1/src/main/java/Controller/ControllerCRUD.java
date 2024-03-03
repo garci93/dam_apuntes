@@ -20,7 +20,7 @@ import Vista.PantallaInicial;
 public class ControllerCRUD
 {
 	
-    private static BD1 dbConnection;
+    /*private static BD1 dbConnection;
 	
 	public static void cargarTabla( JTable tablaComunidades)
 	{
@@ -70,16 +70,9 @@ public class ControllerCRUD
         	}
         } catch (SQLException e) {};
         tablaVehiculos.setModel(modelo);
-	}*/
-
-
-	public static void eliminarComunidad(String codigo, JTable tablaComunidades) {
-			DAOComunidadImpl.getInstance().eliminarComunidad(codigo);
-			cargarTabla(tablaComunidades);
-		
 	}
 	
 	
 	
-
+*/
 }
