@@ -1,0 +1,7 @@
+<h1>Página detalle</h1>
+<div class="container">
+    <h3 appDirectivaColor [textoColor]="{color: 'red'}">Nombre: {{nombre}}, de {{edad}} años, dice: {{mensaje | pasarMayusculas}}</h3>
+    <app-hijo-pagina-detalle [nombre]="nombre" (dinero)="recogerDinero($event)"></app-hijo-pagina-detalle>
+    <h4>El dinero recogido es: {{dinero}}</h4>
+    <p>La descripción es: {{descripcion}}</p>
+</div>

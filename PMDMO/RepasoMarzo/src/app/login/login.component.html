@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Repaso Marzo</h1>
+    <h2>Iniciar sesión</h2>
+    <div>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" #nombre id="nombre" name="nombre">
+            <br>
+            <label for="contrasena">Contraseña</label>
+            <input type="contrasena" #contrasena id="contrasena" name="contrasena">
+            <br>
+            <div *ngIf="error">
+                <p>{{mensajeError}}</p>
+            </div>
+
+            <button type="button" (click)="login(nombre.value, contrasena.value)">Iniciar sesión</button>
+        </form>
+    </div>
+</div>
