@@ -61,3 +61,28 @@ Repository
 	BaseRepository.cs
 Constant.cs
 
+DENTRO DEL MAUIPROGRAM.CS
+	builder.Services.AddSingleton<BaseRepository<Cliente>>();
+	builder.Services.AddSingleton<BaseRepository<Transaccion>>();
+
+
+DENTRO APP.XAML.CS
+public static BaseRepository<Cliente> ClienteRepo { get; private set; }
+public static BaseRepository<Transaccion> TransaccionRepo { get; private set; }
+
+public App(BaseRepository<Cliente> clienteRepo, BaseRepository<Transaccion> transaccionRepo)
+{
+    InitializeComponent();
+
+    ClienteRepo = clienteRepo;
+    TransaccionRepo = transaccionRepo;
+
+    MainPage = new NavigationPage(new ControlGastosView());
+}
+
+
+PARA HACER COMMANDS!!!!! en el viewmodel
+NombreCommand = new Command(() => ACCIÓN);
+por ejemplo
+ValorarCommand = new Command(() => Application.Current.MainPage.DisplayAlert("A domicilio", "Gracias por su valoración de un " + Pedido.Valoracion, "OK"));
+displayalert lleva titulo, cuerpo y boton

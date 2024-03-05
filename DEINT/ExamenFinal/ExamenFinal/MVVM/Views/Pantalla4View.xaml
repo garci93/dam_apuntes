@@ -23,8 +23,8 @@
                 <Label Text="Favorito"></Label>
                 <CheckBox IsChecked="{Binding Favorito}" Color="Green"></CheckBox>
             </HorizontalStackLayout>
-            <Button Grid.Column="1" Text="Mensaje" x:Name="llamar" Clicked="llamar_Clicked" BackgroundColor="Green" TextColor="White"></Button>
-            <Button Grid.Column="2" Text="Llamar" Command="{Binding LlamarCommand}" BackgroundColor="Green" TextColor="White"></Button>
+            <Button Grid.Column="1" Text="Mensaje" x:Name="mensaje" Clicked="mensaje_Clicked"  BackgroundColor="Green" TextColor="White"></Button>
+            <Button Grid.Column="2" Text="Llamar" x:Name="llamar" Clicked="llamar_Clicked" BackgroundColor="Green" TextColor="White"></Button>
         </Grid>
     </VerticalStackLayout>
 </ContentPage>

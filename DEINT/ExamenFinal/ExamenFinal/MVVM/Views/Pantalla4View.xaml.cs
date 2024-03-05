@@ -15,6 +15,11 @@ public partial class Pantalla4View : ContentPage
 
     private async void llamar_Clicked(object sender, EventArgs e)
     {
+        await DisplayAlert("Llamar", "Llamando al 666777888", "OK");
+    }
+
+    private async void mensaje_Clicked(object sender, EventArgs e)
+    {
         await DisplayAlert("Mensaje", "Contacto agregado", "OK");
     }
 }

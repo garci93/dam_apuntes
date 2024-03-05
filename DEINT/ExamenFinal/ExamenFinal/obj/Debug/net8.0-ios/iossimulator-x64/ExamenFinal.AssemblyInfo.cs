@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExamenFinal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2c0d0a80af53c0f7ab0b7c88eb8a2e4712701950")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f77785fd9a6595b1114bb357d9c94b9681344a31")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExamenFinal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExamenFinal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS17.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS17.2")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS11.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

@@ -2,7 +2,7 @@ using ExamenFinal.MVVM.ViewModels;
 
 namespace ExamenFinal.MVVM.Views;
 
-public partial class Pantalla1View : ContentPage
+public partial class Pantalla1View : TabbedPage
 {
     PrincipalViewModel principalViewModel;
 	public Pantalla1View()

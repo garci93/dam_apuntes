@@ -1,30 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ExamenFinal.MVVM.Views.Pantalla1View"
              Title="Contactos">
-    <Grid RowDefinitions="Auto,Auto,*" ColumnDefinitions=".9*,Auto" HorizontalOptions="FillAndExpand">
-        <SearchBar Grid.Row="0" Grid.Column="0" Placeholder="Search" HorizontalOptions="FillAndExpand"/>
-        <Button Grid.Row="0" Grid.Column="1" Text="+" x:Name="agregar" Clicked="agregar_Clicked"/>
-        <Button Grid.Row="1" Text="Ver favoritos" x:Name="favoritos" Clicked="favoritos_Clicked"/>
-        <Frame Grid.Row="2" CornerRadius="10" Padding="10" Margin="10" BackgroundColor="LightGray">
-            <VerticalStackLayout>
-                <CollectionView x:Name="listaContactos" ItemsSource="{Binding Contactos}" SelectionMode="Single" SelectionChanged="listaContactos_SelectionChanged">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <HorizontalStackLayout>
-                                <ImageButton VerticalOptions="Start" HeightRequest="50" WidthRequest="50" CornerRadius="10" x:Name="contacto" Clicked="contacto_Clicked"  Source="perfil1.jpg" />
-                                <Label TextColor="Black" FontSize="Medium" Text="Manuel" />
-                            </HorizontalStackLayout>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
-                <!-- No consigo que funcione CollectionView. Este contacto estático es para probar Pantalla4 -->
-                <HorizontalStackLayout>
-                    <ImageButton VerticalOptions="Start" HeightRequest="50" WidthRequest="50" CornerRadius="10" x:Name="contacto" Clicked="contacto_Clicked"  Source="perfil1.jpg" />
-                    <Label Margin="10,0,0,0" TextColor="Black" FontSize="Medium" Text="Manuel" />
-                </HorizontalStackLayout>
-            </VerticalStackLayout>
-        </Frame>
-    </Grid>
-</ContentPage>
+    <TabbedPage.Children>
+        <ContentPage Title="ooo1">
+            <Grid RowDefinitions="Auto,Auto,*" ColumnDefinitions=".9*,Auto" HorizontalOptions="FillAndExpand">
+                <SearchBar Grid.Row="0" Grid.Column="0" Placeholder="Search" HorizontalOptions="FillAndExpand"/>
+                <Button Grid.Row="0" Grid.Column="1" Text="+" x:Name="agregar" Clicked="agregar_Clicked"/>
+                <Button Grid.Row="1" Text="Ver favoritos" x:Name="favoritos" Clicked="favoritos_Clicked"/>
+                <Frame Grid.Row="2" CornerRadius="10" Padding="10" Margin="10" BackgroundColor="LightGray">
+                    <VerticalStackLayout>
+                        <CollectionView x:Name="listaContactos" ItemsSource="{Binding Contactos}" SelectionMode="Single" SelectionChanged="listaContactos_SelectionChanged">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <HorizontalStackLayout>
+                                        <ImageButton VerticalOptions="Start" HeightRequest="50" WidthRequest="50" CornerRadius="10" x:Name="contacto" Clicked="contacto_Clicked"  Source="perfil1.jpg" />
+                                        <Label TextColor="Black" FontSize="Medium" Text="Manuel" />
+                                    </HorizontalStackLayout>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                        <!-- No consigo que funcione CollectionView. Este contacto estático es para probar Pantalla4 -->
+                        <HorizontalStackLayout>
+                            <ImageButton VerticalOptions="Start" HeightRequest="50" WidthRequest="50" CornerRadius="10" x:Name="contacto" Clicked="contacto_Clicked"  Source="perfil1.jpg" />
+                            <Label Margin="10,0,0,0" TextColor="Black" FontSize="Medium" Text="Manuel" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+        </ContentPage>
+        <ContentPage Title="ooo2">
+            <Grid RowDefinitions="Auto,Auto,*" ColumnDefinitions=".9*,Auto" HorizontalOptions="FillAndExpand">
+                <SearchBar Grid.Row="0" Grid.Column="0" Placeholder="Search" HorizontalOptions="FillAndExpand"/>
+            </Grid>
+        </ContentPage>
+    </TabbedPage.Children>
+    
+</TabbedPage>

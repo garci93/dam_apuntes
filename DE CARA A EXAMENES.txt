@@ -1,8 +1,4 @@
 RECUPS
-4
-	PSPRO 3 rec 4			1ª parte (2ª nota test?)
-5
-	PMDMO 3 rec 4			entera				<--FOCUS
 6
 	DEINT 2y3			2ª parte (tema 4 entero)
 	HLC 4 y 5 (tal vez 5 y 6)	entera				<--FOCUS. MIRAR JUEGO COCHE CHRISTIAN, ES MAS FACIL LO QUE VA A PONER
