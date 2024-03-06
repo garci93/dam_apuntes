@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecupMarzo.MVVM.Views.MascotaView"
+             Title="MascotaView">
+    <VerticalStackLayout>
+        <Label 
+            Text="Adopta"
+            VerticalOptions="Center"
+            FontSize="Title"/>
+        <Label 
+            Text="Tu MASCOTA"
+            VerticalOptions="Center"
+            FontSize="Title"/>
+        <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*">
+            <Frame Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" Padding="10" CornerRadius="10" >
+                <Button ImageSource="pepa.jpg" Clicked="Button_Clicked"
+                        BackgroundColor="Transparent"/>
+            </Frame>
+            <Label Grid.Row="1" Grid.Column="0" Text="Pepa" FontSize="10"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="ADOPTADO" TextColor="DarkRed"/>
+            <Label Grid.Row="2" Grid.Column="0" Text="Persa" FontSize="Small"/>
+        </Grid>
+        <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*">
+            <Frame Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" Padding="10" CornerRadius="10" >
+                <Button ImageSource="antonio.jpg"
+                BackgroundColor="Transparent"/>
+            </Frame>
+            <Label Grid.Row="1" Grid.Column="0" Text="Antonio" FontSize="10"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="ADOPTAME" TextColor="DarkGreen"/>
+            <Label Grid.Row="2" Grid.Column="0" Text="Yorkshire" FontSize="Small"/>
+        </Grid>
+        <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*">
+            <Frame Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" Padding="10" CornerRadius="10" >
+                <Button ImageSource="jaime.jpg"
+        BackgroundColor="Transparent"/>
+            </Frame>
+            <Label Grid.Row="1" Grid.Column="0" Text="Jaime" FontSize="10"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="ADOPTAME" TextColor="DarkGreen"/>
+            <Label Grid.Row="2" Grid.Column="0" Text="Pastor Alemán" FontSize="Small"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
