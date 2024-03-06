@@ -1,0 +1,99 @@
+1
+
+app.post('/login', (req, res) => {
+    const { username, password } = req.body;
+    res.json({ username, password });
+});
+
+
+2
+
+const mongoose = require('mongoose');
+
+const alumnoSchema = new mongoose.Schema({
+    nombre: {
+        type: String, required: true
+    },
+    dni: {
+        type: String, required: true, unique: true
+    },
+    notasTrimestres: {
+        trimestre1: { type: Number, default: 0 },
+        trimestre2: { type: Number, default: 0 },
+        trimestre3: { type: Number, default: 0 }
+    }
+});
+
+alumnoSchema.methods.calcularMediaFinal = function () {
+    const { trimestre1, trimestre2, trimestre3 } = this.notasTrimestres;
+    const notas = [trimestre1, trimestre2, trimestre3];
+
+    // Calcular la media final
+    const mediaFinal = notas.reduce((sum, nota) => sum + nota, 0) / notas.length;
+
+    return mediaFinal;
+};
+
+const Alumno = mongoose.model('Alumno', alumnoSchema);
+
+module.exports = Alumno;
+
+3
+
+userSchema.methods.toJSON = function() {
+	const user = this
+	const userObject = user.toObject()
+
+	delete userObject.password
+	delete userObject.tokens
+	delete userObject.avatar
+
+	return userObject
+}
+
+En resumen, este método personalizado toJSON se utiliza para definir qué propiedades del objeto usuario se deben incluir o excluir cuando se convierte en formato JSON. Esto es útil, por ejemplo, al enviar el objeto usuario como respuesta en una solicitud HTTP, donde se desea excluir información sensible antes de enviarla al cliente.
+
+
+4
+
+En el contexto de Mongoose, los middlewares son funciones que se ejecutan antes o después de ciertos eventos en los documentos o modelos de MongoDB. Estos middlewares permiten realizar acciones adicionales, como validaciones, transformaciones de datos o ejecución de lógica personalizada en respuesta a ciertos eventos.
+
+Un ejemplo común es el uso de middleware para cifrar la contraseña antes de guardar un documento de usuario en la base de datos. 
+
+
+5
+
+userSchema.virtual('tasks', {
+	ref: 'Task',
+	localField: '_id',
+	foreignField: 'owner'
+})
+
+establece una relación virtual entre los modelos User (mediante el campo _id) y Task (mediante el campo owner). Esta relación no se almacenará en MongoDB ni lo verá el cliente, a no ser que lo especifiquemos mediante virtuals: true, en las opciones toJSON y toObject.
+
+
+6
+!!PREGUNTAR COMO SE GENERAN LOS JWT
+Son validos hasta el tiempo especificado en la afirmación exp, expresado en los milisegundos transcurridos de la medianoche del 1 de enero de 1970. Si no se introduce un exp, no caducará.
+
+
+7
+
+usando rutas, para las paginas o para la api
+
+
+8
+
+se utilizan para configurar y personalizar el comportamiento de las aplicaciones en diferentes entornos (desarrollo, prueba, producción, etc.) sin necesidad de cambiar el código fuente.
+user, password, host,    port...
+
+9
+
+como se activa en la practica el middleware de express? en la practica que se debe hacer en el codigo de este middeware para dejar pasar la peticion hasta el metodo de la api web?
+
+mediante el método use(), llamado a partir de una instancia de la aplicación. Dentro del método pasamos la función del middleware como argumento. Luego, para dejar pasar la petición al método que corresponda, usamos el método next(), asegurándonos siempre de que cumpla previamente con las validaciones que necesitemos según el caso
+
+
+10
+
+el esquema define los campos, tipos y validaciones del documento, mientra sque el modelo se encarga de las operaciones que realizamos, proporcionando una interfaz con la que poder interactuar con la base de datos
