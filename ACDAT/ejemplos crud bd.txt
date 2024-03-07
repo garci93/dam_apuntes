@@ -1,0 +1,3 @@
+"SELECT * FROM " + TABLE_PALABRAS + " LIMIT " + cant
+
+"UPDATE " + TABLE_PALABRAS + " SET numVeces = numVeces + 1 WHERE codigo = (SELECT codigo FROM " + TABLE_PALABRAS + " ORDER BY numVeces DESC LIMIT 1)"
