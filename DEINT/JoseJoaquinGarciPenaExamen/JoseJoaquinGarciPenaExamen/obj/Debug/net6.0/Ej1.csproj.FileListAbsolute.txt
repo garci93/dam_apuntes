@@ -12,3 +12,18 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGar
 C:\Users\dam\Desktop\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.pdb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.genruntimeconfig.cache
 C:\Users\dam\Desktop\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\ref\Ej1.dll
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\bin\Debug\net6.0\Ej1.exe
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\bin\Debug\net6.0\Ej1.deps.json
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\bin\Debug\net6.0\Ej1.runtimeconfig.json
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\bin\Debug\net6.0\Ej1.dll
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\bin\Debug\net6.0\Ej1.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.GeneratedMSBuildEditorConfig.editorconfig
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.AssemblyInfoInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.AssemblyInfo.cs
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.csproj.CoreCompileInputs.cache
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.sourcelink.json
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.dll
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\refint\Ej1.dll
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.pdb
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\Ej1.genruntimeconfig.cache
+F:\COSAS DAM\dam_apuntes\DEINT\JoseJoaquinGarciPenaExamen\JoseJoaquinGarciPenaExamen\obj\Debug\net6.0\ref\Ej1.dll
