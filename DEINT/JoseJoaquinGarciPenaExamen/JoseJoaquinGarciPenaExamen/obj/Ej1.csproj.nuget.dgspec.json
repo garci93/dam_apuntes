@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\Ej1.csproj": {}
+    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\Ej1.csproj": {}
   },
   "projects": {
-    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\Ej1.csproj": {
+    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\Ej1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\Ej1.csproj",
+        "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\Ej1.csproj",
         "projectName": "Ej1",
-        "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\Ej1.csproj",
-        "packagesPath": "C:\\Users\\Jojogape\\.nuget\\packages\\",
-        "outputPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\obj\\",
+        "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\Ej1.csproj",
+        "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\JoseJoaquinGarciPenaExamen\\JoseJoaquinGarciPenaExamen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jojogape\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
