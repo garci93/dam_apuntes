@@ -1,0 +1,11 @@
+<div class="card card-block">
+    <h4 class="card-title">Agregar material</h4>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Nombre" #nombre>
+    </div>
+    <div class="form-group">
+        <input type="number" class="form-control" placeholder="Cantidad" #cantidad>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="agregarMaterial(nombre.value, cantidad.valueAsNumber)">Create
+</button>
+</div>

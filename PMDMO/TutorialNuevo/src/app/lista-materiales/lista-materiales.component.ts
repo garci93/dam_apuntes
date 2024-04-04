@@ -16,4 +16,15 @@ export class ListaMaterialesComponent {
     new Material('Lápices', 150),
     new Material('Folios', 500)];
   }
+
+  agregarMaterial(material: Material) {
+    this.materiales.unshift(material);
+    }
+
+  quitarMaterial(material: Material) {
+    let indiceABorrar = this.materiales.indexOf(material);
+    if (indiceABorrar !== -1) {
+      this.materiales.splice(indiceABorrar,1);
+    }
+  }
 }

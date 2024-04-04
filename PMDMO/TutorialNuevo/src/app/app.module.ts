@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListaMaterialesComponent } from './lista-materiales/lista-materiales.component';
 import { MaterialComponent } from './material/material.component';
+import { MaterialFormComponent } from './material-form/material-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaMaterialesComponent,
-    MaterialComponent
+    MaterialComponent,
+    MaterialFormComponent
   ],
   imports: [
     BrowserModule,
