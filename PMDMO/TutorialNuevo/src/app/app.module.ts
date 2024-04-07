@@ -6,19 +6,22 @@ import { AppComponent } from './app.component';
 import { ListaMaterialesComponent } from './lista-materiales/lista-materiales.component';
 import { MaterialComponent } from './material/material.component';
 import { MaterialFormComponent } from './material-form/material-form.component';
+import { PadreComponent } from './padre/padre.component';
+import { Service } from './service';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaMaterialesComponent,
     MaterialComponent,
-    MaterialFormComponent
+    MaterialFormComponent,
+    PadreComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [Service],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

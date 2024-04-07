@@ -1,4 +1,4 @@
-<h3>{{data.nombre}}</h3>
-<p>Cantidad: {{data.cantidad}}</p>
-<button class="btn btn-primary" (click)="quitarMaterial(data.nombre, data.cantidad)">Quitar</button>    <!-- funcionamiento del emit en general -->
+<h3>{{data.getNombre()}}</h3>
+<p>Cantidad: {{data.getCantidad()}}</p>
+<button class="btn btn-primary" (click)="quitarMaterial(data.getNombre(), data.getCantidad())">Quitar</button>    <!-- funcionamiento del emit en general -->
 

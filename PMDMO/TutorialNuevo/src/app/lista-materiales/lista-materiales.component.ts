@@ -1,30 +1,22 @@
 import { Component } from '@angular/core';
 import { Material } from '../material';
+import { Service } from '../service';
 
 @Component({
   selector: 'app-lista-materiales',
   templateUrl: './lista-materiales.component.html',
-  styleUrls: ['./lista-materiales.component.css']
+  styleUrls: ['./lista-materiales.component.css'],
+  providers: [Service]
 })
 export class ListaMaterialesComponent {
-  materiales: Material[];
-  constructor() {
-    this.materiales = [
-    new Material('Bolígrafos', 100),
-    new Material('Pegatinas', 50),
-    new Material('Gomas de borrar', 80),
-    new Material('Lápices', 150),
-    new Material('Folios', 500)];
+  constructor(private servicio: Service) {
   }
 
-  agregarMaterial(material: Material) {
-    this.materiales.unshift(material);
-    }
+  llamarQuitarMaterial(material: Material) {
+    this.servicio.quitarMaterial(material);
+  }
 
-  quitarMaterial(material: Material) {
-    let indiceABorrar = this.materiales.indexOf(material);
-    if (indiceABorrar !== -1) {
-      this.materiales.splice(indiceABorrar,1);
-    }
+  get materiales(): Material[] {
+    return this.servicio.getMateriales();
   }
 }
