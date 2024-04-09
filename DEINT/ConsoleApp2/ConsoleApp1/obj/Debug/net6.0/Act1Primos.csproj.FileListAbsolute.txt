@@ -1,0 +1,15 @@
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\bin\Debug\net6.0\Act1Primos.exe
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\bin\Debug\net6.0\Act1Primos.deps.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\bin\Debug\net6.0\Act1Primos.runtimeconfig.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\bin\Debug\net6.0\Act1Primos.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\bin\Debug\net6.0\Act1Primos.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\Act1Primos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\Act1Primos.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\Act1Primos.AssemblyInfo.cs
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\Act1Primos.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\Act1Primos.sourcelink.json
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\Act1Primos.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\refint\Act1Primos.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\Act1Primos.pdb
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\Act1Primos.genruntimeconfig.cache
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\ConsoleApp1\obj\Debug\net6.0\ref\Act1Primos.dll

@@ -12,3 +12,4 @@ C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\U2Act2Ej2\obj\Debug\net6.0\re
 C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\U2Act2Ej2\obj\Debug\net6.0\U2Act2Ej2.pdb
 C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\U2Act2Ej2\obj\Debug\net6.0\U2Act2Ej2.genruntimeconfig.cache
 C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\U2Act2Ej2\obj\Debug\net6.0\ref\U2Act2Ej2.dll
+C:\Users\dam\Desktop\dam_apuntes\DEINT\ConsoleApp2\U2Act2Ej2\obj\Debug\net6.0\U2Act2Ej2.sourcelink.json
