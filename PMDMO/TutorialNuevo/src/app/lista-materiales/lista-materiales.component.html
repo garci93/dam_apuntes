@@ -1,2 +1,2 @@
-<app-material *ngFor="let m of materiales" [material]="m"  (materialBorrado)="llamarQuitarMaterial(m)">
-</app-material> <!-- ¿a qué corresponde el valor entre comillas? ¿dónde se usa? -->
+<app-material *ngFor="let m of materiales" [material]="m"  appResaltarElemento="red" (materialBorrado)="llamarQuitarMaterial(m)">
+</app-material>

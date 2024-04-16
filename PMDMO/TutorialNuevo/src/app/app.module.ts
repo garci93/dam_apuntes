@@ -8,6 +8,7 @@ import { MaterialComponent } from './material/material.component';
 import { MaterialFormComponent } from './material-form/material-form.component';
 import { PadreComponent } from './padre/padre.component';
 import { Service } from './service';
+import { ResaltarElementoDirective } from './resaltar-elemento.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { Service } from './service';
     ListaMaterialesComponent,
     MaterialComponent,
     MaterialFormComponent,
-    PadreComponent
+    PadreComponent,
+    ResaltarElementoDirective
   ],
   imports: [
     BrowserModule,
