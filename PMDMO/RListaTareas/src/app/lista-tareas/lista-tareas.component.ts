@@ -8,14 +8,19 @@ import { Servicio } from '../servicio';
   styleUrls: ['./lista-tareas.component.css']
 })
 export class ListaTareasComponent {
-  constructor(private servicio: Servicio) {
+  constructor(public servicio: Servicio) {
   }
 
-  get tareas(): Tarea[] {
+  get tareas(): Tarea[] {     //habría que cambiar este get para que sea Observable<Tarea[]>?
     return this.servicio.getTareas();
   }
 
-  tareaCompletada(indice: number) {
-    this.servicio.completarTarea(indice);
+  completarTarea(tarea: Tarea) {
+    console.log('hola desde completarTarea en lista-tareas.component.ts');
+    this.servicio.completarTarea(tarea);
+  }
+
+  ngOnInit() {
+    this.servicio.tareaCompletada$.subscribe(tarea => this.tareas.find(t => t.titulo === tarea.titulo)?.marcarCompletada());
   }
 }

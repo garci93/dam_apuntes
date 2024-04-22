@@ -7,6 +7,6 @@ import { Servicio } from '../servicio';
   styleUrls: ['./padre.component.css']
 })
 export class PadreComponent {
-  constructor(private servicio: Servicio) {
+  constructor(public servicio: Servicio) {
   }
 }

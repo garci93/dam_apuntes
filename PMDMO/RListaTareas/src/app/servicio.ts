@@ -1,6 +1,10 @@
+import { BehaviorSubject, Subject } from "rxjs";
 import { Tarea } from "./tarea";
 
 export class Servicio {
+    private tareaCompletadaSubject: BehaviorSubject<Tarea> = new BehaviorSubject<Tarea>(new Tarea('', false));
+
+    tareaCompletada$ = this.tareaCompletadaSubject.asObservable();
 
     tareas: Tarea[] = [
         new Tarea('Tarea 1', false),
@@ -16,7 +20,9 @@ export class Servicio {
         return this.tareas;
     }
     
-    completarTarea(indice: number) {
-        this.tareas[indice].completada = true;
+    completarTarea(tarea: Tarea) {
+        console.log('hola desde completarTarea en servicio.ts');
+        tarea.marcarCompletada();           //aquí intento que sea la clase Tarea la que la marque como completada
+        this.tareaCompletadaSubject.next(tarea);
     }
 }

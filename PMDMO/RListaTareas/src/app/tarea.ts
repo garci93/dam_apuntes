@@ -1,15 +1,16 @@
 export class Tarea {
-    static total = 0;
 
-    indice: number;
     titulo: string;
     completada: boolean;
     
     constructor(titulo: string, completada: boolean) {
-        this.indice = Tarea.total;
         this.titulo = titulo;
         this.completada = completada;
-        console.log(this.indice, this.titulo, this.completada);
-        Tarea.total++;
+        console.log(this.titulo, this.completada);
     }
+
+  marcarCompletada() {
+    console.log("hola desde tarea.ts");
+    this.completada == true ? this.completada = false : this.completada = true;
+  }
 }

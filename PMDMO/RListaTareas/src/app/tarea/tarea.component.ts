@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Tarea } from '../tarea';
 import { Servicio } from '../servicio';
+import { find } from 'rxjs';
 
 @Component({
   selector: 'app-tarea',
@@ -9,13 +10,16 @@ import { Servicio } from '../servicio';
 })
 export class TareaComponent {
   @Input('tarea') data!: Tarea;
-  @Output() tareaCompletada: EventEmitter<number> = new EventEmitter<number>();
+  @Output() tareaCompletada: EventEmitter<Tarea> = new EventEmitter<Tarea>();
 
-  constructor(private servicio: Servicio) {}
+  constructor(public servicio: Servicio) {}
 
   completarTarea() {
-    console.log(this.data.indice);
-    this.servicio.completarTarea(this.data.indice);
-    this.tareaCompletada.emit(this.data.indice);
+    const tareaCompletar = this.servicio.getTareas().find(t => t.titulo === this.data.titulo);
+    if (tareaCompletar) {
+      console.log("hola desde tarea.component.ts");
+      // Emite el evento tareaCompletada con el estado de la tarea
+      this.tareaCompletada.emit(new Tarea(tareaCompletar.titulo, tareaCompletar.completada));
+    }
   }
 }
