@@ -12,14 +12,11 @@ export class TareaComponent {
   @Input('tarea') data!: Tarea;
   @Output() tareaCompletada: EventEmitter<Tarea> = new EventEmitter<Tarea>();
 
-  constructor(public servicio: Servicio) {}
+  constructor() {}
 
   completarTarea() {
-    const tareaCompletar = this.servicio.getTareas().find(t => t.titulo === this.data.titulo);
-    if (tareaCompletar) {
       console.log("hola desde tarea.component.ts");
-      // Emite el evento tareaCompletada con el estado de la tarea
-      this.tareaCompletada.emit(new Tarea(tareaCompletar.titulo, tareaCompletar.completada));
-    }
+      // Emite el evento tareaCompletada con los datos de la tarea
+      this.tareaCompletada.emit(this.data);
   }
 }

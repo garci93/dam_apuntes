@@ -2,5 +2,5 @@
   <p>No hay tareas en la lista.</p>
 </div>
 <div *ngIf="tareas.length > 0">
-  <app-tarea *ngFor="let t of tareas" [tarea]="t"  [ngClass]="{'tarea-completada': t.completada}"></app-tarea>
+  <app-tarea *ngFor="let t of tareas" [tarea]="t" (tareaCompletada)="completarTarea($event)" [ngClass]="{'tarea-completada': t.getCompletada()}"></app-tarea>
 </div>

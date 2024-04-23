@@ -2,27 +2,31 @@ import { BehaviorSubject, Subject } from "rxjs";
 import { Tarea } from "./tarea";
 
 export class Servicio {
-    private tareaCompletadaSubject: BehaviorSubject<Tarea> = new BehaviorSubject<Tarea>(new Tarea('', false));
+    private tareaCompletadaSubject: BehaviorSubject<Tarea[]>;
 
-    tareaCompletada$ = this.tareaCompletadaSubject.asObservable();
+    private tareaCompletada$;
 
-    tareas: Tarea[] = [
-        new Tarea('Tarea 1', false),
-        new Tarea('Tarea 2', true),
-        new Tarea('Tarea 3', false),
-        new Tarea('Tarea 4', true),
-        new Tarea('Tarea 5', false)
-    ];
+    private tareas!: Tarea[];
     
-    constructor() { }
-    
-    getTareas() {
-        return this.tareas;
+    constructor() {
+        this.tareas = [
+            new Tarea('Tarea 1', false),
+            new Tarea('Tarea 2', true),
+            new Tarea('Tarea 3', false),
+            new Tarea('Tarea 4', true),
+            new Tarea('Tarea 5', false)
+        ];
+        this.tareaCompletadaSubject = new BehaviorSubject<Tarea[]>(this.tareas);
+        this.tareaCompletada$ = this.tareaCompletadaSubject.asObservable();
+    }
+
+    getObservableTareas() {
+        return this.tareaCompletada$;
     }
     
     completarTarea(tarea: Tarea) {
         console.log('hola desde completarTarea en servicio.ts');
-        tarea.marcarCompletada();           //aquí intento que sea la clase Tarea la que la marque como completada
-        this.tareaCompletadaSubject.next(tarea);
+        tarea.marcarCompletada();
+        this.tareaCompletadaSubject.next(this.tareas);
     }
 }
