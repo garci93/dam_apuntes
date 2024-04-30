@@ -6,12 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./padre.component.css']
 })
 export class PadreComponent {
-  texto: string = '';
-  espacios: number = 3;
+  texto: string = 'texto cambiado desde el padre';
+  mostrar: boolean = false;
+  espacios: number = 5;
 
   constructor() { }
 
   cambiarTexto() {
-    this.texto = "texto cambiado desde el padre";
+    this.mostrar = true;
   }
 }
