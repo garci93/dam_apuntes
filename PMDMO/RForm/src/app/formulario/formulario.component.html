@@ -1,0 +1,30 @@
+<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="dni">DNI:</label>
+      <input id="dni" type="text" formControlName="dni" [ngClass]="{'error': dni.invalid && dni.touched}">
+      <div *ngIf="dni.invalid && dni.touched" class="error-message">
+        <small *ngIf="dni.errors?.required">DNI es requerido.</small>
+        <small *ngIf="dni.errors?.invalid">Formato de DNI no válido. Debe ser 8 dígitos y una letra mayúscula.</small>
+      </div>
+    </div>
+  
+    <div>
+      <label for="checkbox">Aceptar términos:</label>
+      <input id="checkbox" type="checkbox" formControlName="checkbox" [ngClass]="{'error': checkbox.invalid && checkbox.touched}">
+      <div *ngIf="checkbox.invalid && checkbox.touched" class="error-message">
+        <small *ngIf="checkbox.errors?.required">Debe aceptar los términos.</small>
+      </div>
+    </div>
+  
+    <div>
+      <label for="edad">Edad:</label>
+      <input id="edad" type="text" formControlName="edad" [ngClass]="{'error': edad.invalid && edad.touched}">
+      <div *ngIf="edad.invalid && edad.touched" class="error-message">
+        <small *ngIf="edad.errors?.required">La edad es requerida.</small>
+        <small *ngIf="edad.errors?.pattern">La edad debe ser un número entero positivo.</small>
+        <small *ngIf="edad.errors?.min">La edad debe ser mayor que 0.</small>
+      </div>
+    </div>
+  
+    <button type="submit" [disabled]="formulario.invalid">Enviar</button>
+  </form>
