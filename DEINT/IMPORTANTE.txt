@@ -1,0 +1,7 @@
+PAQUETES NUGET A INSTALAR CON MVVM
+
+PropertyChanged.Fody
+SQLiteNetExtensions
+sqlite-net-pcl
+
+Humanizer?	-> opcional, para formater fechas etc de forma bonita "hace 3 días" etc

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj": {}
+    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj": {}
   },
   "projects": {
-    "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj": {
+    "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj",
+        "projectUniqueName": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj",
         "projectName": "Practica10",
-        "projectPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj",
-        "packagesPath": "C:\\Users\\Jojogape\\.nuget\\packages\\",
-        "outputPath": "F:\\COSAS DAM\\dam_apuntes\\DEINT\\Practica10\\Practica10\\obj\\",
+        "projectPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Practica10\\Practica10\\Practica10.csproj",
+        "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dam\\Desktop\\dam_apuntes\\DEINT\\Practica10\\Practica10\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jojogape\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,11 +38,11 @@
             "targetAlias": "net8.0-android",
             "projectReferences": {}
           },
-          "net8.0-ios17.2": {
+          "net8.0-ios17.0": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {}
           },
-          "net8.0-maccatalyst17.2": {
+          "net8.0-maccatalyst17.0": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {}
           },
@@ -117,7 +117,7 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-ios17.2": {
+        "net8.0-ios17.0": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
             "Humanizer": {
@@ -176,7 +176,7 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-maccatalyst17.2": {
+        "net8.0-maccatalyst17.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
             "Humanizer": {
