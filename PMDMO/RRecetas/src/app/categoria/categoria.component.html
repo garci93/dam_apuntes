@@ -1,0 +1,6 @@
+<div  *ngFor="let receta of recetas">
+    <div (click)="verDetallesReceta(receta.idMeal)">
+        <h3>{{receta.strMeal}}</h3>
+        <img [src]="receta.strMealThumb">
+    </div>
+</div>

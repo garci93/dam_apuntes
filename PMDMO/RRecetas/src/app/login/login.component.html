@@ -1,0 +1,6 @@
+<h3>Iniciar sesión</h3>
+<p>Usuario: </p>
+<input type="text" #usuario />
+<p>Contraseña: </p>
+<input type="password" #password />
+<button (click)="login(usuario.value, password.value)">Iniciar sesión</button>

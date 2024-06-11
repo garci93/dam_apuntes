@@ -1,0 +1,6 @@
+<div  *ngFor="let categoria of categorias">
+    <div (click)="verDetallesCategoria(categoria.strCategory)">
+        <img [src]="categoria.strCategoryThumb">
+        <h3>{{categoria.strCategory}}</h3>
+    </div>
+</div>
