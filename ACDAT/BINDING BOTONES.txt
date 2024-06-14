@@ -1,0 +1,17 @@
+-Primero iniciamos el binding con el nombre de nuestra clase
+
+private ActivityPaginaPrincipalBinding binding;
+
+-Dentro del create iniciamos con:
+
+binding = ActivityPaginaPrincipalBinding.inflate(getLayoutInflater());
+setContentView(binding.getRoot());
+
+-El nombre del activityBinding debe ser el mismo para obtener algo por id con el binding creamos una variable del tipo que vamos a guardar y:
+
+private View btnAtras;
+btnAtras = binding.btnAtras;
+
+-Lo que viene detras del binding. es el id en el layout asi ponemos un evento click
+
+btnAtras.setOnClickListener(this);
