@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenJunio.MVVM.Views.VistaPrincipal"
+             Title="VistaPrincipal">
+    <VerticalStackLayout>
+        <Frame Margin="10" Padding="10" CornerRadius="10" HeightRequest="700" BorderColor="Black">
+            <VerticalStackLayout>
+                <Label Text="Candy" FontSize="20"/>
+                <Label Text="Sneakers" FontAttributes="Bold" FontSize="20"/>
+                <FlexLayout Padding="10">
+                    <VerticalStackLayout>
+                        <CollectionView ItemsSource="{Binding ReceiveSneakers}">
+                            <CollectionView.ItemsLayout>
+                                <GridItemsLayout Orientation="Vertical" Span="2"/>
+                            </CollectionView.ItemsLayout>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Frame Padding="10" CornerRadius="10" BackgroundColor="Gray" BorderColor="Black">
+                                        <VerticalStackLayout>
+                                            <Image Source="{Binding Image}" WidthRequest="100" HeightRequest="100"/>
+                                            <Button x:Name="EsteSneaker"  TranslationY="-100" Text="♥" HorizontalOptions="End" FontSize="15" BackgroundColor="White" TextColor="{Binding IsFavorite}" Clicked="{Binding ToggleFavoriteCommand}" Padding="0" CornerRadius="20"/>
+                                        </VerticalStackLayout>
+                                    </Frame>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </VerticalStackLayout>
+                </FlexLayout>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
